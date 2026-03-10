@@ -1,0 +1,226 @@
+2024-11-20 13:46:42 LoginController DEBUG Index, Process Started, 20/11/2024 13:46:42
+2024-11-20 13:46:42 LoginController DEBUG Index, Process End, 20/11/2024 13:46:42
+2024-11-20 13:46:56 LoginController DEBUG Authorise, Process Started, 20/11/2024 13:46:56
+2024-11-20 13:47:02 LoginController DEBUG Authorise, Process End, 20/11/2024 13:47:02
+2024-11-20 13:47:16 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 13:47:16
+2024-11-20 13:47:16 UserRegistrationController DEBUG Index, Process End, 20/11/2024 13:47:16
+2024-11-20 13:47:20 UserRegistrationController DEBUG AddUser, Process Started, 20/11/2024 13:47:20
+2024-11-20 13:47:20 UserRegistrationController DEBUG AddUser, Process End, 20/11/2024 13:47:20
+2024-11-20 13:47:49 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 13:47:49
+2024-11-20 13:47:49 UserRegistrationController DEBUG Index, Process End, 20/11/2024 13:47:49
+2024-11-20 13:47:55 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 13:47:55
+2024-11-20 13:47:55 UserRegistrationController DEBUG Index, Process End, 20/11/2024 13:47:55
+2024-11-20 13:47:57 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 13:47:57
+2024-11-20 13:47:57 UserRegistrationController DEBUG EditUser, Process End, 20/11/2024 13:47:57
+2024-11-20 15:58:52 LoginController DEBUG Index, Process Started, 20/11/2024 15:58:52
+2024-11-20 15:58:52 LoginController DEBUG Index, Process End, 20/11/2024 15:58:52
+2024-11-20 15:59:31 LoginController DEBUG Authorise, Process Started, 20/11/2024 15:59:31
+2024-11-20 15:59:37 LoginController DEBUG Authorise, Process End, 20/11/2024 15:59:37
+2024-11-20 15:59:48 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 15:59:48
+2024-11-20 15:59:48 UserRegistrationController DEBUG Index, Process End, 20/11/2024 15:59:48
+2024-11-20 15:59:55 UserRegistrationController DEBUG AddUser, Process Started, 20/11/2024 15:59:55
+2024-11-20 15:59:55 UserRegistrationController DEBUG AddUser, Process End, 20/11/2024 15:59:55
+2024-11-20 16:00:21 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:00:21
+2024-11-20 16:00:21 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:00:21
+2024-11-20 16:00:51 UserRegistrationController DEBUG AddNewUser, Process Started, 20/11/2024 16:00:51
+2024-11-20 16:00:51 UserRegistrationController DEBUG AddNewUser, Process End, 20/11/2024 16:00:51
+2024-11-20 16:00:52 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:00:52
+2024-11-20 16:00:52 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:00:52
+2024-11-20 16:00:54 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:00:54
+2024-11-20 16:00:54 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:00:54
+2024-11-20 16:01:06 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:01:06
+2024-11-20 16:01:06 UserRegistrationController DEBUG EditUser, Process End, 20/11/2024 16:01:06
+2024-11-20 16:01:13 UserRegistrationController DEBUG EditUserDetail, Process Started, 20/11/2024 16:01:13
+2024-11-20 16:01:13 UserRegistrationController ERROR Error Thrown during: Value cannot be null.
+Parameter name: values, EditUserDetail, 20/11/2024 16:01:13,   at System.String.Join[T](String separator, IEnumerable`1 values)
+   at DF_WebModule.Controllers.UserRegistrationController.EditUserDetail(UserDetailsModel item, List`1 menu, List`1 document, List`1 columnlist) in D:\Programs\BrowserModule\BrowserModule\Controllers\UserRegistrationController.cs:line 354
+2024-11-20 16:01:13 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:01:13
+2024-11-20 16:01:36 LoginController DEBUG Index, Process Started, 20/11/2024 16:01:36
+2024-11-20 16:01:36 LoginController DEBUG Index, Process End, 20/11/2024 16:01:36
+2024-11-20 16:01:37 LoginController DEBUG Index, Process Started, 20/11/2024 16:01:37
+2024-11-20 16:01:37 LoginController DEBUG Index, Process End, 20/11/2024 16:01:37
+2024-11-20 16:01:42 LoginController DEBUG Index, Process Started, 20/11/2024 16:01:42
+2024-11-20 16:01:42 LoginController DEBUG Index, Process End, 20/11/2024 16:01:42
+2024-11-20 16:02:27 LoginController DEBUG Index, Process Started, 20/11/2024 16:02:27
+2024-11-20 16:02:27 LoginController DEBUG Index, Process End, 20/11/2024 16:02:27
+2024-11-20 16:03:30 LoginController DEBUG Index, Process Started, 20/11/2024 16:03:30
+2024-11-20 16:03:30 LoginController DEBUG Index, Process End, 20/11/2024 16:03:30
+2024-11-20 16:03:30 LoginController DEBUG Index, Process Started, 20/11/2024 16:03:30
+2024-11-20 16:03:30 LoginController DEBUG Index, Process End, 20/11/2024 16:03:30
+2024-11-20 16:03:57 LoginController DEBUG Index, Process Started, 20/11/2024 16:03:57
+2024-11-20 16:03:57 LoginController DEBUG Index, Process End, 20/11/2024 16:03:57
+2024-11-20 16:03:57 LoginController DEBUG Index, Process Started, 20/11/2024 16:03:57
+2024-11-20 16:03:57 LoginController DEBUG Index, Process End, 20/11/2024 16:03:57
+2024-11-20 16:03:57 LoginController DEBUG Index, Process Started, 20/11/2024 16:03:57
+2024-11-20 16:03:57 LoginController DEBUG Index, Process End, 20/11/2024 16:03:57
+2024-11-20 16:03:59 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:03:59
+2024-11-20 16:04:00 LoginController DEBUG Authorise, Process End, 20/11/2024 16:04:00
+2024-11-20 16:04:03 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:04:03
+2024-11-20 16:04:03 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:04:03
+2024-11-20 16:04:07 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:04:07
+2024-11-20 16:10:04 LoginController DEBUG Index, Process Started, 20/11/2024 16:10:04
+2024-11-20 16:10:04 LoginController DEBUG Index, Process End, 20/11/2024 16:10:04
+2024-11-20 16:10:12 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:10:12
+2024-11-20 16:10:17 LoginController DEBUG Authorise, Process End, 20/11/2024 16:10:17
+2024-11-20 16:10:24 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:10:24
+2024-11-20 16:10:24 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:10:24
+2024-11-20 16:10:28 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:10:28
+2024-11-20 16:11:16 LoginController DEBUG Index, Process Started, 20/11/2024 16:11:16
+2024-11-20 16:11:16 LoginController DEBUG Index, Process End, 20/11/2024 16:11:16
+2024-11-20 16:11:23 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:11:23
+2024-11-20 16:11:28 LoginController DEBUG Authorise, Process End, 20/11/2024 16:11:28
+2024-11-20 16:11:46 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:11:46
+2024-11-20 16:11:46 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:11:46
+2024-11-20 16:11:53 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:11:53
+2024-11-20 16:11:54 UserRegistrationController DEBUG EditUser, Process End, 20/11/2024 16:11:54
+2024-11-20 16:12:06 UserRegistrationController DEBUG EditUserDetail, Process Started, 20/11/2024 16:12:06
+2024-11-20 16:12:06 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:12:06
+2024-11-20 16:12:09 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:12:09
+2024-11-20 16:12:09 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:12:09
+2024-11-20 16:12:11 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:12:11
+2024-11-20 16:12:11 UserRegistrationController DEBUG EditUser, Process End, 20/11/2024 16:12:11
+2024-11-20 16:12:26 UserRegistrationController DEBUG EditUserDetail, Process Started, 20/11/2024 16:12:26
+2024-11-20 16:12:26 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:12:26
+2024-11-20 16:12:29 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:12:29
+2024-11-20 16:12:29 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:12:29
+2024-11-20 16:32:08 LoginController DEBUG Index, Process Started, 20/11/2024 16:32:08
+2024-11-20 16:32:08 LoginController DEBUG Index, Process End, 20/11/2024 16:32:08
+2024-11-20 16:32:16 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:32:16
+2024-11-20 16:32:21 LoginController DEBUG Authorise, Process End, 20/11/2024 16:32:21
+2024-11-20 16:32:29 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:32:29
+2024-11-20 16:32:29 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:32:29
+2024-11-20 16:32:39 UserRegistrationController DEBUG EditUser, Process Started, 20/11/2024 16:32:39
+2024-11-20 16:32:39 UserRegistrationController DEBUG EditUser, Process End, 20/11/2024 16:32:39
+2024-11-20 16:32:44 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:32:44
+2024-11-20 16:33:07 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 16:33:07
+2024-11-20 16:33:10 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:33:10
+2024-11-20 16:33:10 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:33:10
+2024-11-20 16:33:28 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:33:28
+2024-11-20 16:34:51 LoginController DEBUG Index, Process Started, 20/11/2024 16:34:51
+2024-11-20 16:34:51 LoginController DEBUG Index, Process End, 20/11/2024 16:34:51
+2024-11-20 16:34:59 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:34:59
+2024-11-20 16:35:04 LoginController DEBUG Authorise, Process End, 20/11/2024 16:35:04
+2024-11-20 16:35:13 UserRegistrationController DEBUG Index, Process Started, 20/11/2024 16:35:13
+2024-11-20 16:35:13 UserRegistrationController DEBUG Index, Process End, 20/11/2024 16:35:13
+2024-11-20 16:35:18 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:35:18
+2024-11-20 16:36:56 LoginController DEBUG Index, Process Started, 20/11/2024 16:36:56
+2024-11-20 16:36:56 LoginController DEBUG Index, Process End, 20/11/2024 16:36:56
+2024-11-20 16:37:04 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:37:04
+2024-11-20 16:37:09 LoginController DEBUG Authorise, Process End, 20/11/2024 16:37:09
+2024-11-20 16:37:17 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:37:17
+2024-11-20 16:39:26 LoginController DEBUG Index, Process Started, 20/11/2024 16:39:26
+2024-11-20 16:39:26 LoginController DEBUG Index, Process End, 20/11/2024 16:39:26
+2024-11-20 16:39:33 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:39:33
+2024-11-20 16:39:38 LoginController DEBUG Authorise, Process End, 20/11/2024 16:39:38
+2024-11-20 16:39:46 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:39:46
+2024-11-20 16:40:39 LoginController DEBUG Index, Process Started, 20/11/2024 16:40:39
+2024-11-20 16:40:39 LoginController DEBUG Index, Process End, 20/11/2024 16:40:39
+2024-11-20 16:40:46 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:40:46
+2024-11-20 16:40:51 LoginController DEBUG Authorise, Process End, 20/11/2024 16:40:51
+2024-11-20 16:40:59 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:40:59
+2024-11-20 16:42:04 EngineeringController ERROR Error Thrown during : Value cannot be null.
+Parameter name: element, GetDatabyPartNo, 20/11/2024 16:42:04,   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Attribute.GetCustomAttribute(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Attribute.GetCustomAttribute(MemberInfo element, Type attributeType)
+   at DF_WebModule.FEnum.EnumDescriptionExtension.GetEnumDisplayName(String value) in D:\Programs\BrowserModule\BrowserModule\FEnum\EnumColumnName.cs:line 76
+   at DF_WebModule.Controllers.EngineeringController.GetDatabypartnumber(String SearchTerm, Boolean& response, String& partdec) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 651
+   at DF_WebModule.Controllers.EngineeringController.GetDatabyPartNo(String partno) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 487
+2024-11-20 16:42:04 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 16:42:04
+2024-11-20 16:42:11 LoginController DEBUG Index, Process Started, 20/11/2024 16:42:11
+2024-11-20 16:42:11 LoginController DEBUG Index, Process End, 20/11/2024 16:42:11
+2024-11-20 16:42:13 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:42:13
+2024-11-20 16:42:13 LoginController DEBUG Authorise, Process End, 20/11/2024 16:42:13
+2024-11-20 16:42:16 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:42:16
+2024-11-20 16:48:47 LoginController DEBUG Index, Process Started, 20/11/2024 16:48:47
+2024-11-20 16:48:47 LoginController DEBUG Index, Process End, 20/11/2024 16:48:47
+2024-11-20 16:48:57 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:48:57
+2024-11-20 16:49:03 LoginController DEBUG Authorise, Process End, 20/11/2024 16:49:03
+2024-11-20 16:49:21 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:49:21
+2024-11-20 16:52:49 LoginController DEBUG Index, Process Started, 20/11/2024 16:52:49
+2024-11-20 16:52:49 LoginController DEBUG Index, Process End, 20/11/2024 16:52:49
+2024-11-20 16:52:57 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:52:57
+2024-11-20 16:53:02 LoginController DEBUG Authorise, Process End, 20/11/2024 16:53:02
+2024-11-20 16:53:13 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:53:13
+2024-11-20 16:53:15 EngineeringController ERROR Error Thrown during : Input string was not in a correct format., GetDatabyPartNo, 20/11/2024 16:53:15,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.EngineeringController.GetDatabypartnumber(String SearchTerm, Boolean& response, String& partdec) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 645
+   at DF_WebModule.Controllers.EngineeringController.GetDatabyPartNo(String partno) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 487
+2024-11-20 16:53:15 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 16:53:15
+2024-11-20 16:53:29 LoginController DEBUG Index, Process Started, 20/11/2024 16:53:29
+2024-11-20 16:53:29 LoginController DEBUG Index, Process End, 20/11/2024 16:53:29
+2024-11-20 16:53:32 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:53:32
+2024-11-20 16:53:32 LoginController DEBUG Authorise, Process End, 20/11/2024 16:53:32
+2024-11-20 16:53:35 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:53:35
+2024-11-20 16:53:48 EngineeringController ERROR Error Thrown during : Input string was not in a correct format., GetDatabyPartNo, 20/11/2024 16:53:48,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.EngineeringController.GetDatabypartnumber(String SearchTerm, Boolean& response, String& partdec) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 645
+   at DF_WebModule.Controllers.EngineeringController.GetDatabyPartNo(String partno) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 487
+2024-11-20 16:53:48 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 16:53:48
+2024-11-20 16:53:59 LoginController DEBUG Index, Process Started, 20/11/2024 16:53:59
+2024-11-20 16:53:59 LoginController DEBUG Index, Process End, 20/11/2024 16:53:59
+2024-11-20 16:54:03 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:54:03
+2024-11-20 16:54:03 LoginController DEBUG Authorise, Process End, 20/11/2024 16:54:03
+2024-11-20 16:54:07 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:54:07
+2024-11-20 16:54:33 EngineeringController ERROR Error Thrown during : Input string was not in a correct format., GetDatabyPartNo, 20/11/2024 16:54:33,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.EngineeringController.GetDatabypartnumber(String SearchTerm, Boolean& response, String& partdec) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 645
+   at DF_WebModule.Controllers.EngineeringController.GetDatabyPartNo(String partno) in D:\Programs\BrowserModule\BrowserModule\Controllers\EngineeringController.cs:line 487
+2024-11-20 16:54:33 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 16:54:33
+2024-11-20 16:54:41 LoginController DEBUG Index, Process Started, 20/11/2024 16:54:41
+2024-11-20 16:54:41 LoginController DEBUG Index, Process End, 20/11/2024 16:54:41
+2024-11-20 16:54:43 LoginController DEBUG Authorise, Process Started, 20/11/2024 16:54:43
+2024-11-20 16:54:43 LoginController DEBUG Authorise, Process End, 20/11/2024 16:54:43
+2024-11-20 16:54:46 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 16:54:46
+2024-11-20 17:01:04 LoginController DEBUG Index, Process Started, 20/11/2024 17:01:04
+2024-11-20 17:01:04 LoginController DEBUG Index, Process End, 20/11/2024 17:01:04
+2024-11-20 17:01:11 LoginController DEBUG Authorise, Process Started, 20/11/2024 17:01:11
+2024-11-20 17:01:16 LoginController DEBUG Authorise, Process End, 20/11/2024 17:01:16
+2024-11-20 17:01:24 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:01:24
+2024-11-20 17:01:42 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:01:42
+2024-11-20 17:04:43 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:04:43
+2024-11-20 17:04:43 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:04:43
+2024-11-20 17:05:37 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:05:37
+2024-11-20 17:05:37 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:05:37
+2024-11-20 17:11:22 LoginController DEBUG Index, Process Started, 20/11/2024 17:11:22
+2024-11-20 17:11:23 LoginController DEBUG Index, Process End, 20/11/2024 17:11:23
+2024-11-20 17:11:30 LoginController DEBUG Authorise, Process Started, 20/11/2024 17:11:30
+2024-11-20 17:11:36 LoginController DEBUG Authorise, Process End, 20/11/2024 17:11:36
+2024-11-20 17:11:43 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:11:43
+2024-11-20 17:11:48 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:11:48
+2024-11-20 17:12:13 EngineeringController DEBUG Index, Process Started, 20/11/2024 17:12:13
+2024-11-20 17:12:13 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:12:13
+2024-11-20 17:12:13 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:12:13
+2024-11-20 17:12:15 EngineeringController DEBUG Index, Process End, 20/11/2024 17:12:15
+2024-11-20 17:12:22 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:12:22
+2024-11-20 17:12:22 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:12:22
+2024-11-20 17:12:33 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:12:33
+2024-11-20 17:12:35 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:12:35
+2024-11-20 17:18:29 LoginController DEBUG Index, Process Started, 20/11/2024 17:18:29
+2024-11-20 17:18:29 LoginController DEBUG Index, Process End, 20/11/2024 17:18:29
+2024-11-20 17:18:37 LoginController DEBUG Authorise, Process Started, 20/11/2024 17:18:37
+2024-11-20 17:18:43 LoginController DEBUG Authorise, Process End, 20/11/2024 17:18:43
+2024-11-20 17:18:51 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:18:51
+2024-11-20 17:18:56 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:18:56
+2024-11-20 17:19:06 EngineeringController DEBUG Index, Process Started, 20/11/2024 17:19:06
+2024-11-20 17:19:06 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:19:06
+2024-11-20 17:19:06 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:19:06
+2024-11-20 17:19:09 EngineeringController DEBUG Index, Process End, 20/11/2024 17:19:09
+2024-11-20 17:19:20 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:19:20
+2024-11-20 17:19:23 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:19:23
+2024-11-20 17:19:33 EngineeringController DEBUG Index, Process Started, 20/11/2024 17:19:33
+2024-11-20 17:19:33 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:19:33
+2024-11-20 17:19:33 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:19:33
+2024-11-20 17:19:33 EngineeringController DEBUG Index, Process End, 20/11/2024 17:19:33
+2024-11-20 17:19:54 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:19:54
+2024-11-20 17:19:54 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:19:54
+2024-11-20 17:19:57 EngineeringController DEBUG Index, Process Started, 20/11/2024 17:19:57
+2024-11-20 17:19:57 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:19:57
+2024-11-20 17:19:57 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:19:57
+2024-11-20 17:19:57 EngineeringController DEBUG Index, Process End, 20/11/2024 17:19:57
+2024-11-20 17:20:02 EngineeringController DEBUG GetEngineerinItems, Process Started, 20/11/2024 17:20:02
+2024-11-20 17:20:02 EngineeringController DEBUG GetEngineerinItems, Process End, 20/11/2024 17:20:02
+2024-11-20 17:20:13 EngineeringController DEBUG GetDatabyPartNo, Process Started, 20/11/2024 17:20:13
+2024-11-20 17:20:13 EngineeringController DEBUG GetDatabyPartNo, Process End, 20/11/2024 17:20:13

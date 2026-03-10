@@ -1,0 +1,51 @@
+2025-04-10 12:59:30 LoginController DEBUG Index, Process Started, 10/04/2025 12:59:30
+2025-04-10 12:59:30 LoginController DEBUG Index, Process End, 10/04/2025 12:59:30
+2025-04-10 13:04:24 LoginController DEBUG Index, Process Started, 10/04/2025 13:04:24
+2025-04-10 13:04:24 LoginController DEBUG Index, Process End, 10/04/2025 13:04:24
+2025-04-10 13:32:29 LoginController DEBUG Index, Process Started, 10/04/2025 13:32:29
+2025-04-10 13:32:29 LoginController DEBUG Index, Process End, 10/04/2025 13:32:29
+2025-04-10 15:56:54 LoginController DEBUG Index, Process Started, 10/04/2025 15:56:54
+2025-04-10 15:56:54 LoginController DEBUG Index, Process End, 10/04/2025 15:56:54
+2025-04-10 18:36:52 LoginController DEBUG Index, Process Started, 10/04/2025 18:36:52
+2025-04-10 18:36:52 LoginController DEBUG Index, Process End, 10/04/2025 18:36:52
+2025-04-10 18:50:12 LoginController DEBUG Index, Process Started, 10/04/2025 18:50:12
+2025-04-10 18:50:12 LoginController DEBUG Index, Process End, 10/04/2025 18:50:12
+2025-04-10 18:51:58 LoginController DEBUG Authorise, Process Started, 10/04/2025 18:51:58
+2025-04-10 18:52:03 LoginController DEBUG Authorise, Process End, 10/04/2025 18:52:03
+2025-04-10 18:57:44 LoginController DEBUG Index, Process Started, 10/04/2025 18:57:44
+2025-04-10 18:57:44 LoginController DEBUG Index, Process End, 10/04/2025 18:57:44
+2025-04-10 18:58:33 LoginController DEBUG Authorise, Process Started, 10/04/2025 18:58:33
+2025-04-10 18:58:37 LoginController DEBUG Authorise, Process End, 10/04/2025 18:58:37
+2025-04-10 18:58:51 PrintController DEBUG Index, Process Started, 10/04/2025 18:58:51
+2025-04-10 18:58:51 PrintController DEBUG Index, Process End, 10/04/2025 18:58:51
+2025-04-10 18:58:58 PrintController DEBUG Getpartdetail, Process Started, 10/04/2025 18:58:58
+2025-04-10 18:58:58 PrintController DEBUG Getpartdetail, Process End, 10/04/2025 18:58:58
+2025-04-10 18:59:17 PrintController DEBUG PrintQRCode, Process Started, 10/04/2025 18:59:17
+2025-04-10 18:59:19 PrintController INFO  Print TYpe : 3
+2025-04-10 18:59:19 PrintController INFO  Print Count : 0
+2025-04-10 18:59:20 PrintController INFO  printer : Microsoft XPS Document Writer
+2025-04-10 18:59:20 PrintController INFO  Customer : TML
+2025-04-10 18:59:20 PrintController INFO  Part Number : 502841110102
+2025-04-10 19:00:00 PrintController DEBUG PrintQRCode, Process End, 10/04/2025 19:00:00
+2025-04-10 19:00:02 PrintController DEBUG Index, Process Started, 10/04/2025 19:00:02
+2025-04-10 19:00:02 PrintController DEBUG Index, Process End, 10/04/2025 19:00:02
+2025-04-10 19:00:06 PrintController DEBUG PrintQRCode, Process Started, 10/04/2025 19:00:06
+2025-04-10 19:00:07 PrintController INFO  Print TYpe : 3
+2025-04-10 19:00:08 PrintController INFO  Print Count : 0
+2025-04-10 19:00:08 PrintController INFO  printer : Microsoft XPS Document Writer
+2025-04-10 19:00:08 PrintController INFO  Customer : TML
+2025-04-10 19:00:08 PrintController INFO  Part Number : 502841110102
+2025-04-10 19:01:53 LoginController DEBUG Index, Process Started, 10/04/2025 19:01:53
+2025-04-10 19:01:53 LoginController DEBUG Index, Process End, 10/04/2025 19:01:53
+2025-04-10 19:02:09 LoginController DEBUG Authorise, Process Started, 10/04/2025 19:02:09
+2025-04-10 19:02:14 LoginController DEBUG Authorise, Process End, 10/04/2025 19:02:14
+2025-04-10 19:02:28 PrintController DEBUG Index, Process Started, 10/04/2025 19:02:28
+2025-04-10 19:02:28 PrintController DEBUG Index, Process End, 10/04/2025 19:02:28
+2025-04-10 19:02:43 PrintController DEBUG Getpartdetail, Process Started, 10/04/2025 19:02:43
+2025-04-10 19:02:43 PrintController DEBUG Getpartdetail, Process End, 10/04/2025 19:02:43
+2025-04-10 19:02:51 PrintController DEBUG PrintQRCode, Process Started, 10/04/2025 19:02:51
+2025-04-10 19:02:51 PrintController INFO  Print TYpe : 3
+2025-04-10 19:02:51 PrintController INFO  Print Count : 10
+2025-04-10 19:02:51 PrintController INFO  printer : Microsoft XPS Document Writer
+2025-04-10 19:02:51 PrintController INFO  Customer : TML
+2025-04-10 19:02:51 PrintController INFO  Part Number : 275141110108

@@ -1,0 +1,34 @@
+2025-05-02 17:43:33 LoginController DEBUG Index, Process Started, 02/05/2025 17:43:33
+2025-05-02 17:43:34 LoginController DEBUG Index, Process End, 02/05/2025 17:43:34
+2025-05-02 17:43:56 LoginController DEBUG Authorise, Process Started, 02/05/2025 17:43:56
+2025-05-02 17:43:59 LoginController DEBUG Authorise, Process End, 02/05/2025 17:43:59
+2025-05-02 17:44:11 LoginController DEBUG Authorise, Process Started, 02/05/2025 17:44:11
+2025-05-02 17:44:11 LoginController DEBUG Authorise, Process End, 02/05/2025 17:44:11
+2025-05-02 17:44:38 UserRegistrationController DEBUG Index, Process Started, 02/05/2025 17:44:38
+2025-05-02 17:44:38 UserRegistrationController DEBUG Index, Process End, 02/05/2025 17:44:38
+2025-05-02 17:44:46 PrintController DEBUG Index, Process Started, 02/05/2025 17:44:46
+2025-05-02 17:44:46 PrintController DEBUG Index, Process End, 02/05/2025 17:44:46
+2025-05-02 17:45:19 PrintController DEBUG Index, Process Started, 02/05/2025 17:45:19
+2025-05-02 17:45:19 PrintController DEBUG Index, Process End, 02/05/2025 17:45:19
+2025-05-02 17:45:19 PrintController DEBUG Index, Process Started, 02/05/2025 17:45:19
+2025-05-02 17:45:19 PrintController DEBUG Index, Process End, 02/05/2025 17:45:19
+2025-05-02 17:45:19 PrintController DEBUG Index, Process Started, 02/05/2025 17:45:19
+2025-05-02 17:45:19 PrintController DEBUG Index, Process End, 02/05/2025 17:45:19
+2025-05-02 17:45:53 PrintController DEBUG Index, Process Started, 02/05/2025 17:45:53
+2025-05-02 17:45:53 PrintController DEBUG Index, Process End, 02/05/2025 17:45:53
+2025-05-02 17:45:57 PrintController DEBUG Getpartdetail, Process Started, 02/05/2025 17:45:57
+2025-05-02 17:45:57 PrintController DEBUG Getpartdetail, Process End, 02/05/2025 17:45:57
+2025-05-02 17:46:23 PrintController DEBUG DubPrintQRCode, Process Started, 02/05/2025 17:46:23
+2025-05-02 17:46:28 PrintController INFO  Print TYpe : 3
+2025-05-02 17:46:29 PrintController INFO  SLNO : 1234
+2025-05-02 17:46:29 PrintController INFO  printer : Microsoft XPS Document Writer
+2025-05-02 17:46:29 PrintController INFO  Customer : TML
+2025-05-02 17:46:29 PrintController INFO  Part Number : 218941100110
+2025-05-02 17:50:30 LoginController DEBUG Index, Process Started, 02/05/2025 17:50:30
+2025-05-02 17:50:30 LoginController DEBUG Index, Process End, 02/05/2025 17:50:30
+2025-05-02 17:51:29 LoginController DEBUG Authorise, Process Started, 02/05/2025 17:51:29
+2025-05-02 17:51:51 LoginController DEBUG Authorise, Process End, 02/05/2025 17:51:51
+2025-05-02 17:52:02 PrintController DEBUG Index, Process Started, 02/05/2025 17:52:02
+2025-05-02 17:52:03 PrintController DEBUG Index, Process End, 02/05/2025 17:52:03
+2025-05-02 17:52:16 PrintController DEBUG Getpartdetail, Process Started, 02/05/2025 17:52:16
+2025-05-02 17:52:16 PrintController DEBUG Getpartdetail, Process End, 02/05/2025 17:52:16

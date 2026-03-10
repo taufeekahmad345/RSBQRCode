@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://symlconnect.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://symlconnect.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://symlconnect.com/">
+      <s:element name="CreateSession">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Token" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateSessionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateSessionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckSession">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckSessionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckSessionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSession">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloseSessionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CloseSessionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateActivation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ActivationKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organisation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Identity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidateActivationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValidateActivationResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ActivationToken" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertLicense">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LicenseKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Organisation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Identity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Months" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertLicenseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertLicenseResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLicense">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LicenseKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Identity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dateAct" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Product" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckLicenseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckLicenseResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dateExp" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateSessionSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateSession" />
+  </wsdl:message>
+  <wsdl:message name="CreateSessionSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckSession" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionSoapIn">
+    <wsdl:part name="parameters" element="tns:CloseSession" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionSoapOut">
+    <wsdl:part name="parameters" element="tns:CloseSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidateActivationSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidateActivation" />
+  </wsdl:message>
+  <wsdl:message name="ValidateActivationSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidateActivationResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertLicense" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckLicenseSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckLicense" />
+  </wsdl:message>
+  <wsdl:message name="CheckLicenseSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckLicenseResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateSessionHttpGetIn">
+    <wsdl:part name="SessionKey" type="s:string" />
+    <wsdl:part name="Token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateSessionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionHttpGetIn">
+    <wsdl:part name="SessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionHttpGetIn">
+    <wsdl:part name="SessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseHttpGetIn">
+    <wsdl:part name="SessionID" type="s:string" />
+    <wsdl:part name="LicenseKey" type="s:string" />
+    <wsdl:part name="Organisation" type="s:string" />
+    <wsdl:part name="Identity" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="Months" type="s:string" />
+    <wsdl:part name="Product" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateSessionHttpPostIn">
+    <wsdl:part name="SessionKey" type="s:string" />
+    <wsdl:part name="Token" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateSessionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionHttpPostIn">
+    <wsdl:part name="SessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckSessionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionHttpPostIn">
+    <wsdl:part name="SessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CloseSessionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseHttpPostIn">
+    <wsdl:part name="SessionID" type="s:string" />
+    <wsdl:part name="LicenseKey" type="s:string" />
+    <wsdl:part name="Organisation" type="s:string" />
+    <wsdl:part name="Identity" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="Months" type="s:string" />
+    <wsdl:part name="Product" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InsertLicenseHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="SymlLicenseServiceSoap">
+    <wsdl:operation name="CreateSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake</wsdl:documentation>
+      <wsdl:input message="tns:CreateSessionSoapIn" />
+      <wsdl:output message="tns:CreateSessionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Check session</wsdl:documentation>
+      <wsdl:input message="tns:CheckSessionSoapIn" />
+      <wsdl:output message="tns:CheckSessionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Close session</wsdl:documentation>
+      <wsdl:input message="tns:CloseSessionSoapIn" />
+      <wsdl:output message="tns:CloseSessionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateActivation">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Product Activation</wsdl:documentation>
+      <wsdl:input message="tns:ValidateActivationSoapIn" />
+      <wsdl:output message="tns:ValidateActivationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Product Activation</wsdl:documentation>
+      <wsdl:input message="tns:InsertLicenseSoapIn" />
+      <wsdl:output message="tns:InsertLicenseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLicense">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Check License</wsdl:documentation>
+      <wsdl:input message="tns:CheckLicenseSoapIn" />
+      <wsdl:output message="tns:CheckLicenseSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SymlLicenseServiceHttpGet">
+    <wsdl:operation name="CreateSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake</wsdl:documentation>
+      <wsdl:input message="tns:CreateSessionHttpGetIn" />
+      <wsdl:output message="tns:CreateSessionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Check session</wsdl:documentation>
+      <wsdl:input message="tns:CheckSessionHttpGetIn" />
+      <wsdl:output message="tns:CheckSessionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Close session</wsdl:documentation>
+      <wsdl:input message="tns:CloseSessionHttpGetIn" />
+      <wsdl:output message="tns:CloseSessionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Product Activation</wsdl:documentation>
+      <wsdl:input message="tns:InsertLicenseHttpGetIn" />
+      <wsdl:output message="tns:InsertLicenseHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SymlLicenseServiceHttpPost">
+    <wsdl:operation name="CreateSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake</wsdl:documentation>
+      <wsdl:input message="tns:CreateSessionHttpPostIn" />
+      <wsdl:output message="tns:CreateSessionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Check session</wsdl:documentation>
+      <wsdl:input message="tns:CheckSessionHttpPostIn" />
+      <wsdl:output message="tns:CheckSessionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Close session</wsdl:documentation>
+      <wsdl:input message="tns:CloseSessionHttpPostIn" />
+      <wsdl:output message="tns:CloseSessionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Product Activation</wsdl:documentation>
+      <wsdl:input message="tns:InsertLicenseHttpPostIn" />
+      <wsdl:output message="tns:InsertLicenseHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SymlLicenseServiceSoap" type="tns:SymlLicenseServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateSession">
+      <soap:operation soapAction="http://symlconnect.com/CreateSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <soap:operation soapAction="http://symlconnect.com/CheckSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <soap:operation soapAction="http://symlconnect.com/CloseSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateActivation">
+      <soap:operation soapAction="http://symlconnect.com/ValidateActivation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <soap:operation soapAction="http://symlconnect.com/InsertLicense" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLicense">
+      <soap:operation soapAction="http://symlconnect.com/CheckLicense" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlLicenseServiceSoap12" type="tns:SymlLicenseServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateSession">
+      <soap12:operation soapAction="http://symlconnect.com/CreateSession" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <soap12:operation soapAction="http://symlconnect.com/CheckSession" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <soap12:operation soapAction="http://symlconnect.com/CloseSession" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateActivation">
+      <soap12:operation soapAction="http://symlconnect.com/ValidateActivation" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <soap12:operation soapAction="http://symlconnect.com/InsertLicense" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLicense">
+      <soap12:operation soapAction="http://symlconnect.com/CheckLicense" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlLicenseServiceHttpGet" type="tns:SymlLicenseServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CreateSession">
+      <http:operation location="/CreateSession" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <http:operation location="/CheckSession" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <http:operation location="/CloseSession" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <http:operation location="/InsertLicense" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlLicenseServiceHttpPost" type="tns:SymlLicenseServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CreateSession">
+      <http:operation location="/CreateSession" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckSession">
+      <http:operation location="/CheckSession" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloseSession">
+      <http:operation location="/CloseSession" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLicense">
+      <http:operation location="/InsertLicense" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SymlLicenseService">
+    <wsdl:port name="SymlLicenseServiceSoap" binding="tns:SymlLicenseServiceSoap">
+      <soap:address location="http://77.68.84.237/LicenseService/SymlLicenseService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlLicenseServiceSoap12" binding="tns:SymlLicenseServiceSoap12">
+      <soap12:address location="http://77.68.84.237/LicenseService/SymlLicenseService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlLicenseServiceHttpGet" binding="tns:SymlLicenseServiceHttpGet">
+      <http:address location="http://77.68.84.237/LicenseService/SymlLicenseService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlLicenseServiceHttpPost" binding="tns:SymlLicenseServiceHttpPost">
+      <http:address location="http://77.68.84.237/LicenseService/SymlLicenseService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

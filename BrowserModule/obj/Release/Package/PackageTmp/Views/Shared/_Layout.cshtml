@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        Response.Redirect(Url.Action("LogOut", "Login"));
+        //Html.Action("LogOut", "Login");
+    }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/SideBar.css" rel="stylesheet" />
+    <title>RSB</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+   
+    @*<style>
+        .action-footer {
+            box-sizing: border-box;
+        }
+
+        .action-link {
+            cursor: pointer;
+            font-size: larger;
+            margin-left: 10px;
+        }
+
+        .btn-yplay {
+            position: relative;
+            top: 6px;
+            margin-left: 10px;
+            font-size: 1.5em;
+        }
+
+        .modal-xl {
+            max-width: 1100px;
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+            font-weight: bolder;
+        }
+
+        a {
+            font-weight: normal;
+        }
+
+        .sidewidth {
+            display: none;
+           /* min-width: 1px !important;
+            max-width: 1px !important;*/
+        }
+
+        .sidewidth1 {
+            min-width: 170px !important;
+            max-width: 170px !important;
+        }
+        #my-menu .parent ul {
+            display: none;
+        }
+        .sub-menu {
+            display: none;
+        }
+        .active {
+            color: red
+        }
+
+            .active > * {
+                color: black
+            }
+    </style>*@
+    <style>
+        /* Reset some default styles */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #e7dcdc;
+            font-family: Arial, sans-serif;
+            padding: 0;
+        }
+
+            .navbar ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .navbar li {
+                position: relative;
+            }
+
+                .navbar li a {
+                    display: block;
+                    padding: 14px 20px;
+                    color: black;
+                    text-decoration: none;
+                }
+
+                    .navbar li a:hover {
+                        background-color: #fbd9d9;
+                    }
+
+        /* Dropdown styles */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #e7dcdc;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #fbd9d9;
+                }
+
+        /* Show the dropdown menu when hovering over the dropdown */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover > .dropbtn {
+            background-color: #fbd9d9;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <ul>
+            
+            <li class="dropdown">   
+                <a href="#" class="dropbtn">Master</a>
+                <div class="dropdown-content">
+                    <a href="@Url.Action("Index", "PartManagement")">Records</a>                   
+                    <a href="@Url.Action("Index", "Customer")">Customer</a>
+                    <a href="@Url.Action("Setting", "Customer")">Setting</a>
+                    <a href="@Url.Action("Index", "UserRegistration")">User</a>
+                </div>
+            </li>
+            <li><a href="@Url.Action("Index", "Print")">Print</a></li>
+            <li><a href="@Url.Action("Scan", "Print")">Scan</a></li>
+            <li><a href="@Url.Action("Export", "Print")">Export</a></li>
+            <li><a href="@Url.Action("ChangePassword", "Login")">Change Password</a></li>
+            <li id="NavLogOut"><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    <div id="page-content-wrapper" class="bg-light">
+        <div class="container body-content" style="max-width:100% !important; margin-left:0px !important;margin-right:0px !important">
+
+
+
+            <div class="container-fluid action-footer">
+                @RenderBody()
+                <hr />
+                <footer></footer>
+            </div>
+            </div>
+        </div>
+            @Scripts.Render("~/bundles/bootstrap")
+            @Scripts.Render("~/Scripts/")
+            @RenderSection("scripts", required: false)
+            <script>
+    $(document).ready(function () {
+        $(".sidebar-nav li > .sub-menu").parent().hover(function () {
+            var submenu = $(this).children(".sub-menu");
+            if ($(submenu).is(":hidden")) {
+                $(submenu).slideDown(200);
+
+            }
+            else {
+                $(submenu).slideUp(200);
+            }
+        })
+        var timeoutVal = 900;
+        if (@Session["Timeout"] != null) {
+            timeoutVal = Number("@Session["Timeout"].ToString()");
+        }
+            $.jTimeout({
+                // flash the tab/title bar when or after timing out
+                flashTitle: true,
+                // flash speed in milliseconds
+                flashTitleSpeed: 500,
+                // text to show in the tab/title bar
+                flashingTitleText: 'Session Expired',
+                // original page title
+                originalTitle: document.title,
+                // timeout in seconds
+                timeoutAfter: timeoutVal,
+                // seconds in between checking and updating the timer
+                heartbeat: 1,
+                // extends the session when the mouse is moved
+                extendOnMouseMove: true,
+                // seconds between extending the session when the mouse is moved
+                mouseDebounce: 30,
+                // on mouse move function
+                onMouseMove: function (timeout) {
+                    //request the session extend page
+                    $.get(timeout.options.extendUrl, function () {
+                        //reset expiration
+                        timeout.resetExpiration();
+                    });
+                },
+                // custom URL
+                //extendUrl: '/Login/RefreshSession',
+                extendUrl: '',
+                logoutUrl: '@Url.Action("LogOut", "Login")',
+                loginUrl: '@Url.Action("SessionTimeOut", "Login")',
+                // seconds before timeout to fire the next callback
+                secondsPrior: 30,
+                // resets the timer with mouse move while the dialog is visible and hide it
+                triggerResetOnAlert: false,
+
+                onClickExtend: function (timeout) {
+                    /* Request dashboard to increase session */
+                    $.get(timeout.options.extendUrl);
+                    timeout.resetExpiration();
+                },
+
+                onTimeout: function (timeout) {
+
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("SessionTimeOut", "Login")',
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (data) {
+                            if (!data.success) {
+
+                            } else {
+
+                                window.location.href = "@Url.Action("Logout", "Login")";
+                            }
+                        },
+                        error: function (data) {
+                            $.confirm({
+                                title: 'Session Refresh',
+                                content: "Please manually log out and back in to refresh the session.",
+                                type: 'red',
+                                typeAnimated: true,
+                                buttons: {
+                                    Okay: {
+                                        text: 'Okay'
+                                    }
+                                }
+                            });
+                        }
+
+                    });
+
+                    $.get(timeout.options.logoutUrl);
+                },
+
+                onSessionExtended: function (timeout) {
+                    $('#jTimedoutAlert').closeAlert();
+                },
+
+                onPriorCallback: function (timeout, seconds) {
+                    $.jAlert({
+                        'id': 'jTimeoutAlert',
+                        'title': 'Logout?',
+                        'content': '<b>You have been inactive for too long, you will be forced to log out in <span class="jTimeout_Countdown">' + seconds + '</span> seconds.</b>',
+                        'theme': 'blue',
+                        'closeBtn': false,
+                        'onOpen': function (alert) {
+                            timeout.startPriorCountdown(alert.find('.jTimeout_Countdown'));
+                        },
+                        'btns': [
+                            {
+                                'text': 'Continue Session',
+                                'theme': 'blue',
+                                'onClick': function (e, btn) {
+                                    e.preventDefault();
+                                    timeout.options.onClickExtend(timeout);
+                                    btn.parents('.jAlert').closeAlert();
+                                    return false;
+                                }
+                            },
+                            {
+                                'text': 'Logout Now',
+                                'onClick': function (e, btn) {
+                                    e.preventDefault();
+                                    window.location.href = timeout.options.logoutUrl;
+                                    return false;
+                                }
+                            }
+                        ]
+                    });
+                }
+            });
+        });
+
+
+            const toggle = {
+                block: 'none',
+                none: 'block'
+            }
+
+            function ToggleMenu(event) {
+                event.stopPropagation();
+                event.target.classList.toggle('active');
+                event.target.firstElementChild.style.display = toggle[event.target.firstElementChild.style.display] || 'block';
+            }
+            var menuParents = document.querySelectorAll("#my-menu .parent");
+            menuParents.forEach(menuParent => {
+                menuParent.addEventListener("click", ToggleMenu);
+            })
+        $('#someID').click(function () {
+            $.ajax({
+                dataType: 'native',
+                url: "/Views/Support/BrowserModule/Syml_DF+Brower Module User Guide _V1.0.pdf",
+                xhrFields: {
+                    responseType: 'blob'
+                },
+                success: function (blob) {
+                    console.log(blob.size);
+                    var link = document.createElement('a');
+                    link.href = window.URL.createObjectURL(blob);
+                    link.download = "Syml_DF+Brower Module User Guide _V1.0.pdf";
+                    link.click();
+                }
+            });
+        });
+
+            //$('#sidebar-wrapper').mouseover(function () {
+            //    debugger
+            //    $('#sidebar-wrapper').addClass('sidewidth1');
+            //    $('#sidebar-wrapper').removeClass('sidewidth');
+
+
+            //});
+            //$('#sidebar-wrapper').mouseout(function () {
+            //    debugger
+            //    $('#sidebar-wrapper').addClass('sidewidth');
+            //    $('#sidebar-wrapper').removeClass('sidewidth1');
+
+
+
+            //});
+
+
+
+        //var newdate = moment().format("Do MMM YYYY");
+        //document.getElementById("DateTime").innerHTML = newdate;
+
+
+        $('#NavLogOut').click(function () {
+            $.confirm({
+                title: 'Log Out!',
+                content: 'Are you sure you want to log out?',
+                type: 'orange',
+                typeAnimated: true,
+                buttons: {
+                    yes: {
+                        text: 'Yes',
+                        btnClass: 'btn-red',
+                        action: function () {
+                            window.location.href = "@Url.Action("LogOut","Login")";
+                        }
+                    },
+                    no: {
+                        text: 'No',
+                        btnClass: 'btn-green'
+                    }
+                }
+            });
+        });
+
+        $('#HeaderLogOut').click(function () {
+            $.confirm({
+                title: 'Log Out!',
+                content: 'Are you sure you want to log out?',
+                type: 'orange',
+                typeAnimated: true,
+                buttons: {
+                    yes: {
+                        text: 'Yes',
+                        btnClass: 'btn-red',
+                        action: function () {
+                            window.location.href = "@Url.Action("LogOut","Login")";
+                        }
+                    },
+                    no: {
+                        text: 'No',
+                        btnClass: 'btn-green'
+                    }
+                }
+            });
+        });
+
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            /* $("#wrapper").toggleClass("menuDisplayed");*/
+            $('#sidebar-wrapper').toggleClass('sidewidth');
+        });
+            </script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+2025-07-29 12:29:55 LoginController DEBUG Index, Process Started, 29/07/2025 12:29:55
+2025-07-29 12:29:55 LoginController DEBUG Index, Process End, 29/07/2025 12:29:55
+2025-07-29 12:32:19 LoginController DEBUG Authorise, Process Started, 29/07/2025 12:32:19
+2025-07-29 12:32:22 LoginController DEBUG Authorise, Process End, 29/07/2025 12:32:22
+2025-07-29 12:50:52 LoginController DEBUG Authorise, Process Started, 29/07/2025 12:50:52
+2025-07-29 12:50:52 LoginController DEBUG Authorise, Process End, 29/07/2025 12:50:52
+2025-07-29 12:51:05 PrintController DEBUG Index, Process Started, 29/07/2025 12:51:05
+2025-07-29 12:51:06 PrintController DEBUG Index, Process End, 29/07/2025 12:51:06
+2025-07-29 12:51:22 PrintController DEBUG Getpartdetail, Process Started, 29/07/2025 12:51:22
+2025-07-29 12:51:22 PrintController DEBUG Getpartdetail, Process End, 29/07/2025 12:51:22
+2025-07-29 12:51:42 PrintController DEBUG Index, Process Started, 29/07/2025 12:51:42
+2025-07-29 12:51:42 PrintController DEBUG Index, Process End, 29/07/2025 12:51:42
+2025-07-29 12:52:00 PrintController DEBUG Index, Process Started, 29/07/2025 12:52:00
+2025-07-29 12:52:00 PrintController DEBUG Index, Process End, 29/07/2025 12:52:00
+2025-07-29 12:53:33 PrintController DEBUG Index, Process Started, 29/07/2025 12:53:33
+2025-07-29 12:53:33 PrintController DEBUG Index, Process End, 29/07/2025 12:53:33
+2025-07-29 12:54:31 PrintController DEBUG Index, Process Started, 29/07/2025 12:54:31
+2025-07-29 12:54:31 PrintController DEBUG Index, Process End, 29/07/2025 12:54:31
+2025-07-29 12:54:33 PartManagementController DEBUG Index, Process Started, 29/07/2025 12:54:33
+2025-07-29 12:54:36 PartManagementController DEBUG Index, Process End, 29/07/2025 12:54:36
+2025-07-29 12:54:50 PrintController DEBUG Index, Process Started, 29/07/2025 12:54:50
+2025-07-29 12:54:50 PrintController DEBUG Index, Process End, 29/07/2025 12:54:50
+2025-07-29 12:54:57 PrintController DEBUG Getpartdetail, Process Started, 29/07/2025 12:54:57
+2025-07-29 12:54:57 PrintController DEBUG Getpartdetail, Process End, 29/07/2025 12:54:57
+2025-07-29 12:55:08 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 12:55:08
+2025-07-29 12:55:20 PrintController INFO  TypeOfPart : Middle
+2025-07-29 12:55:48 PrintController INFO  Final ZPL Command:
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00518541110108>67612>;3450725025001^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX abcd Middle 543^FS
+^XZ
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00518541110108>67612>;3450725025002^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX abcd Middle 543^FS
+^XZ
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00518541110108>67612>;3450725025003^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX abcd Middle 543^FS
+^XZ
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00518541110108>67612>;3450725025004^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX abcd Middle 543^FS
+^XZ
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00518541110108>67612>;3450725025005^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX abcd Middle 543^FS
+^XZ
+
+2025-07-29 12:56:12 PrintController DEBUG PrintQRCode, Process End, 29/07/2025 12:56:12
+2025-07-29 12:56:14 PrintController DEBUG Index, Process Started, 29/07/2025 12:56:14
+2025-07-29 12:56:14 PrintController DEBUG Index, Process End, 29/07/2025 12:56:14
+2025-07-29 12:57:47 PrintController DEBUG Index, Process Started, 29/07/2025 12:57:47
+2025-07-29 12:57:47 PrintController DEBUG Index, Process End, 29/07/2025 12:57:47
+2025-07-29 12:57:49 PrintController DEBUG Index, Process Started, 29/07/2025 12:57:49
+2025-07-29 12:57:49 PrintController DEBUG Index, Process End, 29/07/2025 12:57:49
+2025-07-29 12:57:50 PrintController DEBUG Index, Process Started, 29/07/2025 12:57:50
+2025-07-29 12:57:50 PrintController DEBUG Index, Process End, 29/07/2025 12:57:50
+2025-07-29 12:57:50 PrintController DEBUG Index, Process Started, 29/07/2025 12:57:50
+2025-07-29 12:57:50 PrintController DEBUG Index, Process End, 29/07/2025 12:57:50
+2025-07-29 12:58:07 PrintController DEBUG Getpartdetail, Process Started, 29/07/2025 12:58:07
+2025-07-29 12:58:07 PrintController DEBUG Getpartdetail, Process End, 29/07/2025 12:58:07
+2025-07-29 12:58:26 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 12:58:26
+2025-07-29 12:58:26 PrintController INFO  TypeOfPart : Middle
+2025-07-29 12:58:39 PrintController INFO  QR ZPL Text : ^XA
+^MD25
+^FO40,50
+^BXN,5,200
+^FD518541110108Rev No76 123450725025006^FS
+^FO170,70
+^A0N,30,30
+^FD518541110108Rev No76 123450725025006 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX Middle JT abcd L 543^FS
+^XZ
+^XA
+^MD25
+^FO40,50
+^BXN,5,200
+^FD518541110108Rev No76 123450725025007^FS
+^FO170,70
+^A0N,30,30
+^FD518541110108Rev No76 123450725025007 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX Middle JT abcd L 543^FS
+^XZ
+^XA
+^MD25
+^FO40,50
+^BXN,5,200
+^FD518541110108Rev No76 123450725025008^FS
+^FO170,70
+^A0N,30,30
+^FD518541110108Rev No76 123450725025008 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 4225 RDE 68 G950 6.7L LDL CX Middle JT abcd L 543^FS
+^XZ
+
+2025-07-29 12:59:01 PrintController DEBUG PrintQRCode, Process End, 29/07/2025 12:59:01
+2025-07-29 12:59:03 PrintController DEBUG Index, Process Started, 29/07/2025 12:59:03
+2025-07-29 12:59:03 PrintController DEBUG Index, Process End, 29/07/2025 12:59:03
+2025-07-29 12:59:22 PrintController DEBUG PrintHoldQRCode, Process Started, 29/07/2025 12:59:22
+2025-07-29 13:00:00 PrintController DEBUG PrintHoldQRCode, Process End, 29/07/2025 13:00:00
+2025-07-29 13:00:02 PrintController DEBUG Index, Process Started, 29/07/2025 13:00:02
+2025-07-29 13:00:02 PrintController DEBUG Index, Process End, 29/07/2025 13:00:02
+2025-07-29 13:00:06 PrintController DEBUG PrintHoldQRCode, Process Started, 29/07/2025 13:00:06
+2025-07-29 13:02:04 LoginController DEBUG Index, Process Started, 29/07/2025 13:02:04
+2025-07-29 13:02:04 LoginController DEBUG Index, Process End, 29/07/2025 13:02:04
+2025-07-29 13:02:56 LoginController DEBUG Authorise, Process Started, 29/07/2025 13:02:56
+2025-07-29 13:02:59 LoginController DEBUG Authorise, Process End, 29/07/2025 13:02:59
+2025-07-29 13:03:17 PrintController DEBUG Index, Process Started, 29/07/2025 13:03:17
+2025-07-29 13:03:17 PrintController DEBUG Index, Process End, 29/07/2025 13:03:17
+2025-07-29 13:03:27 PartManagementController DEBUG Index, Process Started, 29/07/2025 13:03:27
+2025-07-29 13:03:30 PartManagementController DEBUG Index, Process End, 29/07/2025 13:03:30
+2025-07-29 13:03:38 PrintController DEBUG Index, Process Started, 29/07/2025 13:03:38
+2025-07-29 13:03:38 PrintController DEBUG Index, Process End, 29/07/2025 13:03:38
+2025-07-29 13:03:57 PrintController DEBUG Getpartdetailbyscan, Process Started, 29/07/2025 13:03:57
+2025-07-29 13:03:57 PrintController DEBUG Getpartdetailbyscan, Process End, 29/07/2025 13:03:57
+2025-07-29 13:04:11 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 13:04:11
+2025-07-29 13:05:12 PrintController INFO  TypeOfPart : Front
+2025-07-29 13:05:22 PrintController INFO  QR ZPL Text : ^XA
+^MD25
+^FO40,50
+^BXN,5,200
+^FD517841110113Rev No34 123450725010000^FS
+^FO170,70
+^A0N,30,30
+^FD517841110113Rev No34 123450725010000 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 4225 RDE 6.7L G950 NSL Cx Front JT Test L 223^FS
+^XZ
+
+2025-07-29 13:05:26 PrintController DEBUG PrintQRCode, Process End, 29/07/2025 13:05:26
+2025-07-29 13:05:28 PrintController DEBUG Index, Process Started, 29/07/2025 13:05:28
+2025-07-29 13:05:28 PrintController DEBUG Index, Process End, 29/07/2025 13:05:28
+2025-07-29 13:05:43 PrintController DEBUG Getpartdetailbyscan, Process Started, 29/07/2025 13:05:43
+2025-07-29 13:05:43 PrintController DEBUG Getpartdetailbyscan, Process End, 29/07/2025 13:05:43
+2025-07-29 13:05:47 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 13:05:47
+2025-07-29 13:05:47 PrintController INFO  TypeOfPart : Front
+2025-07-29 13:05:48 PrintController DEBUG PrintQRCode, Process End, 29/07/2025 13:05:48
+2025-07-29 13:06:01 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 13:06:01
+2025-07-29 13:06:01 PrintController INFO  TypeOfPart : Front
+2025-07-29 13:06:02 PrintController DEBUG PrintQRCode, Process End, 29/07/2025 13:06:02
+2025-07-29 13:06:04 PrintController DEBUG Index, Process Started, 29/07/2025 13:06:04
+2025-07-29 13:06:04 PrintController DEBUG Index, Process End, 29/07/2025 13:06:04
+2025-07-29 13:10:33 LoginController DEBUG Index, Process Started, 29/07/2025 13:10:33
+2025-07-29 13:10:33 LoginController DEBUG Index, Process End, 29/07/2025 13:10:33
+2025-07-29 13:11:12 LoginController DEBUG Authorise, Process Started, 29/07/2025 13:11:12
+2025-07-29 13:11:15 LoginController DEBUG Authorise, Process End, 29/07/2025 13:11:15
+2025-07-29 13:11:52 LoginController DEBUG Authorise, Process Started, 29/07/2025 13:11:52
+2025-07-29 13:11:52 LoginController DEBUG Authorise, Process End, 29/07/2025 13:11:52
+2025-07-29 13:12:02 PrintController DEBUG Index, Process Started, 29/07/2025 13:12:02
+2025-07-29 13:12:02 PrintController DEBUG Index, Process End, 29/07/2025 13:12:02
+2025-07-29 13:12:11 PrintController DEBUG Getpartdetailbyscan, Process Started, 29/07/2025 13:12:11
+2025-07-29 13:12:11 PrintController DEBUG Getpartdetailbyscan, Process End, 29/07/2025 13:12:11
+2025-07-29 13:12:15 PrintController DEBUG PrintQRCode, Process Started, 29/07/2025 13:12:15

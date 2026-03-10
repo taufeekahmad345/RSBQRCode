@@ -1,0 +1,6 @@
+2024-08-16 18:50:48 LoginController DEBUG Index, Process Started, 16/08/2024 18:50:48
+2024-08-16 18:50:49 LoginController DEBUG Index, Process End, 16/08/2024 18:50:49
+2024-08-16 18:51:15 LoginController DEBUG Authorise, Process Started, 16/08/2024 18:51:15
+2024-08-16 18:51:21 LoginController DEBUG Authorise, Process End, 16/08/2024 18:51:21
+2024-08-16 18:51:21 HomeController DEBUG Index, Process Started, 16/08/2024 18:51:21
+2024-08-16 18:51:22 HomeController DEBUG Index, Process End, 16/08/2024 18:51:22

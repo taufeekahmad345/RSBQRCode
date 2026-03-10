@@ -1,0 +1,13 @@
+2026-03-06 18:40:32 LoginController DEBUG Index, Process Started, 06/03/2026 18:40:32
+2026-03-06 18:40:32 LoginController DEBUG Index, Process End, 06/03/2026 18:40:32
+2026-03-06 18:41:08 LoginController DEBUG Authorise, Process Started, 06/03/2026 18:41:08
+2026-03-06 18:41:16 LoginController INFO  Authorise 1, 06/03/2026 18:41:16
+2026-03-06 18:41:16 LoginController DEBUG Authorise, Process End, 06/03/2026 18:41:16
+2026-03-06 18:46:25 LoginController DEBUG SessionTimeOut, Process Started, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG SessionTimeOut, Process End, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG LogOut, Process Started, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG LogOut, Process Started, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG Index, Process Started, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG Index, Process End, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG LogOut, Process Started, 06/03/2026 18:46:25
+2026-03-06 18:46:25 LoginController DEBUG LogOut, Process Started, 06/03/2026 18:46:25

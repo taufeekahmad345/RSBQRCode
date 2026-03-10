@@ -1,0 +1,162 @@
+﻿@model DF_WebModule.Classes.clsPrint
+
+<style>
+    .rowh {
+        margin-top: -5px;
+    }
+
+    .colu {
+        margin-left: -300px;
+        border: solid;
+    }
+
+    .fontsize {
+        font-size: larger;
+    }
+</style>
+
+
+<div class="form-horizontal">
+    <div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+        <div class="col-sm-12 col-lg-12" style="margin:auto">
+            <h4 style="color: aliceblue; text-align:center">Scan</h4>
+        </div>
+    </div>
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    
+<div class="col-sm-12 col-lg-12 col-md-12" style="padding-top:10px">
+    <div class="row">
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <input style="width:850px;border-radius:3px 4px;" type="text" id="qrtext" name="qrtext">
+        </div>
+
+    </div>
+    <div>
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <button id="addprint" style=" width: 150px;background:#0094ff">Submit</button>
+            <button id="clearprint" style=" width: 150px; background:#018798">Clear</button>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Part Number:</label><br>
+            <input style="width:350px;border-radius:3px 4px;" type="text" id="part" name="part">
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Customer Name:</label><br>
+            <input style="width: 350px; border-radius: 3px 4px;" type="text" id="cname" name="cname">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Type:</label><br>
+            <input style="width: 350px; border-radius: 3px 4px;" type="text" id="type" name="type">
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Description:</label><br>
+            <input style="width: 350px; border-radius: 3px 4px;" type="text" id="description" name="description">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Rev No:</label><br>
+            <input style="width: 350px; border-radius: 3px 4px;" type="text" id="revno" name="revno">
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+            <label for="fname">Serial Number:</label><br>
+            <input style="width: 350px; border-radius: 3px 4px;" type="text" id="srno" name="srno">
+        </div>
+    </div>
+
+</div>
+</div>
+<script>
+    $("#clearprint").click(function () {
+        $("#qrtext").val("");
+    });
+    $("#addprint").click(function () {
+        debugger
+        var qrtext = $("#qrtext").val();
+        var post = { qrtext };
+        if (qrtext != undefined && qrtext != "") {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("GetScanData", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (data) {
+                    if (!data.success) {
+                        $('#LoadingIcon').modal('hide');
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#part").val(data.part);
+                        $("#revno").val(data.rev);
+                        $("#srno").val(data.joint);
+                        $("#description").val(data.des);
+                        $("#cname").val(data.customer);
+                        $("#type").val(data.type);
+                       
+                        $.confirm({
+                            title: 'Success!',
+                            content: "Scaned Successfully!",
+                            type: 'green',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        else {
+            $.confirm({
+                title: 'Warning!',
+                content: 'Please scan the qr first',
+                type: 'red',
+                typeAnimated: true,
+                buttons: {
+                    Okay: {
+                        text: 'Okay'
+                    }
+                }
+            });
+        }
+    });
+    
+</script>

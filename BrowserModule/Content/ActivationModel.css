@@ -1,0 +1,14 @@
+﻿body {
+}
+.form-model {
+    text-align: center;
+    color: ghostwhite;
+    padding: 15px;
+    background-color: #018798 !important;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 0.6rem;
+}
+.btn-activate {
+    background-color: #FFA500;
+    border-color: #FFA500;
+}

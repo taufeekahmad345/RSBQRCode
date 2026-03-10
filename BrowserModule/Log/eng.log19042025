@@ -1,0 +1,10 @@
+2025-04-19 14:37:52 LoginController DEBUG Index, Process Started, 19/04/2025 14:37:52
+2025-04-19 14:37:52 LoginController DEBUG Index, Process End, 19/04/2025 14:37:52
+2025-04-19 14:38:10 LoginController DEBUG Authorise, Process Started, 19/04/2025 14:38:10
+2025-04-19 14:38:13 LoginController DEBUG Authorise, Process End, 19/04/2025 14:38:13
+2025-04-19 14:38:57 PartManagementController DEBUG Index, Process Started, 19/04/2025 14:38:57
+2025-04-19 14:39:00 PartManagementController DEBUG Index, Process End, 19/04/2025 14:39:00
+2025-04-19 14:39:05 PrintController DEBUG Index, Process Started, 19/04/2025 14:39:05
+2025-04-19 14:39:05 PrintController DEBUG Index, Process End, 19/04/2025 14:39:05
+2025-04-19 14:39:19 UserRegistrationController DEBUG Index, Process Started, 19/04/2025 14:39:19
+2025-04-19 14:39:19 UserRegistrationController DEBUG Index, Process End, 19/04/2025 14:39:19

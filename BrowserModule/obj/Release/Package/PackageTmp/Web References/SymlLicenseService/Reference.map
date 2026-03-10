@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://77.68.84.237/LicenseService/SymlLicenseService.asmx?disco" filename="SymlLicenseService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://77.68.84.237/LicenseService/SymlLicenseService.asmx?wsdl" filename="SymlLicenseService.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

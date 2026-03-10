@@ -1,0 +1,165 @@
+2025-06-05 17:48:22 LoginController DEBUG Index, Process Started, 05/06/2025 17:48:22
+2025-06-05 17:48:22 LoginController DEBUG Index, Process End, 05/06/2025 17:48:22
+2025-06-05 17:48:49 LoginController DEBUG Authorise, Process Started, 05/06/2025 17:48:49
+2025-06-05 17:48:49 LoginController ERROR Error Thrown during : An error occurred creating the configuration section handler for system.data: Column 'InvariantName' is constrained to be unique.  Value 'MySql.Data.MySqlClient' is already present. (C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config line 155), Index, 05/06/2025 17:48:49,   at System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   at System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Configuration.ConfigurationManager.GetSection(String sectionName)
+   at System.Configuration.PrivilegedConfigurationManager.GetSection(String sectionName)
+   at System.Data.Common.DbProviderFactories.Initialize()
+   at System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   at System.Data.Entity.Infrastructure.DependencyResolution.DefaultProviderFactoryResolver.GetService(Type type, Object key, Func`3 handleFailedLookup)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Data.Entity.Infrastructure.DependencyResolution.RootDependencyResolver.GetService(Type type, Object key)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Data.Entity.Infrastructure.DependencyResolution.CompositeResolver`2.GetService(Type type, Object key)
+   at System.Data.Entity.Infrastructure.DependencyResolution.DbDependencyResolverExtensions.GetService[T](IDbDependencyResolver resolver, Object key)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   at System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   at System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   at System.Data.Entity.Internal.LazyInternalConnection.CreateObjectContextFromConnectionModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\RSBLKO\RSB_QRCode\BrowserModule\Controllers\LoginController.cs:line 120
+2025-06-05 17:55:00 LoginController DEBUG Index, Process Started, 05/06/2025 17:55:00
+2025-06-05 17:55:00 LoginController DEBUG Index, Process End, 05/06/2025 17:55:00
+2025-06-05 17:55:11 LoginController DEBUG Authorise, Process Started, 05/06/2025 17:55:11
+2025-06-05 17:55:14 LoginController DEBUG Authorise, Process End, 05/06/2025 17:55:14
+2025-06-05 17:55:25 PrintController DEBUG Index, Process Started, 05/06/2025 17:55:25
+2025-06-05 17:55:25 PrintController DEBUG Index, Process End, 05/06/2025 17:55:25
+2025-06-05 17:56:03 PrintController DEBUG Index, Process Started, 05/06/2025 17:56:03
+2025-06-05 17:56:03 PrintController DEBUG Index, Process End, 05/06/2025 17:56:03
+2025-06-05 17:58:33 PrintController DEBUG Index, Process Started, 05/06/2025 17:58:33
+2025-06-05 17:58:33 PrintController DEBUG Index, Process End, 05/06/2025 17:58:33
+2025-06-05 17:59:42 PrintController DEBUG Index, Process Started, 05/06/2025 17:59:42
+2025-06-05 17:59:42 PrintController DEBUG Index, Process End, 05/06/2025 17:59:42
+2025-06-05 17:59:44 PrintController DEBUG Index, Process Started, 05/06/2025 17:59:44
+2025-06-05 17:59:44 PrintController DEBUG Index, Process End, 05/06/2025 17:59:44
+2025-06-05 17:59:44 PrintController DEBUG Index, Process Started, 05/06/2025 17:59:44
+2025-06-05 17:59:44 PrintController DEBUG Index, Process End, 05/06/2025 17:59:44
+2025-06-05 17:59:44 PrintController DEBUG Index, Process Started, 05/06/2025 17:59:44
+2025-06-05 17:59:44 PrintController DEBUG Index, Process End, 05/06/2025 17:59:44
+2025-06-05 18:03:54 PrintController DEBUG Index, Process Started, 05/06/2025 18:03:54
+2025-06-05 18:03:54 PrintController DEBUG Index, Process End, 05/06/2025 18:03:54
+2025-06-05 18:03:57 PrintController DEBUG Index, Process Started, 05/06/2025 18:03:57
+2025-06-05 18:03:57 PrintController DEBUG Index, Process End, 05/06/2025 18:03:57
+2025-06-05 18:03:57 PrintController DEBUG Index, Process Started, 05/06/2025 18:03:57
+2025-06-05 18:03:57 PrintController DEBUG Index, Process End, 05/06/2025 18:03:57
+2025-06-05 18:03:57 PrintController DEBUG Index, Process Started, 05/06/2025 18:03:57
+2025-06-05 18:03:57 PrintController DEBUG Index, Process End, 05/06/2025 18:03:57
+2025-06-05 18:04:37 PrintController DEBUG Index, Process Started, 05/06/2025 18:04:37
+2025-06-05 18:04:37 PrintController DEBUG Index, Process End, 05/06/2025 18:04:37
+2025-06-05 18:04:40 PrintController DEBUG Index, Process Started, 05/06/2025 18:04:40
+2025-06-05 18:04:40 PrintController DEBUG Index, Process End, 05/06/2025 18:04:40
+2025-06-05 18:04:40 PrintController DEBUG Index, Process Started, 05/06/2025 18:04:40
+2025-06-05 18:04:41 PrintController DEBUG Index, Process End, 05/06/2025 18:04:41
+2025-06-05 18:05:13 PrintController DEBUG Index, Process Started, 05/06/2025 18:05:13
+2025-06-05 18:05:13 PrintController DEBUG Index, Process End, 05/06/2025 18:05:13
+2025-06-05 18:06:07 PrintController DEBUG Index, Process Started, 05/06/2025 18:06:07
+2025-06-05 18:06:07 PrintController DEBUG Index, Process End, 05/06/2025 18:06:07
+2025-06-05 18:06:10 PrintController DEBUG Index, Process Started, 05/06/2025 18:06:10
+2025-06-05 18:06:10 PrintController DEBUG Index, Process End, 05/06/2025 18:06:10
+2025-06-05 18:06:10 PrintController DEBUG Index, Process Started, 05/06/2025 18:06:10
+2025-06-05 18:06:10 PrintController DEBUG Index, Process End, 05/06/2025 18:06:10
+2025-06-05 18:06:10 PrintController DEBUG Index, Process Started, 05/06/2025 18:06:10
+2025-06-05 18:06:10 PrintController DEBUG Index, Process End, 05/06/2025 18:06:10
+2025-06-05 18:06:11 PrintController DEBUG Index, Process Started, 05/06/2025 18:06:11
+2025-06-05 18:06:11 PrintController DEBUG Index, Process End, 05/06/2025 18:06:11
+2025-06-05 18:07:07 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:07
+2025-06-05 18:07:07 PrintController DEBUG Index, Process End, 05/06/2025 18:07:07
+2025-06-05 18:07:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:09
+2025-06-05 18:07:09 PrintController DEBUG Index, Process End, 05/06/2025 18:07:09
+2025-06-05 18:07:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:09
+2025-06-05 18:07:09 PrintController DEBUG Index, Process End, 05/06/2025 18:07:09
+2025-06-05 18:07:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:09
+2025-06-05 18:07:09 PrintController DEBUG Index, Process End, 05/06/2025 18:07:09
+2025-06-05 18:07:55 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:55
+2025-06-05 18:07:55 PrintController DEBUG Index, Process End, 05/06/2025 18:07:55
+2025-06-05 18:07:57 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:57
+2025-06-05 18:07:57 PrintController DEBUG Index, Process End, 05/06/2025 18:07:57
+2025-06-05 18:07:57 PrintController DEBUG Index, Process Started, 05/06/2025 18:07:57
+2025-06-05 18:07:58 PrintController DEBUG Index, Process End, 05/06/2025 18:07:58
+2025-06-05 18:09:11 PrintController DEBUG Index, Process Started, 05/06/2025 18:09:11
+2025-06-05 18:09:11 PrintController DEBUG Index, Process End, 05/06/2025 18:09:11
+2025-06-05 18:09:13 PrintController DEBUG Index, Process Started, 05/06/2025 18:09:13
+2025-06-05 18:09:13 PrintController DEBUG Index, Process End, 05/06/2025 18:09:13
+2025-06-05 18:09:13 PrintController DEBUG Index, Process Started, 05/06/2025 18:09:13
+2025-06-05 18:09:13 PrintController DEBUG Index, Process End, 05/06/2025 18:09:13
+2025-06-05 18:09:13 PrintController DEBUG Index, Process Started, 05/06/2025 18:09:13
+2025-06-05 18:09:14 PrintController DEBUG Index, Process End, 05/06/2025 18:09:14
+2025-06-05 18:09:24 PrintController DEBUG Getpartdetail, Process Started, 05/06/2025 18:09:24
+2025-06-05 18:09:24 PrintController DEBUG Getpartdetail, Process End, 05/06/2025 18:09:24
+2025-06-05 18:09:58 PrintController DEBUG Index, Process Started, 05/06/2025 18:09:58
+2025-06-05 18:09:58 PrintController DEBUG Index, Process End, 05/06/2025 18:09:58
+2025-06-05 18:17:34 LoginController DEBUG Index, Process Started, 05/06/2025 18:17:34
+2025-06-05 18:17:34 LoginController DEBUG Index, Process End, 05/06/2025 18:17:34
+2025-06-05 18:17:44 LoginController DEBUG Authorise, Process Started, 05/06/2025 18:17:44
+2025-06-05 18:17:47 LoginController DEBUG Authorise, Process End, 05/06/2025 18:17:47
+2025-06-05 18:18:48 PrintController DEBUG Index, Process Started, 05/06/2025 18:18:48
+2025-06-05 18:18:48 PrintController DEBUG Index, Process End, 05/06/2025 18:18:48
+2025-06-05 18:19:40 PrintController DEBUG Index, Process Started, 05/06/2025 18:19:40
+2025-06-05 18:19:40 PrintController DEBUG Index, Process End, 05/06/2025 18:19:40
+2025-06-05 18:23:23 LoginController DEBUG Index, Process Started, 05/06/2025 18:23:23
+2025-06-05 18:23:23 LoginController DEBUG Index, Process End, 05/06/2025 18:23:23
+2025-06-05 18:24:11 LoginController DEBUG Authorise, Process Started, 05/06/2025 18:24:11
+2025-06-05 18:24:14 LoginController DEBUG Authorise, Process End, 05/06/2025 18:24:14
+2025-06-05 18:24:25 PrintController DEBUG Index, Process Started, 05/06/2025 18:24:25
+2025-06-05 18:24:25 PrintController DEBUG Index, Process End, 05/06/2025 18:24:25
+2025-06-05 18:27:07 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:07
+2025-06-05 18:27:07 PrintController DEBUG Index, Process End, 05/06/2025 18:27:07
+2025-06-05 18:27:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:09
+2025-06-05 18:27:09 PrintController DEBUG Index, Process End, 05/06/2025 18:27:09
+2025-06-05 18:27:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:09
+2025-06-05 18:27:09 PrintController DEBUG Index, Process End, 05/06/2025 18:27:09
+2025-06-05 18:27:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:09
+2025-06-05 18:27:09 PrintController DEBUG Index, Process End, 05/06/2025 18:27:09
+2025-06-05 18:27:10 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:10
+2025-06-05 18:27:10 PrintController DEBUG Index, Process End, 05/06/2025 18:27:10
+2025-06-05 18:27:49 PrintController DEBUG Index, Process Started, 05/06/2025 18:27:49
+2025-06-05 18:27:49 PrintController DEBUG Index, Process End, 05/06/2025 18:27:49
+2025-06-05 18:29:05 PrintController DEBUG Index, Process Started, 05/06/2025 18:29:05
+2025-06-05 18:29:05 PrintController DEBUG Index, Process End, 05/06/2025 18:29:05
+2025-06-05 18:29:08 PrintController DEBUG Index, Process Started, 05/06/2025 18:29:08
+2025-06-05 18:29:08 PrintController DEBUG Index, Process End, 05/06/2025 18:29:08
+2025-06-05 18:29:08 PrintController DEBUG Index, Process Started, 05/06/2025 18:29:08
+2025-06-05 18:29:08 PrintController DEBUG Index, Process End, 05/06/2025 18:29:08
+2025-06-05 18:29:08 PrintController DEBUG Index, Process Started, 05/06/2025 18:29:08
+2025-06-05 18:29:08 PrintController DEBUG Index, Process End, 05/06/2025 18:29:08
+2025-06-05 18:30:02 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:02
+2025-06-05 18:30:02 PrintController DEBUG Index, Process End, 05/06/2025 18:30:02
+2025-06-05 18:30:04 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:04
+2025-06-05 18:30:04 PrintController DEBUG Index, Process End, 05/06/2025 18:30:04
+2025-06-05 18:30:04 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:04
+2025-06-05 18:30:04 PrintController DEBUG Index, Process End, 05/06/2025 18:30:04
+2025-06-05 18:30:04 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:04
+2025-06-05 18:30:05 PrintController DEBUG Index, Process End, 05/06/2025 18:30:05
+2025-06-05 18:30:48 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:48
+2025-06-05 18:30:48 PrintController DEBUG Index, Process End, 05/06/2025 18:30:48
+2025-06-05 18:30:50 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:50
+2025-06-05 18:30:50 PrintController DEBUG Index, Process End, 05/06/2025 18:30:50
+2025-06-05 18:30:51 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:51
+2025-06-05 18:30:51 PrintController DEBUG Index, Process End, 05/06/2025 18:30:51
+2025-06-05 18:30:51 PrintController DEBUG Index, Process Started, 05/06/2025 18:30:51
+2025-06-05 18:30:51 PrintController DEBUG Index, Process End, 05/06/2025 18:30:51
+2025-06-05 18:31:09 PrintController DEBUG Index, Process Started, 05/06/2025 18:31:09
+2025-06-05 18:31:09 PrintController DEBUG Index, Process End, 05/06/2025 18:31:09
+2025-06-05 18:31:11 PrintController DEBUG Index, Process Started, 05/06/2025 18:31:11
+2025-06-05 18:31:11 PrintController DEBUG Index, Process End, 05/06/2025 18:31:11
+2025-06-05 18:31:11 PrintController DEBUG Index, Process Started, 05/06/2025 18:31:11
+2025-06-05 18:31:11 PrintController DEBUG Index, Process End, 05/06/2025 18:31:11
+2025-06-05 18:31:11 PrintController DEBUG Index, Process Started, 05/06/2025 18:31:11
+2025-06-05 18:31:11 PrintController DEBUG Index, Process End, 05/06/2025 18:31:11
+2025-06-05 18:32:21 PrintController DEBUG Index, Process Started, 05/06/2025 18:32:21
+2025-06-05 18:32:21 PrintController DEBUG Index, Process End, 05/06/2025 18:32:21

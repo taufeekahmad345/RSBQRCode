@@ -1,0 +1,74 @@
+﻿@model DF_WebModule.Classes.Dashboard
+@{
+    ViewBag.Title = "Blankpage";
+}
+<div class="container" style="max-width:100%">
+
+    <div class="row" style="background:border-box">
+
+        @*<img src="@Url.Action("GenerateImage", "Home")" alt="Image with text" />*@
+        @*<h1 style=" text-align: center; margin: 150px; font-family: sans-serif;">WELCOME To RSB</h1>*@
+
+        <img class="login-logo" src="~/Content/Images/Backgroundimage.jpg" style="width:100%">
+
+    </div>
+</div>
+@*<div class="container" style="max-width:100%">
+    <div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+        <div class="col-sm-12 col-lg-12" style="margin:auto">
+            <h4 style="color: aliceblue; text-align:center">Dashboard</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-lg-6 col-md-6">
+            <div class="row" style="padding-left:15px;">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <label class="control-label">
+                        From Date:
+                    </label>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control form-control-sm datepicker" value="@Model.From" id="minstampdate" type="text" placeholder="dd/mm/yyyy">
+
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <label class="control-label" ">
+                        To Date:
+                    </label>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <input class="form-control form-control-sm datepicker" value="@Model.To" id="maxstampdate" type="text" placeholder="dd/mm/yyyy">
+
+
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <button id="search" type="button" class="btn btn-primary" style="background: #007bff; border-color: #018798; height:35px;">Search</button>
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+            <div class="box">
+                <div class="box-body table-responsive-lg" style="margin-top: -25px;">
+                    <div id="ValidationdetailsTable">
+                        @Html.Raw(Model.UserList)
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>*@
+        <script>
+            $("#minstampdate").datepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+            });
+            $("#maxstampdate").datepicker({
+                format: 'dd/mm/yyyy',
+                autoclose: true,
+            });
+        </script>
+

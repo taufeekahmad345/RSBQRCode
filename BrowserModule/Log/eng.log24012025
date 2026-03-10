@@ -1,0 +1,88 @@
+2025-01-24 15:17:50 LoginController DEBUG Index, Process Started, 24/01/2025 15:17:50
+2025-01-24 15:17:51 LoginController DEBUG Index, Process End, 24/01/2025 15:17:51
+2025-01-24 15:18:09 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:18:09
+2025-01-24 15:18:21 LoginController DEBUG Authorise, Process End, 24/01/2025 15:18:21
+2025-01-24 15:33:38 LoginController DEBUG Index, Process Started, 24/01/2025 15:33:38
+2025-01-24 15:33:39 LoginController DEBUG Index, Process End, 24/01/2025 15:33:39
+2025-01-24 15:34:02 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:34:02
+2025-01-24 15:34:08 LoginController DEBUG Authorise, Process End, 24/01/2025 15:34:08
+2025-01-24 15:39:50 LoginController DEBUG Index, Process Started, 24/01/2025 15:39:50
+2025-01-24 15:39:50 LoginController DEBUG Index, Process End, 24/01/2025 15:39:50
+2025-01-24 15:43:38 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:43:38
+2025-01-24 15:43:46 LoginController DEBUG Authorise, Process End, 24/01/2025 15:43:46
+2025-01-24 15:46:24 LoginController DEBUG Index, Process Started, 24/01/2025 15:46:24
+2025-01-24 15:46:24 LoginController DEBUG Index, Process End, 24/01/2025 15:46:24
+2025-01-24 15:46:36 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:46:36
+2025-01-24 15:46:47 LoginController DEBUG Authorise, Process End, 24/01/2025 15:46:47
+2025-01-24 15:51:12 LoginController DEBUG Index, Process Started, 24/01/2025 15:51:12
+2025-01-24 15:51:12 LoginController DEBUG Index, Process End, 24/01/2025 15:51:12
+2025-01-24 15:51:26 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:51:26
+2025-01-24 15:51:36 LoginController DEBUG Authorise, Process End, 24/01/2025 15:51:36
+2025-01-24 15:55:06 LoginController DEBUG Index, Process Started, 24/01/2025 15:55:06
+2025-01-24 15:55:06 LoginController DEBUG Index, Process End, 24/01/2025 15:55:06
+2025-01-24 15:56:22 LoginController DEBUG Authorise, Process Started, 24/01/2025 15:56:22
+2025-01-24 15:56:31 LoginController DEBUG Authorise, Process End, 24/01/2025 15:56:31
+2025-01-24 16:22:36 LoginController DEBUG Index, Process Started, 24/01/2025 16:22:36
+2025-01-24 16:22:36 LoginController DEBUG Index, Process End, 24/01/2025 16:22:36
+2025-01-24 16:24:16 LoginController DEBUG Authorise, Process Started, 24/01/2025 16:24:16
+2025-01-24 16:24:18 LoginController ERROR Error Thrown during : The type 'Edm.String' of the member 'DEsp_Target' in the conceptual side type 'Engineering_DBModel.DayWisescheduling' does not match with the type 'System.Int32' of the member 'DEsp_Target' on the object side type 'DF_WebModule.DBModel.DayWisescheduling'., Index, 24/01/2025 16:24:18,   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.ValidateMembersMatch(EdmMember edmMember, EdmMember objectMember)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, MappingBase& map)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, MappingBase& map)
+   at System.Data.Entity.Core.Mapping.DefaultObjectMappingItemCollection.TryGetMap(GlobalItem item, MappingBase& map)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.TryGetMap(GlobalItem item, DataSpace dataSpace, MappingBase& map)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.TryGetEdmSpaceType[T](T objectSpaceType, T& edmSpaceType)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetEdmSpaceType[T](T objectSpaceType)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetEdmSpaceType(StructuralType objectSpaceType)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataOptimization.UpdateEntitySetMappings()
+   at System.Data.Entity.Core.Metadata.Edm.MetadataOptimization.TryUpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.UpdateEntitySetMappingsForType(Type entityType)
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\BrowserModule\BrowserModule\Controllers\LoginController.cs:line 119
+2025-01-24 16:24:23 LoginController DEBUG Authorise, Process End, 24/01/2025 16:24:23
+2025-01-24 16:27:42 LoginController DEBUG Index, Process Started, 24/01/2025 16:27:42
+2025-01-24 16:27:42 LoginController DEBUG Index, Process End, 24/01/2025 16:27:42
+2025-01-24 16:49:19 LoginController DEBUG Index, Process Started, 24/01/2025 16:49:19
+2025-01-24 16:49:19 LoginController DEBUG Index, Process End, 24/01/2025 16:49:19
+2025-01-24 16:49:37 LoginController DEBUG Authorise, Process Started, 24/01/2025 16:49:37
+2025-01-24 16:49:46 LoginController DEBUG Authorise, Process End, 24/01/2025 16:49:46
+2025-01-24 16:52:16 LoginController DEBUG Index, Process Started, 24/01/2025 16:52:16
+2025-01-24 16:52:17 LoginController DEBUG Index, Process End, 24/01/2025 16:52:17
+2025-01-24 16:52:45 LoginController DEBUG Index, Process Started, 24/01/2025 16:52:45
+2025-01-24 16:52:45 LoginController DEBUG Index, Process End, 24/01/2025 16:52:45
+2025-01-24 16:52:54 LoginController DEBUG Authorise, Process Started, 24/01/2025 16:52:54
+2025-01-24 16:53:03 LoginController DEBUG Authorise, Process End, 24/01/2025 16:53:03
+2025-01-24 17:03:46 LoginController DEBUG Index, Process Started, 24/01/2025 17:03:46
+2025-01-24 17:03:46 LoginController DEBUG Index, Process End, 24/01/2025 17:03:46
+2025-01-24 17:09:28 LoginController DEBUG Index, Process Started, 24/01/2025 17:09:27
+2025-01-24 17:09:28 LoginController DEBUG Index, Process End, 24/01/2025 17:09:28
+2025-01-24 17:09:55 LoginController DEBUG Authorise, Process Started, 24/01/2025 17:09:55
+2025-01-24 17:10:06 LoginController DEBUG Authorise, Process End, 24/01/2025 17:10:06
+2025-01-24 17:14:22 LoginController DEBUG Index, Process Started, 24/01/2025 17:14:22
+2025-01-24 17:14:22 LoginController DEBUG Index, Process End, 24/01/2025 17:14:22
+2025-01-24 17:14:36 LoginController DEBUG Authorise, Process Started, 24/01/2025 17:14:36
+2025-01-24 17:14:45 LoginController DEBUG Authorise, Process End, 24/01/2025 17:14:45
+2025-01-24 17:18:43 LoginController DEBUG Index, Process Started, 24/01/2025 17:18:43
+2025-01-24 17:18:43 LoginController DEBUG Index, Process End, 24/01/2025 17:18:43
+2025-01-24 18:07:10 LoginController DEBUG Index, Process Started, 24/01/2025 18:07:09
+2025-01-24 18:07:10 LoginController DEBUG Index, Process End, 24/01/2025 18:07:10
+2025-01-24 18:10:44 LoginController DEBUG Authorise, Process Started, 24/01/2025 18:10:44
+2025-01-24 18:10:55 LoginController DEBUG Authorise, Process End, 24/01/2025 18:10:55
+2025-01-24 18:22:26 LoginController DEBUG Index, Process Started, 24/01/2025 18:22:26
+2025-01-24 18:22:26 LoginController DEBUG Index, Process End, 24/01/2025 18:22:26
+2025-01-24 18:22:46 LoginController DEBUG Authorise, Process Started, 24/01/2025 18:22:46
+2025-01-24 18:22:57 LoginController DEBUG Authorise, Process End, 24/01/2025 18:22:57
+2025-01-24 18:27:37 LoginController DEBUG Index, Process Started, 24/01/2025 18:27:37
+2025-01-24 18:27:37 LoginController DEBUG Index, Process End, 24/01/2025 18:27:37
+2025-01-24 18:28:41 LoginController DEBUG Authorise, Process Started, 24/01/2025 18:28:41
+2025-01-24 18:28:50 LoginController DEBUG Authorise, Process End, 24/01/2025 18:28:50
+2025-01-24 18:35:45 LoginController DEBUG Index, Process Started, 24/01/2025 18:35:45
+2025-01-24 18:35:45 LoginController DEBUG Index, Process End, 24/01/2025 18:35:45
+2025-01-24 18:36:05 LoginController DEBUG Authorise, Process Started, 24/01/2025 18:36:05
+2025-01-24 18:36:11 LoginController DEBUG Authorise, Process End, 24/01/2025 18:36:11

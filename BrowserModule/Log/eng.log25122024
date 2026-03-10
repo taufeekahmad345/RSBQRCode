@@ -1,0 +1,521 @@
+2024-12-25 18:30:41 LoginController DEBUG Index, Process Started, 25/12/2024 18:30:41
+2024-12-25 18:30:41 LoginController DEBUG Index, Process End, 25/12/2024 18:30:41
+2024-12-25 18:30:51 LoginController DEBUG Authorise, Process Started, 25/12/2024 18:30:51
+2024-12-25 18:30:59 LoginController DEBUG Authorise, Process End, 25/12/2024 18:30:59
+2024-12-25 18:31:10 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:31:10
+2024-12-25 18:31:10 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:31:10
+2024-12-25 18:31:14 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:31:14
+2024-12-25 18:31:14 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:31:14
+2024-12-25 18:31:48 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:31:48
+2024-12-25 18:31:48 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:31:48
+2024-12-25 18:31:48 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:31:48
+2024-12-25 18:31:48 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:31:48
+2024-12-25 18:32:18 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:32:18
+2024-12-25 18:32:18 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:32:18
+2024-12-25 18:32:18 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:32:18
+2024-12-25 18:32:18 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:32:18
+2024-12-25 18:33:07 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:33:07
+2024-12-25 18:33:07 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:33:07
+2024-12-25 18:33:07 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:33:07
+2024-12-25 18:33:07 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:33:07
+2024-12-25 18:34:28 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:34:28
+2024-12-25 18:34:28 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:34:28
+2024-12-25 18:34:28 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:34:28
+2024-12-25 18:34:28 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:34:28
+2024-12-25 18:34:36 HomeController DEBUG Index, Process Started, 25/12/2024 18:34:36
+2024-12-25 18:34:39 HomeController DEBUG Index, Process End, 25/12/2024 18:34:39
+2024-12-25 18:35:26 HomeController DEBUG Index, Process Started, 25/12/2024 18:35:26
+2024-12-25 18:35:26 HomeController DEBUG Index, Process End, 25/12/2024 18:35:26
+2024-12-25 18:35:47 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:35:47
+2024-12-25 18:35:47 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:35:47
+2024-12-25 18:35:47 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:35:47
+2024-12-25 18:35:47 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:35:47
+2024-12-25 18:41:45 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:41:45
+2024-12-25 18:41:45 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:41:45
+2024-12-25 18:41:45 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:41:45
+2024-12-25 18:41:45 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:41:45
+2024-12-25 18:42:29 ProductValidationController DEBUG Index, Process Started, 25/12/2024 18:42:29
+2024-12-25 18:42:29 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 18:42:29
+2024-12-25 18:42:29 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 18:42:29
+2024-12-25 18:42:29 ProductValidationController DEBUG Index, Process End, 25/12/2024 18:42:29
+2024-12-25 19:06:42 LoginController DEBUG Index, Process Started, 25/12/2024 19:06:42
+2024-12-25 19:06:42 LoginController DEBUG Index, Process End, 25/12/2024 19:06:42
+2024-12-25 19:06:57 LoginController DEBUG Authorise, Process Started, 25/12/2024 19:06:57
+2024-12-25 19:07:05 LoginController DEBUG Authorise, Process End, 25/12/2024 19:07:05
+2024-12-25 19:07:14 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:07:14
+2024-12-25 19:07:15 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:07:15
+2024-12-25 19:07:18 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:07:18
+2024-12-25 19:07:18 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:07:18
+2024-12-25 19:07:51 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:07:51
+2024-12-25 19:07:51 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:07:51
+2024-12-25 19:07:51 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:07:51
+2024-12-25 19:07:51 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:07:51
+2024-12-25 19:09:03 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:09:03
+2024-12-25 19:09:03 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:09:03
+2024-12-25 19:09:03 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:09:03
+2024-12-25 19:09:03 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:09:03
+2024-12-25 19:10:22 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:10:22
+2024-12-25 19:10:23 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:10:23
+2024-12-25 19:10:23 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:10:23
+2024-12-25 19:10:23 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:10:23
+2024-12-25 19:12:51 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:12:51
+2024-12-25 19:12:51 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:12:51
+2024-12-25 19:12:51 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:12:51
+2024-12-25 19:12:51 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:12:51
+2024-12-25 19:12:53 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:12:53
+2024-12-25 19:12:54 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:12:54
+2024-12-25 19:12:54 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:12:54
+2024-12-25 19:12:55 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:12:55
+2024-12-25 19:12:55 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:12:55
+2024-12-25 19:13:25 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:13:25
+2024-12-25 19:13:25 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:13:25
+2024-12-25 19:13:25 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:13:25
+2024-12-25 19:13:25 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:13:25
+2024-12-25 19:13:50 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:13:50
+2024-12-25 19:13:50 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:13:50
+2024-12-25 19:13:50 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:13:50
+2024-12-25 19:13:50 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:13:50
+2024-12-25 19:13:53 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:13:53
+2024-12-25 19:13:53 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:13:53
+2024-12-25 19:13:54 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:13:54
+2024-12-25 19:13:54 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:13:54
+2024-12-25 19:13:54 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:13:54
+2024-12-25 19:13:54 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:13:54
+2024-12-25 19:14:45 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:14:45
+2024-12-25 19:14:45 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:14:45
+2024-12-25 19:14:45 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:14:45
+2024-12-25 19:14:45 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:14:45
+2024-12-25 19:14:47 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:14:47
+2024-12-25 19:14:47 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:14:47
+2024-12-25 19:14:47 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:14:47
+2024-12-25 19:14:47 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:14:47
+2024-12-25 19:14:47 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:14:47
+2024-12-25 19:14:48 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:14:48
+2024-12-25 19:14:48 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:14:48
+2024-12-25 19:15:25 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:15:25
+2024-12-25 19:15:25 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:15:25
+2024-12-25 19:15:25 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:15:25
+2024-12-25 19:15:25 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:15:25
+2024-12-25 19:15:57 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:15:57
+2024-12-25 19:15:57 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:15:57
+2024-12-25 19:15:57 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:15:57
+2024-12-25 19:15:57 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:15:57
+2024-12-25 19:15:59 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:15:59
+2024-12-25 19:15:59 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:15:59
+2024-12-25 19:15:59 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:15:59
+2024-12-25 19:15:59 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:15:59
+2024-12-25 19:16:02 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:02
+2024-12-25 19:16:02 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:02
+2024-12-25 19:16:02 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:02
+2024-12-25 19:16:02 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:02
+2024-12-25 19:16:03 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:03
+2024-12-25 19:16:03 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:03
+2024-12-25 19:16:20 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:20
+2024-12-25 19:16:20 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:20
+2024-12-25 19:16:20 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:20
+2024-12-25 19:16:20 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:20
+2024-12-25 19:16:22 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:22
+2024-12-25 19:16:22 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:22
+2024-12-25 19:16:22 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:22
+2024-12-25 19:16:22 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:22
+2024-12-25 19:16:23 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:23
+2024-12-25 19:16:23 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:23
+2024-12-25 19:16:23 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:23
+2024-12-25 19:16:23 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:23
+2024-12-25 19:16:56 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:16:56
+2024-12-25 19:16:56 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:16:56
+2024-12-25 19:16:56 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:16:56
+2024-12-25 19:16:56 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:16:56
+2024-12-25 19:17:14 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:17:14
+2024-12-25 19:17:14 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:17:14
+2024-12-25 19:17:14 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:17:14
+2024-12-25 19:17:14 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:17:14
+2024-12-25 19:17:39 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:17:39
+2024-12-25 19:17:39 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:17:39
+2024-12-25 19:17:39 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:17:39
+2024-12-25 19:17:39 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:17:39
+2024-12-25 19:18:40 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:18:40
+2024-12-25 19:18:40 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:18:40
+2024-12-25 19:18:40 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:18:40
+2024-12-25 19:18:40 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:18:40
+2024-12-25 19:18:42 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:18:42
+2024-12-25 19:18:43 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:18:43
+2024-12-25 19:18:43 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:18:43
+2024-12-25 19:18:43 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:18:43
+2024-12-25 19:19:14 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:19:14
+2024-12-25 19:19:14 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:19:14
+2024-12-25 19:19:14 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:19:14
+2024-12-25 19:19:14 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:19:14
+2024-12-25 19:20:27 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:20:27
+2024-12-25 19:20:27 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:20:27
+2024-12-25 19:20:27 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:20:27
+2024-12-25 19:20:27 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:20:27
+2024-12-25 19:20:29 ProductValidationController DEBUG Index, Process Started, 25/12/2024 19:20:29
+2024-12-25 19:20:30 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 19:20:30
+2024-12-25 19:20:30 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 19:20:30
+2024-12-25 19:20:30 ProductValidationController DEBUG Index, Process End, 25/12/2024 19:20:30
+2024-12-25 19:21:10 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 19:21:10
+2024-12-25 19:21:10 AutoFillExcelController ERROR Type : 1
+2024-12-25 19:21:10 AutoFillExcelController ERROR Shift : B
+2024-12-25 19:21:10 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 19:21:10 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 19:21:10 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 19:21:10
+2024-12-25 19:21:10 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 19:21:10
+2024-12-25 19:21:10 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 19:21:28 AutoFillExcelController ERROR Error Thrown during : The process cannot access the file 'D:\Programs\New folder\file7.xlsx' because it is being used by another process., ViewExcelData, 25/12/2024 19:21:28,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 152
+2024-12-25 19:21:28 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 19:21:28
+2024-12-25 19:21:30 LoginController DEBUG LogOut, Process Started, 25/12/2024 19:21:30
+2024-12-25 19:21:30 LoginController DEBUG LogOut, Process Started, 25/12/2024 19:21:30
+2024-12-25 19:21:30 LoginController DEBUG Index, Process Started, 25/12/2024 19:21:30
+2024-12-25 19:21:30 LoginController DEBUG Index, Process End, 25/12/2024 19:21:30
+2024-12-25 19:21:36 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 19:21:36
+2024-12-25 19:21:36 AutoFillExcelController ERROR Type : 1
+2024-12-25 19:21:36 AutoFillExcelController ERROR Shift : B
+2024-12-25 19:21:36 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 19:21:36 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 19:21:36 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 19:21:36
+2024-12-25 19:21:36 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 19:21:36
+2024-12-25 19:21:36 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:10:43 LoginController DEBUG Index, Process Started, 25/12/2024 20:10:43
+2024-12-25 20:10:43 LoginController DEBUG Index, Process End, 25/12/2024 20:10:43
+2024-12-25 20:10:54 LoginController DEBUG Authorise, Process Started, 25/12/2024 20:10:54
+2024-12-25 20:10:59 LoginController DEBUG Authorise, Process End, 25/12/2024 20:10:59
+2024-12-25 20:11:32 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:11:32
+2024-12-25 20:11:32 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:11:32 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:11:32 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:11:32 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:11:32 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:11:32
+2024-12-25 20:11:32 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:11:32
+2024-12-25 20:11:32 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:11:50 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:11:50
+2024-12-25 20:16:24 LoginController DEBUG Index, Process Started, 25/12/2024 20:16:24
+2024-12-25 20:16:24 LoginController DEBUG Index, Process End, 25/12/2024 20:16:24
+2024-12-25 20:16:35 LoginController DEBUG Authorise, Process Started, 25/12/2024 20:16:35
+2024-12-25 20:16:44 LoginController DEBUG Authorise, Process End, 25/12/2024 20:16:44
+2024-12-25 20:17:14 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:17:14
+2024-12-25 20:17:14 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:17:14 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:17:14 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:17:14 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:17:14 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:17:14
+2024-12-25 20:17:14 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:17:14
+2024-12-25 20:17:14 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:19:42 LoginController DEBUG Index, Process Started, 25/12/2024 20:19:42
+2024-12-25 20:19:42 LoginController DEBUG Index, Process End, 25/12/2024 20:19:42
+2024-12-25 20:19:58 LoginController DEBUG Authorise, Process Started, 25/12/2024 20:19:58
+2024-12-25 20:20:05 LoginController DEBUG Authorise, Process End, 25/12/2024 20:20:05
+2024-12-25 20:20:38 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:20:38
+2024-12-25 20:20:38 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:20:38 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:20:38 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:20:38 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:20:39 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:20:39
+2024-12-25 20:20:39 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:20:39
+2024-12-25 20:20:39 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:21:06 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:21:06
+2024-12-25 20:22:44 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:22:44
+2024-12-25 20:22:44 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:22:44 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:22:44 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:22:44 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:22:44 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:22:44
+2024-12-25 20:22:44 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:22:44
+2024-12-25 20:22:44 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:22:53 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:22:53
+2024-12-25 20:23:18 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:23:18
+2024-12-25 20:23:18 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:23:18 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:23:18 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:23:18 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:23:18 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:23:18
+2024-12-25 20:23:18 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:23:18
+2024-12-25 20:23:18 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:23:34 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:23:34
+2024-12-25 20:31:12 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:31:12
+2024-12-25 20:31:12 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:31:12 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:31:12 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:31:12 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:31:12 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:31:12
+2024-12-25 20:31:12 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:31:12
+2024-12-25 20:31:12 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:31:20 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:31:20
+2024-12-25 20:35:35 LoginController DEBUG Index, Process Started, 25/12/2024 20:35:35
+2024-12-25 20:35:35 LoginController DEBUG Index, Process End, 25/12/2024 20:35:35
+2024-12-25 20:35:52 LoginController DEBUG Authorise, Process Started, 25/12/2024 20:35:52
+2024-12-25 20:36:01 LoginController DEBUG Authorise, Process End, 25/12/2024 20:36:01
+2024-12-25 20:36:31 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:36:31
+2024-12-25 20:36:31 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:36:31 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:36:31 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:36:31 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:36:31 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:36:31
+2024-12-25 20:36:31 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:36:31
+2024-12-25 20:36:31 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:36:47 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:36:47
+2024-12-25 20:37:57 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:37:57
+2024-12-25 20:37:57 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:37:57 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:37:57 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:37:57 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:37:57 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:37:57
+2024-12-25 20:37:57 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:37:57
+2024-12-25 20:37:57 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:38:05 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:38:05
+2024-12-25 20:40:33 LoginController DEBUG Index, Process Started, 25/12/2024 20:40:33
+2024-12-25 20:40:33 LoginController DEBUG Index, Process End, 25/12/2024 20:40:33
+2024-12-25 20:41:07 LoginController DEBUG Authorise, Process Started, 25/12/2024 20:41:07
+2024-12-25 20:41:13 LoginController DEBUG Authorise, Process End, 25/12/2024 20:41:13
+2024-12-25 20:42:00 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:42:00
+2024-12-25 20:42:00 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:42:00 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:42:00 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:42:00 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:42:00 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:42:00
+2024-12-25 20:42:00 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:42:00
+2024-12-25 20:42:00 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:42:21 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:42:21
+2024-12-25 20:44:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:44:45
+2024-12-25 20:44:45 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:44:45 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:44:45 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:44:45 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:44:45 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:44:45
+2024-12-25 20:44:45 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:44:45
+2024-12-25 20:44:45 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:44:58 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:44:58
+2024-12-25 20:46:49 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:46:49
+2024-12-25 20:46:49 AutoFillExcelController ERROR Type : 1
+2024-12-25 20:46:49 AutoFillExcelController ERROR Shift : B
+2024-12-25 20:46:49 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 20:46:49 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 20:46:49 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 20:46:49
+2024-12-25 20:46:49 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 20:46:49
+2024-12-25 20:46:49 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 20:46:54 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 20:46:54
+2024-12-25 20:51:14 EngineeringController DEBUG Index, Process Started, 25/12/2024 20:51:14
+2024-12-25 20:51:14 EngineeringController DEBUG GetEngineerinItems, Process Started, 25/12/2024 20:51:14
+2024-12-25 20:51:14 EngineeringController DEBUG GetEngineerinItems, Process End, 25/12/2024 20:51:14
+2024-12-25 20:51:17 EngineeringController DEBUG Index, Process End, 25/12/2024 20:51:17
+2024-12-25 21:00:05 EngineeringController DEBUG Index, Process Started, 25/12/2024 21:00:05
+2024-12-25 21:00:05 EngineeringController DEBUG GetEngineerinItems, Process Started, 25/12/2024 21:00:05
+2024-12-25 21:00:05 EngineeringController DEBUG GetEngineerinItems, Process End, 25/12/2024 21:00:05
+2024-12-25 21:00:05 EngineeringController DEBUG Index, Process End, 25/12/2024 21:00:05
+2024-12-25 21:00:26 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 21:00:26
+2024-12-25 21:00:26 AutoFillExcelController ERROR Type : 1
+2024-12-25 21:00:26 AutoFillExcelController ERROR Shift : B
+2024-12-25 21:00:26 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 21:00:26 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 21:00:26 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 21:00:26
+2024-12-25 21:00:26 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 21:00:26
+2024-12-25 21:00:26 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 21:00:30 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 21:00:30
+2024-12-25 22:47:03 LoginController DEBUG Index, Process Started, 25/12/2024 22:47:03
+2024-12-25 22:47:03 LoginController DEBUG Index, Process End, 25/12/2024 22:47:03
+2024-12-25 22:47:13 LoginController DEBUG Authorise, Process Started, 25/12/2024 22:47:13
+2024-12-25 22:47:21 LoginController DEBUG Authorise, Process End, 25/12/2024 22:47:21
+2024-12-25 22:48:16 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 22:48:16
+2024-12-25 22:48:18 AutoFillExcelController ERROR Type : 1
+2024-12-25 22:48:18 AutoFillExcelController ERROR Shift : B
+2024-12-25 22:48:18 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 22:48:18 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 22:48:18 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 22:48:18
+2024-12-25 22:48:18 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 22:48:18
+2024-12-25 22:48:18 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 22:49:13 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 22:49:13
+2024-12-25 22:49:47 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 22:49:47
+2024-12-25 22:50:18 AutoFillExcelController ERROR Type : 1
+2024-12-25 22:50:19 AutoFillExcelController ERROR Shift : B
+2024-12-25 22:50:19 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 22:50:20 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 22:50:25 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 22:50:25
+2024-12-25 22:50:25 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 22:50:25
+2024-12-25 22:50:25 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 22:52:30 LoginController DEBUG Index, Process Started, 25/12/2024 22:52:30
+2024-12-25 22:52:30 LoginController DEBUG Index, Process End, 25/12/2024 22:52:30
+2024-12-25 22:53:15 LoginController DEBUG Authorise, Process Started, 25/12/2024 22:53:15
+2024-12-25 22:53:23 LoginController DEBUG Authorise, Process End, 25/12/2024 22:53:23
+2024-12-25 22:53:56 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 22:53:56
+2024-12-25 22:59:31 LoginController DEBUG Index, Process Started, 25/12/2024 22:59:31
+2024-12-25 22:59:31 LoginController DEBUG Index, Process End, 25/12/2024 22:59:31
+2024-12-25 22:59:44 LoginController DEBUG Authorise, Process Started, 25/12/2024 22:59:44
+2024-12-25 22:59:51 LoginController DEBUG Authorise, Process End, 25/12/2024 22:59:51
+2024-12-25 23:00:19 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:00:19
+2024-12-25 23:00:19 AutoFillExcelController ERROR Type : 1
+2024-12-25 23:00:19 AutoFillExcelController ERROR Shift : B
+2024-12-25 23:00:19 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-25 23:00:19 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-25 23:00:19 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 23:00:19
+2024-12-25 23:00:19 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 23:00:19
+2024-12-25 23:00:19 AutoFillExcelController ERROR All Column Count : 24
+2024-12-25 23:00:34 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:00:34
+2024-12-25 23:06:54 LoginController DEBUG Index, Process Started, 25/12/2024 23:06:54
+2024-12-25 23:06:54 LoginController DEBUG Index, Process End, 25/12/2024 23:06:54
+2024-12-25 23:07:04 LoginController DEBUG Authorise, Process Started, 25/12/2024 23:07:04
+2024-12-25 23:07:12 LoginController DEBUG Authorise, Process End, 25/12/2024 23:07:12
+2024-12-25 23:07:41 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:07:41
+2024-12-25 23:08:00 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:08:00
+2024-12-25 23:10:52 LoginController DEBUG Index, Process Started, 25/12/2024 23:10:52
+2024-12-25 23:10:52 LoginController DEBUG Index, Process End, 25/12/2024 23:10:52
+2024-12-25 23:12:32 LoginController DEBUG Authorise, Process Started, 25/12/2024 23:12:32
+2024-12-25 23:12:40 LoginController DEBUG Authorise, Process End, 25/12/2024 23:12:40
+2024-12-25 23:13:55 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:13:55
+2024-12-25 23:13:56 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:13:56
+2024-12-25 23:18:28 LoginController DEBUG Index, Process Started, 25/12/2024 23:18:28
+2024-12-25 23:18:28 LoginController DEBUG Index, Process End, 25/12/2024 23:18:28
+2024-12-25 23:18:47 LoginController DEBUG Authorise, Process Started, 25/12/2024 23:18:47
+2024-12-25 23:18:55 LoginController DEBUG Authorise, Process End, 25/12/2024 23:18:55
+2024-12-25 23:19:17 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:19:17
+2024-12-25 23:19:52 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:19:52
+2024-12-25 23:22:04 LoginController DEBUG Index, Process Started, 25/12/2024 23:22:04
+2024-12-25 23:22:04 LoginController DEBUG Index, Process End, 25/12/2024 23:22:04
+2024-12-25 23:22:14 LoginController DEBUG Authorise, Process Started, 25/12/2024 23:22:14
+2024-12-25 23:22:22 LoginController DEBUG Authorise, Process End, 25/12/2024 23:22:22
+2024-12-25 23:22:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:22:45
+2024-12-25 23:22:47 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:22:47
+2024-12-25 23:22:56 EngineeringController DEBUG Index, Process Started, 25/12/2024 23:22:56
+2024-12-25 23:22:56 EngineeringController DEBUG GetEngineerinItems, Process Started, 25/12/2024 23:22:56
+2024-12-25 23:22:56 EngineeringController DEBUG GetEngineerinItems, Process End, 25/12/2024 23:22:56
+2024-12-25 23:22:59 EngineeringController DEBUG Index, Process End, 25/12/2024 23:22:59
+2024-12-25 23:23:17 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:23:17
+2024-12-25 23:23:19 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:23:19
+2024-12-25 23:23:39 EngineeringController DEBUG Index, Process Started, 25/12/2024 23:23:39
+2024-12-25 23:23:39 EngineeringController DEBUG GetEngineerinItems, Process Started, 25/12/2024 23:23:39
+2024-12-25 23:23:40 EngineeringController DEBUG GetEngineerinItems, Process End, 25/12/2024 23:23:40
+2024-12-25 23:23:40 EngineeringController DEBUG Index, Process End, 25/12/2024 23:23:40
+2024-12-25 23:23:42 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:23:42
+2024-12-25 23:23:42 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:23:42
+2024-12-25 23:23:45 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:23:45
+2024-12-25 23:23:45 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:23:45
+2024-12-25 23:23:51 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:23:51
+2024-12-25 23:23:51 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:23:51
+2024-12-25 23:24:20 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:24:20
+2024-12-25 23:24:20 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:24:20
+2024-12-25 23:24:20 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:24:20
+2024-12-25 23:24:20 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:24:20
+2024-12-25 23:24:44 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:24:44
+2024-12-25 23:24:44 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:24:44
+2024-12-25 23:24:53 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:24:53
+2024-12-25 23:24:53 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:24:53
+2024-12-25 23:24:53 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:24:53
+2024-12-25 23:24:53 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:24:53
+2024-12-25 23:25:01 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:25:01
+2024-12-25 23:25:02 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:25:02
+2024-12-25 23:25:02 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:25:02
+2024-12-25 23:25:02 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:25:02
+2024-12-25 23:25:17 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:25:17
+2024-12-25 23:25:17 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:25:17
+2024-12-25 23:25:17 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:25:17
+2024-12-25 23:25:17 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:25:17
+2024-12-25 23:25:23 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:25:23
+2024-12-25 23:25:23 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:25:23
+2024-12-25 23:25:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:25:45
+2024-12-25 23:25:56 AutoFillExcelController ERROR Type : 3
+2024-12-25 23:25:56 AutoFillExcelController ERROR Shift : C
+2024-12-25 23:25:57 AutoFillExcelController ERROR PartNo : FEA32300
+2024-12-25 23:25:57 AutoFillExcelController ERROR Date : 25/12/2024
+2024-12-25 23:28:37 AutoFillExcelController ERROR Data not found Thrown during : ExcelData, 25/12/2024 23:28:37
+2024-12-25 23:28:37 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:28:37
+2024-12-25 23:28:37 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:28:37
+2024-12-25 23:28:47 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:28:47
+2024-12-25 23:28:47 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:28:47
+2024-12-25 23:28:47 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:28:47
+2024-12-25 23:28:47 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:28:47
+2024-12-25 23:28:53 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:28:53
+2024-12-25 23:28:53 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:28:53
+2024-12-25 23:28:53 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:28:53
+2024-12-25 23:28:53 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:28:53
+2024-12-25 23:29:25 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:29:25
+2024-12-25 23:29:26 AutoFillExcelController ERROR Type : 3
+2024-12-25 23:29:26 AutoFillExcelController ERROR Shift : C
+2024-12-25 23:29:26 AutoFillExcelController ERROR PartNo : FEA32300
+2024-12-25 23:29:26 AutoFillExcelController ERROR Date : 25/12/2024
+2024-12-25 23:29:26 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 23:29:26
+2024-12-25 23:29:26 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 23:29:26
+2024-12-25 23:29:26 AutoFillExcelController ERROR All Column Count : 23
+2024-12-25 23:29:33 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:29:33
+2024-12-25 23:31:03 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:31:03
+2024-12-25 23:31:04 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:31:04
+2024-12-25 23:31:04 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:31:04
+2024-12-25 23:31:04 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:31:04
+2024-12-25 23:31:10 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:31:10
+2024-12-25 23:31:10 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:31:10
+2024-12-25 23:31:10 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:31:10
+2024-12-25 23:31:10 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:31:10
+2024-12-25 23:31:16 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:31:16
+2024-12-25 23:31:16 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:31:16
+2024-12-25 23:31:16 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:31:16
+2024-12-25 23:31:16 ProductValidationController DEBUG ValidateProduct, Process Started, 25/12/2024 23:31:16
+2024-12-25 23:31:35 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:31:35
+2024-12-25 23:31:40 AutoFillExcelController ERROR Type : 3
+2024-12-25 23:31:40 AutoFillExcelController ERROR Shift : C
+2024-12-25 23:31:40 AutoFillExcelController ERROR PartNo : FEA32300
+2024-12-25 23:31:40 AutoFillExcelController ERROR Date : 25/12/2024
+2024-12-25 23:31:40 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 23:31:40
+2024-12-25 23:31:40 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 23:31:40
+2024-12-25 23:31:40 AutoFillExcelController ERROR All Column Count : 23
+2024-12-25 23:31:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:31:45
+2024-12-25 23:35:22 ProductValidationController DEBUG Index, Process Started, 25/12/2024 23:35:22
+2024-12-25 23:35:22 ProductValidationController DEBUG GetValidatedData, Process Started, 25/12/2024 23:35:22
+2024-12-25 23:35:22 ProductValidationController DEBUG GetValidatedData, Process End, 25/12/2024 23:35:22
+2024-12-25 23:35:22 ProductValidationController DEBUG Index, Process End, 25/12/2024 23:35:22
+2024-12-25 23:35:27 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:35:27
+2024-12-25 23:35:27 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:35:27
+2024-12-25 23:40:39 LoginController DEBUG Index, Process Started, 25/12/2024 23:40:39
+2024-12-25 23:40:39 LoginController DEBUG Index, Process End, 25/12/2024 23:40:39
+2024-12-25 23:40:52 LoginController DEBUG Authorise, Process Started, 25/12/2024 23:40:52
+2024-12-25 23:40:59 LoginController DEBUG Authorise, Process End, 25/12/2024 23:40:59
+2024-12-25 23:41:28 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:41:28
+2024-12-25 23:41:29 AutoFillExcelController ERROR Type : 3
+2024-12-25 23:41:29 AutoFillExcelController ERROR Shift : C
+2024-12-25 23:41:29 AutoFillExcelController ERROR PartNo : FEA32300
+2024-12-25 23:41:29 AutoFillExcelController ERROR Date : 25/12/2024
+2024-12-25 23:41:29 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 25/12/2024 23:41:29
+2024-12-25 23:41:29 AutoFillExcelController DEBUG GetAllColumndata, Process End, 25/12/2024 23:41:29
+2024-12-25 23:41:29 AutoFillExcelController ERROR All Column Count : 23
+2024-12-25 23:41:35 AutoFillExcelController DEBUG ViewExcelData, Process Started, 25/12/2024 23:41:35
+2024-12-25 23:45:46 EngineeringController DEBUG GetDatabyPartNo, Process Started, 25/12/2024 23:45:46
+2024-12-25 23:45:49 EngineeringController DEBUG GetDatabyPartNo, Process End, 25/12/2024 23:45:49

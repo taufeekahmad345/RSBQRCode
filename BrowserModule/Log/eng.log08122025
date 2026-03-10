@@ -1,0 +1,259 @@
+2025-12-08 12:30:43 LoginController DEBUG Index, Process Started, 08/12/2025 12:30:43
+2025-12-08 12:30:43 LoginController DEBUG Index, Process End, 08/12/2025 12:30:43
+2025-12-08 12:33:57 LoginController DEBUG Index, Process Started, 08/12/2025 12:33:57
+2025-12-08 12:33:57 LoginController DEBUG Index, Process End, 08/12/2025 12:33:57
+2025-12-08 12:34:10 LoginController DEBUG Authorise, Process Started, 08/12/2025 12:34:10
+2025-12-08 12:34:13 LoginController DEBUG Authorise, Process End, 08/12/2025 12:34:13
+2025-12-08 12:34:20 LoginController DEBUG Authorise, Process Started, 08/12/2025 12:34:20
+2025-12-08 12:34:20 LoginController DEBUG Authorise, Process End, 08/12/2025 12:34:20
+2025-12-08 12:34:30 PrintController DEBUG Index, Process Started, 08/12/2025 12:34:30
+2025-12-08 12:34:30 PrintController DEBUG Index, Process End, 08/12/2025 12:34:30
+2025-12-08 12:35:11 PrintController DEBUG Index, Process Started, 08/12/2025 12:35:11
+2025-12-08 12:35:11 PrintController DEBUG Index, Process End, 08/12/2025 12:35:11
+2025-12-08 12:35:13 PrintController DEBUG Index, Process Started, 08/12/2025 12:35:13
+2025-12-08 12:35:13 PrintController DEBUG Index, Process End, 08/12/2025 12:35:13
+2025-12-08 12:35:13 PrintController DEBUG Index, Process Started, 08/12/2025 12:35:13
+2025-12-08 12:35:13 PrintController DEBUG Index, Process End, 08/12/2025 12:35:13
+2025-12-08 12:35:13 PrintController DEBUG Index, Process Started, 08/12/2025 12:35:13
+2025-12-08 12:35:13 PrintController DEBUG Index, Process End, 08/12/2025 12:35:13
+2025-12-08 12:35:37 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 12:35:37
+2025-12-08 12:37:39 LoginController DEBUG Index, Process Started, 08/12/2025 12:37:39
+2025-12-08 12:37:39 LoginController DEBUG Index, Process End, 08/12/2025 12:37:39
+2025-12-08 12:37:50 LoginController DEBUG Authorise, Process Started, 08/12/2025 12:37:50
+2025-12-08 12:37:53 LoginController DEBUG Authorise, Process End, 08/12/2025 12:37:53
+2025-12-08 12:37:58 LoginController DEBUG Authorise, Process Started, 08/12/2025 12:37:58
+2025-12-08 12:37:59 LoginController DEBUG Authorise, Process End, 08/12/2025 12:37:59
+2025-12-08 12:38:19 PartManagementController DEBUG Index, Process Started, 08/12/2025 12:38:19
+2025-12-08 12:38:22 PartManagementController DEBUG Index, Process End, 08/12/2025 12:38:22
+2025-12-08 12:38:35 PrintController DEBUG Index, Process Started, 08/12/2025 12:38:35
+2025-12-08 12:38:35 PrintController DEBUG Index, Process End, 08/12/2025 12:38:35
+2025-12-08 12:38:45 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 12:38:45
+2025-12-08 12:38:45 PrintController DEBUG PrintScannedCode, Ended, 08/12/2025 12:38:45
+2025-12-08 12:38:56 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 12:38:56
+2025-12-08 12:39:52 PrintController DEBUG PrintScannedCode, Ended, 08/12/2025 12:39:52
+2025-12-08 12:39:54 PrintController DEBUG Index, Process Started, 08/12/2025 12:39:54
+2025-12-08 12:39:54 PrintController DEBUG Index, Process End, 08/12/2025 12:39:54
+2025-12-08 12:40:10 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 12:40:10
+2025-12-08 12:40:13 PrintController INFO  TypeOfPart : Rear
+2025-12-08 12:40:28 PrintController INFO  Bacode Scanned ZPL Text : ^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00218941100110>64312>;3451225941100^FS
+^FO50,160
+^A0N,30,38
+^FDLPT 2823 RDE 68 NS C 5.6L G750 Std Cx Testing Rear 432^FS
+^XZ
+
+2025-12-08 12:40:37 PrintController DEBUG PrintScannedCode, Ended, 08/12/2025 12:40:37
+2025-12-08 12:40:41 PrintController DEBUG Index, Process Started, 08/12/2025 12:40:41
+2025-12-08 12:40:41 PrintController DEBUG Index, Process End, 08/12/2025 12:40:41
+2025-12-08 12:41:26 PrintController DEBUG Index, Process Started, 08/12/2025 12:41:26
+2025-12-08 12:41:26 PrintController DEBUG Index, Process End, 08/12/2025 12:41:26
+2025-12-08 12:42:31 PrintController DEBUG Index, Process Started, 08/12/2025 12:42:31
+2025-12-08 12:42:31 PrintController DEBUG Index, Process End, 08/12/2025 12:42:31
+2025-12-08 12:42:33 PrintController DEBUG Index, Process Started, 08/12/2025 12:42:33
+2025-12-08 12:42:33 PrintController DEBUG Index, Process End, 08/12/2025 12:42:33
+2025-12-08 12:42:33 PrintController DEBUG Index, Process Started, 08/12/2025 12:42:33
+2025-12-08 12:42:33 PrintController DEBUG Index, Process End, 08/12/2025 12:42:33
+2025-12-08 12:42:33 PrintController DEBUG Index, Process Started, 08/12/2025 12:42:33
+2025-12-08 12:42:33 PrintController DEBUG Index, Process End, 08/12/2025 12:42:33
+2025-12-08 12:42:34 PrintController DEBUG Index, Process Started, 08/12/2025 12:42:34
+2025-12-08 12:42:34 PrintController DEBUG Index, Process End, 08/12/2025 12:42:34
+2025-12-08 12:42:41 PrintController DEBUG PrintHoldQRCode, Process Started, 08/12/2025 12:42:41
+2025-12-08 12:42:41 PrintController ERROR Error Thrown: Could not find file 'D:\Ahmad\lebel.txt'., PrintHoldQRCode, 08/12/2025 12:42:41,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at DF_WebModule.Controllers.PrintController.PrintHoldQRCode() in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 810
+2025-12-08 12:42:41 PrintController DEBUG PrintHoldQRCode, Process End, 08/12/2025 12:42:41
+2025-12-08 12:43:32 PrintController DEBUG Index, Process Started, 08/12/2025 12:43:32
+2025-12-08 12:43:32 PrintController DEBUG Index, Process End, 08/12/2025 12:43:32
+2025-12-08 12:43:35 PrintController DEBUG Index, Process Started, 08/12/2025 12:43:35
+2025-12-08 12:43:35 PrintController DEBUG Index, Process End, 08/12/2025 12:43:35
+2025-12-08 12:43:35 PrintController DEBUG Index, Process Started, 08/12/2025 12:43:35
+2025-12-08 12:43:35 PrintController DEBUG Index, Process End, 08/12/2025 12:43:35
+2025-12-08 12:43:35 PrintController DEBUG Index, Process Started, 08/12/2025 12:43:35
+2025-12-08 12:43:35 PrintController DEBUG Index, Process End, 08/12/2025 12:43:35
+2025-12-08 12:43:39 PartManagementController DEBUG Index, Process Started, 08/12/2025 12:43:39
+2025-12-08 12:43:39 PartManagementController DEBUG Index, Process End, 08/12/2025 12:43:39
+2025-12-08 12:43:47 PrintController DEBUG Index, Process Started, 08/12/2025 12:43:47
+2025-12-08 12:43:47 PrintController DEBUG Index, Process End, 08/12/2025 12:43:47
+2025-12-08 12:44:03 PrintController DEBUG Getpartdetail, Process Started, 08/12/2025 12:44:03
+2025-12-08 12:44:03 PrintController DEBUG Getpartdetail, Process End, 08/12/2025 12:44:03
+2025-12-08 12:44:13 PrintController DEBUG PrintQRCode, Process Started, 08/12/2025 12:44:13
+2025-12-08 12:44:13 PrintController INFO  TypeOfPart : Front
+2025-12-08 12:44:13 PrintController INFO  Printer Name : Test
+2025-12-08 12:44:13 PrintController INFO  QR ZPL Text : ^XA
+^MD27
+^FO40,50
+^BXN,5,200
+^FD516041110106Rev No65 123451225025001^FS
+^FO170,70
+^A0N,30,30
+^FD516041110106Rev No65 123451225025001 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 3523 RDE 68 NS C 5.6L G950 Std Cx Front JT Test L 9876^FS
+^XZ
+^XA
+^MD27
+^FO40,50
+^BXN,5,200
+^FD516041110106Rev No65 123451225025002^FS
+^FO170,70
+^A0N,30,30
+^FD516041110106Rev No65 123451225025002 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDLPT 3523 RDE 68 NS C 5.6L G950 Std Cx Front JT Test L 9876^FS
+^XZ
+
+2025-12-08 12:44:13 PrintController DEBUG PrintQRCode, Process End, 08/12/2025 12:44:13
+2025-12-08 12:47:41 PrintController DEBUG Index, Process Started, 08/12/2025 12:47:41
+2025-12-08 12:47:41 PrintController DEBUG Index, Process End, 08/12/2025 12:47:41
+2025-12-08 12:47:47 PrintController DEBUG PrintHoldQRCode, Process Started, 08/12/2025 12:47:47
+2025-12-08 12:48:33 PrintController ERROR Error Thrown: Could not find file 'D:\Ahmad\lebel.txt'., PrintHoldQRCode, 08/12/2025 12:48:33,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at DF_WebModule.Controllers.PrintController.PrintHoldQRCode() in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 810
+2025-12-08 12:48:33 PrintController DEBUG PrintHoldQRCode, Process End, 08/12/2025 12:48:33
+2025-12-08 12:48:33 PrintController DEBUG Index, Process Started, 08/12/2025 12:48:33
+2025-12-08 12:48:33 PrintController DEBUG Index, Process End, 08/12/2025 12:48:33
+2025-12-08 12:48:37 PrintController DEBUG PrintHoldQRCode, Process Started, 08/12/2025 12:48:37
+2025-12-08 12:48:48 PrintController ERROR Error Thrown: Could not find file 'D:\Ahmad\lebel.txt'., PrintHoldQRCode, 08/12/2025 12:48:48,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at DF_WebModule.Controllers.PrintController.PrintHoldQRCode() in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 810
+2025-12-08 12:48:48 PrintController DEBUG PrintHoldQRCode, Process End, 08/12/2025 12:48:48
+2025-12-08 12:49:26 PrintController DEBUG Index, Process Started, 08/12/2025 12:49:26
+2025-12-08 12:49:26 PrintController DEBUG Index, Process End, 08/12/2025 12:49:26
+2025-12-08 12:50:00 PrintController DEBUG Index, Process Started, 08/12/2025 12:50:00
+2025-12-08 12:50:00 PrintController DEBUG Index, Process End, 08/12/2025 12:50:00
+2025-12-08 12:50:04 PrintController DEBUG PrintHoldQRCode, Process Started, 08/12/2025 12:50:04
+2025-12-08 12:50:54 PrintController INFO  print QR ZPL : ^XA
+^LL560
+^PW240
+^MMT
+^MTT
+^LH0,0
+^LT0
+^MD16
+^FO50,50
+^BQN,2,4
+^FDLA,12345$516841110109$25004$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO18,200
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516841110109$25004$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO50,300
+^BQN,2,4
+^FDLA,12345$516841110109$25004$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO17,450
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516841110109$25004$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^XZ
+^XA
+^LL560
+^PW240
+^MMT
+^MTT
+^LH0,0
+^LT0
+^MD16
+^FO50,50
+^BQN,2,4
+^FDLA,12345$516841110109$25005$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO18,200
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516841110109$25005$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO50,300
+^BQN,2,4
+^FDLA,12345$516841110109$25005$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO17,450
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516841110109$25005$08.12.2025$NA$NA$NA$34$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^XZ
+^XA
+^LL560
+^PW240
+^MMT
+^MTT
+^LH0,0
+^LT0
+^MD16
+^FO50,50
+^BQN,2,4
+^FDLA,12345$516041110106$25001$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO18,200
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516041110106$25001$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO50,300
+^BQN,2,4
+^FDLA,12345$516041110106$25001$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO17,450
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516041110106$25001$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^XZ
+^XA
+^LL560
+^PW240
+^MMT
+^MTT
+^LH0,0
+^LT0
+^MD16
+^FO50,50
+^BQN,2,4
+^FDLA,12345$516041110106$25002$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO18,200
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516041110106$25002$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO50,300
+^BQN,2,4
+^FDLA,12345$516041110106$25002$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^FO17,450
+^A0N,14,14
+^FB220,3,0,C
+^FD12345$516041110106$25002$08.12.2025$NA$NA$NA$65$ASSY.PROP.SHAFT$RSBTRANSMISSION$^FS
+^XZ
+
+2025-12-08 12:51:07 PrintController DEBUG PrintHoldQRCode, Process End, 08/12/2025 12:51:07
+2025-12-08 12:51:08 PrintController DEBUG Index, Process Started, 08/12/2025 12:51:08
+2025-12-08 12:51:08 PrintController DEBUG Index, Process End, 08/12/2025 12:51:08
+2025-12-08 15:46:58 LoginController DEBUG Index, Process Started, 08/12/2025 15:46:58
+2025-12-08 15:46:58 LoginController DEBUG Index, Process End, 08/12/2025 15:46:58
+2025-12-08 15:49:14 LoginController DEBUG Authorise, Process Started, 08/12/2025 15:49:14
+2025-12-08 15:49:17 LoginController DEBUG Authorise, Process End, 08/12/2025 15:49:17
+2025-12-08 15:49:44 PrintController DEBUG Index, Process Started, 08/12/2025 15:49:44
+2025-12-08 15:49:44 PrintController DEBUG Index, Process End, 08/12/2025 15:49:44
+2025-12-08 16:27:04 LoginController DEBUG Index, Process Started, 08/12/2025 16:27:04
+2025-12-08 16:27:04 LoginController DEBUG Index, Process End, 08/12/2025 16:27:04
+2025-12-08 16:32:40 LoginController DEBUG Index, Process Started, 08/12/2025 16:32:40
+2025-12-08 16:32:40 LoginController DEBUG Index, Process End, 08/12/2025 16:32:40
+2025-12-08 16:32:50 LoginController DEBUG Authorise, Process Started, 08/12/2025 16:32:50
+2025-12-08 16:32:53 LoginController DEBUG Authorise, Process End, 08/12/2025 16:32:53
+2025-12-08 16:33:10 PrintController DEBUG Index, Process Started, 08/12/2025 16:33:10
+2025-12-08 16:33:10 PrintController DEBUG Index, Process End, 08/12/2025 16:33:10
+2025-12-08 16:33:20 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 16:33:20
+2025-12-08 16:44:33 LoginController DEBUG Index, Process Started, 08/12/2025 16:44:33
+2025-12-08 16:44:33 LoginController DEBUG Index, Process End, 08/12/2025 16:44:33
+2025-12-08 16:44:50 LoginController DEBUG Authorise, Process Started, 08/12/2025 16:44:50
+2025-12-08 16:44:53 LoginController DEBUG Authorise, Process End, 08/12/2025 16:44:53
+2025-12-08 16:45:06 PrintController DEBUG Index, Process Started, 08/12/2025 16:45:06
+2025-12-08 16:45:06 PrintController DEBUG Index, Process End, 08/12/2025 16:45:06
+2025-12-08 16:45:16 PrintController DEBUG PrintScannedCode, Started, 08/12/2025 16:45:16

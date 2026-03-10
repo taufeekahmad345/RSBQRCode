@@ -1,0 +1,367 @@
+﻿
+@model IEnumerable<DF_WebModule.Classes.Standard>
+<style>
+
+    .truncate {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative; /* Set position to relative for tooltip positioning */
+        cursor: pointer;
+    }
+
+        /* Style the tooltip */
+        .truncate::before {
+            content: attr(title); /* Show the title attribute content */
+            display: none;
+            position: absolute;
+            bottom: -25px; /* Adjust distance from bottom */
+            left: 0;
+            width: auto;
+            background-color: #fff; /* Adjust background color as needed */
+            border: 1px solid #ccc; /* Add border for better visibility */
+            padding: 5px; /* Add padding for better readability */
+            z-index: 9999; /* Ensure it's above other content */
+            white-space: normal; /* Allow multiline text */
+        }
+
+    .links-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #f9f9f9;
+        width: 300px; /* Adjust the width to fit your design */
+    }
+
+    .link-item {
+        padding: 5px;
+        margin: 5px 0;
+        border: 1px solid #ddd;
+        background-color: antiquewhite;
+        cursor: pointer;
+        color: #007bff;
+        text-decoration: none;
+        border-color: black;
+        border-width: 1.5px;
+        text-align: start;
+    }
+
+    .inputlable {
+        text-align: center;
+        background-color: aqua;
+        color: red;
+        width: 235px;
+        height: 40px;
+    }
+
+    .link-item:hover {
+        background-color: #ddd;
+        color: #0056b3;
+    }
+
+    .subitemiso {
+        display: none; /* Hide all subitems by default */
+    }
+
+        .subitemiso.visible {
+            display: block; /* Show subitem when the 'visible' class is added */
+        }
+
+    .subitemin {
+        display: none; /* Hide all subitems by default */
+    }
+
+        .subitemin.visible {
+            display: block; /* Show subitem when the 'visible' class is added */
+        }
+
+    .subitemmanual {
+        display: none; /* Hide all subitems by default */
+    }
+
+        .subitemmanual.visible {
+            display: block; /* Show subitem when the 'visible' class is added */
+        }
+
+
+    .subitem {
+        display: none; /* Hide all subitems by default */
+    }
+
+        .subitem.visible {
+            display: block; /* Show subitem when the 'visible' class is added */
+        }
+
+    .smenu {
+        list-style-type: none;
+    }
+
+    .sparent {
+        cursor: pointer;
+        background-color: antiquewhite;
+        margin: 5px 0;
+    }
+
+        .sparent a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+    .schild {
+        list-style-type: none;
+        padding-left: 20px;
+        display: none; /* Hidden by default */
+    }
+
+        .schild li {
+            padding: 5px;
+            background-color: #e0e0e0;
+        }
+
+            .schild li a {
+                text-decoration: none;
+                color: #333;
+            }
+</style>
+<div class="col-sm-3 col-lg-3">
+
+    @if (Session["Role"] != null && Session["Role"].ToString() == "1")
+    {
+        <input type="text" value="SS/TS Standard" class="inputlable" onclick="AddItems(1)">
+
+        <ul class="smenu" style="padding-inline-start:0px !important">
+            @if (Model.Where(x => x.Type == 1) != null)
+            {
+                var links = Model.Where(x => x.Type == 1);
+                foreach (var link in links)
+                {
+                    <li class="sparent">
+                        <i class="fa fa-plus showoldfronts" title="OLd Item" data-target="subitemid" aria-hidden="true" style="color: darkorange;" id=""></i>
+                        <i data-url="@link.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@link.Name<span style="color:black">- @link.Number - @link.UploadDate</span></i>
+                        <i class="fa fa-edit editfront" title="Edit Item" aria-hidden="true" style="margin-left:30px" id="@link.Id"></i>
+                        <i class="fa fa-trash deletefront" title="Delete Item" aria-hidden="true" style="margin-left: 10px; color: red;" id="@link.Id"></i>
+                        @if (!string.IsNullOrEmpty(link.Description))
+                        {
+                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@link.Description"></i>
+                        }
+                        <ul class="schild" style="display: none;">
+                            @if (link.substandards != null && link.substandards.Count > 0)
+                            {
+
+                                foreach (var sub in link.substandards)
+                                {
+                                    <li class="link-item editfrontlist" id="" style="background: darkgrey;">
+                                        <i data-url="@sub.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@sub.Name<span style="color:black">- @sub.Number - @sub.UploadDate</span></i>
+
+                                        @if (!string.IsNullOrEmpty(sub.Description))
+                                        {
+                                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@sub.Description"></i>
+                                        }
+
+                                    </li>
+                                }
+
+                            }
+
+                        </ul>
+                    </li>
+                }
+            }
+        </ul>
+    }
+    else
+    {
+        <input type="text" value="SS/TS Standard" class="inputlable" readonly>
+        foreach (var link in Model.Where(x => x.Type == 1))
+        {
+            <div class="link-item" data-url="@link.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')">
+                @link.Name <span style="color:black">- @link.Number - @link.UploadDate</span>
+            </div>
+        }
+    }
+
+</div>
+<div class="col-sm-3 col-lg-3">
+    @if (Session["Role"] != null && Session["Role"].ToString() == "1")
+    {
+        <input type="text" value="ISO Standard" onclick="AddItems(2)" class="inputlable">
+        <ul class="menu" style="padding-inline-start:0px !important">
+            @if (Model.Where(x => x.Type == 2) != null)
+            {
+                var isolinks = Model.Where(x => x.Type == 2);
+                foreach (var link in isolinks)
+                {
+                    <li class="parent">
+                        <i class="fa fa-plus showoldfronts" title="OLd Item" data-target="subitemid" aria-hidden="true" style="color: darkorange;" id=""></i>
+                        <i data-url="@link.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@link.Name<span style="color:black">- @link.Number - @link.UploadDate</span></i>
+                        <i class="fa fa-edit editfront" title="Edit Item" aria-hidden="true" style="margin-left:30px" id="@link.Id"></i>
+                        <i class="fa fa-trash deletefront" title="Delete Item" aria-hidden="true" style="margin-left: 10px; color: red;" id="@link.Id"></i>
+                        @if (!string.IsNullOrEmpty(link.Description))
+                        {
+                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@link.Description"></i>
+                        }
+                        <ul class="child" style="display: none;">
+                            @if (link.substandards != null && link.substandards.Count > 0)
+                            {
+
+                                foreach (var sub in link.substandards)
+                                {
+                                    <li class="link-item editfrontlist" id="" style="background: darkgrey;">
+                                        <i data-url="@sub.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@sub.Name<span style="color:black">- @sub.Number - @sub.UploadDate</span></i>
+
+
+
+                                        @if (!string.IsNullOrEmpty(sub.Description))
+                                        {
+                                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@sub.Description"></i>
+                                        }
+
+                                    </li>
+                                }
+
+                            }
+
+                        </ul>
+                    </li>
+                }
+            }
+        </ul>
+    }
+    else
+    {
+        <input type="text" value="ISO Standard" class="inputlable" readonly>
+        foreach (var rlink in Model.Where(x => x.Type == 2))
+        {
+            <div class="link-item" data-url="@rlink.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')">
+
+                @rlink.Name <span style="color:black">- @rlink.Number - @rlink.UploadDate</span>
+            </div>
+        }
+    }
+
+
+</div>
+<div class="col-sm-3 col-lg-3">
+    @if (Session["Role"] != null && Session["Role"].ToString() == "1")
+    {
+        <input type="text" value="DIN Standard" onclick="AddItems(3)" class="inputlable">
+        <ul class="menu" style="padding-inline-start:0px !important">
+            @if (Model.Where(x => x.Type == 3) != null)
+            {
+                var Dinlinks = Model.Where(x => x.Type == 3);
+                foreach (var link in Dinlinks)
+                {
+                    <li class="parent">
+                        <i class="fa fa-plus showoldfronts" title="OLd Item" data-target="subitemid" aria-hidden="true" style="color: darkorange;" id=""></i>
+                        <i data-url="@link.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@link.Name<span style="color:black">- @link.Number - @link.UploadDate</span></i>
+                        <i class="fa fa-edit editfront" title="Edit Item" aria-hidden="true" style="margin-left:30px" id="@link.Id"></i>
+                        <i class="fa fa-trash deletefront" title="Delete Item" aria-hidden="true" style="margin-left: 10px; color: red;" id="@link.Id"></i>
+                        @if (!string.IsNullOrEmpty(link.Description))
+                        {
+                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@link.Description"></i>
+                        }
+                        <ul class="child" style="display: none;">
+                            @if (link.substandards != null && link.substandards.Count > 0)
+                            {
+
+                                foreach (var sub in link.substandards)
+                                {
+                                    <li class="link-item editfrontlist" id="" style="background: darkgrey;">
+                                        <i data-url="@sub.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@sub.Name<span style="color:black">- @sub.Number - @sub.UploadDate</span></i>
+
+                                        @if (!string.IsNullOrEmpty(sub.Description))
+                                        {
+                                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@sub.Description"></i>
+                                        }
+
+                                    </li>
+                                }
+
+                            }
+
+                        </ul>
+                    </li>
+                }
+            }
+        </ul>
+    }
+    else
+    {
+
+        <input type="text" value="IN Standard" class="inputlable" readonly>
+        foreach (var clink in Model.Where(x => x.Type == 3))
+        {
+
+            <div class="link-item" data-url="@clink.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')">
+                @clink.Name <span style="color:black">- @clink.Number - @clink.UploadDate</span>
+            </div>
+        }
+
+    }
+
+</div>
+<div class="col-sm-3 col-lg-3">
+    @if (Session["Role"] != null && Session["Role"].ToString() == "1")
+    {
+        <input type="text" value="MANUAL Standard" onclick="AddItems(4)" class="inputlable">
+        <ul class="menu" style="padding-inline-start:0px !important">
+            @if (Model.Where(x => x.Type == 4) != null)
+            {
+                var manuallinks = Model.Where(x => x.Type == 4);
+                foreach (var link in manuallinks)
+                {
+                    <li class="parent">
+                        <i class="fa fa-plus showoldfronts" title="OLd Item" data-target="subitemid" aria-hidden="true" style="color: darkorange;" id=""></i>
+                        <i data-url="@link.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@link.Name<span style="color:black">- @link.Number - @link.UploadDate</span></i>
+                        <i class="fa fa-edit editfront" title="Edit Item" aria-hidden="true" style="margin-left:30px" id="@link.Id"></i>
+                        <i class="fa fa-trash deletefront" title="Delete Item" aria-hidden="true" style="margin-left: 10px; color: red;" id="@link.Id"></i>
+                        @if (!string.IsNullOrEmpty(link.Description))
+                        {
+                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@link.Description"></i>
+                        }
+                        <ul class="child" style="display: none;">
+                            @if (link.substandards != null && link.substandards.Count > 0)
+                            {
+
+                                foreach (var sub in link.substandards)
+                                {
+                                    <li class="link-item editfrontlist" id="" style="background: darkgrey;">
+                                        <i data-url="@sub.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')" title="Open File" aria-hidden="true">@sub.Name<span style="color:black">- @sub.Number - @sub.UploadDate</span></i>
+
+                                        @if (!string.IsNullOrEmpty(sub.Description))
+                                        {
+                                            <i class="fa fa-eye viewfront" title="View Description" aria-hidden="true" style="margin-left:10px" id="@sub.Description"></i>
+                                        }
+
+                                    </li>
+                                }
+
+                            }
+
+                        </ul>
+                    </li>
+                }
+            }
+        </ul>
+
+    }
+    else
+    {
+        <input type="text" value="MANUAL Standard" class="inputlable" readonly>
+        foreach (var slink in Model.Where(x => x.Type == 4))
+        {
+            <div class="link-item" data-url="@slink.FilePath" onclick="window.open(this.getAttribute('data-url'), '_blank')">
+                @slink.Name <span style="color:black">- @slink.Number - @slink.UploadDate</span>
+            </div>
+        }
+    }
+</div>
+<script>
+    $('.showoldfronts').click(function () {
+        // Find the child menu associated with the clicked icon
+        var childMenu = $(this).closest('li').find('.schild');
+
+        // Toggle visibility of the child menu
+        childMenu.toggle();
+    });
+
+</script>

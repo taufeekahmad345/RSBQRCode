@@ -1,0 +1,52 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/ErrorRedirect.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .logocol {
+            background-color: #ffffff;
+            padding-top: 20px;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container login-container" style="width: 465px;">
+        <div class="row">
+            <div class="col-md-12 formcol">
+                <div class="copyright-container" style="display: block; text-align: center; padding-top: 0px;">
+                    @*<span>
+                        <img src="~/Content/Images/Syml-Logo-220-150.png" alt="" width="94">
+                    </span>*@
+                    <span class="copyright-text">
+                        Copyright 2024
+                    </span>
+
+                </div>
+                <h3 class="login-heading" style="text-align:center; margin: 3rem;">
+                    This page could not be loaded. <br />
+                    Please click on the button below to login again. <br />
+                    If this problem persists contact a member of your IT support team. <br />
+                    Thank you for your patience.
+                </h3>
+                <button class="btn btn-block-login" onclick="location.href='@Url.Action("Logout", "Login")';return false;" type="submit">Return to Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+</html>
+

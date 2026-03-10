@@ -1,0 +1,91 @@
+2025-10-26 17:21:20 LoginController DEBUG Index, Process Started, 26/10/2025 17:21:20
+2025-10-26 17:21:20 LoginController DEBUG Index, Process End, 26/10/2025 17:21:20
+2025-10-26 17:21:36 LoginController DEBUG Authorise, Process Started, 26/10/2025 17:21:36
+2025-10-26 17:21:43 LoginController DEBUG Authorise, Process End, 26/10/2025 17:21:43
+2025-10-26 17:22:13 LoginController DEBUG Authorise, Process Started, 26/10/2025 17:22:13
+2025-10-26 17:22:13 LoginController DEBUG Authorise, Process End, 26/10/2025 17:22:13
+2025-10-26 17:22:37 PrintController DEBUG Index, Process Started, 26/10/2025 17:22:37
+2025-10-26 17:22:38 PrintController DEBUG Index, Process End, 26/10/2025 17:22:38
+2025-10-26 17:22:50 PrintController DEBUG Getpartdetail, Process Started, 26/10/2025 17:22:50
+2025-10-26 17:22:50 PrintController DEBUG Getpartdetail, Process End, 26/10/2025 17:22:50
+2025-10-26 17:23:09 PrintController DEBUG Index, Process Started, 26/10/2025 17:23:09
+2025-10-26 17:23:09 PrintController DEBUG Index, Process End, 26/10/2025 17:23:09
+2025-10-26 17:23:10 PrintController DEBUG Getpartdetail, Process Started, 26/10/2025 17:23:10
+2025-10-26 17:23:10 PrintController DEBUG Getpartdetail, Process End, 26/10/2025 17:23:10
+2025-10-26 17:23:39 PrintController DEBUG Index, Process Started, 26/10/2025 17:23:39
+2025-10-26 17:23:39 PrintController DEBUG Index, Process End, 26/10/2025 17:23:39
+2025-10-26 17:24:55 PrintController DEBUG Index, Process Started, 26/10/2025 17:24:55
+2025-10-26 17:24:55 PrintController DEBUG Index, Process End, 26/10/2025 17:24:55
+2025-10-26 17:24:59 PrintController DEBUG Index, Process Started, 26/10/2025 17:24:59
+2025-10-26 17:24:59 PrintController DEBUG Index, Process End, 26/10/2025 17:24:59
+2025-10-26 17:25:04 PrintController DEBUG Getpartdetail, Process Started, 26/10/2025 17:25:04
+2025-10-26 17:25:04 PrintController DEBUG Getpartdetail, Process End, 26/10/2025 17:25:04
+2025-10-26 17:25:32 PrintController DEBUG Index, Process Started, 26/10/2025 17:25:32
+2025-10-26 17:25:32 PrintController DEBUG Index, Process End, 26/10/2025 17:25:32
+2025-10-26 17:26:00 PrintController DEBUG Index, Process Started, 26/10/2025 17:26:00
+2025-10-26 17:26:00 PrintController DEBUG Index, Process End, 26/10/2025 17:26:00
+2025-10-26 17:26:03 PrintController DEBUG Index, Process Started, 26/10/2025 17:26:03
+2025-10-26 17:26:04 PrintController DEBUG Index, Process End, 26/10/2025 17:26:04
+2025-10-26 17:26:06 PrintController DEBUG Getpartdetail, Process Started, 26/10/2025 17:26:06
+2025-10-26 17:26:06 PrintController DEBUG Getpartdetail, Process End, 26/10/2025 17:26:06
+2025-10-26 17:26:18 PrintController DEBUG DubPrintQRCode, Process Started, 26/10/2025 17:26:18
+2025-10-26 17:26:22 PrintController INFO  Print TYpe : 3
+2025-10-26 17:26:23 PrintController INFO  SLNO : 123
+2025-10-26 17:26:23 PrintController INFO  printer : Test
+2025-10-26 17:26:23 PrintController INFO  Customer : TML
+2025-10-26 17:26:23 PrintController INFO  Part Number : 218941100110
+2025-10-26 17:26:48 PrintController ERROR Error Thrown during Edititem: Could not find a part of the path 'D:\Ahmad\RSB_QRCode\BrowserModule\Uploads\label.txt'., DubPrintQRCode, 26/10/2025 17:26:47,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at DF_WebModule.Controllers.PrintController.DubPrintQRCode(String printer, String customer, String partnumber, Int32 printetype, Int32 slno, DateTime dubdate) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 343
+2025-10-26 17:26:48 PrintController DEBUG DubPrintQRCode, Process End, 26/10/2025 17:26:48
+2025-10-26 17:26:49 PrintController DEBUG Index, Process Started, 26/10/2025 17:26:49
+2025-10-26 17:26:49 PrintController DEBUG Index, Process End, 26/10/2025 17:26:49
+2025-10-26 17:27:19 PrintController DEBUG Index, Process Started, 26/10/2025 17:27:19
+2025-10-26 17:27:19 PrintController DEBUG Index, Process End, 26/10/2025 17:27:19
+2025-10-26 17:27:25 PrintController DEBUG DubPrintQRCode, Process Started, 26/10/2025 17:27:25
+2025-10-26 17:27:25 PrintController INFO  Print TYpe : 3
+2025-10-26 17:27:25 PrintController INFO  SLNO : 123
+2025-10-26 17:27:25 PrintController INFO  printer : Test
+2025-10-26 17:27:25 PrintController INFO  Customer : TML
+2025-10-26 17:27:25 PrintController INFO  Part Number : 218941100110
+2025-10-26 17:28:04 PrintController ERROR Error Thrown during Edititem: Could not find a part of the path 'D:\Ahmad\RSB_QRCode\BrowserModule\Uploads\label.txt'., DubPrintQRCode, 26/10/2025 17:28:04,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at DF_WebModule.Controllers.PrintController.DubPrintQRCode(String printer, String customer, String partnumber, Int32 printetype, Int32 slno, DateTime dubdate) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 343
+2025-10-26 17:28:04 PrintController DEBUG DubPrintQRCode, Process End, 26/10/2025 17:28:04
+2025-10-26 17:29:50 LoginController DEBUG Index, Process Started, 26/10/2025 17:29:50
+2025-10-26 17:29:50 LoginController DEBUG Index, Process End, 26/10/2025 17:29:50
+2025-10-26 17:30:02 LoginController DEBUG Authorise, Process Started, 26/10/2025 17:30:02
+2025-10-26 17:30:09 LoginController DEBUG Authorise, Process End, 26/10/2025 17:30:09
+2025-10-26 17:30:15 LoginController DEBUG Authorise, Process Started, 26/10/2025 17:30:15
+2025-10-26 17:30:16 LoginController DEBUG Authorise, Process End, 26/10/2025 17:30:16
+2025-10-26 17:30:26 PrintController DEBUG Index, Process Started, 26/10/2025 17:30:26
+2025-10-26 17:30:26 PrintController DEBUG Index, Process End, 26/10/2025 17:30:26
+2025-10-26 17:30:38 PrintController DEBUG Getpartdetail, Process Started, 26/10/2025 17:30:38
+2025-10-26 17:30:38 PrintController DEBUG Getpartdetail, Process End, 26/10/2025 17:30:38
+2025-10-26 17:30:51 PrintController DEBUG DubPrintQRCode, Process Started, 26/10/2025 17:30:51
+2025-10-26 17:30:51 PrintController INFO  Print TYpe : 3
+2025-10-26 17:30:51 PrintController INFO  SLNO : 345
+2025-10-26 17:30:51 PrintController INFO  printer : Test
+2025-10-26 17:30:51 PrintController INFO  Customer : TML
+2025-10-26 17:30:51 PrintController INFO  Part Number : 218941100110
+2025-10-26 17:31:05 PrintController ERROR Error Thrown during Edititem: Could not find file 'D:\Ahmad\label.txt'., DubPrintQRCode, 26/10/2025 17:31:05,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at DF_WebModule.Controllers.PrintController.DubPrintQRCode(String printer, String customer, String partnumber, Int32 printetype, Int32 slno, DateTime dubdate) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 343
+2025-10-26 17:31:05 PrintController DEBUG DubPrintQRCode, Process End, 26/10/2025 17:31:05
+2025-10-26 17:31:07 PrintController DEBUG Index, Process Started, 26/10/2025 17:31:07
+2025-10-26 17:31:07 PrintController DEBUG Index, Process End, 26/10/2025 17:31:07
+2025-10-26 17:31:21 PrintController DEBUG DubPrintQRCode, Process Started, 26/10/2025 17:31:21
+2025-10-26 17:31:21 PrintController INFO  Print TYpe : 3
+2025-10-26 17:31:21 PrintController INFO  SLNO : 345
+2025-10-26 17:31:21 PrintController INFO  printer : Test
+2025-10-26 17:31:21 PrintController INFO  Customer : TML
+2025-10-26 17:31:21 PrintController INFO  Part Number : 218941100110

@@ -1,0 +1,78 @@
+2025-08-18 11:53:51 LoginController DEBUG Index, Process Started, 18/08/2025 11:53:51
+2025-08-18 11:53:51 LoginController DEBUG Index, Process End, 18/08/2025 11:53:51
+2025-08-18 11:55:40 LoginController DEBUG Index, Process Started, 18/08/2025 11:55:40
+2025-08-18 11:55:40 LoginController DEBUG Index, Process End, 18/08/2025 11:55:40
+2025-08-18 11:55:52 LoginController DEBUG Authorise, Process Started, 18/08/2025 11:55:52
+2025-08-18 11:55:58 LoginController DEBUG Authorise, Process End, 18/08/2025 11:55:58
+2025-08-18 11:56:11 PrintController DEBUG Index, Process Started, 18/08/2025 11:56:11
+2025-08-18 11:56:36 PrintController DEBUG Index, Process End, 18/08/2025 11:56:36
+2025-08-18 11:57:09 PrintController DEBUG Index, Process Started, 18/08/2025 11:57:09
+2025-08-18 11:57:18 PrintController DEBUG Index, Process End, 18/08/2025 11:57:18
+2025-08-18 11:57:25 PrintController DEBUG Getpartdetail, Process Started, 18/08/2025 11:57:25
+2025-08-18 11:57:25 PrintController DEBUG Getpartdetail, Process End, 18/08/2025 11:57:25
+2025-08-18 11:57:31 PrintController DEBUG PrintQRCode, Process Started, 18/08/2025 11:57:31
+2025-08-18 11:57:31 PrintController INFO  TypeOfPart : 1
+2025-08-18 11:57:31 PrintController DEBUG PrintQRCode, Process End, 18/08/2025 11:57:31
+2025-08-18 11:57:53 PrintController DEBUG Index, Process Started, 18/08/2025 11:57:53
+2025-08-18 11:57:53 PrintController DEBUG Index, Process End, 18/08/2025 11:57:53
+2025-08-18 11:58:01 PrintController DEBUG PrintQRCode, Process Started, 18/08/2025 11:58:01
+2025-08-18 11:58:30 PrintController INFO  TypeOfPart : 1
+2025-08-18 12:01:08 LoginController DEBUG Index, Process Started, 18/08/2025 12:01:08
+2025-08-18 12:01:08 LoginController DEBUG Index, Process End, 18/08/2025 12:01:08
+2025-08-18 12:01:20 LoginController DEBUG Authorise, Process Started, 18/08/2025 12:01:20
+2025-08-18 12:01:22 LoginController DEBUG Authorise, Process End, 18/08/2025 12:01:22
+2025-08-18 12:01:33 PrintController DEBUG Index, Process Started, 18/08/2025 12:01:33
+2025-08-18 12:01:33 PrintController DEBUG Index, Process End, 18/08/2025 12:01:33
+2025-08-18 12:01:45 PrintController DEBUG Getpartdetail, Process Started, 18/08/2025 12:01:45
+2025-08-18 12:01:45 PrintController DEBUG Getpartdetail, Process End, 18/08/2025 12:01:45
+2025-08-18 12:02:01 PrintController DEBUG PrintQRCode, Process Started, 18/08/2025 12:02:01
+2025-08-18 12:02:01 PrintController INFO  TypeOfPart : 1
+2025-08-18 12:02:21 PrintController INFO  QR ZPL Text : ^XA
+^MD25
+^FO50,50
+^BXN,5,200
+^FD0050284111010234123450825025006^FS
+^FO180,70
+^A0N,30,30
+^FD0050284111010234123450825025006^FS
+^FO180,100
+^A0,N,26,26
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx  1 JT Test L 223^FS
+^XZ
+
+2025-08-18 12:02:28 PrintController DEBUG PrintQRCode, Process End, 18/08/2025 12:02:28
+2025-08-18 12:02:30 PrintController DEBUG Index, Process Started, 18/08/2025 12:02:30
+2025-08-18 12:02:30 PrintController DEBUG Index, Process End, 18/08/2025 12:02:30
+2025-08-18 12:02:41 PrintController DEBUG Getpartdetail, Process Started, 18/08/2025 12:02:41
+2025-08-18 12:02:41 PrintController DEBUG Getpartdetail, Process End, 18/08/2025 12:02:41
+2025-08-18 12:02:57 PrintController DEBUG PrintQRCode, Process Started, 18/08/2025 12:02:57
+2025-08-18 12:03:10 PrintController INFO  TypeOfPart : 1
+2025-08-18 12:03:40 PrintController INFO  Final ZPL Command:
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3450825025007^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test 1 223^FS
+^XZ
+^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3450825025008^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test 1 223^FS
+^XZ
+
+2025-08-18 12:03:46 PrintController DEBUG PrintQRCode, Process End, 18/08/2025 12:03:46
+2025-08-18 12:03:48 PrintController DEBUG Index, Process Started, 18/08/2025 12:03:48
+2025-08-18 12:03:48 PrintController DEBUG Index, Process End, 18/08/2025 12:03:48
+2025-08-18 16:58:58 LoginController DEBUG Index, Process Started, 18/08/2025 16:58:58
+2025-08-18 16:58:58 LoginController DEBUG Index, Process End, 18/08/2025 16:58:58
+2025-08-18 16:59:33 LoginController DEBUG Authorise, Process Started, 18/08/2025 16:59:33
+2025-08-18 16:59:37 LoginController DEBUG Authorise, Process End, 18/08/2025 16:59:37
+2025-08-18 16:59:50 PrintController DEBUG Index, Process Started, 18/08/2025 16:59:50
+2025-08-18 16:59:51 PrintController DEBUG Index, Process End, 18/08/2025 16:59:51

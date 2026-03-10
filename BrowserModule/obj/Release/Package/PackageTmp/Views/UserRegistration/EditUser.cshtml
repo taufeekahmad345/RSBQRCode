@@ -1,0 +1,259 @@
+﻿@model DF_WebModule.Models.UserDetailsModel
+
+@using (Html.BeginForm("EditUserDetail", "UserRegistration", FormMethod.Post, new { id = "EditUserDetail" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+
+    <div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+        <div class="col-sm-12 col-lg-12" style="margin:auto">
+            <h4 style="color: aliceblue;">Edit User Detail</h4>
+        </div>
+    </div>
+    @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @style="display:none", id = "userid" } })
+<div class="row TablePanel">
+    <div class="col-sm-12 col-lg-8">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-12" })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-warning" })
+
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control fontsize", id = "name" } })
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control fontsize", id = "mobile" } })
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control fontsize", id = "email" } })
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label" })
+                @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-warning" })
+                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control fontsize", id = "username" } })
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-warning" })
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control fontsize", id = "password" } })
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.ValidationMessageFor(model => model.RoleId, "", new { @class = "text-warning" })
+                @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "control-label col-md-6" })
+                @{
+                    List<SelectListItem> role = new List<SelectListItem>();
+                    role.Add(new SelectListItem
+                    {
+                        Text = "Super Admin",
+                        Value = "1",
+                    });
+                    role.Add(new SelectListItem
+                    {
+                        Text = "Admin",
+                        Value = "2",
+                    });
+                    role.Add(new SelectListItem
+                    {
+                        Text = "Operater",
+                        Value = "3",
+                    });
+                    //foreach (var item in Model.roles)
+                    //{
+                    //    role.Add(new SelectListItem
+                    //    {
+                    //        Text = item.Name,
+                    //        Value = item.Id.ToString(),
+                    //    });
+
+
+                    //}
+                }
+
+                @Html.DropDownListFor(model => model.RoleId, role, "Select Role", new { @class = "form-control fontsize", @id = "selectrole" })
+            </div>
+
+        </div>
+
+      
+        <div class="row" style=" float: left; margin-top: 30px;">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <input value="Save" id="AddNewUser" type="button" class="btn btn-success" />
+
+                <input id="Cancel" type="button" value="Cancel" class="btn btn-danger" />
+            </div>
+        </div>
+    </div>
+   
+    </div>
+
+
+</div>
+
+
+
+ 
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+}
+<script>
+    $("#AddNewUser").click(function() {
+        debugger
+        var menu = new Array();
+        var item = {};
+        var document = new Array();
+        var columnlist = new Array();
+        item.Id = $("#userid").val();
+        item.Name = $("#name").val();
+        item.Mobile = $("#mobile").val();
+        item.Email = $("#email").val();
+        item.RoleId = $("#selectrole").val();
+        item.UserName = $("#username").val();
+        item.Password = $("#password").val();
+        //$("#columnlist TBODY TR").each(function () {
+        //    var checkbox = $(this).find("td").find('input[type="checkbox"]:checked').val();
+        //    if (checkbox == "true") {
+        //        var row = $(this);
+        //        columnlist.push(row.find("TD").eq(2).html());
+
+        //    }
+        //});
+        //$("#menulisttable TBODY TR").each(function () {
+        //    var checkbox = $(this).find("td").find('input[type="checkbox"]:checked').val();
+        //    if (checkbox == "true") {
+        //        var row = $(this);
+        //        var item = {};
+        //        item.MenuName = row.find("TD").eq(1).html();
+        //        item.Id = row.find("TD").eq(2).html();
+        //        menu.push(item);
+        //    }
+        //});
+        //$("#documentlist TBODY TR").each(function () {
+        //    var checkbox = $(this).find("td").find('input[type="checkbox"]:checked').val();
+        //    if (checkbox == "true") {
+        //        var row = $(this);
+        //        document.push(row.find("TD").eq(2).html());
+
+        //    }
+        //});
+
+        //if (menu.length < 1) {
+        //    $.confirm({
+        //        title: 'Unable to save User Detail',
+        //        content: "Please select atleast one menu",
+        //        //content: 'Unable to save patient, please can you check your fields',
+        //        type: 'red',
+        //        typeAnimated: true,
+        //        buttons: {
+        //            Okay: {
+        //                text: 'Okay'
+        //            }
+        //        }
+        //    });
+        //}
+        //else {
+            var post = { item }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditUserDetail", "UserRegistration")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (data) {
+                    if (!data.success) {
+                        $("#loading").removeClass("in");
+                        $(".modal-backdrop").remove();
+                        $('body').removeClass('modal-open');
+                        $('body').css('padding-right', '');
+                        $("#loading").hide();
+                        $.confirm({
+                            title: 'Unable to save User Detail',
+                            content: data.responseText,
+                            //content: 'Unable to save patient, please can you check your fields',
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay'
+                                }
+                            }
+                        });
+                    } else {
+                        $("#loading").removeClass("in");
+                        $(".modal-backdrop").remove();
+                        $('body').removeClass('modal-open');
+                        $('body').css('padding-right', '');
+                        $("#loading").hide();
+                        $.confirm({
+                            title: 'Successful added',
+                            content: data.responseText,
+                            type: 'green',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+                                    action: function () {
+                                        window.location.href = "@Url.Action("Index", "UserRegistration")";
+                                    }
+                                }
+                            }
+                        });
+                    }
+
+                },
+                error: function (data) {
+                    $("#loading").removeClass("in");
+                    $(".modal-backdrop").remove();
+                    $('body').removeClass('modal-open');
+                    $('body').css('padding-right', '');
+                    $("#loading").hide();
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        
+
+    });
+
+      $('#Cancel').click(function () {
+        $.confirm({
+            title: 'Cancel new Item',
+            content: 'Are you sure you want to cancel the adding of a new User?',
+            type: 'red',
+            typeAnimated: true,
+            buttons: {
+                Okay: {
+                    text: 'Yes',
+                    btnClass: 'btn-red',
+                    action: function () {
+                        window.location.href = "@Url.Action("Index","UserRegistration")";
+                    }
+                },
+                Cancel: {
+                    text: 'No',
+                    btnClass: 'btn-green'
+                }
+            }
+        });
+    });
+</script>

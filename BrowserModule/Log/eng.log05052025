@@ -1,0 +1,14 @@
+2025-05-05 17:38:46 LoginController DEBUG Index, Process Started, 05/05/2025 17:38:46
+2025-05-05 17:38:46 LoginController DEBUG Index, Process End, 05/05/2025 17:38:46
+2025-05-05 17:39:28 LoginController DEBUG Authorise, Process Started, 05/05/2025 17:39:28
+2025-05-05 17:39:32 LoginController DEBUG Authorise, Process End, 05/05/2025 17:39:32
+2025-05-05 17:39:44 PrintController DEBUG Index, Process Started, 05/05/2025 17:39:44
+2025-05-05 17:39:44 PrintController DEBUG Index, Process End, 05/05/2025 17:39:44
+2025-05-05 17:39:53 PrintController DEBUG Getpartdetail, Process Started, 05/05/2025 17:39:53
+2025-05-05 17:39:53 PrintController DEBUG Getpartdetail, Process End, 05/05/2025 17:39:53
+2025-05-05 17:40:03 PrintController DEBUG PrintQRCode, Process Started, 05/05/2025 17:40:03
+2025-05-05 17:40:03 PrintController INFO  Print TYpe : 3
+2025-05-05 17:40:03 PrintController INFO  Print Count : 5
+2025-05-05 17:40:03 PrintController INFO  printer : OneNote for Windows 10
+2025-05-05 17:40:03 PrintController INFO  Customer : TML
+2025-05-05 17:40:03 PrintController INFO  Part Number : 218941100110

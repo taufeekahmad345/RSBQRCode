@@ -1,0 +1,48 @@
+﻿
+@{
+
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DF+ Browser Module</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body class="text-center">
+
+    @using (Html.BeginForm("AdminAuthorise", "Admin", FormMethod.Post, new { @class = "form-signin", @id = "loginform" }))
+    {
+        @Html.AntiForgeryToken()
+        //@Model.ReturnUrl(model => model.ReturnUrl)
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <img class="login-logo" src="~/Content/Images/Syml-Header-Logo.png" alt="" width="250">
+        <h1 class="h3 mb-3 font-weight-normal">Page Not Found</h1>
+       
+        <p class="mt-5 mb-3">&copy; @DateTime.Now.Year - SymlConnect</p>
+    }
+    <!-- Modal -->
+    <div class="modal fade" id="loading" tabindex="-1" role="dialog" aria-labelledby="Loading" aria-hidden="true">
+        <div style="position: absolute; top: 50% !important; left: 48% !important;">
+            <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript">
+
+
+
+
+    </script>
+</body>
+</html>

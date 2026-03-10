@@ -1,0 +1,234 @@
+2025-05-07 13:25:43 LoginController DEBUG Index, Process Started, 07/05/2025 13:25:43
+2025-05-07 13:25:43 LoginController DEBUG Index, Process End, 07/05/2025 13:25:43
+2025-05-07 13:25:57 LoginController DEBUG Authorise, Process Started, 07/05/2025 13:25:57
+2025-05-07 13:26:00 LoginController DEBUG Authorise, Process End, 07/05/2025 13:26:00
+2025-05-07 13:26:23 PrintController DEBUG Index, Process Started, 07/05/2025 13:26:23
+2025-05-07 13:26:23 PrintController DEBUG Index, Process End, 07/05/2025 13:26:23
+2025-05-07 13:26:33 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 13:26:33
+2025-05-07 13:26:33 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 13:26:33
+2025-05-07 13:26:43 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 13:26:43
+2025-05-07 13:26:43 PrintController INFO  Print TYpe : 3
+2025-05-07 13:26:43 PrintController INFO  Print Count : 4
+2025-05-07 13:26:43 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 13:26:43 PrintController INFO  Customer : TML
+2025-05-07 13:26:43 PrintController INFO  Part Number : 218941100110
+2025-05-07 13:26:43 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 13:26:44 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:44 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:47 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:47 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:47 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:47 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:48 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:48 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:48 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:48 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:48 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:48 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:49 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:49 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:49 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:49 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:49 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:49 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:49 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:49 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:26:49 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 13:26:49
+2025-05-07 13:26:56 PrintController DEBUG Index, Process Started, 07/05/2025 13:26:56
+2025-05-07 13:26:56 PrintController DEBUG Index, Process End, 07/05/2025 13:26:56
+2025-05-07 13:26:59 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 13:26:59
+2025-05-07 13:26:59 PrintController INFO  Print TYpe : 2
+2025-05-07 13:26:59 PrintController INFO  Print Count : 4
+2025-05-07 13:26:59 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 13:26:59 PrintController INFO  Customer : TML
+2025-05-07 13:26:59 PrintController INFO  Part Number : 218941100110
+2025-05-07 13:26:59 PrintController INFO  Large Print Text : 218941100110Rev No43 123450525#SRNO#
+2025-05-07 13:26:59 PrintController INFO  Large Print Text : 218941100110Rev No43 123450525#SRNO#
+2025-05-07 13:26:59 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:26:59 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:01 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:01 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:01 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:01 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:01 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:01 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:01 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:01 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:01 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:01 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:02 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:02 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:02 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:02 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:02 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:02 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:02 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:27:02 PrintController INFO  targetHeight: 95
+2025-05-07 13:27:02 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 13:27:02
+2025-05-07 13:27:10 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 13:27:10
+2025-05-07 13:27:10 PrintController INFO  Print TYpe : 1
+2025-05-07 13:27:10 PrintController INFO  Print Count : 4
+2025-05-07 13:27:10 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 13:27:10 PrintController INFO  Customer : TML
+2025-05-07 13:27:10 PrintController INFO  Part Number : 218941100110
+2025-05-07 13:27:10 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 13:27:10 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 13:27:12 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 13:27:13 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 13:27:14 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 13:27:14
+2025-05-07 13:32:30 LoginController DEBUG Index, Process Started, 07/05/2025 13:32:30
+2025-05-07 13:32:30 LoginController DEBUG Index, Process End, 07/05/2025 13:32:30
+2025-05-07 13:32:58 LoginController DEBUG Authorise, Process Started, 07/05/2025 13:32:58
+2025-05-07 13:33:17 LoginController DEBUG Authorise, Process End, 07/05/2025 13:33:17
+2025-05-07 13:33:28 PrintController DEBUG Index, Process Started, 07/05/2025 13:33:28
+2025-05-07 13:33:28 PrintController DEBUG Index, Process End, 07/05/2025 13:33:28
+2025-05-07 13:34:14 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:14
+2025-05-07 13:34:14 PrintController DEBUG Index, Process End, 07/05/2025 13:34:14
+2025-05-07 13:34:16 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:16
+2025-05-07 13:34:16 PrintController DEBUG Index, Process End, 07/05/2025 13:34:16
+2025-05-07 13:34:16 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:16
+2025-05-07 13:34:16 PrintController DEBUG Index, Process End, 07/05/2025 13:34:16
+2025-05-07 13:34:16 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:16
+2025-05-07 13:34:16 PrintController DEBUG Index, Process End, 07/05/2025 13:34:16
+2025-05-07 13:34:17 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:17
+2025-05-07 13:34:17 PrintController DEBUG Index, Process End, 07/05/2025 13:34:17
+2025-05-07 13:34:24 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 13:34:24
+2025-05-07 13:34:24 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 13:34:24
+2025-05-07 13:34:49 PrintController DEBUG Index, Process Started, 07/05/2025 13:34:49
+2025-05-07 13:34:49 PrintController DEBUG Index, Process End, 07/05/2025 13:34:49
+2025-05-07 13:35:10 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 13:35:10
+2025-05-07 13:35:10 PrintController INFO  Print TYpe : 3
+2025-05-07 13:35:10 PrintController INFO  Print Count : 1
+2025-05-07 13:35:10 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 13:35:10 PrintController INFO  Customer : TML
+2025-05-07 13:35:10 PrintController INFO  Part Number : 218941100110
+2025-05-07 13:35:10 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 13:35:11 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 13:35:11 PrintController INFO  Scaled dimensions: 351x87
+2025-05-07 13:35:12 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 13:35:12
+2025-05-07 13:35:19 PrintController DEBUG Index, Process Started, 07/05/2025 13:35:19
+2025-05-07 13:35:19 PrintController DEBUG Index, Process End, 07/05/2025 13:35:19
+2025-05-07 15:51:38 LoginController DEBUG Index, Process Started, 07/05/2025 15:51:38
+2025-05-07 15:51:38 LoginController DEBUG Index, Process End, 07/05/2025 15:51:38
+2025-05-07 15:52:00 LoginController DEBUG Authorise, Process Started, 07/05/2025 15:52:00
+2025-05-07 15:52:04 LoginController DEBUG Authorise, Process End, 07/05/2025 15:52:04
+2025-05-07 15:52:14 PrintController DEBUG Index, Process Started, 07/05/2025 15:52:14
+2025-05-07 15:52:14 PrintController DEBUG Index, Process End, 07/05/2025 15:52:14
+2025-05-07 15:52:23 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 15:52:23
+2025-05-07 15:52:23 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 15:52:23
+2025-05-07 15:52:34 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 15:52:34
+2025-05-07 15:52:34 PrintController INFO  Print TYpe : 3
+2025-05-07 15:52:34 PrintController INFO  Print Count : 5
+2025-05-07 15:52:34 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 15:52:34 PrintController INFO  Customer : TML
+2025-05-07 15:52:34 PrintController INFO  Part Number : 218941100110
+2025-05-07 15:52:34 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 15:57:03 LoginController DEBUG Index, Process Started, 07/05/2025 15:57:03
+2025-05-07 15:57:03 LoginController DEBUG Index, Process End, 07/05/2025 15:57:03
+2025-05-07 15:57:17 LoginController DEBUG Authorise, Process Started, 07/05/2025 15:57:17
+2025-05-07 15:57:20 LoginController DEBUG Authorise, Process End, 07/05/2025 15:57:20
+2025-05-07 15:57:29 PrintController DEBUG Index, Process Started, 07/05/2025 15:57:29
+2025-05-07 15:57:30 PrintController DEBUG Index, Process End, 07/05/2025 15:57:30
+2025-05-07 15:57:38 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 15:57:38
+2025-05-07 15:57:38 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 15:57:38
+2025-05-07 15:57:47 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 15:57:47
+2025-05-07 15:57:47 PrintController INFO  Print TYpe : 3
+2025-05-07 15:57:47 PrintController INFO  Print Count : 5
+2025-05-07 15:57:47 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 15:57:47 PrintController INFO  Customer : TML
+2025-05-07 15:57:47 PrintController INFO  Part Number : 516041110106
+2025-05-07 15:57:47 PrintController INFO  Barcode Print Text : 0051604111010665123450525#SRNO#
+2025-05-07 16:45:07 LoginController DEBUG Index, Process Started, 07/05/2025 16:45:07
+2025-05-07 16:45:07 LoginController DEBUG Index, Process End, 07/05/2025 16:45:07
+2025-05-07 16:45:17 LoginController DEBUG Authorise, Process Started, 07/05/2025 16:45:17
+2025-05-07 16:45:20 LoginController DEBUG Authorise, Process End, 07/05/2025 16:45:20
+2025-05-07 16:45:30 PrintController DEBUG Index, Process Started, 07/05/2025 16:45:30
+2025-05-07 16:45:30 PrintController DEBUG Index, Process End, 07/05/2025 16:45:30
+2025-05-07 16:46:31 PrintController DEBUG Index, Process Started, 07/05/2025 16:46:31
+2025-05-07 16:46:31 PrintController DEBUG Index, Process End, 07/05/2025 16:46:31
+2025-05-07 16:46:38 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 16:46:38
+2025-05-07 16:46:38 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 16:46:38
+2025-05-07 16:46:50 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:46:50
+2025-05-07 16:46:50 PrintController INFO  Print TYpe : 3
+2025-05-07 16:46:50 PrintController INFO  Print Count : 1
+2025-05-07 16:46:50 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:46:50 PrintController INFO  Customer : TML
+2025-05-07 16:46:50 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:46:50 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 16:46:54 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 16:46:54 PrintController INFO  Width: 770 Height 200
+2025-05-07 16:46:54 PrintController INFO  Scaled dimensions: 338x87
+2025-05-07 16:46:57 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 16:46:57
+2025-05-07 16:47:24 PrintController DEBUG Index, Process Started, 07/05/2025 16:47:24
+2025-05-07 16:47:24 PrintController DEBUG Index, Process End, 07/05/2025 16:47:24
+2025-05-07 16:47:35 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:47:35
+2025-05-07 16:47:35 PrintController INFO  Print TYpe : 3
+2025-05-07 16:47:35 PrintController INFO  Print Count : 1
+2025-05-07 16:47:35 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:47:35 PrintController INFO  Customer : TML
+2025-05-07 16:47:35 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:47:35 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 16:47:39 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 16:47:39 PrintController INFO  Width: 770 Height 200
+2025-05-07 16:47:39 PrintController INFO  Scaled dimensions: 338x87
+2025-05-07 16:47:39 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 16:47:39
+2025-05-07 16:47:51 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:47:51
+2025-05-07 16:47:51 PrintController INFO  Print TYpe : 3
+2025-05-07 16:47:51 PrintController INFO  Print Count : 1
+2025-05-07 16:47:51 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:47:51 PrintController INFO  Customer : TML
+2025-05-07 16:47:51 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:47:51 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 16:49:13 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 16:49:13 PrintController INFO  Width: 770 Height 200
+2025-05-07 16:49:13 PrintController INFO  Scaled dimensions: 338x87
+2025-05-07 16:49:13 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 16:49:13
+2025-05-07 16:49:14 PrintController DEBUG Index, Process Started, 07/05/2025 16:49:14
+2025-05-07 16:49:14 PrintController DEBUG Index, Process End, 07/05/2025 16:49:14
+2025-05-07 16:49:28 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:49:28
+2025-05-07 16:49:30 PrintController INFO  Print TYpe : 1
+2025-05-07 16:49:31 PrintController INFO  Print Count : 1
+2025-05-07 16:49:31 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:49:31 PrintController INFO  Customer : TML
+2025-05-07 16:49:31 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:49:38 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 16:50:00 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 16:50:00
+2025-05-07 16:50:21 PrintController DEBUG Index, Process Started, 07/05/2025 16:50:21
+2025-05-07 16:50:21 PrintController DEBUG Index, Process End, 07/05/2025 16:50:21
+2025-05-07 16:52:32 PrintController DEBUG Index, Process Started, 07/05/2025 16:52:32
+2025-05-07 16:52:32 PrintController DEBUG Index, Process End, 07/05/2025 16:52:32
+2025-05-07 16:52:35 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:52:35
+2025-05-07 16:52:35 PrintController INFO  Print TYpe : 1
+2025-05-07 16:52:35 PrintController INFO  Print Count : 1
+2025-05-07 16:52:35 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:52:35 PrintController INFO  Customer : TML
+2025-05-07 16:52:35 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:54:47 LoginController DEBUG Index, Process Started, 07/05/2025 16:54:47
+2025-05-07 16:54:47 LoginController DEBUG Index, Process End, 07/05/2025 16:54:47
+2025-05-07 16:55:37 LoginController DEBUG Authorise, Process Started, 07/05/2025 16:55:37
+2025-05-07 16:55:40 LoginController DEBUG Authorise, Process End, 07/05/2025 16:55:40
+2025-05-07 16:58:14 PrintController DEBUG Index, Process Started, 07/05/2025 16:58:14
+2025-05-07 16:58:14 PrintController DEBUG Index, Process End, 07/05/2025 16:58:14
+2025-05-07 16:58:29 PrintController DEBUG Getpartdetail, Process Started, 07/05/2025 16:58:29
+2025-05-07 16:58:29 PrintController DEBUG Getpartdetail, Process End, 07/05/2025 16:58:29
+2025-05-07 16:58:42 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 16:58:42
+2025-05-07 16:58:42 PrintController INFO  Print TYpe : 3
+2025-05-07 16:58:42 PrintController INFO  Print Count : 1
+2025-05-07 16:58:42 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 16:58:42 PrintController INFO  Customer : TML
+2025-05-07 16:58:42 PrintController INFO  Part Number : 218941100110
+2025-05-07 16:58:42 PrintController INFO  Barcode Print Text : 0021894110011043123450525#SRNO#
+2025-05-07 16:58:44 PrintController INFO  Larg QR Resolution: 203 x 203
+2025-05-07 16:58:44 PrintController INFO  Width: 790 Height 200
+2025-05-07 16:58:44 PrintController INFO  Scaled dimensions: 347x87
+2025-05-07 16:58:46 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 16:58:46
+2025-05-07 17:00:32 PrintController DEBUG Index, Process Started, 07/05/2025 17:00:32
+2025-05-07 17:00:32 PrintController DEBUG Index, Process End, 07/05/2025 17:00:32
+2025-05-07 17:00:44 PrintController DEBUG PrintQRCode, Process Started, 07/05/2025 17:00:44
+2025-05-07 17:00:44 PrintController INFO  Print TYpe : 1
+2025-05-07 17:00:44 PrintController INFO  Print Count : 1
+2025-05-07 17:00:44 PrintController INFO  printer : OneNote for Windows 10
+2025-05-07 17:00:44 PrintController INFO  Customer : TML
+2025-05-07 17:00:44 PrintController INFO  Part Number : 218941100110
+2025-05-07 17:00:47 PrintController INFO  QR Code Resolution: 203 x 203
+2025-05-07 17:00:47 PrintController DEBUG PrintQRCode, Process End, 07/05/2025 17:00:47

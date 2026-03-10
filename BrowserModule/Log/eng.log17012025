@@ -1,0 +1,171 @@
+2025-01-17 12:14:35 LoginController DEBUG Index, Process Started, 17/01/2025 12:14:35
+2025-01-17 12:14:35 LoginController DEBUG Index, Process End, 17/01/2025 12:14:35
+2025-01-17 12:15:43 LoginController DEBUG Authorise, Process Started, 17/01/2025 12:15:43
+2025-01-17 12:15:48 LoginController DEBUG Authorise, Process End, 17/01/2025 12:15:48
+2025-01-17 12:15:52 LoginController DEBUG Authorise, Process Started, 17/01/2025 12:15:52
+2025-01-17 12:15:56 LoginController DEBUG Authorise, Process End, 17/01/2025 12:15:56
+2025-01-17 12:54:36 LoginController DEBUG LogOut, Process Started, 17/01/2025 12:54:36
+2025-01-17 12:54:36 LoginController DEBUG LogOut, Process Started, 17/01/2025 12:54:36
+2025-01-17 12:54:36 LoginController DEBUG Index, Process Started, 17/01/2025 12:54:36
+2025-01-17 12:54:36 LoginController DEBUG Index, Process End, 17/01/2025 12:54:36
+2025-01-17 12:56:09 LoginController DEBUG Index, Process Started, 17/01/2025 12:56:09
+2025-01-17 12:56:10 LoginController DEBUG Index, Process End, 17/01/2025 12:56:10
+2025-01-17 12:56:14 LoginController DEBUG Authorise, Process Started, 17/01/2025 12:56:14
+2025-01-17 12:56:25 LoginController DEBUG Authorise, Process End, 17/01/2025 12:56:25
+2025-01-17 12:56:47 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 12:56:47
+2025-01-17 12:56:50 AutoFillExcelController ERROR Type : 1
+2025-01-17 12:56:50 AutoFillExcelController ERROR Shift : 
+2025-01-17 12:56:50 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 12:56:50 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 12:56:51 AutoFillExcelController ERROR Data not found Thrown during : ExcelData, 17/01/2025 12:56:51
+2025-01-17 12:56:51 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 12:56:51
+2025-01-17 13:00:11 LoginController DEBUG Index, Process Started, 17/01/2025 13:00:11
+2025-01-17 13:00:11 LoginController DEBUG Index, Process End, 17/01/2025 13:00:11
+2025-01-17 13:00:38 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:00:38
+2025-01-17 13:00:43 LoginController DEBUG Authorise, Process End, 17/01/2025 13:00:43
+2025-01-17 13:01:16 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:01:16
+2025-01-17 13:01:18 AutoFillExcelController ERROR Type : 1
+2025-01-17 13:01:18 AutoFillExcelController ERROR Shift : 
+2025-01-17 13:01:18 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:01:18 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:01:18 AutoFillExcelController ERROR Error Thrown during : The specified type member 'Date' is not supported in LINQ to Entities. Only initializers, entity members, and entity navigation properties are supported., ViewExcelData, 17/01/2025 13:01:18,   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MemberAccessTranslator.TypedTranslate(ExpressionConverter parent, MemberExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.BinaryTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 78
+2025-01-17 13:01:18 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:01:18
+2025-01-17 13:01:24 LoginController DEBUG LogOut, Process Started, 17/01/2025 13:01:24
+2025-01-17 13:01:24 LoginController DEBUG LogOut, Process Started, 17/01/2025 13:01:24
+2025-01-17 13:01:24 LoginController DEBUG Index, Process Started, 17/01/2025 13:01:24
+2025-01-17 13:01:24 LoginController DEBUG Index, Process End, 17/01/2025 13:01:24
+2025-01-17 13:01:27 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:01:27
+2025-01-17 13:01:29 AutoFillExcelController ERROR Type : 1
+2025-01-17 13:01:30 AutoFillExcelController ERROR Shift : 
+2025-01-17 13:01:30 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:01:30 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:02:45 LoginController DEBUG Index, Process Started, 17/01/2025 13:02:45
+2025-01-17 13:02:45 LoginController DEBUG Index, Process End, 17/01/2025 13:02:45
+2025-01-17 13:02:54 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:02:54
+2025-01-17 13:02:59 LoginController DEBUG Authorise, Process End, 17/01/2025 13:02:59
+2025-01-17 13:03:19 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:03:19
+2025-01-17 13:03:21 AutoFillExcelController ERROR Type : 1
+2025-01-17 13:03:21 AutoFillExcelController ERROR Shift : 
+2025-01-17 13:03:21 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:03:22 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:03:27 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 17/01/2025 13:03:27
+2025-01-17 13:03:27 AutoFillExcelController DEBUG GetAllColumndata, Process End, 17/01/2025 13:03:27
+2025-01-17 13:03:27 AutoFillExcelController ERROR All Column Count : 24
+2025-01-17 13:03:35 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:03:35
+2025-01-17 13:03:43 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:03:43
+2025-01-17 13:03:44 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:03:44
+2025-01-17 13:06:33 LoginController DEBUG Index, Process Started, 17/01/2025 13:06:33
+2025-01-17 13:06:33 LoginController DEBUG Index, Process End, 17/01/2025 13:06:33
+2025-01-17 13:06:41 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:06:41
+2025-01-17 13:06:47 LoginController DEBUG Authorise, Process End, 17/01/2025 13:06:47
+2025-01-17 13:07:20 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:07:20
+2025-01-17 13:07:25 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:07:25
+2025-01-17 13:11:31 LoginController DEBUG Index, Process Started, 17/01/2025 13:11:31
+2025-01-17 13:11:31 LoginController DEBUG Index, Process End, 17/01/2025 13:11:31
+2025-01-17 13:12:23 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:12:23
+2025-01-17 13:12:28 LoginController DEBUG Authorise, Process End, 17/01/2025 13:12:28
+2025-01-17 13:13:03 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:13:03
+2025-01-17 13:13:04 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:13:04
+2025-01-17 13:13:24 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:13:24
+2025-01-17 13:13:24 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:13:24
+2025-01-17 13:17:12 LoginController DEBUG Index, Process Started, 17/01/2025 13:17:12
+2025-01-17 13:17:12 LoginController DEBUG Index, Process End, 17/01/2025 13:17:12
+2025-01-17 13:17:23 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:17:23
+2025-01-17 13:17:29 LoginController DEBUG Authorise, Process End, 17/01/2025 13:17:29
+2025-01-17 13:17:51 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:17:51
+2025-01-17 13:17:51 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:17:51 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:17:55 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 17/01/2025 13:17:55
+2025-01-17 13:17:55 AutoFillExcelController DEBUG GetAllColumndata, Process End, 17/01/2025 13:17:55
+2025-01-17 13:17:55 AutoFillExcelController ERROR All Column Count : 24
+2025-01-17 13:18:09 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:18:09
+2025-01-17 13:24:10 LoginController DEBUG Index, Process Started, 17/01/2025 13:24:10
+2025-01-17 13:24:10 LoginController DEBUG Index, Process End, 17/01/2025 13:24:10
+2025-01-17 13:24:37 LoginController DEBUG Authorise, Process Started, 17/01/2025 13:24:37
+2025-01-17 13:24:43 LoginController DEBUG Authorise, Process End, 17/01/2025 13:24:43
+2025-01-17 13:26:24 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:26:24
+2025-01-17 13:26:24 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:26:24 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:26:36 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:26:36
+2025-01-17 13:27:14 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:27:14
+2025-01-17 13:27:14 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:27:14 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:27:14 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:27:14
+2025-01-17 13:27:23 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:27:23
+2025-01-17 13:27:32 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:27:32 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:27:50 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:27:50
+2025-01-17 13:28:08 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:28:08
+2025-01-17 13:28:08 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:28:08 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:28:09 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:28:09
+2025-01-17 13:28:15 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:28:15
+2025-01-17 13:28:15 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:28:15 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:28:58 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:28:58
+2025-01-17 13:29:08 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:29:08
+2025-01-17 13:29:08 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:29:08 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:31:27 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:31:27
+2025-01-17 13:31:31 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:31:31
+2025-01-17 13:31:31 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:31:31 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:31:33 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 17/01/2025 13:31:33
+2025-01-17 13:31:33 AutoFillExcelController DEBUG GetAllColumndata, Process End, 17/01/2025 13:31:33
+2025-01-17 13:31:33 AutoFillExcelController ERROR All Column Count : 24
+2025-01-17 13:31:39 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:31:39
+2025-01-17 13:36:00 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:00
+2025-01-17 13:36:00 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:36:00 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:36:03 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:03
+2025-01-17 13:36:09 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:09
+2025-01-17 13:36:09 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:36:09 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:36:09 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:09
+2025-01-17 13:36:10 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:10
+2025-01-17 13:36:10 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:36:10 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:36:10 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:10
+2025-01-17 13:36:11 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:11
+2025-01-17 13:36:11 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:36:11 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:36:11 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:11
+2025-01-17 13:36:12 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:12
+2025-01-17 13:36:12 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-17 13:36:12 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-17 13:36:12 AutoFillExcelController DEBUG ViewExcelData, Process Started, 17/01/2025 13:36:12
+2025-01-17 13:36:25 EngineeringController DEBUG Index, Process Started, 17/01/2025 13:36:25
+2025-01-17 13:36:25 EngineeringController DEBUG GetEngineerinItems, Process Started, 17/01/2025 13:36:25
+2025-01-17 13:36:26 EngineeringController DEBUG GetEngineerinItems, Process End, 17/01/2025 13:36:26
+2025-01-17 13:36:28 EngineeringController DEBUG Index, Process End, 17/01/2025 13:36:28

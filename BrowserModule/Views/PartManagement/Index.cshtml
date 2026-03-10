@@ -1,0 +1,491 @@
+﻿@model DF_WebModule.Classes.clsPartDetail
+
+<div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+    <div class="col-sm-12 col-lg-12" style="margin:auto">
+        <h4 style="color: aliceblue; text-align:center">Records</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+                @Html.LabelFor(model => model.PartNumber, htmlAttributes: new { @class = "control-label col-md-12" })
+                @Html.ValidationMessageFor(model => model.PartNumber, "", new { @class = "text-warning" })
+
+                @Html.EditorFor(model => model.PartNumber, new { htmlAttributes = new { @class = "form-control fontsize", id = "part" } })
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Part_Description, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @Html.EditorFor(model => model.Part_Description, new { htmlAttributes = new { @class = "form-control fontsize", id = "Description" } })
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.TypeOfPart, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @{
+                    List<SelectListItem> type = new List<SelectListItem>();
+                    foreach (var item in Model.types)
+                    {
+
+                        type.Add(new SelectListItem
+                        {
+                            Text = item.Name,
+                            Value = item.Name,
+                        });
+                    }
+
+
+                }
+                @*}*@
+
+                @Html.DropDownListFor(model => model.TypeOfPart, type, "----Select Type----", new { @class = "form-control", @id = "TypeOfPart" })
+
+
+               
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Joint, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(model => model.Joint, new { htmlAttributes = new { @class = "form-control fontsize", id = "joint" } })
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Tube_Length, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Tube_Length, new { htmlAttributes = new { @class = "form-control fontsize", id = "length" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.ModNo, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.ModNo, new { htmlAttributes = new { @class = "form-control fontsize", id = "revno" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label col-md-6" })
+                   @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control fontsize", id = "customer" } })
+          
+               
+                @*@{
+                    List<SelectListItem> role = new List<SelectListItem>();
+                    foreach (var item in Model.customers)
+                    {
+
+                        role.Add(new SelectListItem
+                        {
+                            Text = item.Name,
+                            Value = item.Name,
+                        });
+                    }
+
+
+                }
+
+
+                @Html.DropDownListFor(model => model.CustomerName, role, "----Select Customer----", new { @class = "form-control", @id = "customer" })*@
+
+
+               
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Remark, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Remark, new { htmlAttributes = new { @class = "form-control fontsize", id = "remark" } })
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <input value="Add" id="AddNewitem" type="button" class="btn btn-success" />
+                <input value="Reset" style="background: #ffffff; color:black" id="reset" type="button" class="btn btn-success" />
+                <input value="Export" id="export" type="button" class="btn btn-danger" style="background:#25cda7" />
+                <input value="Import Records" type="button" id="import" class="btn btn-danger" style="background: #018798; border-color: #018798" />
+            </div>
+        </div>
+       
+            <div id="updateTableList">
+                @Html.Raw(Model.PartList)
+            </div>
+
+       
+        <div class="modal fade" id="ImportExcelfilemodel" tabindex="-1" role="dialog" aria-labelledby="ImportExcelfilemodelLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content" style="width:550px">
+                    @using (Html.BeginForm("ImportExcel", "PartManagement", FormMethod.Post, new { enctype = "multipart/form-data", id = "ImportExcel" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+                            <div id="CsvLoadingIcon" style="display:none; text-align: center;">
+                                <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                                <span style="color: black">Loading...</span>
+                            </div>
+                            <hr />
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-12">
+                                    <p>
+                                        <b style="color:red;">Important:</b><br />
+                                        You can upload only .xlsx File <br />
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-8" style="margin-left: 1em;">
+                                    <input type="file" class="custom-file-input mb-2 mr-sm-2" id="importexce" name="file">
+                                    <label class="custom-file-label mr-sm-2" for="file">Choose file</label>
+
+                                </div>
+                            </div>
+                            <div class="form-group" style="float: inline-end;">
+                                <div class="col-md-offset-2 col-md-12 upload-xml-button" style="float:right">
+                                    <input type="submit" value="Save" class="btn btn-success" />
+                                    <button type="button" style="margin:0px;" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script>
+    
+
+    $('#import').click(function () {
+        $('#ImportExcelfilemodel').modal('show');
+    });
+    $("#reset").click(function () {
+        $("#part").val("").prop("disabled", false);
+        $("#Description").val("");
+        $("#TypeOfPart").val("");
+        $("#joint").val("");
+        $("#length").val("");
+        $("#revno").val("");
+        $("#customer").val("");
+        $("#remark").val("");
+        $("#AddNewitem").val("Add");
+
+    });
+
+    document.querySelector('#importexce').addEventListener('change', function (e) {
+        debugger
+        var fileName = document.getElementById("importexce").files[0].name;
+
+        var nextSiblingss = e.target.nextElementSibling
+        nextSiblingss.innerText = fileName
+    });
+     $("body").on("submit", "#ImportExcel", function (e) {
+        debugger;
+        e.preventDefault();
+        var csvarray = [];
+        if ($("#ImportExcel").valid()) {
+               $('#CsvLoadingIcon').show();
+                var ListName = "";
+            var csvFile = $("#importexce").get(0).files;
+                var fd = new FormData();
+                if (csvFile.length > 0) {
+                    fd.append('file', csvFile[0]);
+                }
+                console.log(csvFile);
+                console.log(ListName);
+                //fd.append('importcsvlistname', ListName);
+                $.ajax({
+                    url: this.action,
+                    type: this.method,
+                    data: fd,
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        $('#CsvLoadingIcon').hide();
+                        if (data.success) {
+                            $.confirm({
+                                title: 'Import Patient List',
+                                content: data.responseText,
+                                type: 'green',
+                                typeAnimated: true,
+                                buttons: {
+                                    Okay: {
+                                        text: 'Okay',
+                                        action: function () {
+                                            window.location.href = "@Url.Action("Index", "PartManagement")";
+                                            if (data.returnedPatients != undefined) {
+                                                $('#CsvLoadingIcon').hide();
+                                                //$('#ImportCSVModal').modal('hide');
+                                                //$('#NotImportedPatient').html(data.returnedPatients);
+                                                //saveData();
+                                            }
+
+                                        }
+                                    }
+                                }
+                            });
+                        } else {
+                            $.confirm({
+                                title: 'Import excel',
+                                content: data.responseText,
+                                type: 'red',
+                                typeAnimated: true,
+                                buttons: {
+                                    Okay: {
+                                        text: 'Okay',
+                                        action: function () {
+                                        //    saveData();
+                                            $('#CsvLoadingIcon').hide();
+                                        }
+                                    }
+                                }
+                            });
+                        }
+                    },
+                    error: function (data) {
+                        $("#loading").removeClass("in");
+                        $(".modal-backdrop").remove();
+                        $('body').removeClass('modal-open');
+                        $('body').css('padding-right', '');
+                        $("#loading").model('hide');
+                        $.confirm({
+                            title: 'Import Excel',
+                            content: "An unexpected error was encountered, please try again.",
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+                                    action: function () {
+                                        $('#CsvLoadingIcon').hide();
+                                    }
+                                }
+                            }
+                        });
+                    }
+                });
+            } else {
+                $.confirm({
+                    title: 'Import Excel',
+                    content: 'Please check the fields are filled in correctly',
+                    type: 'red',
+                    typeAnimated: true,
+                    buttons: {
+                        Okay: {
+                            text: 'Okay',
+                            action: function () {
+                                $('#CsvLoadingIcon').hide();
+                            }
+                        }
+                    }
+                });
+            }
+     });
+
+
+    $("#AddNewitem").click(function (e) {
+        debugger
+            var item = {};
+            item.CustomerName = $("#customer").val();
+            item.PartNumber = $("#part").val();
+            item.Part_Description = $("#Description").val();
+            item.ModNo = $("#revno").val();
+            item.Remark = $("#remark").val();
+            item.Joint = $("#joint").val();
+            item.Tube_Length = $("#length").val();
+            item.TypeOfPart = $("#TypeOfPart").val();
+           $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddNewitem", "PartManagement")',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(item),
+                success: function (data) {
+                    $.confirm({
+                        title: 'Success',
+                        content: data.responseText,
+                        type: 'green',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay',
+                                action: function () {
+                                    window.location.href = "@Url.Action("Index", "PartManagement")";
+
+                                }
+                            }
+                        }
+                    });
+                },
+                error: function (data) {
+                    $.confirm({
+                        title: 'Warning!',
+                        content: data.responseText,
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    });
+      $('#validationdetailtable').on('click', '.btndeleteitem', function () {
+
+        var id = this.id;
+         $.confirm({
+                    title: 'Delete Item',
+                    content: 'Are you sure you want to delete the item?',
+                    type: 'red',
+                    typeAnimated: true,
+                    buttons: {
+                        Yes: {
+                            text: 'Yes',
+                            btnClass: 'btn-red',
+                            action: function() {
+                                $.ajax({
+                                    type: "POST",
+                                    url: '@Url.Action("DeleteItem", "PartManagement")',
+                                    contentType: "application/json; charset=utf-8",
+                                    data: '{"ID":"' + id + '"}',
+                                    dataType: "json",
+                                    success: function (data) {
+                                        debugger
+                                        if (data.success) {
+                                            $.confirm({
+                                                title: 'Delete Item',
+                                                content: data.responseText,
+                                                type: 'green',
+                                                typeAnimated: true,
+                                                buttons: {
+                                                    Okay: {
+                                                        text: 'Okay',
+                                                        action: function () {
+                                                            window.location.href = "@Url.Action("Index", "PartManagement")";
+
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+                                        else {
+                                            $.confirm({
+                                                title: 'Delete Item',
+                                                content: data.responseText,
+                                                type: 'red',
+                                                typeAnimated: true,
+                                                buttons: {
+                                                    Okay: {
+                                                        text: 'Okay',
+                                                        action: function () {
+                                                            window.location.href = "@Url.Action("Index", "PartManagement")";
+
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+
+                                    },
+                                    error: function (data) {
+
+                                        $.confirm({
+                                            title: 'Delete Item',
+                                            content: "Something wrong please contact to the IT Support Team",
+                                            type: 'red',
+                                            typeAnimated: true,
+                                            buttons: {
+                                                Okay: {
+                                                    text: 'Okay'
+                                                }
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        },
+                        No: {
+                            text: 'No',
+                            btnClass: 'btn-green'
+                        }
+                    }
+                });
+
+    });
+    $('#validationdetailtable').on('click', '.btnedititem', function () {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditItem", "PartManagement")',
+                contentType: "application/json; charset=utf-8",
+                data: '{"ID":"' + this.id + '"}',
+                dataType: "json",
+                success: function (data) {
+                    debugger
+                    if (data.success) {
+                        $("#part").val(data.partn).prop("disabled", true);
+                    
+                        $("#Description").val(data.description);
+                        $("#TypeOfPart").val(data.TypeOfPart);
+                        $("#joint").val(data.joint);
+                        $("#length").val(data.length);
+                        $("#revno").val(data.revno);
+                        $("#customer").val(data.customer);
+                        $("#remark").val(data.remark);
+                        $("#AddNewitem").val("Update");
+                    } else {
+
+                        $.confirm({
+                            title: 'Edit Record',
+                           content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay'
+                                }
+                            }
+                        });
+                    }
+                },
+                error: function (data) {
+
+                    $.confirm({
+                        title: 'Unable to locate patient',
+                        content: 'Unable to locate the patient record, please try again.',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    });
+
+
+    $('#export').click(function () {
+                // Perform AJAX request
+                $.ajax({
+                    url: '@Url.Action("DownloadExcel", "PartManagement")',
+                    method: 'GET',
+                    xhrFields: {
+                        responseType: 'blob' // Set the response type as blob
+                    },
+                    success: function (data) {
+                        // Create blob object and initiate download
+                        var blob = new Blob([data], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+                        var link = document.createElement('a');
+                        link.href = window.URL.createObjectURL(blob);
+                        link.download = 'Part Details.xlsx';
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error('Error downloading Excel file:', error);
+                        alert('Failed to download Excel file.');
+                    }
+                });
+            });
+
+</script>
+

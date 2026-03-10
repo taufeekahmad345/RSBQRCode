@@ -1,0 +1,224 @@
+2025-02-02 16:22:21 LoginController DEBUG LogOut, Process Started, 02/02/2025 16:22:21
+2025-02-02 16:22:21 LoginController DEBUG LogOut, Process Started, 02/02/2025 16:22:21
+2025-02-02 16:22:21 LoginController DEBUG Index, Process Started, 02/02/2025 16:22:21
+2025-02-02 16:22:21 LoginController DEBUG Index, Process End, 02/02/2025 16:22:21
+2025-02-02 16:22:21 LoginController DEBUG SessionTimeOut, Process Started, 02/02/2025 16:22:21
+2025-02-02 16:22:21 LoginController DEBUG SessionTimeOut, Process End, 02/02/2025 16:22:21
+2025-02-02 16:22:22 LoginController DEBUG LogOut, Process Started, 02/02/2025 16:22:22
+2025-02-02 16:22:22 LoginController DEBUG LogOut, Process Started, 02/02/2025 16:22:22
+2025-02-02 16:22:22 LoginController DEBUG Index, Process Started, 02/02/2025 16:22:22
+2025-02-02 16:22:22 LoginController DEBUG Index, Process End, 02/02/2025 16:22:22
+2025-02-02 16:22:47 LoginController DEBUG Authorise, Process Started, 02/02/2025 16:22:47
+2025-02-02 16:22:47 LoginController DEBUG Authorise, Process End, 02/02/2025 16:22:47
+2025-02-02 16:22:54 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:22:54
+2025-02-02 16:22:54 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:22:54
+2025-02-02 16:25:02 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:02
+2025-02-02 16:25:02 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:02
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:05
+2025-02-02 16:25:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:25:05
+2025-02-02 16:25:06 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:25:06
+2025-02-02 16:26:28 LoginController DEBUG Index, Process Started, 02/02/2025 16:26:28
+2025-02-02 16:26:28 LoginController DEBUG Index, Process End, 02/02/2025 16:26:28
+2025-02-02 16:26:43 LoginController DEBUG Authorise, Process Started, 02/02/2025 16:26:43
+2025-02-02 16:26:52 LoginController DEBUG Authorise, Process End, 02/02/2025 16:26:52
+2025-02-02 16:27:02 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:27:02
+2025-02-02 16:27:02 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:27:02
+2025-02-02 16:27:11 DrawingModificationController DEBUG AddDrawing, Process Started, 02/02/2025 16:27:11
+2025-02-02 16:27:11 DrawingModificationController DEBUG AddDrawing, Process End, 02/02/2025 16:27:11
+2025-02-02 16:27:37 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:27:37
+2025-02-02 16:27:37 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:27:37
+2025-02-02 16:28:17 DrawingModificationController DEBUG AddNewDrawing, Process Started, 02/02/2025 16:28:17
+2025-02-02 16:28:17 DrawingModificationController DEBUG AddNewDrawing, Process End, 02/02/2025 16:28:17
+2025-02-02 16:28:18 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:28:18
+2025-02-02 16:28:18 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:28:18
+2025-02-02 16:28:19 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:28:19
+2025-02-02 16:28:19 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:28:19
+2025-02-02 16:28:32 DrawingModificationController DEBUG SearchByPartNumber, Process Started, 02/02/2025 16:28:32
+2025-02-02 16:28:32 DrawingModificationController DEBUG SearchByPartNumber, Process End, 02/02/2025 16:28:32
+2025-02-02 16:29:14 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:29:14
+2025-02-02 16:29:15 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:29:15
+2025-02-02 16:29:33 DrawingModificationController DEBUG SearchByPartNumber, Process Started, 02/02/2025 16:29:33
+2025-02-02 16:29:33 DrawingModificationController DEBUG SearchByPartNumber, Process End, 02/02/2025 16:29:33
+2025-02-02 16:29:51 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:29:51
+2025-02-02 16:29:51 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:29:51
+2025-02-02 16:30:48 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:30:48
+2025-02-02 16:30:48 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:30:48
+2025-02-02 16:31:17 SchedulingController DEBUG Index, Process Started, 02/02/2025 16:31:17
+2025-02-02 16:31:22 SchedulingController DEBUG Index, Process End, 02/02/2025 16:31:22
+2025-02-02 16:31:24 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:31:24
+2025-02-02 16:31:24 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:31:24
+2025-02-02 16:31:38 SchedulingController DEBUG GetDispatchData, Process Started, 02/02/2025 16:31:38
+2025-02-02 16:31:39 SchedulingController DEBUG GetDispatchData, Process End, 02/02/2025 16:31:39
+2025-02-02 16:44:27 DrawingModificationController DEBUG AddDrawing, Process Started, 02/02/2025 16:44:27
+2025-02-02 16:44:27 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:44:27
+2025-02-02 16:44:27 DrawingModificationController DEBUG AddDrawing, Process End, 02/02/2025 16:44:27
+2025-02-02 16:44:28 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:44:28
+2025-02-02 16:44:41 LoginController DEBUG Authorise, Process Started, 02/02/2025 16:44:41
+2025-02-02 16:44:49 LoginController DEBUG Authorise, Process End, 02/02/2025 16:44:49
+2025-02-02 16:45:05 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:45:05
+2025-02-02 16:45:05 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:45:05
+2025-02-02 16:45:08 DrawingModificationController DEBUG AddDrawing, Process Started, 02/02/2025 16:45:08
+2025-02-02 16:45:08 DrawingModificationController DEBUG AddDrawing, Process End, 02/02/2025 16:45:08
+2025-02-02 16:47:06 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:06
+2025-02-02 16:47:06 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:06
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:09
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:09
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:09
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:09
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:09
+2025-02-02 16:47:09 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:09
+2025-02-02 16:47:11 DrawingModificationController DEBUG AddDrawing, Process Started, 02/02/2025 16:47:11
+2025-02-02 16:47:11 DrawingModificationController DEBUG AddDrawing, Process End, 02/02/2025 16:47:11
+2025-02-02 16:47:15 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:15
+2025-02-02 16:47:15 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:15
+2025-02-02 16:47:25 DrawingModificationController DEBUG EditDrawing, Process Started, 02/02/2025 16:47:25
+2025-02-02 16:47:25 DrawingModificationController DEBUG EditDrawing, Process End, 02/02/2025 16:47:25
+2025-02-02 16:47:29 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:29
+2025-02-02 16:47:29 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:29
+2025-02-02 16:47:32 DrawingModificationController DEBUG EditDrawing, Process Started, 02/02/2025 16:47:32
+2025-02-02 16:47:32 DrawingModificationController DEBUG EditDrawing, Process End, 02/02/2025 16:47:32
+2025-02-02 16:47:43 DrawingModificationController DEBUG DeleteItem, Process Started, 02/02/2025 16:47:43
+2025-02-02 16:47:43 DrawingModificationController DEBUG DeleteItem, Process End, 02/02/2025 16:47:43
+2025-02-02 16:47:51 DrawingModificationController DEBUG Index, Process Started, 02/02/2025 16:47:51
+2025-02-02 16:47:51 DrawingModificationController DEBUG Index, Process End, 02/02/2025 16:47:51
+2025-02-02 16:48:02 SchedulingController DEBUG Index, Process Started, 02/02/2025 16:48:02
+2025-02-02 16:48:06 SchedulingController DEBUG Index, Process End, 02/02/2025 16:48:06
+2025-02-02 16:48:11 SchedulingController DEBUG GetDispatchData, Process Started, 02/02/2025 16:48:11
+2025-02-02 16:48:12 SchedulingController DEBUG GetDispatchData, Process End, 02/02/2025 16:48:12
+2025-02-02 16:48:18 SchedulingController DEBUG GettargetData, Process Started, 02/02/2025 16:48:18
+2025-02-02 16:48:19 SchedulingController DEBUG GettargetData, Process Started, 02/02/2025 16:48:19
+2025-02-02 16:48:21 SchedulingController DEBUG GetDispatchData, Process Started, 02/02/2025 16:48:21
+2025-02-02 16:48:22 SchedulingController DEBUG GetDispatchData, Process End, 02/02/2025 16:48:22
+2025-02-02 16:48:38 SchedulingController DEBUG Index, Process Started, 02/02/2025 16:48:38
+2025-02-02 16:48:39 SchedulingController DEBUG Index, Process End, 02/02/2025 16:48:39
+2025-02-02 17:05:08 LoginController DEBUG Index, Process Started, 02/02/2025 17:05:08
+2025-02-02 17:05:08 LoginController DEBUG Index, Process End, 02/02/2025 17:05:08
+2025-02-02 17:05:24 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:05:24
+2025-02-02 17:05:32 LoginController DEBUG Authorise, Process End, 02/02/2025 17:05:32
+2025-02-02 17:08:07 LoginController DEBUG Index, Process Started, 02/02/2025 17:08:07
+2025-02-02 17:08:07 LoginController DEBUG Index, Process End, 02/02/2025 17:08:07
+2025-02-02 17:08:26 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:08:26
+2025-02-02 17:08:34 LoginController DEBUG Authorise, Process End, 02/02/2025 17:08:34
+2025-02-02 17:09:35 TMLMatrixController DEBUG ExportExcel, Process Started, 02/02/2025 17:09:35
+2025-02-02 17:09:35 TMLMatrixController DEBUG ExportExcel, Process End, 02/02/2025 17:09:35
+2025-02-02 17:10:42 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:10:42
+2025-02-02 17:10:42 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:10:42 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:10:43 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:10:43
+2025-02-02 17:10:43 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:10:43
+2025-02-02 17:10:43 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:10:52 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:10:52
+2025-02-02 17:10:52 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:10:52
+2025-02-02 17:10:52 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:11:00 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:11:00
+2025-02-02 17:20:08 LoginController DEBUG Index, Process Started, 02/02/2025 17:20:08
+2025-02-02 17:20:08 LoginController DEBUG Index, Process End, 02/02/2025 17:20:08
+2025-02-02 17:20:20 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:20:20
+2025-02-02 17:20:30 LoginController DEBUG Authorise, Process End, 02/02/2025 17:20:30
+2025-02-02 17:21:00 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:21:00
+2025-02-02 17:21:00 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:21:00 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:21:00 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:21:00
+2025-02-02 17:21:00 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:21:00
+2025-02-02 17:21:00 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:21:04 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:21:04
+2025-02-02 17:21:04 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:21:04
+2025-02-02 17:21:04 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:21:07 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:21:07
+2025-02-02 17:22:35 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:22:35
+2025-02-02 17:22:35 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:22:35 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:22:40 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:22:40
+2025-02-02 17:25:24 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:25:24
+2025-02-02 17:25:24 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:25:24 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:25:28 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:25:28
+2025-02-02 17:26:44 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:26:44
+2025-02-02 17:26:47 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:26:47 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:26:58 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:26:58
+2025-02-02 17:27:06 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:27:05
+2025-02-02 17:27:08 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:27:08 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:27:13 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:27:13
+2025-02-02 17:27:13 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:27:13
+2025-02-02 17:27:13 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:29:12 LoginController DEBUG Index, Process Started, 02/02/2025 17:29:12
+2025-02-02 17:29:13 LoginController DEBUG Index, Process End, 02/02/2025 17:29:13
+2025-02-02 17:33:56 LoginController DEBUG Index, Process Started, 02/02/2025 17:33:56
+2025-02-02 17:33:56 LoginController DEBUG Index, Process End, 02/02/2025 17:33:56
+2025-02-02 17:34:09 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:34:09
+2025-02-02 17:34:18 LoginController DEBUG Authorise, Process End, 02/02/2025 17:34:18
+2025-02-02 17:34:51 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:34:51
+2025-02-02 17:34:51 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:34:51 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:34:51 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:34:51
+2025-02-02 17:34:51 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:34:51
+2025-02-02 17:34:51 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:35:07 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:35:07
+2025-02-02 17:35:07 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:35:07
+2025-02-02 17:35:07 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:35:13 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:35:13
+2025-02-02 17:39:47 LoginController DEBUG Index, Process Started, 02/02/2025 17:39:47
+2025-02-02 17:39:47 LoginController DEBUG Index, Process End, 02/02/2025 17:39:47
+2025-02-02 17:40:10 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:40:10
+2025-02-02 17:40:20 LoginController DEBUG Authorise, Process End, 02/02/2025 17:40:20
+2025-02-02 17:40:47 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:40:47
+2025-02-02 17:40:47 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:40:47 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:40:47 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:40:47
+2025-02-02 17:40:47 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:40:47
+2025-02-02 17:40:47 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:40:54 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:40:54
+2025-02-02 17:40:54 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:40:54
+2025-02-02 17:40:54 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:40:59 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:40:59
+2025-02-02 17:44:52 LoginController DEBUG Index, Process Started, 02/02/2025 17:44:52
+2025-02-02 17:44:52 LoginController DEBUG Index, Process End, 02/02/2025 17:44:52
+2025-02-02 17:45:14 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:45:14
+2025-02-02 17:45:25 LoginController DEBUG Authorise, Process End, 02/02/2025 17:45:25
+2025-02-02 17:45:55 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:45:55
+2025-02-02 17:45:55 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:45:55 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:45:56 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:45:56
+2025-02-02 17:45:56 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:45:56
+2025-02-02 17:45:56 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:46:01 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:46:01
+2025-02-02 17:46:01 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:46:01
+2025-02-02 17:46:01 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:46:07 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:46:07
+2025-02-02 17:53:54 LoginController DEBUG Index, Process Started, 02/02/2025 17:53:54
+2025-02-02 17:53:54 LoginController DEBUG Index, Process End, 02/02/2025 17:53:54
+2025-02-02 17:54:08 LoginController DEBUG Authorise, Process Started, 02/02/2025 17:54:08
+2025-02-02 17:54:18 LoginController DEBUG Authorise, Process End, 02/02/2025 17:54:18
+2025-02-02 17:54:58 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:54:58
+2025-02-02 17:54:58 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 17:54:58 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 17:54:58 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:54:58
+2025-02-02 17:54:58 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:54:58
+2025-02-02 17:54:58 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:55:06 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 17:55:06
+2025-02-02 17:55:06 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 17:55:06
+2025-02-02 17:55:06 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 17:55:11 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 17:55:11
+2025-02-02 19:39:00 LoginController DEBUG Index, Process Started, 02/02/2025 19:39:00
+2025-02-02 19:39:00 LoginController DEBUG Index, Process End, 02/02/2025 19:39:00
+2025-02-02 19:39:12 LoginController DEBUG Authorise, Process Started, 02/02/2025 19:39:12
+2025-02-02 19:39:21 LoginController DEBUG Authorise, Process End, 02/02/2025 19:39:21
+2025-02-02 19:39:43 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 19:39:43
+2025-02-02 19:39:43 AutoFillExcelController ERROR PartNo : FC320400
+2025-02-02 19:39:43 AutoFillExcelController ERROR Date : 18/12/2024
+2025-02-02 19:39:44 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 19:39:44
+2025-02-02 19:39:44 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 19:39:44
+2025-02-02 19:39:44 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 19:39:49 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 02/02/2025 19:39:49
+2025-02-02 19:39:49 AutoFillExcelController DEBUG GetAllColumndata, Process End, 02/02/2025 19:39:49
+2025-02-02 19:39:49 AutoFillExcelController ERROR All Column Count : 24
+2025-02-02 19:39:52 AutoFillExcelController DEBUG ViewExcelData, Process Started, 02/02/2025 19:39:52

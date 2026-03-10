@@ -1,0 +1,25 @@
+2025-05-09 15:17:56 LoginController DEBUG Index, Process Started, 09/05/2025 15:17:56
+2025-05-09 15:17:57 LoginController DEBUG Index, Process End, 09/05/2025 15:17:57
+2025-05-09 15:18:21 LoginController DEBUG Authorise, Process Started, 09/05/2025 15:18:21
+2025-05-09 15:18:25 LoginController DEBUG Authorise, Process End, 09/05/2025 15:18:25
+2025-05-09 15:19:00 PrintController DEBUG Index, Process Started, 09/05/2025 15:19:00
+2025-05-09 15:19:00 PrintController DEBUG Index, Process End, 09/05/2025 15:19:00
+2025-05-09 15:19:12 PrintController DEBUG Getpartdetail, Process Started, 09/05/2025 15:19:12
+2025-05-09 15:19:12 PrintController DEBUG Getpartdetail, Process End, 09/05/2025 15:19:12
+2025-05-09 15:19:19 PrintController DEBUG PrintQRCode, Process Started, 09/05/2025 15:19:19
+2025-05-09 15:19:19 PrintController INFO  Print TYpe : 3
+2025-05-09 15:19:19 PrintController INFO  Print Count : 1
+2025-05-09 15:19:19 PrintController INFO  printer : OneNote for Windows 10
+2025-05-09 15:19:19 PrintController INFO  Customer : TML
+2025-05-09 15:19:19 PrintController INFO  Part Number : 218941100110
+2025-05-09 15:19:52 PrintController DEBUG PrintQRCode, Process End, 09/05/2025 15:19:52
+2025-05-09 15:19:54 PrintController DEBUG Index, Process Started, 09/05/2025 15:19:54
+2025-05-09 15:19:54 PrintController DEBUG Index, Process End, 09/05/2025 15:19:54
+2025-05-09 15:20:52 PrintController DEBUG Index, Process Started, 09/05/2025 15:20:52
+2025-05-09 15:20:52 PrintController DEBUG Index, Process End, 09/05/2025 15:20:52
+2025-05-09 15:20:54 PrintController DEBUG PrintHoldQRCode, Process Started, 09/05/2025 15:20:54
+2025-05-09 15:20:54 PrintController DEBUG PrintHoldQRCode, Process End, 09/05/2025 15:20:54
+2025-05-09 15:21:25 PrintController DEBUG PrintHoldQRCode, Process Started, 09/05/2025 15:21:25
+2025-05-09 15:21:25 PrintController DEBUG PrintHoldQRCode, Process End, 09/05/2025 15:21:25
+2025-05-09 15:21:26 PrintController DEBUG Index, Process Started, 09/05/2025 15:21:26
+2025-05-09 15:21:26 PrintController DEBUG Index, Process End, 09/05/2025 15:21:26

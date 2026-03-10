@@ -1,0 +1,245 @@
+﻿@model DF_WebModule.Models.VerifyOTP
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style>
+    .password-container {
+        position: relative;
+        /* Additional styles for the container if needed */
+    }
+
+    .toggle-password {
+        position: absolute;
+        right: 10px;
+        top: calc(80% - 11.8px);
+        cursor: pointer;
+        color: #aaa;
+    }
+        .toggle-password:hover {
+            color: #333;
+        }
+
+    .error {
+        color: #FEFAAA !important;
+    }
+
+    #errorMessage {
+        color: #FEFAAA !important;
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+        background-color: #c70079 !important;
+        border-color: #c70079 !important;
+    }
+    .my-title-class {
+        color: black; 
+    }
+    .textinput {
+        width: 300px;
+        border: 1px solid #ced4da;
+        height: calc(1.5em + 0.75rem + 10px);
+        border-radius: 0.25rem;
+        position: revert-layer !important;
+        box-sizing: border-box;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+        color: black !important;
+    }
+    .otp{
+        color: white !important;
+    }
+
+    .form-signin input {
+        margin-bottom: 10px!important;
+    }
+   
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VerifyOTP</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-signin", @id = "loginform" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @style = "display:none", @id = "emaildata" } })
+        <img class="login-logo" src="~/Content/Images/Syml-Header-Logo.png" alt="" width="250" style=" margin-left: 23px !important;">
+        <h1 class="h3 mb-3 font-weight-normal text-center">Enter your OTP</h1>
+        <label class="error text-center" id="errorLabel"></label>
+        @*<label class="text-warning">@ViewBag.error</label>*@
+    <label style="display: none; margin-left: 25px; " id="otperror" class="error text-center">Sorry, The OTP entered is not valid.<br />Please try again.</label><br />
+        <div class="password-container">
+            <label for="otp" class="otp mt-5">OTP (One Time Password):</label>
+            @Html.ValidationMessageFor(model => model.OTP, "", new { @class = "text-warning" })
+            @Html.PasswordFor(model => model.OTP, new { placeholder = "OTP", @class = "textinput form-control", @id = "otp" })
+            <span class="toggle-password" onclick="togglePasswordVisibility('otp', 'eyeIconConfirm')">
+                <i id="eyeIconConfirm" class="fa fa-eye"></i>
+            </span>
+        </div>     
+        <button class="btn btn-lg btn-primary btn-block btn-sign-in" type="submit" id="validateOTP" disabled>Validate OTP</button>
+        @*<button type="button" class="btn btn-secondary" onclick="location.href = '@Url.Action("Index", "Login")'">Cancel</button>*@
+        <button class="btn btn-lg btn-primary btn-block btn-sign-in" type="button" style="cursor:pointer; display: none;" id="resendOtp">Resend OTP</button>
+        @*<label class="text-warning pull-right mt-2" style="cursor:pointer; display: none;" id="resendOtp">Resend OTP</label><br />*@
+        <p class="mt-5 mb-3 text-center">&copy; @DateTime.Now.Year - SymlConnect</p>
+    </div>
+    }
+
+    <img class="" src="~/Content/Images/frimley-health-and-care-logo.png" alt="" width="300" style="display:block; margin-top:600px; position:fixed;">
+
+
+    <!--Loading Modal-->
+    <div class="modal fade" id="divLoading1" tabindex="-1" role="dialog" aria-labelledby="Loading" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="row" style="width:100%; position: relative;">
+                <div class="col-12 d-flex justify-content-center" style="position: absolute; top: 20px; width: 100%;">
+                    <div id="loadingText" style="color: white; text-align: center;">processing, please do not close this page</div>
+                </div>
+                <div class="justify-content-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div class="spinner-border text-light" role="status" style="width: 3rem; height: 3rem;">
+                        <span id="loadingCircle" class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+
+<script type="text/javascript">
+
+    $('.btn-sign-in').prop('disabled', true);
+
+    $('#otp').on('input', function () {
+        var enteredOTP = $(this).val();
+        $("#otperror").hide();
+        if (enteredOTP.length > 6) {
+            $('#errorLabel').text("OTP cannot be greater than 6 characters");
+        }
+        if (enteredOTP.length == 6) {
+            $('#errorLabel').text("");
+        }
+        $('.btn-sign-in').prop('disabled', enteredOTP.length !== 6);
+
+    });
+
+
+    $('#loginform').submit(function (e) {
+        e.preventDefault();
+        var otp = $('#otp').val();
+        $("#otperror").hide();
+        var Email = $('#emaildata').val();
+        if (otp.length !== 6) {
+            $('#errorLabel').text("OTP should be 6 characters long");
+            return;
+        }
+            var data = { otp,Email};
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("VerifyOTP", "Login")', 
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) { // Remove the modal backdrop
+                    if (response.success) { // Remove the modal backdrop
+                        window.location.href = "@Url.Action("ChangePassword", "Login")";                      
+                    } else {
+                        $("#otperror").show();
+                        //document.getElementById("errorLabel").textContent = response.responseText; // Update a label or element with the response text
+                        const validateButton = document.getElementById("validateOTP");
+                        const resendButton = document.getElementById("resendOtp");
+                        if (validateButton && resendButton) {
+                            validateButton.style.display = "none";
+                            resendButton.style.display = "block";
+                        } else {
+                            console.error("Button elements not found.");
+                        }
+                    }
+                }
+
+            });
+    });
+
+    $('#resendOtp').click(function () {      
+        var email = $('#emaildata').val();
+        var data = {
+            email: email
+        };
+     
+        $('#divLoading1').modal('show');
+        $.ajax({
+           type: "POST",
+            url: '@Url.Action("ForgetPassword", "Login")',
+            data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    if (response.success) {
+                        $('#divLoading1').modal('hide');
+                        $.confirm({
+                                   title: 'OTP has been resent.',
+                                   content: function () {
+                                       return "Use new OTP to reset your password."; // Return the response text directly
+                                   },
+                                   type: 'green',
+                                   typeAnimated: true,
+                                   buttons: {
+                                       OK: {
+                                           text: 'OK',
+                                           action: function () {
+                                               $('#divLoading1').modal('hide');
+                                               $("#otperror").hide();
+                                               window.location.href = "@Url.Action("ValidateOTP", "Login")";
+                                           }
+                                       }
+                                   },
+                                   titleClass: 'my-title-class'
+                         });
+                    } else {
+                        $('#divLoading1').modal('hide');
+                        document.getElementById("errorLabel").textContent = response.responseText;
+                        document.getElementById("resendOtp").style.display = "block";
+                    }
+                }
+        });
+    });
+
+
+    function togglePasswordVisibility() {
+        var passwordField = document.getElementById("otp");
+        var eyeIcon = document.getElementById("eyeIconConfirm");
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            eyeIcon.classList.remove("fa-eye");
+            eyeIcon.classList.add("fa-eye-slash");
+        } else {
+            passwordField.type = "password";
+            eyeIcon.classList.remove("fa-eye-slash");
+            eyeIcon.classList.add("fa-eye");
+        }
+    }
+
+
+    
+
+</script>
+

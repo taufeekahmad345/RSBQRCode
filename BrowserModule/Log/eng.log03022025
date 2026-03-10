@@ -1,0 +1,112 @@
+2025-02-03 16:41:05 LoginController DEBUG Index, Process Started, 03/02/2025 16:41:05
+2025-02-03 16:41:05 LoginController DEBUG Index, Process End, 03/02/2025 16:41:05
+2025-02-03 16:41:23 LoginController DEBUG Authorise, Process Started, 03/02/2025 16:41:23
+2025-02-03 16:41:34 LoginController DEBUG Authorise, Process End, 03/02/2025 16:41:34
+2025-02-03 16:43:02 SchedulingController DEBUG Index, Process Started, 03/02/2025 16:43:02
+2025-02-03 16:43:07 SchedulingController DEBUG Index, Process End, 03/02/2025 16:43:07
+2025-02-03 16:54:34 SchedulingController DEBUG Index, Process Started, 03/02/2025 16:54:34
+2025-02-03 16:54:35 SchedulingController DEBUG Index, Process End, 03/02/2025 16:54:35
+2025-02-03 17:16:42 LoginController DEBUG Index, Process Started, 03/02/2025 17:16:42
+2025-02-03 17:16:42 LoginController DEBUG Index, Process End, 03/02/2025 17:16:42
+2025-02-03 17:18:56 LoginController DEBUG Authorise, Process Started, 03/02/2025 17:18:56
+2025-02-03 17:19:02 LoginController DEBUG Authorise, Process End, 03/02/2025 17:19:02
+2025-02-03 17:19:13 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:19:13
+2025-02-03 17:21:00 LoginController DEBUG Index, Process Started, 03/02/2025 17:21:00
+2025-02-03 17:21:00 LoginController DEBUG Index, Process End, 03/02/2025 17:21:00
+2025-02-03 17:21:13 LoginController DEBUG Authorise, Process Started, 03/02/2025 17:21:13
+2025-02-03 17:21:22 LoginController DEBUG Authorise, Process End, 03/02/2025 17:21:22
+2025-02-03 17:21:34 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:21:34
+2025-02-03 17:21:39 SchedulingController DEBUG Index, Process End, 03/02/2025 17:21:39
+2025-02-03 17:22:11 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:22:11
+2025-02-03 17:22:12 SchedulingController DEBUG Index, Process End, 03/02/2025 17:22:12
+2025-02-03 17:24:50 LoginController DEBUG Index, Process Started, 03/02/2025 17:24:50
+2025-02-03 17:24:51 LoginController DEBUG Index, Process End, 03/02/2025 17:24:51
+2025-02-03 17:25:54 LoginController DEBUG Authorise, Process Started, 03/02/2025 17:25:54
+2025-02-03 17:26:03 LoginController DEBUG Authorise, Process End, 03/02/2025 17:26:03
+2025-02-03 17:26:19 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:26:19
+2025-02-03 17:26:24 SchedulingController DEBUG Index, Process End, 03/02/2025 17:26:24
+2025-02-03 17:26:48 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 17:26:48
+2025-02-03 17:27:00 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 03/02/2025 17:27:00,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 694
+2025-02-03 17:27:00 SchedulingController DEBUG ImportExcel, Process End, 03/02/2025 17:27:00
+2025-02-03 17:27:02 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:27:02
+2025-02-03 17:27:03 SchedulingController DEBUG Index, Process End, 03/02/2025 17:27:03
+2025-02-03 17:27:03 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:27:03
+2025-02-03 17:27:04 SchedulingController DEBUG Index, Process End, 03/02/2025 17:27:04
+2025-02-03 17:27:31 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 17:27:31
+2025-02-03 17:30:05 LoginController DEBUG Index, Process Started, 03/02/2025 17:30:05
+2025-02-03 17:30:05 LoginController DEBUG Index, Process End, 03/02/2025 17:30:05
+2025-02-03 17:30:18 LoginController DEBUG Authorise, Process Started, 03/02/2025 17:30:18
+2025-02-03 17:30:25 LoginController DEBUG Authorise, Process End, 03/02/2025 17:30:25
+2025-02-03 17:30:35 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:30:35
+2025-02-03 17:30:39 SchedulingController DEBUG Index, Process End, 03/02/2025 17:30:39
+2025-02-03 17:30:56 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 17:30:56
+2025-02-03 17:31:57 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 03/02/2025 17:31:57,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 694
+2025-02-03 17:31:57 SchedulingController DEBUG ImportExcel, Process End, 03/02/2025 17:31:57
+2025-02-03 17:31:59 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:31:59
+2025-02-03 17:32:00 SchedulingController DEBUG Index, Process End, 03/02/2025 17:32:00
+2025-02-03 17:32:00 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:32:00
+2025-02-03 17:32:01 SchedulingController DEBUG Index, Process End, 03/02/2025 17:32:01
+2025-02-03 17:32:32 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:32:32
+2025-02-03 17:32:33 SchedulingController DEBUG Index, Process End, 03/02/2025 17:32:33
+2025-02-03 17:33:02 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:33:02
+2025-02-03 17:33:04 SchedulingController DEBUG Index, Process End, 03/02/2025 17:33:04
+2025-02-03 17:33:43 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:33:43
+2025-02-03 17:33:44 SchedulingController DEBUG Index, Process End, 03/02/2025 17:33:44
+2025-02-03 17:33:49 SchedulingController DEBUG SearchbyVehiclenumber, Process Started, 03/02/2025 17:33:49
+2025-02-03 17:33:49 SchedulingController DEBUG SearchbyVehiclenumber, Process End, 03/02/2025 17:33:49
+2025-02-03 17:34:10 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:34:10
+2025-02-03 17:34:11 SchedulingController DEBUG Index, Process End, 03/02/2025 17:34:11
+2025-02-03 17:34:50 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:34:50
+2025-02-03 17:34:51 SchedulingController DEBUG Index, Process End, 03/02/2025 17:34:51
+2025-02-03 17:57:12 LoginController DEBUG Index, Process Started, 03/02/2025 17:57:12
+2025-02-03 17:57:12 LoginController DEBUG Index, Process End, 03/02/2025 17:57:12
+2025-02-03 17:57:23 LoginController DEBUG Authorise, Process Started, 03/02/2025 17:57:23
+2025-02-03 17:57:32 LoginController DEBUG Authorise, Process End, 03/02/2025 17:57:32
+2025-02-03 17:57:48 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:57:48
+2025-02-03 17:57:51 SchedulingController DEBUG Index, Process End, 03/02/2025 17:57:51
+2025-02-03 17:58:05 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 17:58:05
+2025-02-03 17:58:25 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 03/02/2025 17:58:25,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 707
+2025-02-03 17:58:25 SchedulingController DEBUG ImportExcel, Process End, 03/02/2025 17:58:25
+2025-02-03 17:58:26 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:58:26
+2025-02-03 17:58:26 SchedulingController DEBUG Index, Process End, 03/02/2025 17:58:26
+2025-02-03 17:58:27 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:58:27
+2025-02-03 17:58:27 SchedulingController DEBUG Index, Process End, 03/02/2025 17:58:27
+2025-02-03 17:59:12 SchedulingController DEBUG Index, Process Started, 03/02/2025 17:59:12
+2025-02-03 17:59:12 SchedulingController DEBUG Index, Process End, 03/02/2025 17:59:12
+2025-02-03 17:59:28 SchedulingController DEBUG GetDispatchData, Process Started, 03/02/2025 17:59:28
+2025-02-03 17:59:28 SchedulingController DEBUG GetDispatchData, Process End, 03/02/2025 17:59:28
+2025-02-03 18:00:07 LoginController DEBUG Index, Process Started, 03/02/2025 18:00:07
+2025-02-03 18:00:07 LoginController DEBUG Index, Process End, 03/02/2025 18:00:07
+2025-02-03 18:00:13 LoginController DEBUG Authorise, Process Started, 03/02/2025 18:00:13
+2025-02-03 18:00:44 LoginController DEBUG Authorise, Process End, 03/02/2025 18:00:44
+2025-02-03 18:01:10 SchedulingController DEBUG Index, Process Started, 03/02/2025 18:01:10
+2025-02-03 18:01:10 SchedulingController DEBUG Index, Process End, 03/02/2025 18:01:10
+2025-02-03 18:01:20 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 18:01:20
+2025-02-03 18:01:44 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 03/02/2025 18:01:44,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 707
+2025-02-03 18:01:44 SchedulingController DEBUG ImportExcel, Process End, 03/02/2025 18:01:44
+2025-02-03 18:01:45 SchedulingController DEBUG Index, Process Started, 03/02/2025 18:01:45
+2025-02-03 18:01:45 SchedulingController DEBUG Index, Process End, 03/02/2025 18:01:45
+2025-02-03 18:01:46 SchedulingController DEBUG Index, Process Started, 03/02/2025 18:01:46
+2025-02-03 18:01:47 SchedulingController DEBUG Index, Process End, 03/02/2025 18:01:47
+2025-02-03 18:02:00 SchedulingController DEBUG ImportExcel, Process Started, 03/02/2025 18:02:00
+2025-02-03 18:04:42 SchedulingController ERROR Error Thrown during: Worksheet has been disposed
+Object name: 'ExcelWorksheet'., ImportExcel, 03/02/2025 18:04:42,   at OfficeOpenXml.ExcelWorksheet.CheckSheetTypeAndNotDisposed()
+   at OfficeOpenXml.ExcelWorksheet.get_Cells()
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 707
+2025-02-03 18:04:42 SchedulingController DEBUG ImportExcel, Process End, 03/02/2025 18:04:42
+2025-02-03 18:04:44 SchedulingController DEBUG Index, Process Started, 03/02/2025 18:04:44
+2025-02-03 18:04:44 SchedulingController DEBUG Index, Process End, 03/02/2025 18:04:44
+2025-02-03 18:04:45 SchedulingController DEBUG Index, Process Started, 03/02/2025 18:04:45
+2025-02-03 18:04:45 SchedulingController DEBUG Index, Process End, 03/02/2025 18:04:45

@@ -1,0 +1,732 @@
+﻿@model DF_WebModule.Classes.clsPrint
+
+<style>
+    .rowh {
+        margin-top: -5px;
+    }
+
+    .colu {
+        margin-left: -300px;
+        border: solid;
+    }
+    .fontsize {
+        font-size: larger;
+    }
+</style>
+
+
+<div class="form-horizontal">
+    <div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+        <div class="col-sm-12 col-lg-12" style="margin:auto">
+            <h4 style="color: aliceblue; text-align:center">Print</h4>
+        </div>
+    </div>
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+<div class="row TablePanel" style="border: solid; background: aliceblue;">
+    <div class="col-sm-6 col-lg-6 col-md-6" style="padding-top:10px">
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Vendor Name <span style="color:red">*</span></label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @{
+                    List<SelectListItem> role = new List<SelectListItem>();
+                    foreach (var item in Model.customers)
+                    {
+
+                        role.Add(new SelectListItem
+                        {
+                            Text = item.Name,
+                            Value = item.Name,
+                        });
+                    }
+
+
+                }
+                @Html.DropDownListFor(model => model.cId, role, "----Select Customer----", new { @class = "form-control", @onchange = "loadPartNumbers(this.value)", @id = "selectcustomer" })
+            </div>
+        </div>
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Print Type <span style="color:red">*</span></label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @{
+                    List<SelectListItem> printtype = new List<SelectListItem>();
+
+                    printtype.Add(new SelectListItem
+                    {
+                        Text = "Bar Code",
+                        Value = "3",
+                    });
+                    printtype.Add(new SelectListItem
+                    {
+                        Text = "RSB QR Code",
+                        Value = "2",
+                    });
+                    printtype.Add(new SelectListItem
+                    {
+                        Text = "QR Code",
+                        Value = "1",
+                    });
+                    printtype.Add(new SelectListItem
+                    {
+                        Text = "TML QR",
+                        Value = "4",
+                    });
+
+                }
+                @Html.DropDownListFor(model => model.cId, printtype, "----Select Print Type----", new { @class = "form-control", @id = "printtype" })
+            </div>
+
+        </div>
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Search Part</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.PartNumber, new { htmlAttributes = new { @class = "form-control", @id = "partsearch" } })
+            </div>
+            <a id="search" style=" color: blue; font-style: oblique; font-size: larger; cursor:pointer">Search</a>
+            
+        </div>
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Scan Part</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.ScanText, new { htmlAttributes = new { @class = "form-control", @placeholder = "Scan Part Number", @id = "Scanpart",  @onchange = "onPartNumberChanged()" } })
+            </div>
+            <a id="clearbtn" style=" color: brown; font-style: oblique; font-size: larger; cursor:pointer">Clear</a>
+        </div>
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Description</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", @id = "discription" } })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Rev No</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.RevNo, new { htmlAttributes = new { @class = "form-control", @id = "rev" } })
+                @Html.ValidationMessageFor(model => model.RevNo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Type <span style="color:red">*</span></label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @{
+                    List<SelectListItem> type = new List<SelectListItem>();
+                    foreach (var item in Model.parttype)
+                    {
+
+                        type.Add(new SelectListItem
+                        {
+                            Text = item.TypeOfPart,
+                            Value = item.TypeOfPart,
+                        });
+                    }
+
+
+                }
+                @*}*@
+
+                @Html.DropDownListFor(model => model.Type, type, "----Select Type----", new { @class = "form-control", @id = "type" })
+
+            </div>
+        </div>
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">NoOf Print <span style="color:red">*</span></label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.NoOfPrint, new { htmlAttributes = new { @class = "form-control", @id = "nprint" } })
+                @Html.ValidationMessageFor(model => model.NoOfPrint, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Tube Length</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.TubeLength, new { htmlAttributes = new { @class = "form-control", @id = "length" } })
+                @Html.ValidationMessageFor(model => model.TubeLength, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Joint</label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @Html.EditorFor(model => model.Joint, new { htmlAttributes = new { @class = "form-control", @id = "tin" } })
+                @Html.ValidationMessageFor(model => model.Joint, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <button id="print" style=" width: 150px;">Print</button>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <button id="holdprint" style="width: 150px; background:#f57070">Print Hold QR</button>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label class="fontsize" id="printsuccess" style="color:green; display:none;">Printed Successfully!</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-6 col-md-6" style="padding-top:10px">
+        <div class="row rowh">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <label class="fontsize">Printer <span style="color:red">*</span></label>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                @{
+                    List<SelectListItem> printer = new List<SelectListItem>();
+                    foreach (var item in Model.Printers)
+                    {
+
+                        printer.Add(new SelectListItem
+                        {
+                            Text = item,
+                            Value = item,
+                        });
+                    }
+
+
+                }
+                @Html.DropDownListFor(model => model.Printer, printer, "----Select Printer----", new { @class = "form-control", @id = "selectprinter" })
+            </div>
+
+        </div>
+        <div class="row rowh">
+
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label class="fontsize" id="date">Date : &nbsp;&nbsp;   @Model.Date</label>
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label id="slno" class="fontsize">SLNO Code: &nbsp;&nbsp;<span id="slnoValue">@Model.SLNO</span></label>
+            </div>
+
+
+        </div>
+
+        <div style="border:solid; height:200px">
+            <h5 style="margin: 10px; color:#f57070">Duplicate Sticker Print </h5>
+
+            <div class="row rowh" style="margin-left: 10px;">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <label for="fname">SLNO:</label><br>
+                    <input class="form-control form-control-sm fontsize" style="height: 40px; font-size:larger;" id="slnumber" type="text" placeholder="SL No">
+
+                </div>
+               
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <label for="fname">Date:</label><br>
+                    <input class="form-control form-control-sm datepicker fontsize" style="height: 40px; font-size:larger;" id="dubdate" type="text" placeholder="dd/mm/yyyy">
+
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2" style="margin-top:30px">
+                    <button id="dubprint" style=" width: 120px; background: coral;">Print</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+<div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+        <button id="testprint" style="width: 150px; background:#f57070">Test Print</button>
+    </div>
+
+</div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#dubdate").datepicker({
+            format: 'dd/mm/yyyy',
+            autoclose: true,
+        });
+    }
+    );
+    function loadPartNumbers(customerId) {
+    if (!customerId) {
+        $('#selectpart').html('<option>----Select PartNO----</option>');
+        return;
+    }
+
+
+    $.ajax({
+        url: '@Url.Action("GetPartsByCustomer", "PartManagement")',
+        type: 'GET',
+        data: { customerId: customerId },
+        success: function (data) {
+            var partDropdown = $('#selectpart');
+            partDropdown.empty();
+            partDropdown.append('<option>----Select PartNO----</option>');
+            $.each(data, function (i, item) {
+                partDropdown.append($('<option>', {
+                    value: item.Value,
+                    text: item.Text
+                }));
+            });
+        },
+        error: function () {
+            alert("Error loading part numbers.");
+        }
+    });
+
+
+}
+    $("#dubprint").click(function () {
+        debugger
+        $("#printsuccess").text("").hide();
+      
+        var partnumber = $("#partsearch").val();
+        var printetype = $("#printtype").val();
+        var Customer = $("#selectcustomer").val();
+        var dubdate = $("#dubdate").val();
+         var slno = $("#slnumber").val();
+        
+
+        if (partnumber != undefined && partnumber != ''
+            && printetype != undefined && printetype != '' && dubdate != '' && dubdate != undefined && Customer != '' && Customer != undefined) {
+            var post = { partnumber, printetype, slno, dubdate, Customer }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("DubPrintQRCode", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if (!data.success) {
+                        $('#LoadingIcon').modal('hide');
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#selectprinter").val("");
+                        $('#printsuccess').text(data.responseText).show();
+                        //$("#printsuccess").show();
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        else {
+            $.confirm({
+                title: 'Warning',
+                content: 'Please fill the all Mandatory fields',
+                type: 'red',
+                typeAnimated: true,
+                buttons: {
+                    Okay: {
+                        text: 'Okay',
+
+                    }
+                }
+            });
+        }
+
+    })
+
+
+     $("#testprint").click(function () {
+        debugger
+       
+        var printer = $("#selectprinter").val();     
+        if (printer != undefined && printer != '') {
+            var post = { printer }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("TestPeint", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if (!data.success) {
+                        $('#LoadingIcon').modal('hide');
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#selectprinter").val("");
+                        $('#printsuccess').text(data.responseText).show();
+                        //$("#printsuccess").show();
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        else {
+            $.confirm({
+                title: 'Warning',
+                content: 'Please select printer',
+                type: 'red',
+                typeAnimated: true,
+                buttons: {
+                    Okay: {
+                        text: 'Okay',
+
+                    }
+                }
+            });
+        }
+
+    })
+    $("#clearbtn").click(function () {
+        debugger
+        $("#discription").val("").prop('disabled', false);
+        $("#rev").val("").prop('disabled', false);
+        $("#code").val("").prop('disabled', false);
+        $("#tin").val("").prop('disabled', false);
+        $("#length").val("").prop('disabled', false);
+        $("#type").val("").prop('disabled', false);
+        $("#partsearch").val("").prop('disabled', false);
+        $("#nprint").prop('disabled', false);
+        $("#Scanpart").val("").prop('disabled', false);
+        $("#selectprinter").val("");
+    });
+
+    $("#print").click(function () {
+        $("#printsuccess").text("").hide();
+        var item = {};
+        item.PartNumber = $("#partsearch").val();
+        item.Printer = $("#selectprinter").val();
+        item.PrintType = $("#printtype").val();
+        item.Customer = $("#selectcustomer").val();
+        item.ScanText = $("#Scanpart").val();
+        item.printcount = $("#nprint").val();
+       
+            var post = { item}
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("PrintQRCode", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if (!data.success) {
+
+                        $('#LoadingIcon').modal('hide');
+                        $("#slnoValue").text(data.totalcount);
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $('#LoadingIcon').modal('hide');
+                        $("#slnoValue").text(data.totalcount);
+                        $('#printsuccess').text(data.responseText).show();
+                        $("#discription").val("").prop('disabled', false);
+                        $("#rev").val("").prop('disabled', false);
+                        $("#code").val("").prop('disabled', false);
+                        $("#tin").val("").prop('disabled', false);
+                        $("#length").val("").prop('disabled', false);
+                        $("#type").val("").prop('disabled', false);
+                        $("#partsearch").val("").prop('disabled', false);
+                        $("#nprint").val("0").prop('disabled', false);
+                        $("#Scanpart").val("").prop('disabled', false);
+                       
+                        $("#selectprinter").val("");
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+
+    })
+
+     $("#holdprint").click(function () {
+         debugger
+         $("#printsuccess").text("").hide();
+         var printer = $("#selectprinter").val();        
+        if (printer != undefined && printer != '') {
+            var post = { printer}
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("PrintHoldQRCode", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    if (!data.success) {
+
+                        $('#LoadingIcon').modal('hide');
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#selectprinter").val("");
+                        $('#LoadingIcon').modal('hide');
+                        $('#printsuccess').text(data.responseText).show();
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        else {
+            if (printer == undefined || printer == '') {
+                $.confirm({
+                    title: 'Warning',
+                    content: 'Please select printer!',
+                    type: 'red',
+                    typeAnimated: true,
+                    buttons: {
+                        Okay: {
+                            text: 'Okay',
+
+                        }
+                    }
+                });
+            }
+            else {
+                $.confirm({
+                    title: 'Warning',
+                    content: 'Please provide the part number!',
+                    type: 'red',
+                    typeAnimated: true,
+                    buttons: {
+                        Okay: {
+                            text: 'Okay',
+
+                        }
+                    }
+                });
+            }
+        }
+
+     })
+    function onPartNumberChanged() {
+        debugger
+        $("#printsuccess").text("").hide();
+        var part = $("#Scanpart").val();
+        if (part.length > 14) {
+            var post = { part}
+         $.ajax({
+                type: "POST",
+                url: '@Url.Action("PrintScannedCode", "Print")',
+             data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (data) {
+                    if (!data.success) {
+                        $('#LoadingIcon').modal('hide');
+
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#Scanpart").val("");
+                        $('#printsuccess').text(data.responseText).show();
+                       
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+        }
+    }
+    $("#search").click(function () {
+        $('#selectcustomer').prop('disabled', false);
+        $('#Scanpart').val("").prop('disabled', true);
+        Getpart($("#partsearch").val());
+    });
+    function Getpart(part) {
+        $("#printsuccess").text("").hide();       
+        var post = { part}
+         $.ajax({
+                type: "POST",
+                url: '@Url.Action("Getpartdetail", "Print")',
+             data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (data) {
+                    if (!data.success) {
+                        $('#LoadingIcon').modal('hide');
+
+                        $.confirm({
+                            title: 'Warning',
+                            content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay',
+
+                                }
+                            }
+                        });
+                    }
+                    else {
+                        $("#discription").val(data.des).prop('disabled', true);
+                        $("#rev").val(data.rev).prop('disabled', true);
+                        $("#code").val(data.code).prop('disabled', true);
+                        $("#tin").val(data.joint).prop('disabled', true);
+                        $("#length").val(data.length).prop('disabled', true);
+                        $("#type").val(data.type).prop('disabled', true);
+                        $("#partsearch").val(data.part).prop('disabled', true);
+                        $("#nprint").prop('disabled', false);
+                    }
+
+                },
+                error: function (data) {
+                    $('#LoadingIcon').modal('hide');
+                    $.confirm({
+                        title: 'Unable to save User',
+                        content: 'Unable to save User, please can you check your fields',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    }
+
+
+    function getpartdetails() {
+
+        debugger
+        var part = $("#selectpart").val();
+        Getpart(part);
+
+    }
+</script>

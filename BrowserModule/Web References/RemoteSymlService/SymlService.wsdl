@@ -1,0 +1,4155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://symlconnect.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="http://symlconnect.com/AbstractTypes" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://symlconnect.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://symlconnect.com/">
+      <s:element name="GetPatQuestionnairesByName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatQuestionnairesByNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatQuestionnairesByNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatGender">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatGenderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatGenderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatQuestionnaires">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatQuestionnairesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllQuestionnaires">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllQuestionnairesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllDefaultQuestionnaires">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllDefaultQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllDefaultQuestionnairesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllPatientQuestionnaires">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllPatientQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllPatientQuestionnairesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllPatientQuestionnairesWithId">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllPatientQuestionnairesWithIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllPatientQuestionnairesWithIdResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TriggerUploader">
+        <s:complexType />
+      </s:element>
+      <s:element name="TriggerUploaderResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SetPatientReminder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reminder" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPatientReminderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetPatientReminderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientReminders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientRemindersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersCarer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersCarerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientRemindersCarerResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersAlcohol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersAlcoholResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientRemindersAlcoholResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersSmoker">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientRemindersSmokerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientRemindersSmokerResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographicsAlert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographicsAlertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientDemographicsAlertResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DismissPatientReminder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reminder" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DismissPatientReminderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DismissPatientReminderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPatientPrescriptions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Prescription" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPatientPrescriptionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetPatientPrescriptionsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientPrescriptions">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientPrescriptionsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientPrescriptionsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPatientDemographics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DOB" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TelNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PostCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReminderID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPatientDemographicsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SetPatientDemographicsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReminderID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographicsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientDemographicsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePatientDemographics">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePatientDemographicsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeletePatientDemographicsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeletePatientQuestionnaires">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IDs" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DeletePatientQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeletePatientQuestionnairesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssignedQsToPats">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatList" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="QList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssignedQsToPatsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AssignedQsToPatsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssignedDefaultQs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="addToPats" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssignedDefaultQsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AssignedDefaultQsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateConfig">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="HIXIP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="IP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SUPPID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DBNAME" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ORG" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LOCATION" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="USER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PASS" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DEMO" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateConfigResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateConfigResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Testme">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestmeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestmeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetPatQuestionnaires">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResetPatQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResetPatQuestionnairesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitPatFilledQuestionnaireslist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="csvQIDs" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitPatFilledQuestionnaireslistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitPatFilledQuestionnaireslistResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographic">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PatientID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientDemographicResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientDemographicResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientSequence">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="lastPatient" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="batchSize" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientSequenceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientSequenceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InitializewithID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PuiKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InitializewithIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InitializewithIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddXMLTemplate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NewXMLTemplate" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ReplaceExistingTemplate" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="UniqueID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddXMLTemplateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddXMLTemplateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceXMLTemplate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UniqueID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NewXMLTemplate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReplaceXMLTemplateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReplaceXMLTemplateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteXMLTemplate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UniqueID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteXMLTemplateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteXMLTemplateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBookedPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sessionId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="minutesWithIn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="minutesBefore" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBookedPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBookedPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmailingPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Patients" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Questionnairs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ELibrary" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEmailingPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEmailingPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSMSPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Patients" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Questionnairs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ELibrary" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSMSPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSMSPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncEmailingPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Patients" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SyncEmailingPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SyncEmailingPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutstandingPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Patients" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOutstandingPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOutstandingPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOutstandingQuestionnaires">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Patients" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteOutstandingQuestionnairesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteOutstandingQuestionnairesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchedPatients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DOB" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PostCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchedPatientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMatchedPatientsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Forename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Location" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBPReviews">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBPReviewsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBPReviewsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetBPReviews">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Submit" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reject" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetBPReviewsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RejectBPReviews">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reviews" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RejectBPReviewsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetGeneralNotification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Notification" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetGeneralNotificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPersonalNotification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Notifications" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetPersonalNotificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FirstName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LastName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DOB" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PostCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPatientIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPatientIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Term" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SNOMED" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Value" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Note" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitValueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitValues">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PatID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PUISessionID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Term" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="SNOMED" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Value" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Note" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitValuesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitValuesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema targetNamespace="http://symlconnect.com/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetPatQuestionnairesByNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatQuestionnairesByName" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesByNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatQuestionnairesByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatGender" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatGenderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="GetAllQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDefaultQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllDefaultQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDefaultQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllDefaultQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllPatientQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllPatientQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllPatientQuestionnairesWithId" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllPatientQuestionnairesWithIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="TriggerUploaderSoapIn">
+    <wsdl:part name="parameters" element="tns:TriggerUploader" />
+  </wsdl:message>
+  <wsdl:message name="TriggerUploaderSoapOut">
+    <wsdl:part name="parameters" element="tns:TriggerUploaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientReminderSoapIn">
+    <wsdl:part name="parameters" element="tns:SetPatientReminder" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientReminderSoapOut">
+    <wsdl:part name="parameters" element="tns:SetPatientReminderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientReminders" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersCarer" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersCarerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersAlcohol" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersAlcoholResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersSmoker" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientRemindersSmokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographicsAlert" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographicsAlertResponse" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderSoapIn">
+    <wsdl:part name="parameters" element="tns:DismissPatientReminder" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderSoapOut">
+    <wsdl:part name="parameters" element="tns:DismissPatientReminderResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsSoapIn">
+    <wsdl:part name="parameters" element="tns:SetPatientPrescriptions" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsSoapOut">
+    <wsdl:part name="parameters" element="tns:SetPatientPrescriptionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientPrescriptions" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientPrescriptionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsSoapIn">
+    <wsdl:part name="parameters" element="tns:SetPatientDemographics" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsSoapOut">
+    <wsdl:part name="parameters" element="tns:SetPatientDemographicsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographics" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographicsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePatientDemographics" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePatientDemographicsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:DeletePatientQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:DeletePatientQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsSoapIn">
+    <wsdl:part name="parameters" element="tns:AssignedQsToPats" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsSoapOut">
+    <wsdl:part name="parameters" element="tns:AssignedQsToPatsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsSoapIn">
+    <wsdl:part name="parameters" element="tns:AssignedDefaultQs" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsSoapOut">
+    <wsdl:part name="parameters" element="tns:AssignedDefaultQsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateConfig" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateConfigResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestmeSoapIn">
+    <wsdl:part name="parameters" element="tns:Testme" />
+  </wsdl:message>
+  <wsdl:message name="TestmeSoapOut">
+    <wsdl:part name="parameters" element="tns:TestmeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:ResetPatQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:ResetPatQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitPatFilledQuestionnaireslist" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitPatFilledQuestionnaireslistResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographic" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientDemographicResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientSequence" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientSequenceResponse" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDSoapIn">
+    <wsdl:part name="parameters" element="tns:InitializewithID" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDSoapOut">
+    <wsdl:part name="parameters" element="tns:InitializewithIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateSoapIn">
+    <wsdl:part name="parameters" element="tns:AddXMLTemplate" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateSoapOut">
+    <wsdl:part name="parameters" element="tns:AddXMLTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateSoapIn">
+    <wsdl:part name="parameters" element="tns:ReplaceXMLTemplate" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateSoapOut">
+    <wsdl:part name="parameters" element="tns:ReplaceXMLTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteXMLTemplate" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteXMLTemplateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBookedPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBookedPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEmailingPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEmailingPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSMSPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSMSPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:SyncEmailingPatients" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:SyncEmailingPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOutstandingPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOutstandingPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteOutstandingQuestionnaires" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteOutstandingQuestionnairesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMatchedPatients" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMatchedPatientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateUser" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUser" />
+  </wsdl:message>
+  <wsdl:message name="GetUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBPReviewsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBPReviews" />
+  </wsdl:message>
+  <wsdl:message name="GetBPReviewsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBPReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetBPReviewsSoapIn">
+    <wsdl:part name="parameters" element="tns:SetBPReviews" />
+  </wsdl:message>
+  <wsdl:message name="SetBPReviewsSoapOut">
+    <wsdl:part name="parameters" element="tns:SetBPReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="RejectBPReviewsSoapIn">
+    <wsdl:part name="parameters" element="tns:RejectBPReviews" />
+  </wsdl:message>
+  <wsdl:message name="RejectBPReviewsSoapOut">
+    <wsdl:part name="parameters" element="tns:RejectBPReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetGeneralNotificationSoapIn">
+    <wsdl:part name="parameters" element="tns:SetGeneralNotification" />
+  </wsdl:message>
+  <wsdl:message name="SetGeneralNotificationSoapOut">
+    <wsdl:part name="parameters" element="tns:SetGeneralNotificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetPersonalNotificationSoapIn">
+    <wsdl:part name="parameters" element="tns:SetPersonalNotification" />
+  </wsdl:message>
+  <wsdl:message name="SetPersonalNotificationSoapOut">
+    <wsdl:part name="parameters" element="tns:SetPersonalNotificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPatientID" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPatientIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitValue" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesSoapIn">
+    <wsdl:part name="parameters" element="tns:SubmitValues" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitValuesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesByNameHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesByNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllQuestionnairesHttpGetIn" />
+  <wsdl:message name="GetAllQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDefaultQuestionnairesHttpGetIn" />
+  <wsdl:message name="GetAllDefaultQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesHttpGetIn" />
+  <wsdl:message name="GetAllPatientQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdHttpGetIn" />
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TriggerUploaderHttpGetIn" />
+  <wsdl:message name="TriggerUploaderHttpGetOut" />
+  <wsdl:message name="SetPatientReminderHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PatName" type="s:string" />
+    <wsdl:part name="Reminder" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientReminderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Reminder" type="s:string" />
+    <wsdl:part name="Username" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PatName" type="s:string" />
+    <wsdl:part name="Prescription" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="TelNo" type="s:string" />
+    <wsdl:part name="Address" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="ReminderID" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="ReminderID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsHttpGetIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsHttpGetIn">
+    <wsdl:part name="PatList" type="s:string" />
+    <wsdl:part name="QList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsHttpGetIn">
+    <wsdl:part name="QList" type="s:string" />
+    <wsdl:part name="addToPats" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigHttpGetIn">
+    <wsdl:part name="SessionID" type="s:string" />
+    <wsdl:part name="HIXIP" type="s:string" />
+    <wsdl:part name="IP" type="s:string" />
+    <wsdl:part name="SUPPID" type="s:string" />
+    <wsdl:part name="DBNAME" type="s:string" />
+    <wsdl:part name="ORG" type="s:string" />
+    <wsdl:part name="LOCATION" type="s:string" />
+    <wsdl:part name="USER" type="s:string" />
+    <wsdl:part name="PASS" type="s:string" />
+    <wsdl:part name="DEMO" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestmeHttpGetIn" />
+  <wsdl:message name="TestmeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="csvQIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicHttpGetIn">
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="PatientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceHttpGetIn">
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="lastPatient" type="s:string" />
+    <wsdl:part name="batchSize" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDHttpGetIn">
+    <wsdl:part name="PuiKey" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateHttpGetIn">
+    <wsdl:part name="NewXMLTemplate" type="s:string" />
+    <wsdl:part name="ReplaceExistingTemplate" type="s:string" />
+    <wsdl:part name="UniqueID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateHttpGetIn">
+    <wsdl:part name="UniqueID" type="s:string" />
+    <wsdl:part name="NewXMLTemplate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateHttpGetIn">
+    <wsdl:part name="UniqueID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsHttpGetIn">
+    <wsdl:part name="sessionId" type="s:string" />
+    <wsdl:part name="minutesWithIn" type="s:string" />
+    <wsdl:part name="minutesBefore" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsHttpGetIn">
+    <wsdl:part name="Patients" type="s:string" />
+    <wsdl:part name="Questionnairs" type="s:string" />
+    <wsdl:part name="ELibrary" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsHttpGetIn">
+    <wsdl:part name="Patients" type="s:string" />
+    <wsdl:part name="Questionnairs" type="s:string" />
+    <wsdl:part name="ELibrary" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsHttpGetIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsHttpGetIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesHttpGetIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserHttpGetIn">
+    <wsdl:part name="Forename" type="s:string" />
+    <wsdl:part name="Surname" type="s:string" />
+    <wsdl:part name="Username" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="Location" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDHttpGetIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Term" type="s:string" />
+    <wsdl:part name="Description" type="s:string" />
+    <wsdl:part name="SNOMED" type="s:string" />
+    <wsdl:part name="Value" type="s:string" />
+    <wsdl:part name="Note" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesHttpGetIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Term" type="s1:StringArray" />
+    <wsdl:part name="SNOMED" type="s1:StringArray" />
+    <wsdl:part name="Value" type="s1:StringArray" />
+    <wsdl:part name="Note" type="s1:StringArray" />
+    <wsdl:part name="Mode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesByNameHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesByNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatGenderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllQuestionnairesHttpPostIn" />
+  <wsdl:message name="GetAllQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllDefaultQuestionnairesHttpPostIn" />
+  <wsdl:message name="GetAllDefaultQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesHttpPostIn" />
+  <wsdl:message name="GetAllPatientQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdHttpPostIn" />
+  <wsdl:message name="GetAllPatientQuestionnairesWithIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TriggerUploaderHttpPostIn" />
+  <wsdl:message name="TriggerUploaderHttpPostOut" />
+  <wsdl:message name="SetPatientReminderHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PatName" type="s:string" />
+    <wsdl:part name="Reminder" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientReminderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersCarerHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersAlcoholHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientRemindersSmokerHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsAlertHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Reminder" type="s:string" />
+    <wsdl:part name="Username" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DismissPatientReminderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PatName" type="s:string" />
+    <wsdl:part name="Prescription" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientPrescriptionsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientPrescriptionsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="TelNo" type="s:string" />
+    <wsdl:part name="Address" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="ReminderID" type="s:string" />
+    <wsdl:part name="Email" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetPatientDemographicsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="ReminderID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsHttpPostIn">
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="PatID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeletePatientDemographicsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsHttpPostIn">
+    <wsdl:part name="PatList" type="s:string" />
+    <wsdl:part name="QList" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedQsToPatsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsHttpPostIn">
+    <wsdl:part name="QList" type="s:string" />
+    <wsdl:part name="addToPats" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AssignedDefaultQsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigHttpPostIn">
+    <wsdl:part name="SessionID" type="s:string" />
+    <wsdl:part name="HIXIP" type="s:string" />
+    <wsdl:part name="IP" type="s:string" />
+    <wsdl:part name="SUPPID" type="s:string" />
+    <wsdl:part name="DBNAME" type="s:string" />
+    <wsdl:part name="ORG" type="s:string" />
+    <wsdl:part name="LOCATION" type="s:string" />
+    <wsdl:part name="USER" type="s:string" />
+    <wsdl:part name="PASS" type="s:string" />
+    <wsdl:part name="DEMO" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateConfigHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TestmeHttpPostIn" />
+  <wsdl:message name="TestmeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ResetPatQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="csvQIDs" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitPatFilledQuestionnaireslistHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicHttpPostIn">
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="PatientID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientDemographicHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceHttpPostIn">
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="lastPatient" type="s:string" />
+    <wsdl:part name="batchSize" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientSequenceHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDHttpPostIn">
+    <wsdl:part name="PuiKey" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InitializewithIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateHttpPostIn">
+    <wsdl:part name="NewXMLTemplate" type="s:string" />
+    <wsdl:part name="ReplaceExistingTemplate" type="s:string" />
+    <wsdl:part name="UniqueID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddXMLTemplateHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateHttpPostIn">
+    <wsdl:part name="UniqueID" type="s:string" />
+    <wsdl:part name="NewXMLTemplate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ReplaceXMLTemplateHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateHttpPostIn">
+    <wsdl:part name="UniqueID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteXMLTemplateHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsHttpPostIn">
+    <wsdl:part name="sessionId" type="s:string" />
+    <wsdl:part name="minutesWithIn" type="s:string" />
+    <wsdl:part name="minutesBefore" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBookedPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsHttpPostIn">
+    <wsdl:part name="Patients" type="s:string" />
+    <wsdl:part name="Questionnairs" type="s:string" />
+    <wsdl:part name="ELibrary" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetEmailingPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsHttpPostIn">
+    <wsdl:part name="Patients" type="s:string" />
+    <wsdl:part name="Questionnairs" type="s:string" />
+    <wsdl:part name="ELibrary" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSMSPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsHttpPostIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SyncEmailingPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsHttpPostIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOutstandingPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesHttpPostIn">
+    <wsdl:part name="Patients" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOutstandingQuestionnairesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchedPatientsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserHttpPostIn">
+    <wsdl:part name="Forename" type="s:string" />
+    <wsdl:part name="Surname" type="s:string" />
+    <wsdl:part name="Username" type="s:string" />
+    <wsdl:part name="Title" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+    <wsdl:part name="Location" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDHttpPostIn">
+    <wsdl:part name="FirstName" type="s:string" />
+    <wsdl:part name="LastName" type="s:string" />
+    <wsdl:part name="DOB" type="s:string" />
+    <wsdl:part name="PostCode" type="s:string" />
+    <wsdl:part name="PUISessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPatientIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Term" type="s:string" />
+    <wsdl:part name="Description" type="s:string" />
+    <wsdl:part name="SNOMED" type="s:string" />
+    <wsdl:part name="Value" type="s:string" />
+    <wsdl:part name="Note" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValueHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesHttpPostIn">
+    <wsdl:part name="PatID" type="s:string" />
+    <wsdl:part name="PUISessionID" type="s:string" />
+    <wsdl:part name="Term" type="s1:StringArray" />
+    <wsdl:part name="SNOMED" type="s1:StringArray" />
+    <wsdl:part name="Value" type="s1:StringArray" />
+    <wsdl:part name="Note" type="s1:StringArray" />
+    <wsdl:part name="Mode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitValuesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="SymlServiceSoap">
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire names assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire names for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesByNameSoapIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesByNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the gender of a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: The gender of a patient identified by ID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatGenderSoapIn" />
+      <wsdl:output message="tns:GetPatGenderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire IDs assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire IDs for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesSoapIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllQuestionnairesSoapIn" />
+      <wsdl:output message="tns:GetAllQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of defaulted questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllDefaultQuestionnairesSoapIn" />
+      <wsdl:output message="tns:GetAllDefaultQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesSoapIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesWithIdSoapIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesWithIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <wsdl:input message="tns:TriggerUploaderSoapIn" />
+      <wsdl:output message="tns:TriggerUploaderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientReminderSoapIn" />
+      <wsdl:output message="tns:SetPatientReminderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersSoapIn" />
+      <wsdl:output message="tns:GetPatientRemindersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Carer Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersCarerSoapIn" />
+      <wsdl:output message="tns:GetPatientRemindersCarerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Alcohol Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersAlcoholSoapIn" />
+      <wsdl:output message="tns:GetPatientRemindersAlcoholSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Smoker Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersSmokerSoapIn" />
+      <wsdl:output message="tns:GetPatientRemindersSmokerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics Alert</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsAlertSoapIn" />
+      <wsdl:output message="tns:GetPatientDemographicsAlertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Dismiss the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:DismissPatientReminderSoapIn" />
+      <wsdl:output message="tns:DismissPatientReminderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientPrescriptionsSoapIn" />
+      <wsdl:output message="tns:SetPatientPrescriptionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPrescriptionsSoapIn" />
+      <wsdl:output message="tns:GetPatientPrescriptionsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientDemographicsSoapIn" />
+      <wsdl:output message="tns:SetPatientDemographicsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsSoapIn" />
+      <wsdl:output message="tns:GetPatientDemographicsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Deletes the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:DeletePatientDemographicsSoapIn" />
+      <wsdl:output message="tns:DeletePatientDemographicsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Deletes the Patient Questionnaires</wsdl:documentation>
+      <wsdl:input message="tns:DeletePatientQuestionnairesSoapIn" />
+      <wsdl:output message="tns:DeletePatientQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign questionnaire to patients&lt;br&gt; Parameters: PatLst: list of patients &lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedQsToPatsSoapIn" />
+      <wsdl:output message="tns:AssignedQsToPatsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign default questionnaires&lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedDefaultQsSoapIn" />
+      <wsdl:output message="tns:AssignedDefaultQsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Manage config</wsdl:documentation>
+      <wsdl:input message="tns:UpdateConfigSoapIn" />
+      <wsdl:output message="tns:UpdateConfigSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <wsdl:input message="tns:TestmeSoapIn" />
+      <wsdl:output message="tns:TestmeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Reset status for questionnaires assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id (for resetting all records, set PatID to 'ALL' &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: 0 =&gt; success, negative number =&gt; error</wsdl:documentation>
+      <wsdl:input message="tns:ResetPatQuestionnairesSoapIn" />
+      <wsdl:output message="tns:ResetPatQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Update status of Questionnaires for a patient.  &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: &lt;br&gt; csvQIDs: A csv string of Questionanire IDs &lt;br&gt; PUISessionID: session ID returned by InitializewithID </wsdl:documentation>
+      <wsdl:input message="tns:SubmitPatFilledQuestionnaireslistSoapIn" />
+      <wsdl:output message="tns:SubmitPatFilledQuestionnaireslistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <wsdl:input message="tns:GetPatientDemographicSoapIn" />
+      <wsdl:output message="tns:GetPatientDemographicSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <wsdl:input message="tns:GetPatientSequenceSoapIn" />
+      <wsdl:output message="tns:GetPatientSequenceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake between PUI and SymlService &lt;br&gt; Parameters&lt;br&gt; PuiKey: Unique identifier; &lt;br&gt; Password: Password </wsdl:documentation>
+      <wsdl:input message="tns:InitializewithIDSoapIn" />
+      <wsdl:output message="tns:InitializewithIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <wsdl:input message="tns:AddXMLTemplateSoapIn" />
+      <wsdl:output message="tns:AddXMLTemplateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <wsdl:input message="tns:ReplaceXMLTemplateSoapIn" />
+      <wsdl:output message="tns:ReplaceXMLTemplateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <wsdl:input message="tns:DeleteXMLTemplateSoapIn" />
+      <wsdl:output message="tns:DeleteXMLTemplateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetBookedPatientsSoapIn" />
+      <wsdl:output message="tns:GetBookedPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <wsdl:input message="tns:GetEmailingPatientsSoapIn" />
+      <wsdl:output message="tns:GetEmailingPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <wsdl:input message="tns:GetSMSPatientsSoapIn" />
+      <wsdl:output message="tns:GetSMSPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <wsdl:input message="tns:SyncEmailingPatientsSoapIn" />
+      <wsdl:output message="tns:SyncEmailingPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <wsdl:input message="tns:GetOutstandingPatientsSoapIn" />
+      <wsdl:output message="tns:GetOutstandingPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <wsdl:input message="tns:DeleteOutstandingQuestionnairesSoapIn" />
+      <wsdl:output message="tns:DeleteOutstandingQuestionnairesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetMatchedPatientsSoapIn" />
+      <wsdl:output message="tns:GetMatchedPatientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert User</wsdl:documentation>
+      <wsdl:input message="tns:CreateUserSoapIn" />
+      <wsdl:output message="tns:CreateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get User</wsdl:documentation>
+      <wsdl:input message="tns:GetUserSoapIn" />
+      <wsdl:output message="tns:GetUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBPReviews">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get BP Review</wsdl:documentation>
+      <wsdl:input message="tns:GetBPReviewsSoapIn" />
+      <wsdl:output message="tns:GetBPReviewsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetBPReviews">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set BP Review</wsdl:documentation>
+      <wsdl:input message="tns:SetBPReviewsSoapIn" />
+      <wsdl:output message="tns:SetBPReviewsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RejectBPReviews">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set BP Review</wsdl:documentation>
+      <wsdl:input message="tns:RejectBPReviewsSoapIn" />
+      <wsdl:output message="tns:RejectBPReviewsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetGeneralNotification">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set General Notification</wsdl:documentation>
+      <wsdl:input message="tns:SetGeneralNotificationSoapIn" />
+      <wsdl:output message="tns:SetGeneralNotificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPersonalNotification">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Set Personal Notification</wsdl:documentation>
+      <wsdl:input message="tns:SetPersonalNotificationSoapIn" />
+      <wsdl:output message="tns:SetPersonalNotificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientIDSoapIn" />
+      <wsdl:output message="tns:GetPatientIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description:  Submit SNOMED coded values &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: short description of value &lt;br&gt; Description: description of value &lt;br&gt; SNOMED: This is the SNOMED code  &lt;br&gt; Value: The value being submitted  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValueSoapIn" />
+      <wsdl:output message="tns:SubmitValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Submit multiple SNOMED coded values for the same patient &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: CSV string of short descriptions &lt;br&gt; SNOMED: CSV string of  SNOMED codes &lt;br&gt; Value: CSV string of  values being submitted&lt;br&gt; Note: Textual note associated with the record. &lt;br&gt; &lt;b&gt; Mode: &lt;/b&gt; for normal operations, Set to 'UpdateDB'.  When set to 'AUDIT', the function will return the draw data recieved. It will not update  the  database.  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValuesSoapIn" />
+      <wsdl:output message="tns:SubmitValuesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SymlServiceHttpGet">
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire names assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire names for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesByNameHttpGetIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesByNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the gender of a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: The gender of a patient identified by ID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatGenderHttpGetIn" />
+      <wsdl:output message="tns:GetPatGenderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire IDs assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire IDs for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:GetAllQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of defaulted questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllDefaultQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:GetAllDefaultQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesWithIdHttpGetIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesWithIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <wsdl:input message="tns:TriggerUploaderHttpGetIn" />
+      <wsdl:output message="tns:TriggerUploaderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientReminderHttpGetIn" />
+      <wsdl:output message="tns:SetPatientReminderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersHttpGetIn" />
+      <wsdl:output message="tns:GetPatientRemindersHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Carer Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersCarerHttpGetIn" />
+      <wsdl:output message="tns:GetPatientRemindersCarerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Alcohol Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersAlcoholHttpGetIn" />
+      <wsdl:output message="tns:GetPatientRemindersAlcoholHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Smoker Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersSmokerHttpGetIn" />
+      <wsdl:output message="tns:GetPatientRemindersSmokerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics Alert</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsAlertHttpGetIn" />
+      <wsdl:output message="tns:GetPatientDemographicsAlertHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Dismiss the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:DismissPatientReminderHttpGetIn" />
+      <wsdl:output message="tns:DismissPatientReminderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientPrescriptionsHttpGetIn" />
+      <wsdl:output message="tns:SetPatientPrescriptionsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPrescriptionsHttpGetIn" />
+      <wsdl:output message="tns:GetPatientPrescriptionsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientDemographicsHttpGetIn" />
+      <wsdl:output message="tns:SetPatientDemographicsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsHttpGetIn" />
+      <wsdl:output message="tns:GetPatientDemographicsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Deletes the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:DeletePatientDemographicsHttpGetIn" />
+      <wsdl:output message="tns:DeletePatientDemographicsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign questionnaire to patients&lt;br&gt; Parameters: PatLst: list of patients &lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedQsToPatsHttpGetIn" />
+      <wsdl:output message="tns:AssignedQsToPatsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign default questionnaires&lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedDefaultQsHttpGetIn" />
+      <wsdl:output message="tns:AssignedDefaultQsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Manage config</wsdl:documentation>
+      <wsdl:input message="tns:UpdateConfigHttpGetIn" />
+      <wsdl:output message="tns:UpdateConfigHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <wsdl:input message="tns:TestmeHttpGetIn" />
+      <wsdl:output message="tns:TestmeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Reset status for questionnaires assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id (for resetting all records, set PatID to 'ALL' &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: 0 =&gt; success, negative number =&gt; error</wsdl:documentation>
+      <wsdl:input message="tns:ResetPatQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:ResetPatQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Update status of Questionnaires for a patient.  &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: &lt;br&gt; csvQIDs: A csv string of Questionanire IDs &lt;br&gt; PUISessionID: session ID returned by InitializewithID </wsdl:documentation>
+      <wsdl:input message="tns:SubmitPatFilledQuestionnaireslistHttpGetIn" />
+      <wsdl:output message="tns:SubmitPatFilledQuestionnaireslistHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <wsdl:input message="tns:GetPatientDemographicHttpGetIn" />
+      <wsdl:output message="tns:GetPatientDemographicHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <wsdl:input message="tns:GetPatientSequenceHttpGetIn" />
+      <wsdl:output message="tns:GetPatientSequenceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake between PUI and SymlService &lt;br&gt; Parameters&lt;br&gt; PuiKey: Unique identifier; &lt;br&gt; Password: Password </wsdl:documentation>
+      <wsdl:input message="tns:InitializewithIDHttpGetIn" />
+      <wsdl:output message="tns:InitializewithIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <wsdl:input message="tns:AddXMLTemplateHttpGetIn" />
+      <wsdl:output message="tns:AddXMLTemplateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <wsdl:input message="tns:ReplaceXMLTemplateHttpGetIn" />
+      <wsdl:output message="tns:ReplaceXMLTemplateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <wsdl:input message="tns:DeleteXMLTemplateHttpGetIn" />
+      <wsdl:output message="tns:DeleteXMLTemplateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetBookedPatientsHttpGetIn" />
+      <wsdl:output message="tns:GetBookedPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <wsdl:input message="tns:GetEmailingPatientsHttpGetIn" />
+      <wsdl:output message="tns:GetEmailingPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <wsdl:input message="tns:GetSMSPatientsHttpGetIn" />
+      <wsdl:output message="tns:GetSMSPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <wsdl:input message="tns:SyncEmailingPatientsHttpGetIn" />
+      <wsdl:output message="tns:SyncEmailingPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <wsdl:input message="tns:GetOutstandingPatientsHttpGetIn" />
+      <wsdl:output message="tns:GetOutstandingPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <wsdl:input message="tns:DeleteOutstandingQuestionnairesHttpGetIn" />
+      <wsdl:output message="tns:DeleteOutstandingQuestionnairesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetMatchedPatientsHttpGetIn" />
+      <wsdl:output message="tns:GetMatchedPatientsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert User</wsdl:documentation>
+      <wsdl:input message="tns:CreateUserHttpGetIn" />
+      <wsdl:output message="tns:CreateUserHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientIDHttpGetIn" />
+      <wsdl:output message="tns:GetPatientIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description:  Submit SNOMED coded values &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: short description of value &lt;br&gt; Description: description of value &lt;br&gt; SNOMED: This is the SNOMED code  &lt;br&gt; Value: The value being submitted  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValueHttpGetIn" />
+      <wsdl:output message="tns:SubmitValueHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Submit multiple SNOMED coded values for the same patient &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: CSV string of short descriptions &lt;br&gt; SNOMED: CSV string of  SNOMED codes &lt;br&gt; Value: CSV string of  values being submitted&lt;br&gt; Note: Textual note associated with the record. &lt;br&gt; &lt;b&gt; Mode: &lt;/b&gt; for normal operations, Set to 'UpdateDB'.  When set to 'AUDIT', the function will return the draw data recieved. It will not update  the  database.  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValuesHttpGetIn" />
+      <wsdl:output message="tns:SubmitValuesHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SymlServiceHttpPost">
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire names assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire names for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesByNameHttpPostIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesByNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the gender of a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: The gender of a patient identified by ID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatGenderHttpPostIn" />
+      <wsdl:output message="tns:GetPatGenderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get list of questionnaire IDs assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: List of questionnaire IDs for the patient identified by PatID</wsdl:documentation>
+      <wsdl:input message="tns:GetPatQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:GetPatQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:GetAllQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of defaulted questionnaire IDs &lt;br&gt; Parameters: None &lt;br&gt; Returns: List of questionnaire IDs </wsdl:documentation>
+      <wsdl:input message="tns:GetAllDefaultQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:GetAllDefaultQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Get the list of questionnaire asignments &lt;br&gt; Parameters: None &lt;br&gt; Returns: Content od Patient_Quationnaire table</wsdl:documentation>
+      <wsdl:input message="tns:GetAllPatientQuestionnairesWithIdHttpPostIn" />
+      <wsdl:output message="tns:GetAllPatientQuestionnairesWithIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <wsdl:input message="tns:TriggerUploaderHttpPostIn" />
+      <wsdl:output message="tns:TriggerUploaderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientReminderHttpPostIn" />
+      <wsdl:output message="tns:SetPatientReminderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersHttpPostIn" />
+      <wsdl:output message="tns:GetPatientRemindersHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Carer Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersCarerHttpPostIn" />
+      <wsdl:output message="tns:GetPatientRemindersCarerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Alcohol Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersAlcoholHttpPostIn" />
+      <wsdl:output message="tns:GetPatientRemindersAlcoholHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Smoker Reminders</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientRemindersSmokerHttpPostIn" />
+      <wsdl:output message="tns:GetPatientRemindersSmokerHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics Alert</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsAlertHttpPostIn" />
+      <wsdl:output message="tns:GetPatientDemographicsAlertHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Dismiss the Patient Reminders</wsdl:documentation>
+      <wsdl:input message="tns:DismissPatientReminderHttpPostIn" />
+      <wsdl:output message="tns:DismissPatientReminderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientPrescriptionsHttpPostIn" />
+      <wsdl:output message="tns:SetPatientPrescriptionsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Prescriptions</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientPrescriptionsHttpPostIn" />
+      <wsdl:output message="tns:GetPatientPrescriptionsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Sets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:SetPatientDemographicsHttpPostIn" />
+      <wsdl:output message="tns:SetPatientDemographicsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Gets the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientDemographicsHttpPostIn" />
+      <wsdl:output message="tns:GetPatientDemographicsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Deletes the Patient Demographics</wsdl:documentation>
+      <wsdl:input message="tns:DeletePatientDemographicsHttpPostIn" />
+      <wsdl:output message="tns:DeletePatientDemographicsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign questionnaire to patients&lt;br&gt; Parameters: PatLst: list of patients &lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedQsToPatsHttpPostIn" />
+      <wsdl:output message="tns:AssignedQsToPatsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Assign default questionnaires&lt;br&gt; Qlist: Lsit of questionanires &lt;br&gt; Returns: </wsdl:documentation>
+      <wsdl:input message="tns:AssignedDefaultQsHttpPostIn" />
+      <wsdl:output message="tns:AssignedDefaultQsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Manage config</wsdl:documentation>
+      <wsdl:input message="tns:UpdateConfigHttpPostIn" />
+      <wsdl:output message="tns:UpdateConfigHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <wsdl:input message="tns:TestmeHttpPostIn" />
+      <wsdl:output message="tns:TestmeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Reset status for questionnaires assigned to a patient &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id (for resetting all records, set PatID to 'ALL' &lt;br&gt; PUISessionID: session ID returned by InitializewithID  &lt;br&gt; Returns: 0 =&gt; success, negative number =&gt; error</wsdl:documentation>
+      <wsdl:input message="tns:ResetPatQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:ResetPatQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description: Update status of Questionnaires for a patient.  &lt;br&gt; Parameters:  &lt;br&gt; PatID: patient id  &lt;br&gt; PUISessionID: &lt;br&gt; csvQIDs: A csv string of Questionanire IDs &lt;br&gt; PUISessionID: session ID returned by InitializewithID </wsdl:documentation>
+      <wsdl:input message="tns:SubmitPatFilledQuestionnaireslistHttpPostIn" />
+      <wsdl:output message="tns:SubmitPatFilledQuestionnaireslistHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <wsdl:input message="tns:GetPatientDemographicHttpPostIn" />
+      <wsdl:output message="tns:GetPatientDemographicHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <wsdl:input message="tns:GetPatientSequenceHttpPostIn" />
+      <wsdl:output message="tns:GetPatientSequenceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Initialize handshake between PUI and SymlService &lt;br&gt; Parameters&lt;br&gt; PuiKey: Unique identifier; &lt;br&gt; Password: Password </wsdl:documentation>
+      <wsdl:input message="tns:InitializewithIDHttpPostIn" />
+      <wsdl:output message="tns:InitializewithIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <wsdl:input message="tns:AddXMLTemplateHttpPostIn" />
+      <wsdl:output message="tns:AddXMLTemplateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <wsdl:input message="tns:ReplaceXMLTemplateHttpPostIn" />
+      <wsdl:output message="tns:ReplaceXMLTemplateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <wsdl:input message="tns:DeleteXMLTemplateHttpPostIn" />
+      <wsdl:output message="tns:DeleteXMLTemplateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetBookedPatientsHttpPostIn" />
+      <wsdl:output message="tns:GetBookedPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <wsdl:input message="tns:GetEmailingPatientsHttpPostIn" />
+      <wsdl:output message="tns:GetEmailingPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <wsdl:input message="tns:GetSMSPatientsHttpPostIn" />
+      <wsdl:output message="tns:GetSMSPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <wsdl:input message="tns:SyncEmailingPatientsHttpPostIn" />
+      <wsdl:output message="tns:SyncEmailingPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <wsdl:input message="tns:GetOutstandingPatientsHttpPostIn" />
+      <wsdl:output message="tns:GetOutstandingPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <wsdl:input message="tns:DeleteOutstandingQuestionnairesHttpPostIn" />
+      <wsdl:output message="tns:DeleteOutstandingQuestionnairesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetMatchedPatientsHttpPostIn" />
+      <wsdl:output message="tns:GetMatchedPatientsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Insert User</wsdl:documentation>
+      <wsdl:input message="tns:CreateUserHttpPostIn" />
+      <wsdl:output message="tns:CreateUserHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">DOB format dd-mm-yyyy</wsdl:documentation>
+      <wsdl:input message="tns:GetPatientIDHttpPostIn" />
+      <wsdl:output message="tns:GetPatientIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Description:  Submit SNOMED coded values &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: short description of value &lt;br&gt; Description: description of value &lt;br&gt; SNOMED: This is the SNOMED code  &lt;br&gt; Value: The value being submitted  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValueHttpPostIn" />
+      <wsdl:output message="tns:SubmitValueHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Submit multiple SNOMED coded values for the same patient &lt;br&gt; Parameters: &lt;br&gt; PatID: patient id &lt;br&gt; PUISessionID: session ID returned by InitializewithID &lt;br&gt; Term: CSV string of short descriptions &lt;br&gt; SNOMED: CSV string of  SNOMED codes &lt;br&gt; Value: CSV string of  values being submitted&lt;br&gt; Note: Textual note associated with the record. &lt;br&gt; &lt;b&gt; Mode: &lt;/b&gt; for normal operations, Set to 'UpdateDB'.  When set to 'AUDIT', the function will return the draw data recieved. It will not update  the  database.  &lt;br&gt; Returns: integer success code, the number of values submitted for upload to EMIS. &lt;br&gt; Negative value indicates error.</wsdl:documentation>
+      <wsdl:input message="tns:SubmitValuesHttpPostIn" />
+      <wsdl:output message="tns:SubmitValuesHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SymlServiceSoap" type="tns:SymlServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <soap:operation soapAction="http://symlconnect.com/GetPatQuestionnairesByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <soap:operation soapAction="http://symlconnect.com/GetPatGender" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/GetPatQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/GetAllQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/GetAllDefaultQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/GetAllPatientQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <soap:operation soapAction="http://symlconnect.com/GetAllPatientQuestionnairesWithId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <soap:operation soapAction="http://symlconnect.com/TriggerUploader" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <soap:operation soapAction="http://symlconnect.com/SetPatientReminder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientReminders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientRemindersCarer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientRemindersAlcohol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientRemindersSmoker" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientDemographicsAlert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <soap:operation soapAction="http://symlconnect.com/DismissPatientReminder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <soap:operation soapAction="http://symlconnect.com/SetPatientPrescriptions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientPrescriptions" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <soap:operation soapAction="http://symlconnect.com/SetPatientDemographics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientDemographics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <soap:operation soapAction="http://symlconnect.com/DeletePatientDemographics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/DeletePatientQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <soap:operation soapAction="http://symlconnect.com/AssignedQsToPats" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <soap:operation soapAction="http://symlconnect.com/AssignedDefaultQs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <soap:operation soapAction="http://symlconnect.com/UpdateConfig" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <soap:operation soapAction="http://symlconnect.com/Testme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/ResetPatQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <soap:operation soapAction="http://symlconnect.com/SubmitPatFilledQuestionnaireslist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientDemographic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientSequence" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <soap:operation soapAction="http://symlconnect.com/InitializewithID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <soap:operation soapAction="http://symlconnect.com/AddXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <soap:operation soapAction="http://symlconnect.com/ReplaceXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <soap:operation soapAction="http://symlconnect.com/DeleteXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <soap:operation soapAction="http://symlconnect.com/GetBookedPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <soap:operation soapAction="http://symlconnect.com/GetEmailingPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <soap:operation soapAction="http://symlconnect.com/GetSMSPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <soap:operation soapAction="http://symlconnect.com/SyncEmailingPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <soap:operation soapAction="http://symlconnect.com/GetOutstandingPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <soap:operation soapAction="http://symlconnect.com/DeleteOutstandingQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <soap:operation soapAction="http://symlconnect.com/GetMatchedPatients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <soap:operation soapAction="http://symlconnect.com/CreateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap:operation soapAction="http://symlconnect.com/GetUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBPReviews">
+      <soap:operation soapAction="http://symlconnect.com/GetBPReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetBPReviews">
+      <soap:operation soapAction="http://symlconnect.com/SetBPReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RejectBPReviews">
+      <soap:operation soapAction="http://symlconnect.com/RejectBPReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetGeneralNotification">
+      <soap:operation soapAction="http://symlconnect.com/SetGeneralNotification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPersonalNotification">
+      <soap:operation soapAction="http://symlconnect.com/SetPersonalNotification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <soap:operation soapAction="http://symlconnect.com/GetPatientID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <soap:operation soapAction="http://symlconnect.com/SubmitValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <soap:operation soapAction="http://symlconnect.com/SubmitValues" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlServiceSoap12" type="tns:SymlServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatQuestionnairesByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatGender" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/GetAllQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/GetAllDefaultQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/GetAllPatientQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <soap12:operation soapAction="http://symlconnect.com/GetAllPatientQuestionnairesWithId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <soap12:operation soapAction="http://symlconnect.com/TriggerUploader" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <soap12:operation soapAction="http://symlconnect.com/SetPatientReminder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientReminders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientRemindersCarer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientRemindersAlcohol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientRemindersSmoker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientDemographicsAlert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <soap12:operation soapAction="http://symlconnect.com/DismissPatientReminder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <soap12:operation soapAction="http://symlconnect.com/SetPatientPrescriptions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientPrescriptions" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <soap12:operation soapAction="http://symlconnect.com/SetPatientDemographics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientDemographics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <soap12:operation soapAction="http://symlconnect.com/DeletePatientDemographics" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/DeletePatientQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <soap12:operation soapAction="http://symlconnect.com/AssignedQsToPats" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <soap12:operation soapAction="http://symlconnect.com/AssignedDefaultQs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <soap12:operation soapAction="http://symlconnect.com/UpdateConfig" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <soap12:operation soapAction="http://symlconnect.com/Testme" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/ResetPatQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <soap12:operation soapAction="http://symlconnect.com/SubmitPatFilledQuestionnaireslist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientDemographic" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientSequence" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <soap12:operation soapAction="http://symlconnect.com/InitializewithID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <soap12:operation soapAction="http://symlconnect.com/AddXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <soap12:operation soapAction="http://symlconnect.com/ReplaceXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <soap12:operation soapAction="http://symlconnect.com/DeleteXMLTemplate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <soap12:operation soapAction="http://symlconnect.com/GetBookedPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <soap12:operation soapAction="http://symlconnect.com/GetEmailingPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <soap12:operation soapAction="http://symlconnect.com/GetSMSPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <soap12:operation soapAction="http://symlconnect.com/SyncEmailingPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <soap12:operation soapAction="http://symlconnect.com/GetOutstandingPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <soap12:operation soapAction="http://symlconnect.com/DeleteOutstandingQuestionnaires" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <soap12:operation soapAction="http://symlconnect.com/GetMatchedPatients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <soap12:operation soapAction="http://symlconnect.com/CreateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUser">
+      <soap12:operation soapAction="http://symlconnect.com/GetUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBPReviews">
+      <soap12:operation soapAction="http://symlconnect.com/GetBPReviews" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetBPReviews">
+      <soap12:operation soapAction="http://symlconnect.com/SetBPReviews" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RejectBPReviews">
+      <soap12:operation soapAction="http://symlconnect.com/RejectBPReviews" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetGeneralNotification">
+      <soap12:operation soapAction="http://symlconnect.com/SetGeneralNotification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPersonalNotification">
+      <soap12:operation soapAction="http://symlconnect.com/SetPersonalNotification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <soap12:operation soapAction="http://symlconnect.com/GetPatientID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <soap12:operation soapAction="http://symlconnect.com/SubmitValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <soap12:operation soapAction="http://symlconnect.com/SubmitValues" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlServiceHttpGet" type="tns:SymlServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <http:operation location="/GetPatQuestionnairesByName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <http:operation location="/GetPatGender" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <http:operation location="/GetPatQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <http:operation location="/GetAllQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <http:operation location="/GetAllDefaultQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <http:operation location="/GetAllPatientQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <http:operation location="/GetAllPatientQuestionnairesWithId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <http:operation location="/TriggerUploader" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <http:operation location="/SetPatientReminder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <http:operation location="/GetPatientReminders" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <http:operation location="/GetPatientRemindersCarer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <http:operation location="/GetPatientRemindersAlcohol" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <http:operation location="/GetPatientRemindersSmoker" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <http:operation location="/GetPatientDemographicsAlert" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <http:operation location="/DismissPatientReminder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <http:operation location="/SetPatientPrescriptions" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <http:operation location="/GetPatientPrescriptions" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <http:operation location="/SetPatientDemographics" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <http:operation location="/GetPatientDemographics" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <http:operation location="/DeletePatientDemographics" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <http:operation location="/AssignedQsToPats" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <http:operation location="/AssignedDefaultQs" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <http:operation location="/UpdateConfig" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <http:operation location="/Testme" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <http:operation location="/ResetPatQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <http:operation location="/SubmitPatFilledQuestionnaireslist" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <http:operation location="/GetPatientDemographic" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <http:operation location="/GetPatientSequence" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <http:operation location="/InitializewithID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <http:operation location="/AddXMLTemplate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <http:operation location="/ReplaceXMLTemplate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <http:operation location="/DeleteXMLTemplate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <http:operation location="/GetBookedPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <http:operation location="/GetEmailingPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <http:operation location="/GetSMSPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <http:operation location="/SyncEmailingPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <http:operation location="/GetOutstandingPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <http:operation location="/DeleteOutstandingQuestionnaires" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <http:operation location="/GetMatchedPatients" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <http:operation location="/CreateUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <http:operation location="/GetPatientID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <http:operation location="/SubmitValue" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <http:operation location="/SubmitValues" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SymlServiceHttpPost" type="tns:SymlServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetPatQuestionnairesByName">
+      <http:operation location="/GetPatQuestionnairesByName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatGender">
+      <http:operation location="/GetPatGender" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatQuestionnaires">
+      <http:operation location="/GetPatQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllQuestionnaires">
+      <http:operation location="/GetAllQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDefaultQuestionnaires">
+      <http:operation location="/GetAllDefaultQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnaires">
+      <http:operation location="/GetAllPatientQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllPatientQuestionnairesWithId">
+      <http:operation location="/GetAllPatientQuestionnairesWithId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerUploader">
+      <http:operation location="/TriggerUploader" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientReminder">
+      <http:operation location="/SetPatientReminder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientReminders">
+      <http:operation location="/GetPatientReminders" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersCarer">
+      <http:operation location="/GetPatientRemindersCarer" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersAlcohol">
+      <http:operation location="/GetPatientRemindersAlcohol" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientRemindersSmoker">
+      <http:operation location="/GetPatientRemindersSmoker" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographicsAlert">
+      <http:operation location="/GetPatientDemographicsAlert" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DismissPatientReminder">
+      <http:operation location="/DismissPatientReminder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientPrescriptions">
+      <http:operation location="/SetPatientPrescriptions" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientPrescriptions">
+      <http:operation location="/GetPatientPrescriptions" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetPatientDemographics">
+      <http:operation location="/SetPatientDemographics" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographics">
+      <http:operation location="/GetPatientDemographics" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePatientDemographics">
+      <http:operation location="/DeletePatientDemographics" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedQsToPats">
+      <http:operation location="/AssignedQsToPats" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssignedDefaultQs">
+      <http:operation location="/AssignedDefaultQs" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfig">
+      <http:operation location="/UpdateConfig" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Testme">
+      <http:operation location="/Testme" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPatQuestionnaires">
+      <http:operation location="/ResetPatQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitPatFilledQuestionnaireslist">
+      <http:operation location="/SubmitPatFilledQuestionnaireslist" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientDemographic">
+      <http:operation location="/GetPatientDemographic" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientSequence">
+      <http:operation location="/GetPatientSequence" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitializewithID">
+      <http:operation location="/InitializewithID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddXMLTemplate">
+      <http:operation location="/AddXMLTemplate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReplaceXMLTemplate">
+      <http:operation location="/ReplaceXMLTemplate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteXMLTemplate">
+      <http:operation location="/DeleteXMLTemplate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBookedPatients">
+      <http:operation location="/GetBookedPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEmailingPatients">
+      <http:operation location="/GetEmailingPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSMSPatients">
+      <http:operation location="/GetSMSPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SyncEmailingPatients">
+      <http:operation location="/SyncEmailingPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOutstandingPatients">
+      <http:operation location="/GetOutstandingPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOutstandingQuestionnaires">
+      <http:operation location="/DeleteOutstandingQuestionnaires" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchedPatients">
+      <http:operation location="/GetMatchedPatients" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <http:operation location="/CreateUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPatientID">
+      <http:operation location="/GetPatientID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValue">
+      <http:operation location="/SubmitValue" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitValues">
+      <http:operation location="/SubmitValues" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SymlService">
+    <wsdl:port name="SymlServiceSoap" binding="tns:SymlServiceSoap">
+      <soap:address location="http://localhost:65205/SymlService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlServiceSoap12" binding="tns:SymlServiceSoap12">
+      <soap12:address location="http://localhost:65205/SymlService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlServiceHttpGet" binding="tns:SymlServiceHttpGet">
+      <http:address location="http://localhost:65205/SymlService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SymlServiceHttpPost" binding="tns:SymlServiceHttpPost">
+      <http:address location="http://localhost:65205/SymlService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

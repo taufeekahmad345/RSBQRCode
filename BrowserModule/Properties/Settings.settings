@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DF_WebModule.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DF_WebModule_SymlLicenseService_SymlLicenseService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://77.68.84.237/LicenseService/SymlLicenseService.asmx</Value>
+    </Setting>
+    <Setting Name="ActivationKeyWord" Type="string" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="KeyWord" Type="string" Scope="Application">
+      <Value Profile="(Default)">ZDlsChvCbHX64ELGJwY8LwW0yOnM2pe7vLn+3MIcEkc=</Value>
+    </Setting>
+    <Setting Name="DF_WebModule_PUIService_SymlService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://217.160.93.234/LTCSymlService/SymlService.asmx</Value>
+    </Setting>
+    <Setting Name="DF_WebModule_RemoteSymlService_SymlService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:65205/SymlService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

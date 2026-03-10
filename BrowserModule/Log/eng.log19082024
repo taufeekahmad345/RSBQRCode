@@ -1,0 +1,80 @@
+2024-08-19 20:30:58 LoginController DEBUG Index, Process Started, 19/08/2024 20:30:58
+2024-08-19 20:30:59 LoginController DEBUG Index, Process End, 19/08/2024 20:30:59
+2024-08-19 20:31:10 LoginController DEBUG Authorise, Process Started, 19/08/2024 20:31:10
+2024-08-19 20:31:28 LoginController ERROR Error Thrown during : The underlying provider failed on Open., Index, 19/08/2024 20:31:28,   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\BrowserModule\BrowserModule\Controllers\LoginController.cs:line 108
+2024-08-19 20:32:52 LoginController DEBUG Index, Process Started, 19/08/2024 20:32:52
+2024-08-19 20:32:52 LoginController DEBUG Index, Process End, 19/08/2024 20:32:52
+2024-08-19 20:32:59 LoginController DEBUG Authorise, Process Started, 19/08/2024 20:32:59
+2024-08-19 20:33:28 LoginController ERROR Error Thrown during : The underlying provider failed on Open., Index, 19/08/2024 20:33:28,   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\BrowserModule\BrowserModule\Controllers\LoginController.cs:line 108
+2024-08-19 20:34:25 LoginController DEBUG Index, Process Started, 19/08/2024 20:34:25
+2024-08-19 20:34:25 LoginController DEBUG Index, Process End, 19/08/2024 20:34:25
+2024-08-19 20:34:34 LoginController DEBUG Authorise, Process Started, 19/08/2024 20:34:34
+2024-08-19 20:34:57 LoginController DEBUG Authorise, Process End, 19/08/2024 20:34:57
+2024-08-19 20:34:57 HomeController DEBUG Index, Process Started, 19/08/2024 20:34:57
+2024-08-19 20:35:08 HomeController DEBUG Index, Process End, 19/08/2024 20:35:08
+2024-08-19 20:35:45 HomeController DEBUG Index, Process Started, 19/08/2024 20:35:45
+2024-08-19 20:36:04 HomeController DEBUG Index, Process End, 19/08/2024 20:36:04
+2024-08-19 20:47:29 LoginController DEBUG Index, Process Started, 19/08/2024 20:47:29
+2024-08-19 20:47:29 LoginController DEBUG Index, Process End, 19/08/2024 20:47:29
+2024-08-19 20:47:39 LoginController DEBUG Authorise, Process Started, 19/08/2024 20:47:39
+2024-08-19 20:48:09 LoginController ERROR Error Thrown during : The underlying provider failed on Open., Index, 19/08/2024 20:48:09,   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\BrowserModule\BrowserModule\Controllers\LoginController.cs:line 108
+2024-08-19 20:48:54 LoginController DEBUG Index, Process Started, 19/08/2024 20:48:54
+2024-08-19 20:48:54 LoginController DEBUG Index, Process End, 19/08/2024 20:48:54
+2024-08-19 20:49:00 LoginController DEBUG Authorise, Process Started, 19/08/2024 20:49:00
+2024-08-19 20:49:41 LoginController ERROR Error Thrown during : The underlying provider failed on Open., Index, 19/08/2024 20:49:41,   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Programs\BrowserModule\BrowserModule\Controllers\LoginController.cs:line 108

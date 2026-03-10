@@ -1,0 +1,179 @@
+﻿@model DF_WebModule.Models.Email
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style>
+    .btn-primary.disabled, .btn-primary:disabled {
+        background-color: #c70079 !important;
+        border-color: #c70079 !important;
+    }
+    .error {
+        color: #FEFAAA !important;
+    }
+    .errorMessage {
+        color: #FEFAAA !important;
+    }
+    .my-title-class {
+        color: black;
+    }
+
+    .jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+        color: black !important;
+    }
+</style>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SendEmail</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/Login.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    @using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "form-signin", @id = "loginform" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <img class="login-logo" src="~/Content/Images/Syml-Header-Logo.png" alt="" width="250" style=" margin-left: 23px !important;">
+            <h1 class="h3 mb-3 font-weight-normal text-center">Forgotten Password</h1>
+            <label class="errorMessage text-center" id="errorLabel"></label>
+            <label class="error text-center">Please enter your email address below. A One Time Password (OTP) will be sent to your email address and you can then proceed to change your password.</label>
+            <div class="form-group">
+                <label for="email" class="email mt-2">Email address:</label>
+                <div class="">
+                    @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control", @id = "email" } })
+                    @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block btn-sign-in" type="button" id="submitemail" disabled>Request OTP</button>
+            <p class="mt-5 mb-3 text-center">&copy; @DateTime.Now.Year - SymlConnect</p>
+        </div>
+    }
+
+    <img class="" src="~/Content/Images/frimley-health-and-care-logo.png" alt="" width="300" style="display:block; margin-top:650px; position:fixed;">
+
+    <!--Loading Modal-->
+    <div class="modal fade" id="divLoading" tabindex="-1" role="dialog" aria-labelledby="Loading" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="row" style="width:100%; position: relative;">
+                <div class="col-12 d-flex justify-content-center" style="position: absolute; top: 20px; width: 100%;">
+                    <div id="loadingText" style="color: white; text-align: center;">processing, please do not close this page</div>
+                </div>
+                <div class="justify-content-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div class="spinner-border text-light" role="status" style="width: 3rem; height: 3rem;">
+                        <span id="loadingCircle" class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+<script type="text/javascript">
+     $('#email').on('input', function () {
+        var email = $(this).val();
+        var emailRegex = /^(([^<>()[\]\\.,;:\s@@"]+(\.[^<>()[\]\\.,;:\s@@"]+)*)|(".+"))@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        if (!emailRegex.test(email)) {
+            // Invalid email format, show error message or handle validation accordingly
+            // For example, display an error message:
+            $('#errorLabel').text('Please enter valid email.');
+            $('#submitemail').prop('disabled', true);
+        } else {
+            // Valid email format, clear error message or handle validation success
+            // For example, clear the error message:
+            $('#errorLabel').text('');
+            $('#submitemail').prop('disabled', false);
+        }
+    });
+
+        $('#submitemail').click(function () {
+             var email = $('#email').val();
+            var data = {
+                Email: email
+        };
+        $('#divLoading').modal('show');
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("ForgetPassword", "Login")',
+                data: JSON.stringify(data),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    $('#divLoading').modal('hide');
+                    if (response.success) {
+                        $.confirm({
+                                     title: 'Email sent successfully',
+                                     content: response.responseText,
+                                     type: 'green',
+                                     autoClose: false,
+                                     typeAnimated: true,
+                                     buttons:
+                                     {
+                                         ReturnPatientSearch: {
+                                             text: 'OK',
+                                             action: function () {
+                                                 window.location.href = "@Url.Action("ValidateOTP", "Login")";
+                                             }
+                                         }
+                                     },
+                                     titleClass: 'my-title-class'
+                        });
+                    } else {
+                        $('#divLoading').modal('hide');
+                        $.confirm({
+                                     title: 'Email not send',
+                                     content: response.responseText,
+                                     type: 'red',
+                                     typeAnimated: true,
+                                     buttons:
+                                     {
+                                         ReturnPatientSearch: {
+                                             text: 'OK',
+                                             action: function () {
+                                             window.location.href = "@Url.Action("SendEmail", "Login")";
+                                             }
+                                         }
+                            },
+                            timeout: 99999999,
+                            titleClass: 'my-title-class'
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.error('Error while sending email: ', error);
+                    $('#divLoading').modal('hide');
+                    $.confirm({
+                        title: 'Email not send',
+                        content: response.responseText,
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons:
+                        {
+                            ReturnPatientSearch: {
+                                text: 'OK',
+                                action: function () {
+                                    document.getElementById('emailScenarioForm').reset();
+                                    $('#divLoading').modal('hide');
+                                }
+                            }
+                        },
+                        titleClass: 'my-title-class'
+                    });
+                }
+            });
+        });
+</script>
+
+
+</body>
+</html >

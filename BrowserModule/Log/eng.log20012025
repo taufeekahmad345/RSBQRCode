@@ -1,0 +1,117 @@
+2025-01-20 09:08:50 LoginController DEBUG Index, Process Started, 20/01/2025 09:08:50
+2025-01-20 09:08:50 LoginController DEBUG Index, Process End, 20/01/2025 09:08:50
+2025-01-20 09:28:56 LoginController DEBUG Index, Process Started, 20/01/2025 09:28:56
+2025-01-20 09:28:56 LoginController DEBUG Index, Process End, 20/01/2025 09:28:56
+2025-01-20 09:29:26 LoginController DEBUG Authorise, Process Started, 20/01/2025 09:29:26
+2025-01-20 09:29:35 LoginController DEBUG Authorise, Process End, 20/01/2025 09:29:35
+2025-01-20 09:30:10 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 09:30:10
+2025-01-20 09:30:10 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 09:30:10 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 09:30:10 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 09:30:10
+2025-01-20 09:30:10 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 09:30:10
+2025-01-20 09:30:10 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 09:30:15 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 09:30:15
+2025-01-20 09:30:15 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 09:30:15
+2025-01-20 09:30:15 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 09:30:17 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 09:30:17
+2025-01-20 10:16:56 LoginController DEBUG Index, Process Started, 20/01/2025 10:16:56
+2025-01-20 10:16:56 LoginController DEBUG Index, Process End, 20/01/2025 10:16:56
+2025-01-20 10:19:13 LoginController DEBUG Authorise, Process Started, 20/01/2025 10:19:13
+2025-01-20 10:19:39 LoginController DEBUG Authorise, Process End, 20/01/2025 10:19:39
+2025-01-20 11:03:13 LoginController DEBUG Index, Process Started, 20/01/2025 11:03:13
+2025-01-20 11:03:13 LoginController DEBUG Index, Process End, 20/01/2025 11:03:13
+2025-01-20 11:03:17 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:03:17
+2025-01-20 11:03:17 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:03:17
+2025-01-20 11:03:17 LoginController DEBUG Index, Process Started, 20/01/2025 11:03:17
+2025-01-20 11:03:17 LoginController DEBUG Index, Process End, 20/01/2025 11:03:17
+2025-01-20 11:03:24 LoginController DEBUG Authorise, Process Started, 20/01/2025 11:03:24
+2025-01-20 11:03:24 LoginController DEBUG Authorise, Process End, 20/01/2025 11:03:24
+2025-01-20 11:03:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:03:45
+2025-01-20 11:03:45 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:03:45 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:03:45 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:03:45
+2025-01-20 11:03:45 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:03:45
+2025-01-20 11:03:45 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:03:50 AutoFillExcelController ERROR Error Thrown during : The given path's format is not supported., ViewExcelData, 20/01/2025 11:03:50,   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at DF_WebModule.Controllers.AutoFillExcelController.ConvertExcelToPdfInMemory(Byte[] excelData, String path, String filename) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 1077
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 201
+2025-01-20 11:03:50 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:03:50
+2025-01-20 11:04:11 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:04:11
+2025-01-20 11:04:11 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:04:11
+2025-01-20 11:04:11 LoginController DEBUG Index, Process Started, 20/01/2025 11:04:11
+2025-01-20 11:04:11 LoginController DEBUG Index, Process End, 20/01/2025 11:04:11
+2025-01-20 11:04:26 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:04:26
+2025-01-20 11:04:26 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:04:26 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:04:26 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:04:26
+2025-01-20 11:04:26 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:04:26
+2025-01-20 11:04:26 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:04:58 AutoFillExcelController ERROR Error Thrown during : The given path's format is not supported., ViewExcelData, 20/01/2025 11:04:58,   at System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at DF_WebModule.Controllers.AutoFillExcelController.ConvertExcelToPdfInMemory(Byte[] excelData, String path, String filename) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 1077
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 201
+2025-01-20 11:04:58 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:04:58
+2025-01-20 11:05:08 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:05:08
+2025-01-20 11:05:08 LoginController DEBUG LogOut, Process Started, 20/01/2025 11:05:08
+2025-01-20 11:05:08 LoginController DEBUG Index, Process Started, 20/01/2025 11:05:08
+2025-01-20 11:05:08 LoginController DEBUG Index, Process End, 20/01/2025 11:05:08
+2025-01-20 11:05:18 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:05:18
+2025-01-20 11:05:18 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:05:18 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:05:18 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:05:18
+2025-01-20 11:05:18 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:05:18
+2025-01-20 11:05:18 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:09:55 LoginController DEBUG Index, Process Started, 20/01/2025 11:09:55
+2025-01-20 11:09:55 LoginController DEBUG Index, Process End, 20/01/2025 11:09:55
+2025-01-20 11:10:05 LoginController DEBUG Authorise, Process Started, 20/01/2025 11:10:05
+2025-01-20 11:10:11 LoginController DEBUG Authorise, Process End, 20/01/2025 11:10:11
+2025-01-20 11:10:51 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:10:51
+2025-01-20 11:10:51 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:10:51 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:10:51 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:10:51
+2025-01-20 11:10:51 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:10:51
+2025-01-20 11:10:51 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:16:52 LoginController DEBUG Index, Process Started, 20/01/2025 11:16:52
+2025-01-20 11:16:52 LoginController DEBUG Index, Process End, 20/01/2025 11:16:52
+2025-01-20 11:22:23 LoginController DEBUG Authorise, Process Started, 20/01/2025 11:22:23
+2025-01-20 11:22:29 LoginController DEBUG Authorise, Process End, 20/01/2025 11:22:29
+2025-01-20 11:22:54 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:22:54
+2025-01-20 11:22:54 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:22:54 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:22:54 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:22:54
+2025-01-20 11:22:54 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:22:54
+2025-01-20 11:22:54 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:23:36 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:23:36
+2025-01-20 11:24:40 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:24:40
+2025-01-20 11:24:40 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 11:24:40 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 11:24:40 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:24:40
+2025-01-20 11:24:40 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:24:40
+2025-01-20 11:24:40 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:24:43 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 11:24:43
+2025-01-20 11:24:43 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 11:24:43
+2025-01-20 11:24:43 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 11:24:45 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 11:24:45
+2025-01-20 12:27:49 LoginController DEBUG Index, Process Started, 20/01/2025 12:27:49
+2025-01-20 12:27:49 LoginController DEBUG Index, Process End, 20/01/2025 12:27:49
+2025-01-20 12:28:08 LoginController DEBUG Authorise, Process Started, 20/01/2025 12:28:08
+2025-01-20 12:28:16 LoginController DEBUG Authorise, Process End, 20/01/2025 12:28:16
+2025-01-20 12:29:18 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 12:29:18
+2025-01-20 12:29:18 AutoFillExcelController ERROR PartNo : FC320400
+2025-01-20 12:29:18 AutoFillExcelController ERROR Date : 18/12/2024
+2025-01-20 12:29:18 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 12:29:18
+2025-01-20 12:29:18 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 12:29:18
+2025-01-20 12:29:18 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 12:29:24 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 20/01/2025 12:29:24
+2025-01-20 12:29:24 AutoFillExcelController DEBUG GetAllColumndata, Process End, 20/01/2025 12:29:24
+2025-01-20 12:29:24 AutoFillExcelController ERROR All Column Count : 24
+2025-01-20 12:29:29 AutoFillExcelController DEBUG ViewExcelData, Process Started, 20/01/2025 12:29:29
+2025-01-20 12:31:31 LoginController DEBUG Index, Process Started, 20/01/2025 12:31:31
+2025-01-20 12:31:31 LoginController DEBUG Index, Process End, 20/01/2025 12:31:31

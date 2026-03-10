@@ -1,0 +1,318 @@
+﻿@model DF_WebModule.Models.clsCustomer
+
+<div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+    <div class="col-sm-12 col-lg-12" style="margin:auto">
+        <h4 style="color: aliceblue; text-align:center">Customers</h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-lg-12">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+                @Html.LabelFor(model => model.CustomerId, htmlAttributes: new { @class = "control-label col-md-12" })
+                @Html.ValidationMessageFor(model => model.CustomerId, "", new { @class = "text-warning" })
+
+                @Html.EditorFor(model => model.CustomerId, new { htmlAttributes = new { @class = "form-control fontsize", id = "cId" } })
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control fontsize", id = "cName" } })
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control fontsize", id = "address" } })
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label" })
+                @Html.EditorFor(model => model.City, new { htmlAttributes = new { @class = "form-control fontsize", id = "city" } })
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.State, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.State, new { htmlAttributes = new { @class = "form-control fontsize", id = "state" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.PinCode, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.PinCode, new { htmlAttributes = new { @class = "form-control fontsize", id = "pin" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control fontsize", id = "phone" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control fontsize", id = "mobile" } })
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Email1, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Email1, new { htmlAttributes = new { @class = "form-control fontsize", id = "email1" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Email2, htmlAttributes: new { @class = "control-label col-md-6" })
+                @Html.EditorFor(model => model.Email2, new { htmlAttributes = new { @class = "form-control fontsize", id = "email2" } })
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-6" })
+
+                @{
+                    List<SelectListItem> status = new List<SelectListItem>();
+
+
+                    status.Add(new SelectListItem
+                    {
+                        Text = "Enable",
+                        Value = "Enable",
+                    });
+                    status.Add(new SelectListItem
+                    {
+                        Text = "Disable",
+                        Value = "Disable",
+                    });
+
+
+                }
+                @*}*@
+
+                @Html.DropDownListFor(model => model.Status, status, "----Select Status----", new { @class = "form-control", @id = "status" })
+
+
+              
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <input value="Add" id="AddNewitem" type="button" class="btn btn-success" />
+                <input value="Reset" style="background: #ffffff; color:black" id="reset" type="button" class="btn btn-success" />
+                  </div>
+        </div>
+
+        <div id="updateTableList">
+            @Html.Raw(Model.ListCustomer)
+        </div>
+
+
+     
+    </div>
+</div>
+<script>
+
+    $('#import').click(function () {
+        $('#ImportExcelfilemodel').modal('show');
+    });
+    $("#reset").click(function () {
+        $("#cId").val("");
+        $("#cName").val("");
+        $("#address").val("");
+        $("#city").val("");
+        $("#state").val("");
+        $("#phone").val("");
+        $("#mobile").val("");
+        $("#email1").val("");
+        $("#email2").val("");
+        $("#status").val("");
+        $("#pin").val("");
+
+    });
+
+    $("#AddNewitem").click(function (e) {
+        debugger
+            var item = {};
+        item.CustomerId = $("#cId").val();
+        item.CustomerName = $("#cName").val();
+        item.Address = $("#address").val();
+        item.City = $("#city").val();
+        item.State = $("#state").val();
+        item.PinCode = $("#pin").val();
+        item.Phone = $("#phone").val();
+        item.Mobile = $("#mobile").val();
+        item.Email1 = $("#email1").val();
+        item.Email2 = $("#email2").val();
+        item.Status = $("#status").val();
+           $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddNewitem", "Customer")',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(item),
+                success: function (data) {
+                    $.confirm({
+                        title: 'Added Item',
+                        content: "Added Successfully!",
+                        type: 'green',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay',
+                                action: function () {
+                                    window.location.href = "@Url.Action("Index", "Customer")";
+
+                                }
+                            }
+                        }
+                    });
+                },
+                error: function (data) {
+                    $.confirm({
+                        title: 'Unable to locate patient',
+                        content: 'Unable to locate the patient record, please try again.',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    });
+    $('#customers').on('click', '.btndeleteitem', function () {
+
+        var id = this.id;
+         $.confirm({
+                    title: 'Delete Item',
+                    content: 'Are you sure you want to delete the item?',
+                    type: 'red',
+                    typeAnimated: true,
+                    buttons: {
+                        Yes: {
+                            text: 'Yes',
+                            btnClass: 'btn-red',
+                            action: function() {
+                                $.ajax({
+                                    type: "POST",
+                                    url: '@Url.Action("DeleteItem", "Customer")',
+                                    contentType: "application/json; charset=utf-8",
+                                    data: '{"ID":"' + id + '"}',
+                                    dataType: "json",
+                                    success: function (data) {
+                                        debugger
+                                        if (data.success) {
+                                            $.confirm({
+                                                title: 'Delete Item',
+                                                content: data.responseText,
+                                                type: 'green',
+                                                typeAnimated: true,
+                                                buttons: {
+                                                    Okay: {
+                                                        text: 'Okay',
+                                                        action: function () {
+                                                            window.location.href = "@Url.Action("Index", "Customer")";
+
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+                                        else {
+                                            $.confirm({
+                                                title: 'Delete Item',
+                                                content: data.responseText,
+                                                type: 'red',
+                                                typeAnimated: true,
+                                                buttons: {
+                                                    Okay: {
+                                                        text: 'Okay',
+                                                        action: function () {
+                                                            window.location.href = "@Url.Action("Index", "Customer")";
+
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        }
+
+                                    },
+                                    error: function (data) {
+
+                                        $.confirm({
+                                            title: 'Delete Item',
+                                            content: "Something wrong please contact to the IT Support Team",
+                                            type: 'red',
+                                            typeAnimated: true,
+                                            buttons: {
+                                                Okay: {
+                                                    text: 'Okay'
+                                                }
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        },
+                        No: {
+                            text: 'No',
+                            btnClass: 'btn-green'
+                        }
+                    }
+                });
+
+    });
+    $('#customers').on('click', '.btnedititem', function () {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditItem", "Customer")',
+                contentType: "application/json; charset=utf-8",
+                data: '{"ID":"' + this.id + '"}',
+                dataType: "json",
+                success: function (data) {
+                    debugger
+                    if (data.success) {
+                        $("#cId").val(data.cId);
+                        $("#cName").val(data.customer);
+                        $("#email1").val(data.email1);
+                        $("#email2").val(data.email2);
+                        $("#address").val(data.address);
+                        $("#city").val(data.city);
+                        $("#state").val(data.state);
+                        $("#pin").val(data.pin);
+                        $("#phone").val(data.phone);
+                        $("#mobile").val(data.mobile);
+                        $("#status").val(data.status);
+                    } else {
+
+                        $.confirm({
+                            title: 'Edit Record',
+                           content: data.responseText,
+                            type: 'red',
+                            typeAnimated: true,
+                            buttons: {
+                                Okay: {
+                                    text: 'Okay'
+                                }
+                            }
+                        });
+                    }
+                },
+                error: function (data) {
+
+                    $.confirm({
+                        title: 'Unable to locate patient',
+                        content: 'Unable to locate the patient record, please try again.',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    });
+
+
+  
+</script>
+

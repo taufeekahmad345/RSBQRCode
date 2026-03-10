@@ -1,0 +1,107 @@
+﻿@model DF_WebModule.Classes.clsPrint
+
+<style>
+    .rowh {
+        margin-top: -5px;
+    }
+
+    .colu {
+        margin-left: -300px;
+        border: solid;
+    }
+
+    .fontsize {
+        font-size: larger;
+    }
+</style>
+
+
+<div class="form-horizontal">
+    <div class="row" style=" background-color: #018798;height: 40px; border-radius:5px">
+        <div class="col-sm-12 col-lg-12" style="margin:auto">
+            <h4 style="color: aliceblue; text-align:center">Export QR/Bar Code Printed Details</h4>
+        </div>
+    </div>
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="col-sm-12 col-lg-12 col-md-12" style="padding-top:10px">
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="fname">From Date:</label><br>
+
+                <input class="form-control form-control-sm datepicker fontsize" style="height: 40px; font-size:larger;" id="fromdatevalue" type="text" placeholder="dd/mm/yyyy">
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <label for="fname">To Date:</label><br>
+                <input class="form-control form-control-sm datepicker fontsize" style="height: 40px; font-size: larger;" id="todatevalue" type="text" placeholder="dd/mm/yyyy">
+
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <button id="exportprint" style="width: 150px; color: #000; background-color: #e88f8f; margin-top: 35px;">Export</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    
+    $(document).ready(function () {
+        $("#todatevalue").datepicker({
+            format: 'dd/mm/yyyy',
+            autoclose: true,
+        });
+        $("#fromdatevalue").datepicker({
+            format: 'dd/mm/yyyy',
+            autoclose: true,
+        });
+    })
+    $('#exportprint').click(function () {
+        var fromdate = $("#fromdatevalue").val();
+        var todate = $("#todatevalue").val();
+        if (todate != undefined && todate != "" && fromdate != undefined && fromdate != "") {
+            var post = { fromdate, todate }
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("QRData", "Print")',
+                data: JSON.stringify(post),
+                contentType: "application/json; charset=utf-8",
+                xhrFields: {
+                    responseType: 'blob' // Set the response type as blob
+                },
+                success: function (data) {
+                    // Create blob object and initiate download
+                    var blob = new Blob([data], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+                    var link = document.createElement('a');
+                    link.href = window.URL.createObjectURL(blob);
+                    link.download = 'ExcelData.xlsx';
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error downloading Excel file:', error);
+                    alert('Failed to download Excel file.');
+                }
+            });
+
+        }
+        else {
+            $.confirm({
+                title: 'Warning!',
+                content: "Please select the from and to date",
+                type: 'grereden',
+                typeAnimated: true,
+                buttons: {
+                    Okay: {
+                        text: 'Okay',
+
+                    }
+                }
+            });
+        }
+    });
+
+</script>

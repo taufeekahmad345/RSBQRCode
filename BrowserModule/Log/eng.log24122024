@@ -1,0 +1,387 @@
+2024-12-24 11:26:19 LoginController DEBUG Index, Process Started, 24/12/2024 11:26:19
+2024-12-24 11:26:19 LoginController DEBUG Index, Process End, 24/12/2024 11:26:19
+2024-12-24 11:26:45 LoginController DEBUG Authorise, Process Started, 24/12/2024 11:26:45
+2024-12-24 11:26:54 LoginController DEBUG Authorise, Process End, 24/12/2024 11:26:54
+2024-12-24 11:29:59 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:29:59
+2024-12-24 11:30:02 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:30:03 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:30:12 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:30:12 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:30:12 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:30:12
+2024-12-24 11:30:12 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:30:12
+2024-12-24 11:30:12 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 11:33:23 LoginController DEBUG Index, Process Started, 24/12/2024 11:33:23
+2024-12-24 11:33:23 LoginController DEBUG Index, Process End, 24/12/2024 11:33:23
+2024-12-24 11:33:34 LoginController DEBUG Authorise, Process Started, 24/12/2024 11:33:34
+2024-12-24 11:33:44 LoginController DEBUG Authorise, Process End, 24/12/2024 11:33:44
+2024-12-24 11:34:09 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:34:09
+2024-12-24 11:34:09 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:34:09 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:34:09 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:34:09 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:34:09 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:34:09
+2024-12-24 11:34:09 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:34:09
+2024-12-24 11:34:09 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 11:39:28 LoginController DEBUG Index, Process Started, 24/12/2024 11:39:28
+2024-12-24 11:39:29 LoginController DEBUG Index, Process End, 24/12/2024 11:39:29
+2024-12-24 11:40:06 LoginController DEBUG Authorise, Process Started, 24/12/2024 11:40:06
+2024-12-24 11:40:16 LoginController DEBUG Authorise, Process End, 24/12/2024 11:40:16
+2024-12-24 11:40:44 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:40:44
+2024-12-24 11:40:44 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:40:44 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:40:44 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:40:44 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:40:44 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:40:44
+2024-12-24 11:40:44 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:40:44
+2024-12-24 11:40:44 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 11:46:11 LoginController DEBUG Index, Process Started, 24/12/2024 11:46:11
+2024-12-24 11:46:11 LoginController DEBUG Index, Process End, 24/12/2024 11:46:11
+2024-12-24 11:46:33 LoginController DEBUG Authorise, Process Started, 24/12/2024 11:46:33
+2024-12-24 11:46:44 LoginController DEBUG Authorise, Process End, 24/12/2024 11:46:44
+2024-12-24 11:47:16 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:47:16
+2024-12-24 11:47:17 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:47:17 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:47:17 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:47:17 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:47:17 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:47:17
+2024-12-24 11:47:17 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:47:17
+2024-12-24 11:47:17 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 11:47:18 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:47:18
+2024-12-24 11:49:19 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:49:19
+2024-12-24 11:49:19 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:49:19 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:49:19 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:49:19 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:49:19 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:49:19
+2024-12-24 11:49:19 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:49:19
+2024-12-24 11:49:19 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 11:51:11 LoginController DEBUG Index, Process Started, 24/12/2024 11:51:11
+2024-12-24 11:51:11 LoginController DEBUG Index, Process End, 24/12/2024 11:51:11
+2024-12-24 11:51:49 LoginController DEBUG Authorise, Process Started, 24/12/2024 11:51:49
+2024-12-24 11:52:00 LoginController DEBUG Authorise, Process End, 24/12/2024 11:52:00
+2024-12-24 11:52:24 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 11:52:24
+2024-12-24 11:52:24 AutoFillExcelController ERROR Type : 1
+2024-12-24 11:52:24 AutoFillExcelController ERROR Shift : B
+2024-12-24 11:52:24 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 11:52:24 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 11:52:24 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 11:52:24
+2024-12-24 11:52:24 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 11:52:24
+2024-12-24 11:52:24 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:00:17 LoginController DEBUG Index, Process Started, 24/12/2024 12:00:17
+2024-12-24 12:00:17 LoginController DEBUG Index, Process End, 24/12/2024 12:00:17
+2024-12-24 12:02:56 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:02:56
+2024-12-24 12:03:07 LoginController DEBUG Authorise, Process End, 24/12/2024 12:03:07
+2024-12-24 12:03:28 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:03:28
+2024-12-24 12:03:28 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:03:28 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:03:28 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:03:28 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:03:28 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:03:28
+2024-12-24 12:03:28 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:03:28
+2024-12-24 12:03:28 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:03:53 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:03:53
+2024-12-24 12:12:22 LoginController DEBUG Index, Process Started, 24/12/2024 12:12:22
+2024-12-24 12:12:22 LoginController DEBUG Index, Process End, 24/12/2024 12:12:22
+2024-12-24 12:12:43 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:12:43
+2024-12-24 12:12:55 LoginController DEBUG Authorise, Process End, 24/12/2024 12:12:55
+2024-12-24 12:13:23 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:13:23
+2024-12-24 12:13:23 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:13:23 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:13:23 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:13:23 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:13:23 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:13:23
+2024-12-24 12:13:23 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:13:23
+2024-12-24 12:13:23 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:13:24 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:13:24
+2024-12-24 12:20:19 LoginController DEBUG Index, Process Started, 24/12/2024 12:20:19
+2024-12-24 12:20:19 LoginController DEBUG Index, Process End, 24/12/2024 12:20:19
+2024-12-24 12:20:36 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:20:36
+2024-12-24 12:20:47 LoginController DEBUG Authorise, Process End, 24/12/2024 12:20:47
+2024-12-24 12:21:25 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:21:25
+2024-12-24 12:21:25 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:21:25 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:21:25 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:21:25 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:21:25 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:21:25
+2024-12-24 12:21:25 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:21:25
+2024-12-24 12:21:25 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:23:43 LoginController DEBUG Index, Process Started, 24/12/2024 12:23:43
+2024-12-24 12:23:43 LoginController DEBUG Index, Process End, 24/12/2024 12:23:43
+2024-12-24 12:24:19 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:24:19
+2024-12-24 12:24:29 LoginController DEBUG Authorise, Process End, 24/12/2024 12:24:29
+2024-12-24 12:25:17 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:25:17
+2024-12-24 12:25:17 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:25:17 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:25:17 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:25:17 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:25:17 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:25:17
+2024-12-24 12:25:17 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:25:17
+2024-12-24 12:25:17 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:43:46 LoginController DEBUG Index, Process Started, 24/12/2024 12:43:45
+2024-12-24 12:43:46 LoginController DEBUG Index, Process End, 24/12/2024 12:43:46
+2024-12-24 12:44:08 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:44:08
+2024-12-24 12:44:18 LoginController DEBUG Authorise, Process End, 24/12/2024 12:44:18
+2024-12-24 12:45:07 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:45:07
+2024-12-24 12:45:07 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:45:07 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:45:07 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:45:07 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:45:07 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:45:07
+2024-12-24 12:45:07 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:45:07
+2024-12-24 12:45:07 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:45:08 AutoFillExcelController ERROR Error Thrown during : Error saving file D:\Programs\BrowserModule\BrowserModule\AutoExcel\FC3204001B18122024.xlsx, ExcelData, 24/12/2024 12:45:08,   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(String filePath)
+   at DF_WebModule.Controllers.AutoFillExcelController.ExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 297
+2024-12-24 12:45:08 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:45:08
+2024-12-24 12:45:35 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:45:35
+2024-12-24 12:45:35 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:45:35
+2024-12-24 12:45:35 LoginController DEBUG Index, Process Started, 24/12/2024 12:45:35
+2024-12-24 12:45:35 LoginController DEBUG Index, Process End, 24/12/2024 12:45:35
+2024-12-24 12:45:43 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:45:43
+2024-12-24 12:45:43 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:45:43 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:45:43 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:45:43 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:45:43 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:45:43
+2024-12-24 12:45:43 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:45:43
+2024-12-24 12:45:43 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:46:57 AutoFillExcelController ERROR Error Thrown during : Error saving file D:\Programs\BrowserModule\BrowserModule\AutoExcel\FC3204001B18122024.xlsx, ExcelData, 24/12/2024 12:46:57,   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(String filePath)
+   at DF_WebModule.Controllers.AutoFillExcelController.ExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 297
+2024-12-24 12:46:57 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 12:46:57
+2024-12-24 12:47:03 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:47:03
+2024-12-24 12:47:03 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:47:03
+2024-12-24 12:47:03 LoginController DEBUG Index, Process Started, 24/12/2024 12:47:03
+2024-12-24 12:47:03 LoginController DEBUG Index, Process End, 24/12/2024 12:47:03
+2024-12-24 12:48:48 LoginController DEBUG Index, Process Started, 24/12/2024 12:48:48
+2024-12-24 12:48:49 LoginController DEBUG Index, Process End, 24/12/2024 12:48:49
+2024-12-24 12:49:09 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:49:09
+2024-12-24 12:49:32 LoginController DEBUG Authorise, Process End, 24/12/2024 12:49:32
+2024-12-24 12:50:33 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 12:50:33
+2024-12-24 12:50:33 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:50:33 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:50:33 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:50:33 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:50:33 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:50:33
+2024-12-24 12:50:33 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:50:33
+2024-12-24 12:50:33 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:52:07 LoginController DEBUG Index, Process Started, 24/12/2024 12:52:07
+2024-12-24 12:52:07 LoginController DEBUG Index, Process End, 24/12/2024 12:52:07
+2024-12-24 12:52:39 LoginController DEBUG Authorise, Process Started, 24/12/2024 12:52:39
+2024-12-24 12:52:45 LoginController DEBUG Authorise, Process End, 24/12/2024 12:52:45
+2024-12-24 12:53:12 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 12:53:12
+2024-12-24 12:53:12 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:53:12 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:53:12 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:53:12 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:53:12 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:53:12
+2024-12-24 12:53:12 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:53:12
+2024-12-24 12:53:12 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 12:53:13 AutoFillExcelController ERROR Error Thrown during : Error saving file D:\Programs\BrowserModule\BrowserModule\AutoExcel\FC3204001B18122024.xlsx, ViewExcelData, 24/12/2024 12:53:13,   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(String filePath)
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 148
+2024-12-24 12:53:13 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 12:53:13
+2024-12-24 12:53:29 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:53:29
+2024-12-24 12:53:29 LoginController DEBUG LogOut, Process Started, 24/12/2024 12:53:29
+2024-12-24 12:53:29 LoginController DEBUG Index, Process Started, 24/12/2024 12:53:29
+2024-12-24 12:53:29 LoginController DEBUG Index, Process End, 24/12/2024 12:53:29
+2024-12-24 12:53:31 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 12:53:31
+2024-12-24 12:53:31 AutoFillExcelController ERROR Type : 1
+2024-12-24 12:53:31 AutoFillExcelController ERROR Shift : B
+2024-12-24 12:53:31 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 12:53:31 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 12:53:31 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 12:53:31
+2024-12-24 12:53:31 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 12:53:31
+2024-12-24 12:53:31 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 14:59:44 LoginController DEBUG Index, Process Started, 24/12/2024 14:59:44
+2024-12-24 14:59:44 LoginController DEBUG Index, Process End, 24/12/2024 14:59:44
+2024-12-24 15:00:00 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:00:00
+2024-12-24 15:00:11 LoginController DEBUG Authorise, Process End, 24/12/2024 15:00:11
+2024-12-24 15:01:16 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:01:16
+2024-12-24 15:01:16 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:01:16 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:01:16 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:01:16 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:01:16 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:01:16
+2024-12-24 15:01:16 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:01:16
+2024-12-24 15:01:16 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:01:17 AutoFillExcelController ERROR Error Thrown during : Index (zero based) must be greater than or equal to zero and less than the size of the argument list., ExcelData, 24/12/2024 15:01:17,   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at DF_WebModule.Controllers.AutoFillExcelController.ExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 293
+2024-12-24 15:01:17 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:01:17
+2024-12-24 15:02:13 LoginController DEBUG Index, Process Started, 24/12/2024 15:02:13
+2024-12-24 15:02:13 LoginController DEBUG Index, Process End, 24/12/2024 15:02:13
+2024-12-24 15:02:20 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:02:20
+2024-12-24 15:02:26 LoginController DEBUG Authorise, Process End, 24/12/2024 15:02:26
+2024-12-24 15:02:48 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:02:48
+2024-12-24 15:02:48 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:02:48 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:02:48 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:02:48 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:02:49 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:02:49
+2024-12-24 15:02:49 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:02:49
+2024-12-24 15:02:49 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:04:11 LoginController DEBUG Index, Process Started, 24/12/2024 15:04:11
+2024-12-24 15:04:11 LoginController DEBUG Index, Process End, 24/12/2024 15:04:11
+2024-12-24 15:04:19 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:04:19
+2024-12-24 15:04:24 LoginController DEBUG Authorise, Process End, 24/12/2024 15:04:24
+2024-12-24 15:04:43 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:04:43
+2024-12-24 15:04:43 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:04:43 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:04:43 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:04:43 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:04:43 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:04:43
+2024-12-24 15:04:43 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:04:43
+2024-12-24 15:04:43 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:04:44 AutoFillExcelController ERROR Error Thrown during : Error saving file C:\Program Files (x86)\IIS Express\FC3204001B18\12\2024.xlsx, ExcelData, 24/12/2024 15:04:44,   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at DF_WebModule.Controllers.AutoFillExcelController.ExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 297
+2024-12-24 15:04:44 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:04:44
+2024-12-24 15:05:03 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:05:03
+2024-12-24 15:05:03 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:05:03 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:05:03 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:05:03 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:05:03 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:05:03
+2024-12-24 15:05:03 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:05:03
+2024-12-24 15:05:03 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:07:02 LoginController DEBUG Index, Process Started, 24/12/2024 15:07:02
+2024-12-24 15:07:02 LoginController DEBUG Index, Process End, 24/12/2024 15:07:02
+2024-12-24 15:07:11 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:07:11
+2024-12-24 15:07:16 LoginController DEBUG Authorise, Process End, 24/12/2024 15:07:16
+2024-12-24 15:07:36 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:07:36
+2024-12-24 15:07:36 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:07:36 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:07:36 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:07:36 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:07:36 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:07:36
+2024-12-24 15:07:36 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:07:36
+2024-12-24 15:07:36 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:08:09 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:08:09
+2024-12-24 15:09:59 LoginController DEBUG Index, Process Started, 24/12/2024 15:09:59
+2024-12-24 15:09:59 LoginController DEBUG Index, Process End, 24/12/2024 15:09:59
+2024-12-24 15:10:07 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:10:07
+2024-12-24 15:10:12 LoginController DEBUG Authorise, Process End, 24/12/2024 15:10:12
+2024-12-24 15:10:31 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:10:31
+2024-12-24 15:10:31 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:10:31 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:10:31 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:10:31 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:10:31 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:10:31
+2024-12-24 15:10:31 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:10:31
+2024-12-24 15:10:31 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 15:11:53 LoginController DEBUG Index, Process Started, 24/12/2024 15:11:53
+2024-12-24 15:11:53 LoginController DEBUG Index, Process End, 24/12/2024 15:11:53
+2024-12-24 15:12:04 LoginController DEBUG Authorise, Process Started, 24/12/2024 15:12:04
+2024-12-24 15:12:10 LoginController DEBUG Authorise, Process End, 24/12/2024 15:12:10
+2024-12-24 15:12:31 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 15:12:31
+2024-12-24 15:12:31 AutoFillExcelController ERROR Type : 1
+2024-12-24 15:12:31 AutoFillExcelController ERROR Shift : B
+2024-12-24 15:12:31 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 15:12:31 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 15:12:32 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 15:12:32
+2024-12-24 15:12:32 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 15:12:32
+2024-12-24 15:12:32 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 21:54:43 LoginController DEBUG Index, Process Started, 24/12/2024 21:54:43
+2024-12-24 21:54:43 LoginController DEBUG Index, Process End, 24/12/2024 21:54:43
+2024-12-24 21:56:29 LoginController DEBUG Index, Process Started, 24/12/2024 21:56:29
+2024-12-24 21:56:30 LoginController DEBUG Index, Process End, 24/12/2024 21:56:30
+2024-12-24 21:56:44 LoginController DEBUG Authorise, Process Started, 24/12/2024 21:56:44
+2024-12-24 21:56:53 LoginController DEBUG Authorise, Process End, 24/12/2024 21:56:53
+2024-12-24 21:57:32 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 21:57:32
+2024-12-24 21:57:32 AutoFillExcelController ERROR Type : 1
+2024-12-24 21:57:32 AutoFillExcelController ERROR Shift : B
+2024-12-24 21:57:32 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 21:57:32 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 21:57:32 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 21:57:32
+2024-12-24 21:57:32 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 21:57:32
+2024-12-24 21:57:32 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 21:57:57 AutoFillExcelController ERROR Error Thrown during : The process cannot access the file 'D:\Programs\New folder\file5.xlsx' because it is being used by another process., ExcelData, 24/12/2024 21:57:57,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at DF_WebModule.Controllers.AutoFillExcelController.ExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 306
+2024-12-24 21:57:57 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 21:57:57
+2024-12-24 21:59:34 LoginController DEBUG LogOut, Process Started, 24/12/2024 21:59:34
+2024-12-24 21:59:34 LoginController DEBUG LogOut, Process Started, 24/12/2024 21:59:34
+2024-12-24 21:59:34 LoginController DEBUG Index, Process Started, 24/12/2024 21:59:34
+2024-12-24 21:59:34 LoginController DEBUG Index, Process End, 24/12/2024 21:59:34
+2024-12-24 22:12:30 LoginController DEBUG Index, Process Started, 24/12/2024 22:12:30
+2024-12-24 22:12:30 LoginController DEBUG Index, Process End, 24/12/2024 22:12:30
+2024-12-24 22:13:50 LoginController DEBUG Authorise, Process Started, 24/12/2024 22:13:50
+2024-12-24 22:13:58 LoginController DEBUG Authorise, Process End, 24/12/2024 22:13:58
+2024-12-24 22:14:30 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 22:14:30
+2024-12-24 22:14:30 AutoFillExcelController ERROR Type : 1
+2024-12-24 22:14:30 AutoFillExcelController ERROR Shift : B
+2024-12-24 22:14:30 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 22:14:30 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 22:14:30 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 22:14:30
+2024-12-24 22:14:30 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 22:14:30
+2024-12-24 22:14:30 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 22:14:49 AutoFillExcelController DEBUG ExcelData, Process Started, 24/12/2024 22:14:49
+2024-12-24 22:18:26 LoginController DEBUG Index, Process Started, 24/12/2024 22:18:26
+2024-12-24 22:18:26 LoginController DEBUG Index, Process End, 24/12/2024 22:18:26
+2024-12-24 22:18:36 LoginController DEBUG Authorise, Process Started, 24/12/2024 22:18:36
+2024-12-24 22:18:44 LoginController DEBUG Authorise, Process End, 24/12/2024 22:18:44
+2024-12-24 22:21:14 LoginController DEBUG Index, Process Started, 24/12/2024 22:21:14
+2024-12-24 22:21:14 LoginController DEBUG Index, Process End, 24/12/2024 22:21:14
+2024-12-24 22:21:24 LoginController DEBUG Authorise, Process Started, 24/12/2024 22:21:24
+2024-12-24 22:21:31 LoginController DEBUG Authorise, Process End, 24/12/2024 22:21:31
+2024-12-24 22:23:26 LoginController DEBUG Index, Process Started, 24/12/2024 22:23:26
+2024-12-24 22:23:26 LoginController DEBUG Index, Process End, 24/12/2024 22:23:26
+2024-12-24 22:23:40 LoginController DEBUG Authorise, Process Started, 24/12/2024 22:23:40
+2024-12-24 22:23:48 LoginController DEBUG Authorise, Process End, 24/12/2024 22:23:48
+2024-12-24 22:24:17 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 22:24:17
+2024-12-24 22:24:17 AutoFillExcelController ERROR Type : 1
+2024-12-24 22:24:17 AutoFillExcelController ERROR Shift : B
+2024-12-24 22:24:17 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 22:24:17 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 22:24:17 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 22:24:17
+2024-12-24 22:24:17 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 22:24:17
+2024-12-24 22:24:17 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 22:24:18 AutoFillExcelController ERROR Error Thrown during : Error saving file D:\Programs\New folder\file7.xlsx, ViewExcelData, 24/12/2024 22:24:18,   at OfficeOpenXml.ExcelPackage.Save()
+   at OfficeOpenXml.ExcelPackage.SaveAs(FileInfo file)
+   at DF_WebModule.Controllers.AutoFillExcelController.ViewExcelData(AutoExcelFilterModel data) in D:\Programs\BrowserModule\BrowserModule\Controllers\AutoFillExcelController.cs:line 149
+2024-12-24 22:24:18 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 22:24:18
+2024-12-24 22:24:36 AutoFillExcelController DEBUG ViewExcelData, Process Started, 24/12/2024 22:24:36
+2024-12-24 22:24:36 AutoFillExcelController ERROR Type : 1
+2024-12-24 22:24:36 AutoFillExcelController ERROR Shift : B
+2024-12-24 22:24:36 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-24 22:24:36 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-24 22:24:36 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 24/12/2024 22:24:36
+2024-12-24 22:24:36 AutoFillExcelController DEBUG GetAllColumndata, Process End, 24/12/2024 22:24:36
+2024-12-24 22:24:36 AutoFillExcelController ERROR All Column Count : 24
+2024-12-24 23:06:29 LoginController DEBUG Index, Process Started, 24/12/2024 23:06:29
+2024-12-24 23:06:29 LoginController DEBUG Index, Process End, 24/12/2024 23:06:29
+2024-12-24 23:07:03 LoginController DEBUG Authorise, Process Started, 24/12/2024 23:07:03
+2024-12-24 23:07:11 LoginController DEBUG Authorise, Process End, 24/12/2024 23:07:11
+2024-12-24 23:07:29 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:07:29
+2024-12-24 23:07:29 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:07:29
+2024-12-24 23:08:02 ControlPLanController DEBUG OldControlPLan, Process Started, 24/12/2024 23:08:02
+2024-12-24 23:08:02 ControlPLanController DEBUG OldControlPLan, Process End, 24/12/2024 23:08:02
+2024-12-24 23:08:05 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:08:05
+2024-12-24 23:08:05 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:08:05
+2024-12-24 23:08:10 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:08:10
+2024-12-24 23:08:10 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:08:10
+2024-12-24 23:08:41 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:08:41
+2024-12-24 23:08:41 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:08:41
+2024-12-24 23:09:36 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:09:36
+2024-12-24 23:09:36 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:09:36
+2024-12-24 23:09:39 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:09:39
+2024-12-24 23:09:39 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:09:39
+2024-12-24 23:09:39 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:09:39
+2024-12-24 23:09:39 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:09:39
+2024-12-24 23:09:40 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:09:40
+2024-12-24 23:09:40 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:09:40
+2024-12-24 23:09:40 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:09:40
+2024-12-24 23:09:40 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:09:40
+2024-12-24 23:10:05 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:10:05
+2024-12-24 23:10:05 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:10:05
+2024-12-24 23:10:35 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:10:35
+2024-12-24 23:10:35 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:10:35
+2024-12-24 23:10:59 ControlPLanController DEBUG Index, Process Started, 24/12/2024 23:10:59
+2024-12-24 23:10:59 ControlPLanController DEBUG Index, Process End, 24/12/2024 23:10:59
+2024-12-24 23:11:03 ControlPLanController DEBUG EditItem, Process Started, 24/12/2024 23:11:03
+2024-12-24 23:11:03 ControlPLanController DEBUG EditItem, Process End, 24/12/2024 23:11:03

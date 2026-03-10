@@ -1,0 +1,56 @@
+2025-05-08 17:05:09 LoginController DEBUG Index, Process Started, 08/05/2025 17:05:09
+2025-05-08 17:05:09 LoginController DEBUG Index, Process End, 08/05/2025 17:05:09
+2025-05-08 17:05:35 LoginController DEBUG Authorise, Process Started, 08/05/2025 17:05:35
+2025-05-08 17:05:39 LoginController DEBUG Authorise, Process End, 08/05/2025 17:05:39
+2025-05-08 17:05:49 PrintController DEBUG Index, Process Started, 08/05/2025 17:05:49
+2025-05-08 17:05:49 PrintController DEBUG Index, Process End, 08/05/2025 17:05:49
+2025-05-08 17:06:21 PrintController DEBUG Getpartdetail, Process Started, 08/05/2025 17:06:21
+2025-05-08 17:06:21 PrintController DEBUG Getpartdetail, Process End, 08/05/2025 17:06:21
+2025-05-08 17:06:22 PrintController DEBUG Index, Process Started, 08/05/2025 17:06:22
+2025-05-08 17:06:22 PrintController DEBUG Index, Process End, 08/05/2025 17:06:22
+2025-05-08 17:06:33 PrintController DEBUG Getpartdetail, Process Started, 08/05/2025 17:06:33
+2025-05-08 17:06:33 PrintController DEBUG Getpartdetail, Process End, 08/05/2025 17:06:33
+2025-05-08 17:07:01 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:01
+2025-05-08 17:07:01 PrintController DEBUG Index, Process End, 08/05/2025 17:07:01
+2025-05-08 17:07:04 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:04
+2025-05-08 17:07:04 PrintController DEBUG Index, Process End, 08/05/2025 17:07:04
+2025-05-08 17:07:04 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:04
+2025-05-08 17:07:04 PrintController DEBUG Index, Process End, 08/05/2025 17:07:04
+2025-05-08 17:07:04 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:04
+2025-05-08 17:07:04 PrintController DEBUG Index, Process End, 08/05/2025 17:07:04
+2025-05-08 17:07:10 PrintController DEBUG Getpartdetail, Process Started, 08/05/2025 17:07:10
+2025-05-08 17:07:10 PrintController DEBUG Getpartdetail, Process End, 08/05/2025 17:07:10
+2025-05-08 17:07:45 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:45
+2025-05-08 17:07:45 PrintController DEBUG Index, Process End, 08/05/2025 17:07:45
+2025-05-08 17:07:46 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:46
+2025-05-08 17:07:46 PrintController DEBUG Index, Process End, 08/05/2025 17:07:46
+2025-05-08 17:07:46 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:46
+2025-05-08 17:07:47 PrintController DEBUG Index, Process End, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process End, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process End, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process End, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:47
+2025-05-08 17:07:47 PrintController DEBUG Index, Process End, 08/05/2025 17:07:47
+2025-05-08 17:07:48 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:48
+2025-05-08 17:07:48 PrintController DEBUG Index, Process End, 08/05/2025 17:07:48
+2025-05-08 17:07:48 PrintController DEBUG Index, Process Started, 08/05/2025 17:07:48
+2025-05-08 17:07:48 PrintController DEBUG Index, Process End, 08/05/2025 17:07:48
+2025-05-08 17:08:01 PrintController DEBUG Index, Process Started, 08/05/2025 17:08:01
+2025-05-08 17:08:01 PrintController DEBUG Index, Process End, 08/05/2025 17:08:01
+2025-05-08 17:08:04 PrintController DEBUG Index, Process Started, 08/05/2025 17:08:04
+2025-05-08 17:08:05 PrintController DEBUG Index, Process End, 08/05/2025 17:08:05
+2025-05-08 17:08:05 PrintController DEBUG Index, Process Started, 08/05/2025 17:08:05
+2025-05-08 17:08:05 PrintController DEBUG Index, Process End, 08/05/2025 17:08:05
+2025-05-08 17:08:16 PrintController DEBUG Getpartdetail, Process Started, 08/05/2025 17:08:16
+2025-05-08 17:08:16 PrintController DEBUG Getpartdetail, Process End, 08/05/2025 17:08:16
+2025-05-08 17:08:25 PrintController DEBUG PrintQRCode, Process Started, 08/05/2025 17:08:25
+2025-05-08 17:08:27 PrintController INFO  Print TYpe : 3
+2025-05-08 17:08:27 PrintController INFO  Print Count : 1
+2025-05-08 17:08:27 PrintController INFO  printer : OneNote for Windows 10
+2025-05-08 17:08:28 PrintController INFO  Customer : TML
+2025-05-08 17:08:28 PrintController INFO  Part Number : 218941100110
+2025-05-08 17:08:35 PrintController INFO  ZPL Text : ^XA^PW799^LL200^FO50,20^BY2^BCN,100,Y,N,N^FD'0021894110011043123450525#SRNO#'^FS^FO50,130^A0,N,30,30^FD'0021894110011043123450525#SRNO#
+LPT 2823 RDE 68 NS C 5.6L G750 Std Cx  JT Testing L 432'^FS^XZ

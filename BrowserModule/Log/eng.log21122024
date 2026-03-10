@@ -1,0 +1,48 @@
+2024-12-21 12:35:20 LoginController DEBUG Index, Process Started, 21/12/2024 12:35:20
+2024-12-21 12:35:20 LoginController DEBUG Index, Process End, 21/12/2024 12:35:20
+2024-12-21 12:35:34 LoginController DEBUG Authorise, Process Started, 21/12/2024 12:35:34
+2024-12-21 12:36:09 LoginController DEBUG Authorise, Process End, 21/12/2024 12:36:09
+2024-12-21 12:36:20 UserRegistrationController DEBUG Index, Process Started, 21/12/2024 12:36:20
+2024-12-21 12:36:20 UserRegistrationController DEBUG Index, Process End, 21/12/2024 12:36:20
+2024-12-21 12:36:27 UserRegistrationController DEBUG AddUser, Process Started, 21/12/2024 12:36:27
+2024-12-21 12:36:27 UserRegistrationController DEBUG AddUser, Process End, 21/12/2024 12:36:27
+2024-12-21 12:36:38 UserRegistrationController DEBUG Index, Process Started, 21/12/2024 12:36:38
+2024-12-21 12:36:38 UserRegistrationController DEBUG Index, Process End, 21/12/2024 12:36:38
+2024-12-21 12:36:40 UserRegistrationController DEBUG EditUser, Process Started, 21/12/2024 12:36:40
+2024-12-21 12:36:40 UserRegistrationController DEBUG EditUser, Process End, 21/12/2024 12:36:40
+2024-12-21 12:36:45 UserRegistrationController DEBUG EditUserDetail, Process Started, 21/12/2024 12:36:45
+2024-12-21 12:36:46 UserRegistrationController DEBUG EditUser, Process Started, 21/12/2024 12:36:46
+2024-12-21 12:36:47 UserRegistrationController DEBUG Index, Process Started, 21/12/2024 12:36:47
+2024-12-21 12:36:47 UserRegistrationController DEBUG Index, Process End, 21/12/2024 12:36:47
+2024-12-21 12:36:51 LoginController DEBUG Index, Process Started, 21/12/2024 12:36:51
+2024-12-21 12:36:51 LoginController DEBUG Index, Process End, 21/12/2024 12:36:51
+2024-12-21 12:36:53 LoginController DEBUG Authorise, Process Started, 21/12/2024 12:36:53
+2024-12-21 12:36:53 LoginController DEBUG Authorise, Process End, 21/12/2024 12:36:53
+2024-12-21 14:24:53 LoginController DEBUG Index, Process Started, 21/12/2024 14:24:53
+2024-12-21 14:24:53 LoginController DEBUG Index, Process End, 21/12/2024 14:24:53
+2024-12-21 14:25:10 LoginController DEBUG Authorise, Process Started, 21/12/2024 14:25:10
+2024-12-21 14:25:22 LoginController DEBUG Authorise, Process End, 21/12/2024 14:25:22
+2024-12-21 14:27:22 AutoFillExcelController DEBUG ExcelData, Process Started, 21/12/2024 14:27:22
+2024-12-21 14:27:22 AutoFillExcelController ERROR Type : 1
+2024-12-21 14:27:22 AutoFillExcelController ERROR Shift : B
+2024-12-21 14:27:22 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-21 14:27:22 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-21 14:27:22 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 21/12/2024 14:27:22
+2024-12-21 14:27:23 AutoFillExcelController ERROR All Item Count : 24
+2024-12-21 14:27:23 AutoFillExcelController DEBUG GetAllColumndata, Process End, 21/12/2024 14:27:23
+2024-12-21 14:27:23 AutoFillExcelController ERROR All Column Count : 24
+2024-12-21 14:27:25 AutoFillExcelController DEBUG ExcelData, Process Started, 21/12/2024 14:27:25
+2024-12-21 14:39:39 LoginController DEBUG Index, Process Started, 21/12/2024 14:39:39
+2024-12-21 14:39:39 LoginController DEBUG Index, Process End, 21/12/2024 14:39:39
+2024-12-21 14:39:51 LoginController DEBUG Authorise, Process Started, 21/12/2024 14:39:51
+2024-12-21 14:40:01 LoginController DEBUG Authorise, Process End, 21/12/2024 14:40:01
+2024-12-21 14:40:56 AutoFillExcelController DEBUG ExcelData, Process Started, 21/12/2024 14:40:56
+2024-12-21 14:40:56 AutoFillExcelController ERROR Type : 1
+2024-12-21 14:40:56 AutoFillExcelController ERROR Shift : B
+2024-12-21 14:40:56 AutoFillExcelController ERROR PartNo : FC320400
+2024-12-21 14:40:56 AutoFillExcelController ERROR Date : 18/12/2024
+2024-12-21 14:40:56 AutoFillExcelController DEBUG GetAllColumndata, Process Started, 21/12/2024 14:40:56
+2024-12-21 14:40:56 AutoFillExcelController ERROR All Item Count : 24
+2024-12-21 14:40:56 AutoFillExcelController DEBUG GetAllColumndata, Process End, 21/12/2024 14:40:56
+2024-12-21 14:40:56 AutoFillExcelController ERROR All Column Count : 24
+2024-12-21 14:41:08 AutoFillExcelController DEBUG ExcelData, Process Started, 21/12/2024 14:41:08

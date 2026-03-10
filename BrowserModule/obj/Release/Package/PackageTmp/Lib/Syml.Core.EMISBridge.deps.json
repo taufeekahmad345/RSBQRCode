@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Syml.Core.EMISBridge/1.0.0": {
+        "dependencies": {
+          "Em_Pacc_WEB": "5.7.1.0"
+        },
+        "runtime": {
+          "Syml.Core.EMISBridge.dll": {}
+        }
+      },
+      "Em_Pacc_WEB/5.7.1.0": {
+        "runtime": {
+          "Em_Pacc_WEB.dll": {
+            "assemblyVersion": "5.7.1.0",
+            "fileVersion": "5.7.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syml.Core.EMISBridge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Em_Pacc_WEB/5.7.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,136 @@
+﻿@model IEnumerable<DF_WebModule.Models.UserDetailsModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .Highlight {
+        background: #ff0000;
+    }
+</style>
+<div class="container" style="max-width:100%">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div id="ItemIndex">
+                <div class="row" style=" background-color: #018798;height: 45px; border-radius:5px">
+                    <div class="col-sm-4 col-md-4 col-lg-4" style="margin:auto">
+                        <h4 style="color: aliceblue;">User Details</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <button id="AddUser" type="button" class="btn btn-primary" style="background: #119801; border-color: #018798; "><i class="fa fa-plus" aria-hidden="true"></i>&nbsp; Add Item</button>
+
+                    </div>
+
+                </div>
+                <table id="userlisttable" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th scope="col">Action</th>
+                            <th>Name.</th>
+                            <th>Mobile Number</th>
+                            <th>Email Id</th>
+                            <th>User Name</th>
+                            <th>Password</th>
+                            <th>Role</th>                     
+                           
+                        </tr>
+                    </thead>
+                    <tbody id="TableResultsBody">
+                        @foreach (var item in Model)
+                        {
+                        <tr>
+                            <td>
+                                <button type="button" class="btn btn-success btnedititem" id="@item.Id"><i class="fa fa-edit" title="Edit Item" aria-hidden="true"></i></button>
+                                @*<button type="button" class="btn btn-danger btndeleteitem" id="@item.Id"><i class="fa fa-trash" title="Delete Item" aria-hidden="true"></i></button>*@
+
+                            </td>
+                          
+                            <td>@item.Name</td>
+                            <td>@item.Mobile</td>
+                            <td>@item.Email</td>
+                            <td>@item.UserName</td>
+                            <td>@item.Password</td>
+                            <td>@item.Role</td>
+                           
+                        </tr>
+                        }
+
+
+                    </tbody>
+                </table>                
+            </div>
+            <div id="dialog-create">
+                <div id="CreateView">
+
+                </div>
+            </div>            
+            <div id="dialog-edit">
+                <div id="EditView">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    $(document).ready(function () {
+        $('#userlisttable').DataTable({
+            scrollX: true,
+            scrollCollapse: true,
+            "columnDefs": [
+                { "targets": "1", "type": "date-euro" },
+            ],
+
+        });
+    });
+
+     $('#AddUser').click(function () {
+            $.ajax({
+                url: "@Url.Action("AddUser", "UserRegistration")",
+                type: 'POST',
+                cache: false,
+                success: function (result) {
+                    $("#ItemIndex").hide(1000);
+                    $("#dialog-create").show(1000);
+                    $("#CreateView").html(result);
+                    $("form").each(function () { $.data($(this)[0], 'validator', false); });
+                    $.validator.unobtrusive.parse("form");
+                }
+            });
+     });
+
+
+    $('#userlisttable').on('click', '.btnedititem', function () {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("EditUser", "UserRegistration")',
+                contentType: "application/json; charset=utf-8",
+                data: '{"ID":"' + this.id + '"}',
+                dataType: "html",
+                success: function (data) {
+                    $("#ItemIndex").hide(1000);
+                    $("#dialog-edit").show(1000);
+                    $('#EditView').html(data);
+                    $("form").each(function () { $.data($(this)[0], 'validator', false); });
+                    $.validator.unobtrusive.parse("form");
+                },
+                error: function (data) {
+                    $('#EditView').html(null);
+                    $.confirm({
+                        title: 'Unable to locate patient',
+                        content: 'Unable to locate the patient record, please try again.',
+                        type: 'red',
+                        typeAnimated: true,
+                        buttons: {
+                            Okay: {
+                                text: 'Okay'
+                            }
+                        }
+                    });
+                }
+            });
+    });
+</script>

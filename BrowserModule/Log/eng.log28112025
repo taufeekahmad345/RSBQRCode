@@ -1,0 +1,60 @@
+2025-11-28 12:54:57 LoginController DEBUG Index, Process Started, 28/11/2025 12:54:57
+2025-11-28 12:54:57 LoginController DEBUG Index, Process End, 28/11/2025 12:54:57
+2025-11-28 12:57:41 LoginController DEBUG Index, Process Started, 28/11/2025 12:57:41
+2025-11-28 12:57:41 LoginController DEBUG Index, Process End, 28/11/2025 12:57:41
+2025-11-28 12:57:56 LoginController DEBUG Authorise, Process Started, 28/11/2025 12:57:56
+2025-11-28 12:57:59 LoginController DEBUG Authorise, Process End, 28/11/2025 12:57:59
+2025-11-28 14:51:15 LoginController DEBUG Index, Process Started, 28/11/2025 14:51:15
+2025-11-28 14:51:15 LoginController DEBUG Index, Process End, 28/11/2025 14:51:15
+2025-11-28 14:51:32 LoginController DEBUG Authorise, Process Started, 28/11/2025 14:51:32
+2025-11-28 14:51:35 LoginController DEBUG Authorise, Process End, 28/11/2025 14:51:35
+2025-11-28 14:51:52 PartManagementController DEBUG Index, Process Started, 28/11/2025 14:51:52
+2025-11-28 14:51:55 PartManagementController DEBUG Index, Process End, 28/11/2025 14:51:55
+2025-11-28 14:52:03 PrintController DEBUG Index, Process Started, 28/11/2025 14:52:03
+2025-11-28 14:52:03 PrintController DEBUG Index, Process End, 28/11/2025 14:52:03
+2025-11-28 14:52:43 PrintController DEBUG Index, Process Started, 28/11/2025 14:52:43
+2025-11-28 14:52:43 PrintController DEBUG Index, Process End, 28/11/2025 14:52:43
+2025-11-28 14:53:09 PrintController DEBUG PrintScannedCode, Started, 28/11/2025 14:53:09
+2025-11-28 14:53:09 PrintController INFO  TypeOfPart : 1
+2025-11-28 14:53:09 PrintController INFO  Bacode Scanned ZPL Text : ^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3451125021234^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test 1 223^FS
+^XZ
+
+2025-11-28 14:53:09 PrintController DEBUG PrintScannedCode, Ended, 28/11/2025 14:53:09
+2025-11-28 14:53:15 PrintController DEBUG Index, Process Started, 28/11/2025 14:53:15
+2025-11-28 14:53:15 PrintController DEBUG Index, Process End, 28/11/2025 14:53:15
+2025-11-28 14:53:43 PrintController DEBUG PrintScannedCode, Started, 28/11/2025 14:53:43
+2025-11-28 14:54:03 PrintController INFO  TypeOfPart : 1
+2025-11-28 14:54:21 PrintController INFO  Bacode Scanned ZPL Text : ^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3451125021234^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test 1 223^FS
+^XZ
+
+2025-11-28 14:54:46 PrintController DEBUG PrintScannedCode, Ended, 28/11/2025 14:54:46
+2025-11-28 14:54:46 PrintController DEBUG Index, Process Started, 28/11/2025 14:54:46
+2025-11-28 14:54:46 PrintController DEBUG Index, Process End, 28/11/2025 14:54:46
+2025-11-28 14:54:47 PrintController DEBUG Index, Process Started, 28/11/2025 14:54:47
+2025-11-28 14:54:47 PrintController DEBUG Index, Process End, 28/11/2025 14:54:47
+2025-11-28 14:55:03 PrintController DEBUG PrintScannedCode, Started, 28/11/2025 14:55:03
+2025-11-28 14:55:03 PrintController INFO  TypeOfPart : 1
+2025-11-28 14:55:03 PrintController INFO  Bacode Scanned ZPL Text : ^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3451125212314^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test 1 223^FS
+^XZ
+

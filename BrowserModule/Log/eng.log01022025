@@ -1,0 +1,89 @@
+2025-02-01 16:26:15 LoginController DEBUG Index, Process Started, 01/02/2025 16:26:15
+2025-02-01 16:26:15 LoginController DEBUG Index, Process End, 01/02/2025 16:26:15
+2025-02-01 16:26:28 LoginController DEBUG Authorise, Process Started, 01/02/2025 16:26:28
+2025-02-01 16:26:35 LoginController DEBUG Authorise, Process End, 01/02/2025 16:26:35
+2025-02-01 16:26:45 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:26:45
+2025-02-01 16:26:45 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:26:45
+2025-02-01 16:26:50 DrawingModificationController DEBUG AddDrawing, Process Started, 01/02/2025 16:26:50
+2025-02-01 16:26:50 DrawingModificationController DEBUG AddDrawing, Process End, 01/02/2025 16:26:50
+2025-02-01 16:27:23 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:27:23
+2025-02-01 16:27:23 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:27:23
+2025-02-01 16:40:35 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:40:35
+2025-02-01 16:40:35 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:40:35
+2025-02-01 16:41:20 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:41:20
+2025-02-01 16:41:20 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:41:20
+2025-02-01 16:41:23 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:41:23
+2025-02-01 16:41:28 SchedulingController DEBUG Index, Process End, 01/02/2025 16:41:28
+2025-02-01 16:41:51 SchedulingController DEBUG ImportExcel, Process Started, 01/02/2025 16:41:51
+2025-02-01 16:43:21 SchedulingController ERROR Error Thrown during: Worksheet has been disposed
+Object name: 'ExcelWorksheet'., ImportExcel, 01/02/2025 16:43:21,   at OfficeOpenXml.ExcelWorksheet.CheckSheetTypeAndNotDisposed()
+   at OfficeOpenXml.ExcelWorksheet.get_Cells()
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 666
+2025-02-01 16:43:21 SchedulingController DEBUG ImportExcel, Process End, 01/02/2025 16:43:21
+2025-02-01 16:43:22 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:43:22
+2025-02-01 16:43:22 SchedulingController DEBUG Index, Process End, 01/02/2025 16:43:22
+2025-02-01 16:43:23 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:43:23
+2025-02-01 16:43:24 SchedulingController DEBUG Index, Process End, 01/02/2025 16:43:24
+2025-02-01 16:43:35 SchedulingController DEBUG ImportExcel, Process Started, 01/02/2025 16:43:35
+2025-02-01 16:45:55 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 01/02/2025 16:45:55,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 670
+2025-02-01 16:45:55 SchedulingController DEBUG ImportExcel, Process End, 01/02/2025 16:45:55
+2025-02-01 16:45:56 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:45:56
+2025-02-01 16:45:57 SchedulingController DEBUG Index, Process End, 01/02/2025 16:45:57
+2025-02-01 16:45:58 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:45:58
+2025-02-01 16:45:58 SchedulingController DEBUG Index, Process End, 01/02/2025 16:45:58
+2025-02-01 16:46:11 SchedulingController DEBUG ImportExcel, Process Started, 01/02/2025 16:46:11
+2025-02-01 16:50:09 LoginController DEBUG Index, Process Started, 01/02/2025 16:50:09
+2025-02-01 16:50:10 LoginController DEBUG Index, Process End, 01/02/2025 16:50:10
+2025-02-01 16:50:58 LoginController DEBUG Authorise, Process Started, 01/02/2025 16:50:58
+2025-02-01 16:51:08 LoginController DEBUG Authorise, Process End, 01/02/2025 16:51:08
+2025-02-01 16:51:31 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:51:31
+2025-02-01 16:51:35 SchedulingController DEBUG Index, Process End, 01/02/2025 16:51:35
+2025-02-01 16:51:48 SchedulingController DEBUG ImportExcel, Process Started, 01/02/2025 16:51:48
+2025-02-01 16:52:32 SchedulingController DEBUG ImportExcel, Process End, 01/02/2025 16:52:32
+2025-02-01 16:52:32 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:52:32
+2025-02-01 16:52:33 SchedulingController DEBUG Index, Process End, 01/02/2025 16:52:33
+2025-02-01 16:52:35 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:52:35
+2025-02-01 16:52:35 SchedulingController DEBUG Index, Process End, 01/02/2025 16:52:35
+2025-02-01 16:53:57 SchedulingController DEBUG Index, Process Started, 01/02/2025 16:53:57
+2025-02-01 16:53:58 SchedulingController DEBUG Index, Process End, 01/02/2025 16:53:58
+2025-02-01 16:54:02 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:54:02
+2025-02-01 16:54:02 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:54:02
+2025-02-01 16:54:08 DrawingModificationController DEBUG AddDrawing, Process Started, 01/02/2025 16:54:08
+2025-02-01 16:54:08 DrawingModificationController DEBUG AddDrawing, Process End, 01/02/2025 16:54:08
+2025-02-01 16:54:24 EngineeringController DEBUG Index, Process Started, 01/02/2025 16:54:24
+2025-02-01 16:54:24 EngineeringController DEBUG GetEngineerinItems, Process Started, 01/02/2025 16:54:24
+2025-02-01 16:54:25 EngineeringController DEBUG GetEngineerinItems, Process End, 01/02/2025 16:54:25
+2025-02-01 16:54:29 EngineeringController DEBUG Index, Process End, 01/02/2025 16:54:29
+2025-02-01 16:58:18 EngineeringController DEBUG Index, Process Started, 01/02/2025 16:58:18
+2025-02-01 16:58:18 EngineeringController DEBUG GetEngineerinItems, Process Started, 01/02/2025 16:58:18
+2025-02-01 16:58:18 EngineeringController DEBUG GetEngineerinItems, Process End, 01/02/2025 16:58:18
+2025-02-01 16:58:18 EngineeringController DEBUG Index, Process End, 01/02/2025 16:58:18
+2025-02-01 16:58:20 EngineeringController DEBUG Index, Process Started, 01/02/2025 16:58:20
+2025-02-01 16:58:20 EngineeringController DEBUG GetEngineerinItems, Process Started, 01/02/2025 16:58:20
+2025-02-01 16:58:20 EngineeringController DEBUG GetEngineerinItems, Process End, 01/02/2025 16:58:20
+2025-02-01 16:58:20 EngineeringController DEBUG Index, Process End, 01/02/2025 16:58:20
+2025-02-01 16:58:21 EngineeringController DEBUG Index, Process Started, 01/02/2025 16:58:21
+2025-02-01 16:58:21 EngineeringController DEBUG GetEngineerinItems, Process Started, 01/02/2025 16:58:21
+2025-02-01 16:58:21 EngineeringController DEBUG GetEngineerinItems, Process End, 01/02/2025 16:58:21
+2025-02-01 16:58:21 EngineeringController DEBUG Index, Process End, 01/02/2025 16:58:21
+2025-02-01 16:58:21 EngineeringController DEBUG Index, Process Started, 01/02/2025 16:58:21
+2025-02-01 16:58:21 EngineeringController DEBUG GetEngineerinItems, Process Started, 01/02/2025 16:58:21
+2025-02-01 16:58:22 EngineeringController DEBUG GetEngineerinItems, Process End, 01/02/2025 16:58:22
+2025-02-01 16:58:22 EngineeringController DEBUG Index, Process End, 01/02/2025 16:58:22
+2025-02-01 16:58:28 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:58:28
+2025-02-01 16:58:28 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:58:28
+2025-02-01 16:58:33 DrawingModificationController DEBUG AddDrawing, Process Started, 01/02/2025 16:58:33
+2025-02-01 16:58:33 DrawingModificationController DEBUG AddDrawing, Process End, 01/02/2025 16:58:33
+2025-02-01 16:59:07 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:59:07
+2025-02-01 16:59:07 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:59:07
+2025-02-01 16:59:38 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 16:59:38
+2025-02-01 16:59:38 DrawingModificationController DEBUG Index, Process End, 01/02/2025 16:59:38
+2025-02-01 17:00:08 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 17:00:08
+2025-02-01 17:00:08 DrawingModificationController DEBUG Index, Process End, 01/02/2025 17:00:08
+2025-02-01 17:00:15 DrawingModificationController DEBUG AddNewDrawing, Process Started, 01/02/2025 17:00:15
+2025-02-01 17:00:15 DrawingModificationController DEBUG AddNewDrawing, Process End, 01/02/2025 17:00:15
+2025-02-01 17:00:17 DrawingModificationController DEBUG Index, Process Started, 01/02/2025 17:00:17
+2025-02-01 17:00:17 DrawingModificationController DEBUG Index, Process End, 01/02/2025 17:00:17

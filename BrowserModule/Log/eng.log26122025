@@ -1,0 +1,252 @@
+2025-12-26 16:23:11 LoginController DEBUG Index, Process Started, 26/12/2025 16:23:11
+2025-12-26 16:23:11 LoginController DEBUG Index, Process End, 26/12/2025 16:23:11
+2025-12-26 16:25:02 LoginController DEBUG Authorise, Process Started, 26/12/2025 16:25:02
+2025-12-26 16:25:14 LoginController ERROR Error Thrown during : The underlying provider failed on Open., Index, 26/12/2025 16:25:14,   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at DF_WebModule.Controllers.LoginController.Authorise(LoginModal LoginDetails, String ReturnUrl) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\LoginController.cs:line 120
+2025-12-26 16:26:49 LoginController DEBUG Index, Process Started, 26/12/2025 16:26:49
+2025-12-26 16:26:49 LoginController DEBUG Index, Process End, 26/12/2025 16:26:49
+2025-12-26 16:26:55 LoginController DEBUG Authorise, Process Started, 26/12/2025 16:26:55
+2025-12-26 16:27:08 LoginController DEBUG Authorise, Process End, 26/12/2025 16:27:08
+2025-12-26 16:27:17 LoginController DEBUG Authorise, Process Started, 26/12/2025 16:27:17
+2025-12-26 16:27:17 LoginController DEBUG Authorise, Process End, 26/12/2025 16:27:17
+2025-12-26 16:27:30 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:27:30
+2025-12-26 16:27:33 PartManagementController DEBUG Index, Process End, 26/12/2025 16:27:33
+2025-12-26 16:27:40 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:27:40
+2025-12-26 16:27:40 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:27:40
+2025-12-26 16:27:50 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:27:50
+2025-12-26 16:27:50 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:27:50
+2025-12-26 16:27:54 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:27:54
+2025-12-26 16:27:54 PartManagementController DEBUG Index, Process End, 26/12/2025 16:27:54
+2025-12-26 16:28:22 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:28:22
+2025-12-26 16:28:22 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:28:22
+2025-12-26 16:28:26 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:28:26
+2025-12-26 16:28:26 PartManagementController DEBUG Index, Process End, 26/12/2025 16:28:26
+2025-12-26 16:28:29 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:28:29
+2025-12-26 16:28:48 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:28:48
+2025-12-26 16:28:52 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:28:52
+2025-12-26 16:28:52 PartManagementController DEBUG Index, Process End, 26/12/2025 16:28:52
+2025-12-26 16:28:55 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:28:55
+2025-12-26 16:28:55 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:28:55
+2025-12-26 16:29:08 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:29:08
+2025-12-26 16:29:14 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:29:14
+2025-12-26 16:29:17 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:29:17
+2025-12-26 16:29:17 PartManagementController DEBUG Index, Process End, 26/12/2025 16:29:17
+2025-12-26 16:29:42 CustomerController DEBUG EditItem, Process Started, 26/12/2025 16:29:42
+2025-12-26 16:29:42 CustomerController DEBUG EditItem, Process End, 26/12/2025 16:29:42
+2025-12-26 16:29:50 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 16:29:50
+2025-12-26 16:29:50 UserRegistrationController DEBUG Index, Process End, 26/12/2025 16:29:50
+2025-12-26 16:29:57 UserRegistrationController DEBUG EditUser, Process Started, 26/12/2025 16:29:57
+2025-12-26 16:29:57 UserRegistrationController DEBUG EditUser, Process End, 26/12/2025 16:29:57
+2025-12-26 16:30:05 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 16:30:05
+2025-12-26 16:30:05 UserRegistrationController DEBUG Index, Process End, 26/12/2025 16:30:05
+2025-12-26 16:31:36 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 16:31:36
+2025-12-26 16:31:36 UserRegistrationController DEBUG Index, Process End, 26/12/2025 16:31:36
+2025-12-26 16:32:01 PrintController DEBUG Index, Process Started, 26/12/2025 16:32:01
+2025-12-26 16:32:01 PrintController DEBUG Index, Process End, 26/12/2025 16:32:01
+2025-12-26 16:36:13 PrintController DEBUG Index, Process Started, 26/12/2025 16:36:13
+2025-12-26 16:36:14 PrintController DEBUG Index, Process End, 26/12/2025 16:36:14
+2025-12-26 16:36:19 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:36:19
+2025-12-26 16:36:19 PartManagementController DEBUG Index, Process End, 26/12/2025 16:36:19
+2025-12-26 16:36:46 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:36:46
+2025-12-26 16:36:46 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:36:46
+2025-12-26 16:36:51 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:36:51
+2025-12-26 16:36:51 PartManagementController DEBUG Index, Process End, 26/12/2025 16:36:51
+2025-12-26 16:37:00 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:37:00
+2025-12-26 16:37:00 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:37:00
+2025-12-26 16:37:03 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:37:03
+2025-12-26 16:37:03 PartManagementController DEBUG Index, Process End, 26/12/2025 16:37:03
+2025-12-26 16:37:16 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:37:16
+2025-12-26 16:37:16 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:37:16
+2025-12-26 16:47:27 LoginController DEBUG Index, Process Started, 26/12/2025 16:47:27
+2025-12-26 16:47:27 LoginController DEBUG Index, Process End, 26/12/2025 16:47:27
+2025-12-26 16:48:10 LoginController DEBUG Authorise, Process Started, 26/12/2025 16:48:10
+2025-12-26 16:48:13 LoginController DEBUG Authorise, Process End, 26/12/2025 16:48:13
+2025-12-26 16:48:27 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:48:27
+2025-12-26 16:48:30 PartManagementController DEBUG Index, Process End, 26/12/2025 16:48:30
+2025-12-26 16:48:35 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:48:35
+2025-12-26 16:48:35 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:48:35
+2025-12-26 16:48:43 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:48:43
+2025-12-26 16:48:43 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:48:43
+2025-12-26 16:48:46 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:48:46
+2025-12-26 16:48:46 PartManagementController DEBUG Index, Process End, 26/12/2025 16:48:46
+2025-12-26 16:48:51 PartManagementController DEBUG EditItem, Process Started, 26/12/2025 16:48:51
+2025-12-26 16:48:51 PartManagementController DEBUG EditItem, Process End, 26/12/2025 16:48:51
+2025-12-26 16:48:54 PartManagementController DEBUG AddNewitem, Process Started, 26/12/2025 16:48:54
+2025-12-26 16:48:54 PartManagementController DEBUG AddNewitem, Process End, 26/12/2025 16:48:54
+2025-12-26 16:48:58 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:48:58
+2025-12-26 16:48:58 PartManagementController DEBUG Index, Process End, 26/12/2025 16:48:58
+2025-12-26 16:49:39 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:49:39
+2025-12-26 16:49:39 PartManagementController DEBUG Index, Process End, 26/12/2025 16:49:39
+2025-12-26 16:49:42 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:49:42
+2025-12-26 16:49:42 PartManagementController DEBUG Index, Process End, 26/12/2025 16:49:42
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:49:43
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process End, 26/12/2025 16:49:43
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:49:43
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process End, 26/12/2025 16:49:43
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process Started, 26/12/2025 16:49:43
+2025-12-26 16:49:43 PartManagementController DEBUG Index, Process End, 26/12/2025 16:49:43
+2025-12-26 16:49:46 PrintController DEBUG Index, Process Started, 26/12/2025 16:49:46
+2025-12-26 16:49:46 PrintController DEBUG Index, Process End, 26/12/2025 16:49:46
+2025-12-26 16:51:29 PrintController DEBUG Index, Process Started, 26/12/2025 16:51:29
+2025-12-26 16:51:29 PrintController DEBUG Index, Process End, 26/12/2025 16:51:29
+2025-12-26 16:51:31 PrintController DEBUG Index, Process Started, 26/12/2025 16:51:31
+2025-12-26 16:51:31 PrintController DEBUG Index, Process End, 26/12/2025 16:51:31
+2025-12-26 16:51:31 PrintController DEBUG Index, Process Started, 26/12/2025 16:51:31
+2025-12-26 16:51:31 PrintController DEBUG Index, Process End, 26/12/2025 16:51:31
+2025-12-26 16:51:31 PrintController DEBUG Index, Process Started, 26/12/2025 16:51:31
+2025-12-26 16:51:31 PrintController DEBUG Index, Process End, 26/12/2025 16:51:31
+2025-12-26 16:51:32 PrintController DEBUG Index, Process Started, 26/12/2025 16:51:32
+2025-12-26 16:51:32 PrintController DEBUG Index, Process End, 26/12/2025 16:51:32
+2025-12-26 16:52:04 PrintController DEBUG DubPrintQRCode, Process Started, 26/12/2025 16:52:04
+2025-12-26 16:52:12 BarcodePrinter INFO  Print TYpe : 3
+2025-12-26 16:52:13 BarcodePrinter INFO  SLNO : 1234
+2025-12-26 16:52:13 BarcodePrinter INFO  Customer : TML
+2025-12-26 16:52:14 BarcodePrinter INFO  Part Number : 207341100179
+2025-12-26 16:55:01 LoginController DEBUG Index, Process Started, 26/12/2025 16:55:01
+2025-12-26 16:55:01 LoginController DEBUG Index, Process End, 26/12/2025 16:55:01
+2025-12-26 16:59:57 LoginController DEBUG Authorise, Process Started, 26/12/2025 16:59:57
+2025-12-26 17:00:00 LoginController DEBUG Authorise, Process End, 26/12/2025 17:00:00
+2025-12-26 17:00:10 PrintController DEBUG Index, Process Started, 26/12/2025 17:00:10
+2025-12-26 17:00:10 PrintController DEBUG Index, Process End, 26/12/2025 17:00:10
+2025-12-26 17:00:28 PartManagementController DEBUG Index, Process Started, 26/12/2025 17:00:28
+2025-12-26 17:00:31 PartManagementController DEBUG Index, Process End, 26/12/2025 17:00:31
+2025-12-26 17:00:37 PrintController DEBUG Index, Process Started, 26/12/2025 17:00:37
+2025-12-26 17:00:37 PrintController DEBUG Index, Process End, 26/12/2025 17:00:37
+2025-12-26 17:00:52 PrintController DEBUG DubPrintQRCode, Process Started, 26/12/2025 17:00:52
+2025-12-26 17:00:54 BarcodePrinter INFO  Print TYpe : 3
+2025-12-26 17:00:54 BarcodePrinter INFO  SLNO : 12345
+2025-12-26 17:00:54 BarcodePrinter INFO  Customer : TML
+2025-12-26 17:00:55 BarcodePrinter INFO  Part Number : 502841110102
+2025-12-26 17:01:07 BarcodePrinter INFO  Method Name : DublicatePrint
+2025-12-26 17:01:07 BarcodePrinter INFO  Printer Name : 
+2025-12-26 17:01:07 BarcodePrinter INFO  ZPL Command : ^XA
+^FO50,40^BY2
+^A0N,30,38
+^BCN,65,Y,N,N
+^FD>;00502841110102>63412>;3451225012345^FS
+^FO50,160
+^A0N,30,38
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx Test123 1 223^FS
+^XZ
+
+2025-12-26 17:01:20 BarcodePrinter DEBUG DubPrintQRCode, Process End, 26/12/2025 17:01:20
+2025-12-26 17:01:22 PrintController DEBUG Index, Process Started, 26/12/2025 17:01:22
+2025-12-26 17:01:22 PrintController DEBUG Index, Process End, 26/12/2025 17:01:22
+2025-12-26 17:03:41 PrintController DEBUG Index, Process Started, 26/12/2025 17:03:41
+2025-12-26 17:03:41 PrintController DEBUG Index, Process End, 26/12/2025 17:03:41
+2025-12-26 17:03:48 PrintController DEBUG DubPrintQRCode, Process Started, 26/12/2025 17:03:48
+2025-12-26 17:03:50 BarcodePrinter INFO  Print TYpe : 2
+2025-12-26 17:03:50 BarcodePrinter INFO  SLNO : 12345
+2025-12-26 17:03:51 BarcodePrinter INFO  Customer : TML
+2025-12-26 17:03:51 BarcodePrinter INFO  Part Number : 502841110102
+2025-12-26 17:03:58 BarcodePrinter INFO  Method Name : DublicatePrint
+2025-12-26 17:03:58 BarcodePrinter INFO  Printer Name : 
+2025-12-26 17:03:58 BarcodePrinter INFO  ZPL Command : ^XA
+^MD27
+^FO40,50
+^BXN,5,200
+^FD502841110102Rev No34 123451225012345^FS
+^FO170,70
+^A0N,30,30
+^FD502841110102Rev No34 123451225012345 TML^FS
+^FO170,100
+^A0,N,26,26
+^FDSIG 2823.T RDE 56 G950 5.6L Std Cx 1 JT Test123 L 223^FS
+^XZ
+
+2025-12-26 17:04:02 BarcodePrinter DEBUG DubPrintQRCode, Process End, 26/12/2025 17:04:02
+2025-12-26 17:04:10 PrintController DEBUG DubPrintQRCode, Process Started, 26/12/2025 17:04:10
+2025-12-26 17:04:12 BarcodePrinter INFO  Print TYpe : 1
+2025-12-26 17:04:12 BarcodePrinter INFO  SLNO : 12345
+2025-12-26 17:04:13 BarcodePrinter INFO  Customer : TML
+2025-12-26 17:04:13 BarcodePrinter INFO  Part Number : 502841110102
+2025-12-26 17:04:17 BarcodePrinter ERROR Error Thrown during Edititem: Could not find file 'D:\Ahmad\lebel.txt'., DubPrintQRCode, 26/12/2025 17:04:17,   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   at System.IO.File.ReadAllText(String path)
+   at DF_WebModule.Controllers.PrintController.DubPrintQRCode(String customer, String partnumber, Int32 printetype, Int32 slno, DateTime dubdate) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\PrintController.cs:line 260
+2025-12-26 17:23:10 BarcodePrinter DEBUG DubPrintQRCode, Process End, 26/12/2025 17:23:10
+2025-12-26 17:23:12 PrintController DEBUG Index, Process Started, 26/12/2025 17:23:12
+2025-12-26 17:23:12 PrintController DEBUG Index, Process End, 26/12/2025 17:23:12
+2025-12-26 17:23:23 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:23:23
+2025-12-26 17:23:24 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:23:24
+2025-12-26 17:23:29 UserRegistrationController DEBUG EditUser, Process Started, 26/12/2025 17:23:29
+2025-12-26 17:23:29 UserRegistrationController DEBUG EditUser, Process End, 26/12/2025 17:23:29
+2025-12-26 17:23:31 UserRegistrationController DEBUG EditUserDetail, Process Started, 26/12/2025 17:23:31
+2025-12-26 17:23:31 UserRegistrationController DEBUG EditUser, Process Started, 26/12/2025 17:23:31
+2025-12-26 17:23:33 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:23:33
+2025-12-26 17:23:33 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:23:33
+2025-12-26 17:23:35 UserRegistrationController DEBUG AddUser, Process Started, 26/12/2025 17:23:35
+2025-12-26 17:23:35 UserRegistrationController DEBUG AddUser, Process End, 26/12/2025 17:23:35
+2025-12-26 17:23:56 UserRegistrationController DEBUG AddNewUser, Process Started, 26/12/2025 17:23:56
+2025-12-26 17:23:56 UserRegistrationController DEBUG AddNewUser, Process End, 26/12/2025 17:23:56
+2025-12-26 17:24:05 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:24:05
+2025-12-26 17:24:05 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:24:05
+2025-12-26 17:24:08 UserRegistrationController DEBUG AddNewUser, Process Started, 26/12/2025 17:24:08
+2025-12-26 17:24:08 UserRegistrationController ERROR Error Thrown during: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details., AddNewUser, 26/12/2025 17:24:08,   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at DF_WebModule.Controllers.UserRegistrationController.AddNewUser(UserDetailsModel item) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\UserRegistrationController.cs:line 136
+2025-12-26 17:24:08 UserRegistrationController DEBUG AddNewUser, Process End, 26/12/2025 17:24:08
+2025-12-26 17:24:14 LoginController DEBUG Index, Process Started, 26/12/2025 17:24:14
+2025-12-26 17:24:14 LoginController DEBUG Index, Process End, 26/12/2025 17:24:14
+2025-12-26 17:24:22 LoginController DEBUG Index, Process Started, 26/12/2025 17:24:22
+2025-12-26 17:24:22 LoginController DEBUG Index, Process End, 26/12/2025 17:24:22
+2025-12-26 17:24:26 LoginController DEBUG Index, Process Started, 26/12/2025 17:24:26
+2025-12-26 17:24:26 LoginController DEBUG Index, Process End, 26/12/2025 17:24:26
+2025-12-26 17:24:28 LoginController DEBUG Authorise, Process Started, 26/12/2025 17:24:28
+2025-12-26 17:24:28 LoginController DEBUG Authorise, Process End, 26/12/2025 17:24:28
+2025-12-26 17:24:32 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:24:32
+2025-12-26 17:24:32 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:24:32
+2025-12-26 17:24:33 UserRegistrationController DEBUG AddUser, Process Started, 26/12/2025 17:24:33
+2025-12-26 17:24:33 UserRegistrationController DEBUG AddUser, Process End, 26/12/2025 17:24:33
+2025-12-26 17:25:01 UserRegistrationController DEBUG AddNewUser, Process Started, 26/12/2025 17:25:01
+2025-12-26 17:29:35 LoginController DEBUG Index, Process Started, 26/12/2025 17:29:35
+2025-12-26 17:29:35 LoginController DEBUG Index, Process End, 26/12/2025 17:29:35
+2025-12-26 17:29:45 LoginController DEBUG Authorise, Process Started, 26/12/2025 17:29:45
+2025-12-26 17:29:48 LoginController DEBUG Authorise, Process End, 26/12/2025 17:29:48
+2025-12-26 17:29:54 LoginController DEBUG Authorise, Process Started, 26/12/2025 17:29:54
+2025-12-26 17:29:54 LoginController DEBUG Authorise, Process End, 26/12/2025 17:29:54
+2025-12-26 17:30:20 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:30:20
+2025-12-26 17:30:20 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:30:20
+2025-12-26 17:30:24 UserRegistrationController DEBUG AddUser, Process Started, 26/12/2025 17:30:24
+2025-12-26 17:30:24 UserRegistrationController DEBUG AddUser, Process End, 26/12/2025 17:30:24
+2025-12-26 17:30:42 UserRegistrationController DEBUG AddNewUser, Process Started, 26/12/2025 17:30:42
+2025-12-26 17:31:11 UserRegistrationController ERROR Error Thrown during: An error occurred while updating the entries. See the inner exception for details., AddNewUser, 26/12/2025 17:31:11,   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at DF_WebModule.Controllers.UserRegistrationController.AddNewUser(UserDetailsModel item) in D:\Ahmad\RSB_QRCode\RSB_QRCode\BrowserModule\Controllers\UserRegistrationController.cs:line 136
+2025-12-26 17:31:11 UserRegistrationController DEBUG AddNewUser, Process End, 26/12/2025 17:31:11
+2025-12-26 17:31:13 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:31:13
+2025-12-26 17:31:13 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:31:13
+2025-12-26 17:32:20 LoginController DEBUG Index, Process Started, 26/12/2025 17:32:20
+2025-12-26 17:32:20 LoginController DEBUG Index, Process End, 26/12/2025 17:32:20
+2025-12-26 17:33:02 LoginController DEBUG Index, Process Started, 26/12/2025 17:33:02
+2025-12-26 17:33:02 LoginController DEBUG Index, Process End, 26/12/2025 17:33:02
+2025-12-26 17:33:07 LoginController DEBUG Authorise, Process Started, 26/12/2025 17:33:07
+2025-12-26 17:33:20 LoginController DEBUG Authorise, Process End, 26/12/2025 17:33:20
+2025-12-26 17:33:25 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:33:25
+2025-12-26 17:33:25 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:33:25
+2025-12-26 17:33:26 UserRegistrationController DEBUG AddUser, Process Started, 26/12/2025 17:33:26
+2025-12-26 17:33:26 UserRegistrationController DEBUG AddUser, Process End, 26/12/2025 17:33:26
+2025-12-26 17:33:44 UserRegistrationController DEBUG AddNewUser, Process Started, 26/12/2025 17:33:44
+2025-12-26 17:33:44 UserRegistrationController DEBUG AddNewUser, Process End, 26/12/2025 17:33:44
+2025-12-26 17:33:46 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:33:46
+2025-12-26 17:33:46 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:33:46
+2025-12-26 17:39:19 UserRegistrationController DEBUG Index, Process Started, 26/12/2025 17:39:19
+2025-12-26 17:39:20 UserRegistrationController DEBUG Index, Process End, 26/12/2025 17:39:20

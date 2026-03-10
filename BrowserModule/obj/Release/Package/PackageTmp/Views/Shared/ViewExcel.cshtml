@@ -1,0 +1,33 @@
+﻿
+@model IEnumerable<DF_WebModule.Models.PPAPDocuments>
+
+
+<table class="table" id="FileTable">
+    <tr style="font-size: x-large;">
+        <th>
+            Shift
+        </th>
+        <th>
+            File
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="font-size: x-large; background: darkgray;">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+
+                <a href="~/@item.Filepath" target="_blank"><i class="fa fa-file-pdf-o" style="color:red;" title="Click to open" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                @if (Session["Role"] != null && Session["Role"].ToString() == "1")
+                {
+
+                    <a href="~/@item.ExelPath" target="_blank"><i class="fa fa-file-excel-o" style="color:forestgreen" title="Click to open" aria-hidden="true"></i></a>
+                }
+                </td>
+        </tr>
+    }
+
+</table>

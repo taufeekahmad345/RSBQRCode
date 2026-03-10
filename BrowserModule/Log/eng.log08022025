@@ -1,0 +1,246 @@
+2025-02-08 16:22:07 LoginController DEBUG Index, Process Started, 08/02/2025 16:22:07
+2025-02-08 16:22:07 LoginController DEBUG Index, Process End, 08/02/2025 16:22:07
+2025-02-08 16:24:55 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:24:55
+2025-02-08 16:25:02 LoginController DEBUG Authorise, Process End, 08/02/2025 16:25:02
+2025-02-08 16:25:19 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:25:19
+2025-02-08 16:25:23 SchedulingController DEBUG Index, Process End, 08/02/2025 16:25:23
+2025-02-08 16:25:47 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:25:47
+2025-02-08 16:25:47 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:25:47,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 678
+2025-02-08 16:25:47 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:25:47
+2025-02-08 16:25:57 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:25:57
+2025-02-08 16:25:57 SchedulingController DEBUG Index, Process End, 08/02/2025 16:25:57
+2025-02-08 16:25:57 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:25:57
+2025-02-08 16:25:57 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:25:57
+2025-02-08 16:25:57 LoginController DEBUG Index, Process Started, 08/02/2025 16:25:57
+2025-02-08 16:25:57 LoginController DEBUG Index, Process End, 08/02/2025 16:25:57
+2025-02-08 16:25:59 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:25:59
+2025-02-08 16:25:59 SchedulingController DEBUG Index, Process End, 08/02/2025 16:25:59
+2025-02-08 16:26:06 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:26:06
+2025-02-08 16:26:06 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:26:06
+2025-02-08 16:26:06 LoginController DEBUG Index, Process Started, 08/02/2025 16:26:06
+2025-02-08 16:26:06 LoginController DEBUG Index, Process End, 08/02/2025 16:26:06
+2025-02-08 16:31:19 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:31:19
+2025-02-08 16:31:19 LoginController DEBUG Authorise, Process End, 08/02/2025 16:31:19
+2025-02-08 16:31:26 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:31:26
+2025-02-08 16:31:29 SchedulingController DEBUG Index, Process End, 08/02/2025 16:31:29
+2025-02-08 16:31:44 SchedulingController DEBUG Exporttargetdata, Process Started, 08/02/2025 16:31:44
+2025-02-08 16:31:44 SchedulingController DEBUG Exporttargetdata, Process End, 08/02/2025 16:31:44
+2025-02-08 16:32:23 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:32:23
+2025-02-08 16:32:23 SchedulingController DEBUG Index, Process End, 08/02/2025 16:32:23
+2025-02-08 16:32:28 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:32:28
+2025-02-08 16:33:25 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:33:25,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 678
+2025-02-08 16:33:25 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:33:25
+2025-02-08 16:33:27 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:33:27
+2025-02-08 16:33:27 SchedulingController DEBUG Index, Process End, 08/02/2025 16:33:27
+2025-02-08 16:33:27 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:33:27
+2025-02-08 16:33:27 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:33:27
+2025-02-08 16:33:27 LoginController DEBUG Index, Process Started, 08/02/2025 16:33:27
+2025-02-08 16:33:27 LoginController DEBUG Index, Process End, 08/02/2025 16:33:27
+2025-02-08 16:35:28 LoginController DEBUG Index, Process Started, 08/02/2025 16:35:28
+2025-02-08 16:35:28 LoginController DEBUG Index, Process End, 08/02/2025 16:35:28
+2025-02-08 16:36:21 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:36:21
+2025-02-08 16:36:28 LoginController DEBUG Authorise, Process End, 08/02/2025 16:36:28
+2025-02-08 16:36:39 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:36:39
+2025-02-08 16:36:43 SchedulingController DEBUG Index, Process End, 08/02/2025 16:36:43
+2025-02-08 16:36:49 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:36:49
+2025-02-08 16:37:24 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:37:24,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 682
+2025-02-08 16:37:24 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:37:24
+2025-02-08 16:37:26 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:37:26
+2025-02-08 16:37:26 SchedulingController DEBUG Index, Process End, 08/02/2025 16:37:26
+2025-02-08 16:37:26 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:37:26
+2025-02-08 16:37:26 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:37:26
+2025-02-08 16:37:26 LoginController DEBUG Index, Process Started, 08/02/2025 16:37:26
+2025-02-08 16:37:26 LoginController DEBUG Index, Process End, 08/02/2025 16:37:26
+2025-02-08 16:37:29 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:37:29
+2025-02-08 16:37:29 SchedulingController DEBUG Index, Process End, 08/02/2025 16:37:29
+2025-02-08 16:37:33 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:37:33
+2025-02-08 16:37:33 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:37:33
+2025-02-08 16:37:33 LoginController DEBUG Index, Process Started, 08/02/2025 16:37:33
+2025-02-08 16:37:33 LoginController DEBUG Index, Process End, 08/02/2025 16:37:33
+2025-02-08 16:37:35 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:37:35
+2025-02-08 16:37:35 LoginController DEBUG Authorise, Process End, 08/02/2025 16:37:35
+2025-02-08 16:37:39 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:37:39
+2025-02-08 16:37:39 SchedulingController DEBUG Index, Process End, 08/02/2025 16:37:39
+2025-02-08 16:37:48 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:37:48
+2025-02-08 16:39:16 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:39:16,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 682
+2025-02-08 16:39:16 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:39:16
+2025-02-08 16:39:17 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:39:17
+2025-02-08 16:39:17 SchedulingController DEBUG Index, Process End, 08/02/2025 16:39:17
+2025-02-08 16:39:17 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:39:17
+2025-02-08 16:39:17 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:39:17
+2025-02-08 16:39:17 LoginController DEBUG Index, Process Started, 08/02/2025 16:39:17
+2025-02-08 16:39:17 LoginController DEBUG Index, Process End, 08/02/2025 16:39:17
+2025-02-08 16:39:39 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:39:39
+2025-02-08 16:39:39 SchedulingController DEBUG Index, Process End, 08/02/2025 16:39:39
+2025-02-08 16:39:43 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:39:43
+2025-02-08 16:39:43 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:39:43
+2025-02-08 16:39:43 LoginController DEBUG Index, Process Started, 08/02/2025 16:39:43
+2025-02-08 16:39:43 LoginController DEBUG Index, Process End, 08/02/2025 16:39:43
+2025-02-08 16:39:46 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:39:46
+2025-02-08 16:39:46 LoginController DEBUG Authorise, Process End, 08/02/2025 16:39:46
+2025-02-08 16:39:50 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:39:50
+2025-02-08 16:39:50 SchedulingController DEBUG Index, Process End, 08/02/2025 16:39:50
+2025-02-08 16:40:00 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:40:00
+2025-02-08 16:45:20 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:45:20,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 682
+2025-02-08 16:45:20 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:45:20
+2025-02-08 16:45:21 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:45:21
+2025-02-08 16:45:21 SchedulingController DEBUG Index, Process End, 08/02/2025 16:45:21
+2025-02-08 16:45:21 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:45:21
+2025-02-08 16:45:21 SchedulingController DEBUG Index, Process End, 08/02/2025 16:45:21
+2025-02-08 16:45:25 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:45:25
+2025-02-08 16:45:25 SchedulingController DEBUG Index, Process End, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG LogOut, Process Started, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG Index, Process Started, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG Index, Process End, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG Index, Process Started, 08/02/2025 16:45:25
+2025-02-08 16:45:25 LoginController DEBUG Index, Process End, 08/02/2025 16:45:25
+2025-02-08 16:45:29 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:45:29
+2025-02-08 16:45:29 LoginController DEBUG Authorise, Process End, 08/02/2025 16:45:29
+2025-02-08 16:48:09 LoginController DEBUG Index, Process Started, 08/02/2025 16:48:09
+2025-02-08 16:48:09 LoginController DEBUG Index, Process End, 08/02/2025 16:48:09
+2025-02-08 16:48:51 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:48:51
+2025-02-08 16:48:57 LoginController DEBUG Authorise, Process End, 08/02/2025 16:48:57
+2025-02-08 16:50:15 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:50:15
+2025-02-08 16:50:18 SchedulingController DEBUG Index, Process End, 08/02/2025 16:50:18
+2025-02-08 16:50:28 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:50:28
+2025-02-08 16:50:52 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:50:52,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 683
+2025-02-08 16:50:52 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:50:52
+2025-02-08 16:50:56 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:50:56
+2025-02-08 16:50:56 SchedulingController DEBUG Index, Process End, 08/02/2025 16:50:56
+2025-02-08 16:51:29 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:51:29
+2025-02-08 16:51:29 SchedulingController DEBUG Index, Process End, 08/02/2025 16:51:29
+2025-02-08 16:52:10 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:52:10
+2025-02-08 16:52:10 SchedulingController DEBUG Index, Process End, 08/02/2025 16:52:10
+2025-02-08 16:52:20 SchedulingController DEBUG ImportExcel, Process Started, 08/02/2025 16:52:20
+2025-02-08 16:53:14 SchedulingController ERROR Error Thrown during: Input string was not in a correct format., ImportExcel, 08/02/2025 16:53:14,   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at DF_WebModule.Controllers.SchedulingController.ImportDispatchExcel(HttpPostedFileBase file) in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 988
+2025-02-08 16:53:14 SchedulingController DEBUG ImportExcel, Process End, 08/02/2025 16:53:14
+2025-02-08 16:53:15 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:53:15
+2025-02-08 16:53:15 SchedulingController DEBUG Index, Process End, 08/02/2025 16:53:15
+2025-02-08 16:53:16 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:53:16
+2025-02-08 16:53:16 SchedulingController DEBUG Index, Process End, 08/02/2025 16:53:16
+2025-02-08 16:53:24 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:53:24
+2025-02-08 16:56:32 SchedulingController ERROR Error Thrown during: Nullable object must have a value., GetDispatchData, 08/02/2025 16:56:32,   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 683
+2025-02-08 16:56:32 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 16:56:32
+2025-02-08 16:56:33 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:56:33
+2025-02-08 16:56:33 SchedulingController DEBUG Index, Process End, 08/02/2025 16:56:33
+2025-02-08 16:56:49 SchedulingController DEBUG Index, Process Started, 08/02/2025 16:56:49
+2025-02-08 16:56:49 SchedulingController DEBUG Index, Process End, 08/02/2025 16:56:49
+2025-02-08 16:56:58 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 16:56:58
+2025-02-08 16:58:51 LoginController DEBUG Index, Process Started, 08/02/2025 16:58:51
+2025-02-08 16:58:51 LoginController DEBUG Index, Process End, 08/02/2025 16:58:51
+2025-02-08 16:59:07 LoginController DEBUG Authorise, Process Started, 08/02/2025 16:59:07
+2025-02-08 16:59:13 LoginController DEBUG Authorise, Process End, 08/02/2025 16:59:13
+2025-02-08 17:00:02 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:00:02
+2025-02-08 17:00:06 SchedulingController DEBUG Index, Process End, 08/02/2025 17:00:06
+2025-02-08 17:00:12 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 17:00:12
+2025-02-08 17:00:28 SchedulingController ERROR Error Thrown during: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index, GetDispatchData, 08/02/2025 17:00:28,   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DF_WebModule.Controllers.SchedulingController.GetDispatchData() in D:\Programs\BrowserModule\BrowserModule\Controllers\SchedulingController.cs:line 683
+2025-02-08 17:00:28 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 17:00:28
+2025-02-08 17:00:39 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:00:39
+2025-02-08 17:00:40 SchedulingController DEBUG Index, Process End, 08/02/2025 17:00:40
+2025-02-08 17:00:42 SchedulingController DEBUG GettargetData, Process Started, 08/02/2025 17:00:42
+2025-02-08 17:00:42 SchedulingController DEBUG GettargetData, Process Started, 08/02/2025 17:00:42
+2025-02-08 17:00:48 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 17:00:48
+2025-02-08 17:03:44 LoginController DEBUG Index, Process Started, 08/02/2025 17:03:44
+2025-02-08 17:03:44 LoginController DEBUG Index, Process End, 08/02/2025 17:03:44
+2025-02-08 17:03:55 LoginController DEBUG Authorise, Process Started, 08/02/2025 17:03:55
+2025-02-08 17:04:01 LoginController DEBUG Authorise, Process End, 08/02/2025 17:04:01
+2025-02-08 17:04:11 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:04:11
+2025-02-08 17:04:15 SchedulingController DEBUG Index, Process End, 08/02/2025 17:04:15
+2025-02-08 17:04:20 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 17:04:20
+2025-02-08 17:04:22 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 17:04:22
+2025-02-08 17:04:46 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:04:46
+2025-02-08 17:04:46 SchedulingController DEBUG Index, Process End, 08/02/2025 17:04:46
+2025-02-08 17:05:17 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:05:17
+2025-02-08 17:05:17 SchedulingController DEBUG Index, Process End, 08/02/2025 17:05:17
+2025-02-08 17:06:58 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:06:58
+2025-02-08 17:06:59 SchedulingController DEBUG Index, Process End, 08/02/2025 17:06:59
+2025-02-08 17:08:11 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:08:11
+2025-02-08 17:08:11 SchedulingController DEBUG Index, Process End, 08/02/2025 17:08:11
+2025-02-08 17:08:50 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:08:50
+2025-02-08 17:08:50 SchedulingController DEBUG Index, Process End, 08/02/2025 17:08:50
+2025-02-08 17:08:54 SchedulingController DEBUG GettargetData, Process Started, 08/02/2025 17:08:54
+2025-02-08 17:08:54 SchedulingController DEBUG GettargetData, Process Started, 08/02/2025 17:08:54
+2025-02-08 17:43:08 LoginController DEBUG Index, Process Started, 08/02/2025 17:43:08
+2025-02-08 17:43:08 LoginController DEBUG Index, Process End, 08/02/2025 17:43:08
+2025-02-08 17:52:52 LoginController DEBUG Authorise, Process Started, 08/02/2025 17:52:52
+2025-02-08 17:52:58 LoginController DEBUG Authorise, Process End, 08/02/2025 17:52:58
+2025-02-08 17:53:09 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:53:09
+2025-02-08 17:53:13 SchedulingController DEBUG Index, Process End, 08/02/2025 17:53:13
+2025-02-08 17:53:21 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 17:53:21
+2025-02-08 17:53:24 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 17:53:24
+2025-02-08 17:53:46 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:53:46
+2025-02-08 17:53:46 SchedulingController DEBUG Index, Process End, 08/02/2025 17:53:46
+2025-02-08 17:54:03 SchedulingController DEBUG Index, Process Started, 08/02/2025 17:54:03
+2025-02-08 17:54:03 SchedulingController DEBUG Index, Process End, 08/02/2025 17:54:03
+2025-02-08 17:54:11 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 17:54:11
+2025-02-08 17:54:15 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 17:54:15
+2025-02-08 18:07:36 LoginController DEBUG Index, Process Started, 08/02/2025 18:07:36
+2025-02-08 18:07:36 LoginController DEBUG Index, Process End, 08/02/2025 18:07:36
+2025-02-08 18:07:45 LoginController DEBUG Authorise, Process Started, 08/02/2025 18:07:45
+2025-02-08 18:07:52 LoginController DEBUG Authorise, Process End, 08/02/2025 18:07:52
+2025-02-08 18:08:06 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:08:06
+2025-02-08 18:08:10 SchedulingController DEBUG Index, Process End, 08/02/2025 18:08:10
+2025-02-08 18:08:20 SchedulingController DEBUG SearchbyVehiclenumber, Process Started, 08/02/2025 18:08:20
+2025-02-08 18:08:20 SchedulingController DEBUG SearchbyVehiclenumber, Process End, 08/02/2025 18:08:20
+2025-02-08 18:08:44 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 18:08:44
+2025-02-08 18:08:45 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 18:08:45
+2025-02-08 18:08:48 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:08:48
+2025-02-08 18:08:48 SchedulingController DEBUG Index, Process End, 08/02/2025 18:08:48
+2025-02-08 18:09:06 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 18:09:06
+2025-02-08 18:10:42 LoginController DEBUG Index, Process Started, 08/02/2025 18:10:42
+2025-02-08 18:10:42 LoginController DEBUG Index, Process End, 08/02/2025 18:10:42
+2025-02-08 18:10:52 LoginController DEBUG Authorise, Process Started, 08/02/2025 18:10:52
+2025-02-08 18:10:57 LoginController DEBUG Authorise, Process End, 08/02/2025 18:10:57
+2025-02-08 18:11:08 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:11:08
+2025-02-08 18:11:12 SchedulingController DEBUG Index, Process End, 08/02/2025 18:11:12
+2025-02-08 18:11:16 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 18:11:16
+2025-02-08 18:11:18 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 18:11:18
+2025-02-08 18:11:43 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:11:43
+2025-02-08 18:11:43 SchedulingController DEBUG Index, Process End, 08/02/2025 18:11:43
+2025-02-08 18:12:14 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:12:14
+2025-02-08 18:12:14 SchedulingController DEBUG Index, Process End, 08/02/2025 18:12:14
+2025-02-08 18:12:27 SchedulingController DEBUG SearchVehiclenumberfordispatch, Process Started, 08/02/2025 18:12:27
+2025-02-08 18:12:27 SchedulingController DEBUG SearchVehiclenumberfordispatch, Process End, 08/02/2025 18:12:27
+2025-02-08 18:12:48 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:12:48
+2025-02-08 18:12:48 SchedulingController DEBUG Index, Process End, 08/02/2025 18:12:48
+2025-02-08 18:13:23 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:13:23
+2025-02-08 18:13:23 SchedulingController DEBUG Index, Process End, 08/02/2025 18:13:23
+2025-02-08 18:14:18 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:18
+2025-02-08 18:14:18 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:18
+2025-02-08 18:14:19 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:19
+2025-02-08 18:14:19 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:19
+2025-02-08 18:14:19 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:19
+2025-02-08 18:14:19 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:19
+2025-02-08 18:14:19 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:19
+2025-02-08 18:14:20 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:20
+2025-02-08 18:14:20 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:20
+2025-02-08 18:14:20 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:20
+2025-02-08 18:14:20 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:14:20
+2025-02-08 18:14:21 SchedulingController DEBUG Index, Process End, 08/02/2025 18:14:21
+2025-02-08 18:14:27 SchedulingController DEBUG GetDispatchData, Process Started, 08/02/2025 18:14:27
+2025-02-08 18:14:30 SchedulingController DEBUG GetDispatchData, Process End, 08/02/2025 18:14:30
+2025-02-08 18:15:25 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:15:25
+2025-02-08 18:15:26 SchedulingController DEBUG Index, Process End, 08/02/2025 18:15:26
+2025-02-08 18:16:07 SchedulingController DEBUG Index, Process Started, 08/02/2025 18:16:07
+2025-02-08 18:16:07 SchedulingController DEBUG Index, Process End, 08/02/2025 18:16:07
